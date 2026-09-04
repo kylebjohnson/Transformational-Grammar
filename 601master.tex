@@ -1,0 +1,104 @@
+\documentclass[nols,nofonts,twoside,sfsidenotes]{tufte-book}
+\usepackage{kylejtext}
+\usepackage[safe]{tipa}						% IPA
+\usepackage[scaled=.92]{lsyntax}			% sans serif: Syntax
+% \usepackage{MnSymbol}						% mathfont
+\usepackage[mathlf,footnotefigures,medfamily]{MinionPro} % Minion 
+% \usepackage[]{clara}          % no oldstyle figures
+% \usepackage{ebgaramond-maths}
+\usepackage{underarrows}
+\usepackage{mathrsfs}
+\usepackage{amsmath}
+\usepackage{pifont}
+\usepackage{graphicx}
+\titleclass{\subsubsection}{straight}
+\titleformat{\subsubsection}%
+  [hang]% shape
+  {\normalfont\itshape}% format applied to label+text
+  {\thesubsubsection}% label
+  {1em}% horizontal separation between label and title body
+  {}% before the title body
+%   []% after the title body
+\usepackage{gb4etufte}
+
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+
+\widowpenalty=10000
+\clubpenalty=10000
+
+\def\rotiota{\rotatebox[origin=C]{180}{$\iota$}}
+
+\setcaptionfont{\normalfont\footnotesize}
+
+%%
+% Book metadata
+\title{Transformational Grammar\thanks{Generations of students at UMass have taught me the material in this book. My thanks to them.}}
+\author[Kyle Johnson]{Kyle Johnson}
+\publisher{Linguistics Department, University of Massachusetts at Amherst}
+
+\begin{document}
+
+% Comment out if you don't want title page
+\maketitle
+
+
+% Comment out if you don't want back of title page
+\newpage
+\begin{fullwidth}
+~\vfill
+\thispagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{\baselineskip}
+Copyright \copyright\ \the\year\ Kyle Johnson
+
+\par\textit{version: \monthyear}
+\end{fullwidth}
+
+% ======================================
+% = Front Matter: Contents and Preface =
+% ======================================
+
+\frontmatter
+% Comment out if you don't want TOC
+\tableofcontents
+
+
+% Comment out if you don't want preface
+\cleardoublepage
+\chapter*{Preface}
+
+These are the always evolving notes from an introductory course on syntactic theory taught at the University of Massachusetts at Amherst. Its target audience is first-year graduate students. No background knowledge of syntax is presupposed.
+
+
+
+
+
+% =============================
+% = Main Matter: body of text =
+% =============================
+%%
+
+\mainmatter
+\raggedbottom
+
+\setcounter{page}{1}
+% \include{601Chapter01}
+% \include{601Chapter02}
+% \include{601Chapter03}
+% \include{601Chapter04}
+% \include{601Chapter05}
+\include{601Chapter06}
+% \include{601Chapter08}
+% \include{601Chapter09}
+
+% ===============
+% = Back Matter =
+% ===============
+
+\bibliography{Bibliography}
+\bibliographystyle{li}
+
+\end{document}
+
+

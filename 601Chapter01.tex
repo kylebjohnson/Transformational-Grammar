@@ -1,0 +1,376 @@
+%!TEX root = /Users/kbj/Dropbox/*classes/601book/601master.tex
+\chapter{The Subject}
+\label{ch:subject}
+\thispagestyle{empty}
+
+Syntactic theory is charged with the duty of modeling a certain aspect of an individual's knowledge of their language. This enterprise has been heavily influenced by the general framework of linguistic theory that Noam Chomsky has produced in the last seventy-some years. It has also been heavily influenced by Noam Chomsky's specific analyses of syntactic phenomena. These lecture notes are an attempt to introduce some of Chomsky's ideas about syntax as well as the many developments of those ideas in the contemporary literature on syntactic theory.
+
+My aim is to introduce the reader to a handful of syntactic phenomena and the models of these phenomena that have a certain general currency. I have largely ignored the many different ways these phenomena have been approached by theorists, and so I have also ignored the important process of evaluating competing analyses. In addition, I have left out many of the phenomena present syntactic theory engages. Some of the areas that drive a lot of the literature right now---agreement, ellipsis, anaphora, island phenomena---are almost completely ignored. Moreover, I have chosen topics that I feel I have enough mastery of to present. These notes are consequently the slimmest slice of what contemporary syntax includes. My hope is that this slice is nonetheless sufficiently large to illustrate an image of syntax that many syntacticians have, and to reveal the reasons for having that image. I have tried to aim for explicitness and consistency throughout, and this means that I have occasionally made up ways to connect results from different literatures. Not only is the material in these notes woefully incomplete, then, it is also burdened with parochial, idiosyncratic, theory. This is not a complete list of the shortcomings and flaws herein, but I hope that what follows will furnish the reader with a good starting point for further study. The model I will sketch here is wrong, but hopefully it will be wrong in ways that are useful to figure out.
+
+In this first chapter, I will sketch a setting for syntactic theory and discuss some of the methodological problems that face the syntactician. The first scene-setting decision is that syntactic theory is part of the enterprise of cognitive science. We are studying a facet of an individual's cognition. Syntax, as it is conceived of here, is not charged with studying group behavior. This is not a branch of sociology or anthropology. This places certain constraints on the enterprise. Syntax must be a form of knowledge or ability, broadly defined. It must be the kind of thing that human cognition is. That means it must guide behavior and interact with thought. It must emerge from the way the human brain works.
+
+It must also be an ability or knowledge that can be learned. The developmental sequence that we go through as children confers upon us the ability to master one or more syntaxes, and disables that ability for all the rest. One of Noam Chomsky's contributions to linguistic theory has been to emphasize this shaping role on the models linguists come up with. The knowledge an individual has about their language---the abilities that enable them to use a language---must be acquirable by any normal infant exposed to speakers of the language over six or so years. A number of considerations combine to make the task of acquiring this knowledge look very difficult indeed: the complexity of the acquired grammar, the amount of information that needs to be acquired, and the attenuated nature of the information available to the child. It is made even more puzzling by the fact that children appear to complete this task with relative ease in a comparatively short period of time and that the course of acquisition appears to go through a set schedule of stages. If languages are as complex as we think they are, then how can these impossibly complex objects possibly be learned? The parts of our cognition that encapsulate our linguistic knowledge and ability will have properties that are consistent with their learnability. They will hold clues to the learnability puzzle. This fact can help guide our inquiry.
+
+\section{Linguistics as learning theory}
+
+It is Chomsky's proposal that syntactic theory itself should contribute to solving the learnability problem. The classical formulation of this idea (see \emph{Aspects} and \emph{The Sound Pattern of English})\nocite{Chomsky:1968} characterizes the situation as follows. Think of a grammar of L (G_L) (this is what \citet{Chomsky:1986b} calls ``I-Language'') as a set of rules that generates structural descriptions of the strings of the language L (\citet{Chomsky:1986b}'s E-language). Our model of this grammar is descriptively adequate if it assigns the same structural descriptions to the strings of L that G_L does. We can think of the learning process as involving a selection from the Universe of G_Ls the very one that generates these structured strings of the~L.
+
+The learning problem can now be stated in the following terms: how is it that the learning procedure is able to find G_L when the universe of Gs is so huge and the evidence steering the device so meager.
+
+\clearpage
+One step towards solving this problem would be to hypothesize that the universe of Gs has a structure that enables convergence on G_L given the sort of information that the child is exposed to. This is Chomsky's proposal. It amounts to the claim that there are features of Gs which are built-in: certain properties which distinguish the natural class of Gs from the rest. There is a kind of meta-grammar of the Gs, then, which is sometimes referred to with the label Universal Grammar. Chomsky further hypothesizes that these properties are biologically given: that it is something about the construction of the human brain/mind that is responsible for the fact that the class of Gs are the way they are. This argument, the one that leads from the observation that G_Ls have features that are too complex to be learned by an unstructured system to the conclusion that the universe of Gs is constrained is often called ``The Poverty of the Stimulus'' argument. It is a classic from Epistemology, imported with specific force by Chomsky into linguistics.
+
+Chomsky proposes, then, that a goal of syntactic theory should be to contribute towards structuring the universe of Gs. He makes some specific proposals about how to envision this in \textit{Aspects of The Theory of Syntax}\nocite{Chomsky:1965}. He suggests that syntactic theory should include an evaluation metric which ``ranks'' Gs. A syntactic theory that has this feature he calls explanatory. Thus ``explanatory theory'' has a specific, technical, sense in linguistic theory. A theory is explanatory if and only if it encapsulates the features that rank Gs in such a way that it contributes to the learnability problem, distinguishing the learnable Gs from the unlearnable ones. This criterion can help the syntactician decide whether the model of G_L he or she has proposed corresponds exactly to G_L. In particular, the many descriptively adequate models of G_L can be distinguished on this basis: we should select only those that are ranked highly by the evaluation metric. These grammars meet the criterion of explanatory adequacy.
+
+% \clearpage
+A very important role, therefore, is played by the evaluation metric. At the time of \emph{Aspects}, the learning procedure was conceived of as a process very much like that which the linguist goes through. The child builds a battery of rules which generate the strings of~L. The evaluation metric steering this process was thought to have essentially two parts: a simplicity metric, which guides the procedure in its search through the space of grammars, and inviolable constraints, which partitions the set of Gs into the learnable ones and the unlearnable ones. Thus, for example, we might imagine that rules which used fewer symbols could be defined as ``simpler'' than ones that used a greater number of symbols. Inviolable constraints might be those, for example, expressed as part of the principles which place constraints on the way that strings can be partitioned into groups, and therefore simply removes from the universe of Gs a great many possible Gs. Let's call these models of Gs ``rule based,'' because the simplicity metric is defined as a procedure that constructs rules, and the companion picture of the acquisition process the ``Little Linguist'' model.
+
+Let's take a concrete example. We will see that certain substrings in a sentence have a special status. They make units, called phrases, that have certain properties. These phrases are the building blocks of sentence structure and most of what we will investigate here are how those building blocks are assembled. When a child learns a language, one of the things that needs to be learned is where the phrases of that language are. It appears that the criteria that are relevant for defining phrases are quite limited. So far as is presently known, phrases, in all of the world's languages, are defined by virtue of what the phrasal substrings are adjacent to in the larger sentence. The general recipe seems to be something of the sort in~(\ref{ex:adj}).
+\begin{exe}
+	\raggedright
+	\ex \label{ex:adj} 
+	For a string $\sigma$ to be a phrase, it must:
+	\begin{xlist}
+		\ex be contiguous, and
+		\ex be identifiable by looking at what is adjacent to~$\sigma$.
+	\end{xlist}
+\end{exe}
+(We will see that (\ref{ex:adj}) is not quite sufficient, but what replaces it continues to make reference to adjacent positions.) What (\ref{ex:adj}) says is that for a child to determine where the phrases of her language are, she needs to look just at what the contiguous substrings of the sentences in her language can be surrounded by. This is not a logically necessary way in which phrases could be identified, of course. It is entirely possible for phrases to be defined by the criteria in (\ref{ex:noadj}) or~(\ref{ex:noadj2}).
+\begin{exe}
+	\raggedright
+	\ex \label{ex:noadj} 
+	For a string $\sigma$ to be a phrase, it must:
+	\begin{xlist}
+		\ex be contiguous, 
+		\ex start with $n$ words followed by at most one phrase, and
+		\ex be identifiable by determining $n$.
+	\end{xlist}
+	\ex \label{ex:noadj2}
+	For a string $\sigma$ to be a phrase, it must:
+	\begin{xlist}
+		\ex be contiguous,
+		\ex end with $n$ words preceded by at most one phrase, and
+		\ex be identifiable by determining $n$.
+	\end{xlist}
+\end{exe}
+A language that built phrases according to the recipe in (\ref{ex:noadj}), would have sentences with the structure in (\ref{ex:noadjs}a), when $n$ is 1 and (\ref{ex:noadjs}b), when $n$ is~2.
+\begin{exe}
+	\raggedright
+	\ex \label{ex:noadjs} 
+	\begin{xlist}
+		\ex \ [w [w [w [w [w]]]]]
+		\ex \ [w w [w w [w w]]]
+	\end{xlist}
+	\sn phrases are included in ``[],'' and ``w'' represents a word.
+\end{exe}
+And a language that built phrases according to the recipe in (\ref{ex:noadj2}) would produce sentences with the phrasing in (\ref{ex:noadj2s}a), when $n$ is 1, and (\ref{ex:noadj2s}b), when $n$ is~2.
+\begin{exe}
+	\raggedright
+	\ex \label{ex:noadj2s} 
+	\begin{xlist}
+		\ex \ [[[[[w] w] w] w] w]
+		\ex \ [[[w w] w w] w w]
+	\end{xlist}
+\end{exe}
+Both (\ref{ex:noadj}) and (\ref{ex:noadj2}) are simple recipes, and are plausibly easier to use in acquiring the phrase structure of a sentence. A candidate inviolable constraint is that phrases are defined by a recipe along the lines of (\ref{ex:adj}), and not by any number of other possible recipes. The fact that (\ref{ex:adj}), and not (\ref{ex:noadj}) or (\ref{ex:noadj2}), seems to be true of the languages of the world would be explained if the acquisition process used only (\ref{ex:adj}) in discovering phrase structure. It would be explained if the space of possible grammars could never fail to use~(\ref{ex:adj}).
+
+While distinguishing an evaluation metric, which ranks the grammars, and inviolable constraints, which delimits the universe of possible grammars, is useful for a theoretician in evaluating the facts of languages, there is no necessary difference between them. To see this, let's sketch out how the acquisition process might be modeled. A child starts out in a state of relative ignorance about the language she is to acquire, and upon listening to a certain number of sentences of that language, she makes a guess as to its grammar. We can diagram that process with~(\ref{ex:acquproc}).
+\begin{exe}
+	\raggedright
+	\ex \label{ex:acquproc} 
+	\fbox{G_0} $\longrightarrow$ \fbox{G_1}
+\end{exe}
+In the state that has her first grammar, G_1, we can imagine the acquisition device repeating the process that got her to G_1 from her initial state, G_0. She tests the predictions of G_1 against the sentences she is hearing, and when she discovers that the sentences she hears do not fulfill the predictions of G_1, she will modify G_1 to G_2, so that they do.
+\begin{exe}
+	\raggedright
+	\ex \label{ex:acquproc2} 
+	\fbox{G_0} $\longrightarrow$ \fbox{G_1} $\longrightarrow$ \fbox{G_2}
+\end{exe}
+This process repeats itself until she finds herself in a state where the grammar she is testing makes predictions that do not differ from the sentences she is hearing.
+\begin{exe}
+	\raggedright
+	\ex \label{ex:acquproc3} 
+	\fbox{G_0} $\longrightarrow$ \fbox{G_1} $\longrightarrow$ \fbox{G_2} $\longrightarrow$ \ldots \fbox{G_n} 
+\end{exe}
+While this final grammar, G_n, might not entirely match the grammars of the speakers around her, it will be undetectably different from them and the learner will remain in G_n. The grammars of the world's languages are the set of G_ns that reside in the minds of each language speaker. By this way of counting, there are at least as many grammars (=languages) as there are language speakers. The poverty of the stimulus argument amounts to the observation that for convergence to a G_n to be guaranteed, the possible paths from G_0 to G_n must be finite. For convergence to be guaranteed in the short period of time it seems to happen, and with the limited amount of information available to a child about G_n, the possible paths from G_0 to G_n are plausibly small in number.
+
+If the initial state is the same for every language acquirer, as seems plausible, the evaluation metric is a model of each of the ``$\longrightarrow$''s in (\ref{ex:acquproc3}). These rank the Gs in the acquisition sequence, making some of them ``easier'' to get to from the initial state. We might define inviolable constraints as those that characterize the grammars that the sequence in (\ref{ex:acquproc3}) never converges to. These are grammars that are either not in the series of Gs, or are Gs the acquisition process cannot stay in, or are Gs so far into the series that there is an earlier G out of which the acquisition process will never move. An evaluation metric, in other words, also provides a model of inviolable constraints.
+
+One of the goals of syntax is to discover the properties of grammars that reflect the shaping role that the acquisition process has. As we model the grammars of a speaker's syntax, we should stay alert to the ways in which it is constrained. These constraints, some of them at least, will be due to the ways in which the $\longrightarrow$s function. Properties of a syntax that do not seem likely to be acquired in the acquisition process are candidates for such a constraint. (\ref{ex:adj}) is such a property, given its abstract, arbitrary, nature.
+
+There is another kind of criterion that can be used to identify constraints on the acquisition of a syntax. This one comes to us through the narrowly linguistic study of language typology, and only tangentially from learnability considerations. I will call it ``Humboldt's argument,'' though it no doubt has an earlier champion. Humboldt's argument is based on the observation that there are certain properties that appear to hold true of all G_Ls. This can be explained, Humboldt argues, only if the universe of Gs is constrained to just those which have the relevant, universal, properties. Like Chomsky, Humboldt relates this to the construction of the mind, and uses the language of learnability in his account. He puts it this way:
+     \begin{quote}
+     	Since the natural inclination to language is universal to man, and since all men must carry the key to the understanding of all languages in their minds, it follows automatically that the form of all languages must be fundamentally identical and must always achieve a common objective. The variety among languages can lie only in the media and the limits permitted the attainment of the objective.\\ 
+          \hspace*{2in} (\citealt{Humboldt:1836})                                                          
+       \end{quote}
+(One might read the last sentence of this passage as making the distinction, touched on above, between aspects of Universal Grammar (``the media'') and the limits our cognition places on exploiting UG (``the limits permitted the attainment of the objective'').) So, like Chomsky, he supposes that there is a Universal Grammar, a feature of the mind, which constrains the form that languages may have. But his perspective is different from Chomsky's. He expresses the notion of Universal Grammar not in terms of learning theory, or through the glass of the Poverty of the Stimulus argument, but from the perspective of language variability. He links limits on language variability to a universal ability he sees in human psychology to acquire a language.
+
+Humboldt's goal is an explanation for the observed limits in variability of the grammars of extant languages. One might imagine that there are explanations for these limits that do not involve, as Humboldt proposes, constraints imposed by human psychology. Similarities in extant languages might reflect their common ancestry, for instance. if all languages descend from a common one, then features that are shared among them could simply be vestiges of the ancestral language that historical change has left untouched. I think it's possible to read Sapir as advancing this alternative. Sapir is commonly associated with the position exactly opposite to Humboldt's; in Sapir's words:
+     \begin{quote}
+     	Speech is a human activity that varies without assignable limit as we pass from social group to social group, because it is a purely historical heritage of the group, the product of long-continued social usage.\\ 
+                            \hspace*{2in} \citep[p. 4]{Sapir:1921}
+          \end{quote}
+But, perhaps because of his vagueness, it's possible to credit Sapir with a more complex view. One that assigns the universal properties of languages to the limits of historical change:
+     \begin{quote}
+     For it must be obvious to any one who has thought about the question at all or who has felt something of the spirit of a foreign language that there is such a thing as a basic plan, a certain cut, to each language. \ldots Moreover, the historical study of language has proven to us beyond all doubt that a language changes not only gradually but consistently, that it moves unconsciously from one type towards another, and that analogous trends are observable in remote quarters of the globe.\\ 
+                                \hspace*{2in} \citep[pp. 120-121]{Sapir:1921}
+          \end{quote}
+Perhaps the common properties of known languages are a function of two facts: all languages descend from a common language, and the forces that cause languages to change are not fully random---they preserve certain features and change others only according to some ``basic plan.'' If historical relatedness is to explain the common traits that extant languages have, some limit must be placed on how languages change and diverge. Otherwise, language change would act as a kind of randomizer that, over time, would destroy the limits in variability that we observe. Monogenesis needs to be coupled, then, with a theory of diachrony that characterizes the limits it imposes on change. Could it be, then, that the similarities in languages are all due to these laws of diachrony?
+
+% \clearpage
+This seems to me to be a coherent account for language variability. But it may be just a disguised version of the Chomsky/Humboldt hypothesis that the limits of human cognition are responsible for the constraints on linguistic variation. The thesis of monogenesis entails that language variation is solely the product of historical change, as Sapir's quotes makes clear. So we expect that languages vary in features which historical change can affect, but will remain similar in those ways that are immutable. Which of the features appear as language universals, then, is determined by the internal mechanisms of historical change, and the limits thereon. What are the internal mechanisms of historical change? The only proposal I know of is that historical change is a by-product of language acquisition. It is the accumulation of the small mismatches in G_Ls that successive generations of language acquirers select. Language acquisition, the poverty of the stimulus argument tells us, is guided by Universal Grammar. So even granting the diachronic argument for language universals, we see that as historical change weeds out the mutable properties from the immutable ones, the properties it leaves are those that characterize Universal Grammar. The antidote for the argument I have blamed on Sapir, then, involves bringing the poverty of the stimulus argument into play. I don't know if Humboldt's argument can stand against this alternative unaided.
+
+But even if it can't, it provides us with another way of viewing how to factor out the components of the evaluation metric. Following the logic of Humboldt's argument, what we expect is that language comparison should give us a means of separating inviolable constraints from the evaluation metric. The inviolable constraints will be (among) those things found in all languages; the differences in languages are to be credited to the evaluation metric. The recipe for characterizing phrases in (\ref{ex:adj}), for instance, seems to be inviolable; languages have not been discovered that build their phrases along a different plan. Put somewhat differently, an explanatory theory is to give us both how languages cannot be constructed, and how their construction can vary. The data it must fit, then, emerges only once languages are compared: for not only does this allow the universals to be clearly discerned, but it is only through this means that the particulars of language variation are known.
+
+\section{The evidential basis of syntactic theory}
+
+% \enlargethispage*{\baselineskip}
+If linguistics is one part of the study of human cognition, in the sense just described, then syntax can be defined as that subdiscipline of linguistics which seeks to discover what speakers know about how to arrange the words of their language into meaningful sentences. Because speakers are not conscious of the principles that characterize this knowledge, the syntactician must make recourse to indirect means of determining these principles. The syntactician's first task, then, is to determine how to find evidence that reveals the nature of this knowledge.
+
+One plausible source of relevant information comes from observing how speakers put this knowledge to use. We could, for instance, collect the utterances from some speaker and look for generalizations in these utterances from which evidence about the underlying knowledge-base can be gleaned. This is rarely done, however, as there are few instances of such collections that arise naturally, and to assemble them from scratch is onerous enough to have been avoided. With the exception of studies of prodigious literary figures, there are vanishingly few attempts at linguistic studies that go this route.
+
+More common is to study the linguistic utterances of a group of speakers. This is standardly done by using the lexicographer's device of combing texts and newspapers for examples. There are several excellent ``parsed'' corpora of this sort,\marginnote{See \citet{Marcus:1993} and \citet{Godfrey:1992}, for example.} and even corpora of spoken utterances can be found. With the advent of the World Wide Web, it has become possible to search a very large collection of sentences, and more and more linguists are availing themselves of this resource. This technique has the unique advantage of allowing one to determine frequencies of certain kinds of sentences as well. It is possible, for example, to judge how rare some particular arrangement of words is relative to some other, or to find statistically significant correlations between, say, the position of an argument relative to its predicate and the person or number marked on that argument. Some linguistic theories are specifically designed to model these sorts of frequency data.\marginnote[0pt]{The papers in \citet{Bod:2003} are examples of statistically based corpora studies, and the work of Paul Boersma (e.g., \citealt{Boersma:2001}) contains a theory that is designed to model statistical data of this sort.}
+
+There are some serious pitfalls to using group corpora, however. One is simply that it obliterates differences among speakers and treats the data as if it were all manufactured by the same grammatical system. Since nothing is known about the producers of these sentences -- they may include speakers of different dialects and speakers for whom the language in question is non-native or has been influenced by another language, for instance -- this could be a serious source of error. Without some measure of the heterogeneity of the speakers who produced the corpus, it is very difficult to judge how faithfully it represents the syntactic knowledge of any one of those speakers.
+
+Another shortcoming is that linguistic behavior, even of one individual, is not a faithful projection of the knowledge that that individual has of his or her language. People say sentences whose syntactic form is at odds with what they would otherwise deem well-formed. A significant proportion of any corpus could be made up of such ``mistakes,'' and indeed it would be prudent to assume so, given the degree to which misshapen sentences populate the utterances of such well-placed contributors to corpora as Donald Trump. There is a distinction between a speaker's linguistic ``performance'' and his or her linguistic ``competence,'' to use the names Chomsky gives to this distinction. Corpora level this distinction.
+
+For these reasons, then, group corpora contain an unknown amount of data that should be weeded out. They contain examples of sentences that are produced by speakers whose grammatical systems differ, and they contain sentences that are not representative of any grammatical system. But group corpora are not only noisy with error, they are also silent about certain kinds of information.
+
+One important piece of evidence that corpora cannot provide concerns where speakers draw the line between impossible and possible forms in their language. This distinction is easiest to elicit in linguistic domains where there are a comparatively small number of relevant forms. For example, the morphological and phonological inventories of any one speaker at any one time is reasonably small and it is therefore salient when a novel morphological or phonological form is introduced. For many such novel forms, speakers are capable of distinguishing those that are admissible members to their languages and those that are not. Most English speakers I have asked, for instance, can tell that \emph{blick} (\textipa{[blIk]}) is an admissible addition to their lexicon but that \emph{bnick} (\textipa{[bnIk]}) is not. Presumably this ability to distinguish admissible from inadmissible forms is due to the knowledge speakers have of their language, and so it is an important piece of information about how that knowledge is constituted. A typical way of characterizing this distinction goes as follows. The phonology of a language permits many forms that are not exploited by the lexicon of that language (e.g., \textipa{[blIk]}). Which of these forms are used and which are not is completely extra-grammatical. By contrast, because the phonology of a language limits the forms that are available to that language (e.g., English prevents the onset cluster \textipa{[bn]}) these forms (e.g., \textipa{[bnIk]} in English) will be blocked from its lexicon. The absence of these forms is determined by the grammar; they are said to be ``ungrammatical,'' and when they are cited, they are prefixed with the diacritic ``*'' to indicate their status.
+
+The same distinction can be elicited for sentences, although because of the larger number of forms involved it is more difficult to recognize a novel sentence. Consider, by way of illustration, the pair of sentences in~(\ref{ex:gram1}).%\enlargethispage*{22pt}
+\begin{exe}
+\ex \label{ex:gram1} 
+\begin{xlist}
+	\ex Whenever the earth revolves around its equator, the moon begins to rotate about its axis.
+	\ex Whenever the earth revolves around its equator, the moon begins itself to rotate about its axis.
+\end{xlist}
+\end{exe}
+I judge (\ref{ex:gram1}b) to be an impossible English sentence, and ({\ref{ex:gram1}a) to be a possible one. Because I don't read enough science fiction, I think it's likely that both sentences are novel for me, but I do not have the certainty about this that I have about \emph{blick} and \emph{bnick}. I recognize that there are considerably more sentences that I have encountered than there are words I've encountered, and consequently I also recognize that it is likelier that I will mistake a sentence as novel than it is that I will mistake a word as novel. Nonetheless, most linguists would agree that the contrast in (\ref{ex:gram1}) is of the same kind that distinguishes \emph{blick} from \emph{bnick}. It does seem unlikely that the distinction could be reduced to one of novelty. After all, I am roughly as certain of the novelty of (\ref{ex:gram1}a) as I am of the novelty of (\ref{ex:gram1}b) and yet this does not affect the strength of my judgement concerning their Englishness. It seems probable that my ability to judge the difference between (\ref{ex:gram1}a) and (\ref{ex:gram1}b) traces back to an ability my syntactic knowledge gives me to judge well-formedness.
+
+This distinction between grammatical and ungrammatical forms is important because it seems to tap directly into a speaker's linguistic knowledge. Studying corpora cannot provide what is needed to see this distinction; corpora conflate ungrammatical and grammatical but non-occurring forms. For this reason, and because of its noisiness, I will not use data from corpora in these lectures. But do not forget that corpus studies, and so far as I know only corpus studies, can provide statistical data, for this might be an important resource in forming a complete model.
+
+Instead, the central piece of evidence used in these lectures will be elicited grammaticality judgments. The linguist will ask a speaker of the language under investigation to judge whether the string of interest is or is not a well-formed sentence in their grammar.  This has become the standard tool for syntactic analysis, and much of the literature relies on it. Elicited grammaticality judgments have their own shortcomings, and it is worth spending some time considering them.
+% TODO Sketch a model of grammatical judgment formation, maybe the one by Colin et al.
+
+One of these problems is that the speaker's report about the string presented to them is not guaranteed to be about the well-formedness of the sentence.\marginnote[-20pt]{Julie Sedivy puts this beautifully: ``Leisurely introspection of carefully crafted example sentences in scholarly articles masks the intensely frenetic nature of everyday real-time language processing.'' \citep[p.~476]{Sedivy:2007}} There are many ways a string can fail to make a speaker classify it as a sentence, and not all of these are of relevance to our task. Some sentences, for instance, are more difficult to perceive than others and a speaker can report the difficulty of perception as a failure of the string to be a sentence. To see how this might happen, consider the task faced by the cognitive machinery tasked with perceiving a sentence in real time. This machinery -- I'll call it a ``parser'' -- must deliver an analysis of the series of words coming into the hearer's ears at speed. Studies have shown that this is done incrementally as the words come in. We also know that the parser builds expectations about what will follow the words it's already computed, and that these guesses are partly what makes the parser able to keep up with the rapid flow of incoming words. There is also evidence that these guesses are based on a limited block of incoming words; there is a limit to the size of the groups of words the parser can work with at any given moment. Let's call the group of words that the parser is using to make its guesses about upcoming material, the ``buffer.'' The picture we have of the process is~(\ref{ex:online}).
+\begin{exe}
+	\raggedright
+	\ex \label{ex:online} 
+	w_1 w_2 w_3 w_4 \fbox{w_5 w_6 w_7} $\longrightarrow$
+	\(
+	\left[
+	\begin{array}{c}
+		\nth{1}: \text{w_8 w_9} ...\\
+		\nth{2}: \text{w_8 w_9} ...\\
+		\nth{3}: \text{w_8 w_9} ...
+	\end{array}
+	\right]
+	 \)
+\end{exe}
+The box represents the buffer, and each w_i is a word. Following the ``$\longrightarrow$'' are a list of possible continuations that the parser has rank ordered, from most probable to least. Those that are at the top of the list will be preprocessed, so that should w_8 meet the expectations of the more probable continuations, it will already have been assigned a position in the resulting parse. 
+
+There are well-formed sentences that create problems for the parser because of the way they interact with the architecture in (\ref{ex:online}). A famous example of this comes from strings that are ambiguous with respect to the placement of some late occurring phrase. When this happens, the buffer's size is too limited to maintain the correct menu of expectations.  The pair of sentences in (\ref{ex:late1}) illustrates.
+\begin{exe}
+\ex \label{ex:late1} 
+\begin{xlist}
+	\ex I decided to marry on Tuesday.
+	\ex I decided that my daughter should marry on Tuesday.
+\end{xlist}
+\end{exe}
+Most speakers will recognize that (\ref{ex:late1}a) has two meanings. It can assert that the time of my decision to marry was Tuesday, or it can assert that what my decision was, is to marry on Tuesday. As we will see, this ambiguity reflects the fact that (\ref{ex:late1}) maps onto two sentences, whose difference in phrase structure is responsible for the two meanings. The first meaning corresponds to a structure which groups the words as sketched in (\ref{ex:late2}a), whereas the second interpretation corresponds to the syntactic structure shown in~(\ref{ex:late2}b).
+\begin{exe}
+\ex \label{ex:late2} 
+\begin{xlist}
+	\ex I [decided [to marry] on Tuesday]
+	\ex I [decided [to marry on Tuesday]]
+\end{xlist}
+\end{exe}
+Unlike (\ref{ex:late1}a), (\ref{ex:late1}b) seems to have only the second of these two meanings. It can assert that my decision was for my daughter to marry on Tuesday, but it does not seem to say that the time of my decision was Tuesday. At present, this difference in (\ref{ex:late1}a) and (\ref{ex:late1}b) is thought to be due to constraints of sentence processing, and not the well-formedness conditions of sentences. The relevant difference between these examples is the number of words between the word \emph{decided} and the prepositional phrase \emph{on Tuesday}. As that number grows beyond what can be held in the buffer, the processor is forced to start making decisions about how to parse the initial portions of the string and this reduces the number of possible ways the sentence can continue. When the parser is inputting the words \emph{should marry}, it has effectively removed from expected continuations those that group \emph{on Tuesday} with \emph{decided}. Thus, in the case of (\ref{ex:late1}b) the parser favors the structure in (\ref{ex:late3}b) over that in (\ref{ex:late3}a).
+\begin{exe}
+\ex \label{ex:late3} 
+\begin{xlist}
+	\ex I [decided [that my daughter should marry on Tuesday]]
+	\ex I [decided [that my daughter should marry] on Tuesday]
+\end{xlist}
+\end{exe}
+On this account, then, it is not that there is a difference in the syntactic well-formedness conditions which causes speakers' differing judgments about (\ref{ex:late1}a) and (\ref{ex:late1}b). Instead, because of the relative difficulty that (\ref{ex:late1}b) presents to the on-line processor, one of the syntactic representations associated with this string (i.e., (\ref{ex:late3}a)) becomes difficult to perceive. This effect of the on-line processor is what Kimball called ``right association.''\footnote{See \citet{Kimball:1973}, \citet{Frazier:1978} and \citet{Gibson:1998a}.} There is considerable evidence that the judgment speakers deliver on these sentences is influenced by their ease of perception. Changing the distance between the word \emph{decided} and \emph{on Tuesday} so that the buffer's size is honored seems to change speakers' reports, for instance. And so does manipulating other factors about the sentence that control the expectations generated by the parser. Indeed, most speakers can perceive both of the meanings in (\ref{ex:late1}b) with a bit of time.
+
+Let me describe another case where it seems to me plausible that a judgment of ill-formedness might actually arise because of difficulty in perception. While the evidence for a role in misparsing in this case is less clear, the effect is sharper than that in (\ref{ex:late1}b) and so it illustrates better how difficult it is to tell, a priori, whether the badness of a sentence is due to its construction or its difficulty to perceive. 
+\pagebreak
+
+The example I have in mind is found in the contrast in~(\ref{ex:atbex}).
+\begin{exe}
+	\raggedright
+	\ex \label{ex:atbex} 
+	\begin{xlist}
+		\ex I know the man who John likes and we hope will win.
+		\ex I know a man who Bill saw and likes Mary.
+	\end{xlist}
+	\hspace*{\fill} \citep[34]{Williams:1978} \hspace*{.5in}
+\end{exe}
+English speakers report that (\ref{ex:atbex}a) is fine but that (\ref{ex:atbex}b) is not. The good example in (\ref{ex:atbex}a) instantiates what is called ``across-the-board movement.'' This is a syntactic operation that arises in co\"ordinations -- here two sentences joined by the conjunct \emph{and} -- and allows some material outside the co\"ordination to be shared by each conjunct. In (\ref{ex:atbex}a), that material is the relative pronoun \emph{who}.
+\begin{exe}
+	\raggedright
+	\ex \label{ex:illshare} \ldots who [[John likes] and [we hope will win]]
+\end{exe}
+Relative pronouns have a syntactic and semantic relationship with the clause that follows them that targets a certain position in that clause. In (\ref{ex:simple}), for instance, the relative pronoun \emph{who} is syntactically and semantically related to the position marked <gap>.
+\begin{exe}
+	\raggedright
+	\ex \label{ex:simple} 
+	The man who [John likes <gap>] (has arrived).
+\end{exe}
+We will study this relationship in some detail in these lectures, but what we need to know now is just that it exists. To put the words together semantically and syntactically requires a way of relating a relative pronoun like \emph{who} with a ``gap'' in the clause following that relative pronoun. In the ``across-the-board movement'' construction, there are two gaps that the relative pronoun is related to:
+\begin{exe}
+	\raggedright
+	\ex \label{ex:simple2} 
+	The man who [[John likes <gap>] and [we hope <gap> will win]]\\ (has arrived)
+\end{exe}
+What we learn from (\ref{ex:atbex}) is that where those gaps are inside the conjoined clauses matters. The pattern shown in (\ref{ex:badgpatt}) yields the ugliness that is~(\ref{ex:atbex}b).
+\begin{exe}
+	\raggedright
+	\ex \label{ex:badgpatt} 
+	The man who [[Bill saw <gap>] and [<gap> likes Mary]]
+\end{exe}
+It's not that the gaps cannot be in these positions when they are connected to relative pronouns normally. Both of the cases in (\ref{ex:compareatb}) are fine.
+\begin{exe}
+	\raggedright
+	\ex \label{ex:compareatb} 
+	\begin{xlist}
+		\ex The man who [Bill saw <gap>]
+		\ex The man who [<gap> likes Mary]
+	\end{xlist}
+\end{exe}
+It's something that involves the co\"ordination and accompany across-the-board movement. Many people have tried to find a syntactic condition on across-the-board movement that will account for this contrast. (A recent attempt, and perhaps the best, is in \citealt{Citko:2020}.)
+
+It seems likely to me, however, that the badness of (\ref{ex:atbex}b) could be due to the parser. Consider what the parser might be faced with at the point in which the following words have been input:
+\begin{exe}
+	\raggedright
+	\ex \label{ex:stage1} the man who Bill saw and likes
+\end{exe}
+The parser will be expecting to find a gap because of the presence of \emph{who} in its buffer, and it will have two possibilities open:
+\begin{exe}
+	\raggedright
+	\ex \label{ex:possibilities} 
+	\begin{xlist}
+		\ex who [Bill saw <gap> and <gap> likes...] (prediction: future words will tell what is liked.)
+		\ex who [Bill [saw and likes]...] (prediction: future words will include <gap> and will tell what is liked and seen)
+	\end{xlist}
+\end{exe}
+If the online processor is, for whatever reason, prone to choose (\ref{ex:possibilities}b) and reject (\ref{ex:possibilities}a), then when \emph{Mary} is encountered this will be taken to name the thing liked and seen. If the clause then ends, the expected gap will be missed. This could give the percept of ungrammaticality. 
+
+That it is the competition between the two parses in (\ref{ex:possibilities}) that is relevant to the badness of (\ref{ex:atbex}b) is argued by \citet{Anderson:1983}, who notes that the ungrammaticality of these examples is affected by the likeliness of the competing parse in (\ref{ex:possibilities}b). Examples like (\ref{ex:carol1}) have the same general syntactic shape as (\ref{ex:atbex}b) but are much better. (The relative pronouns have been underlined, since they are not always obvious.)
+\begin{exe}
+	\raggedright
+	\ex \label{ex:carol1} 
+	\begin{xlist}
+		\ex Nancy Reagan was wearing a gown \underline{that} Galanos designed <gap> and <gap> cost over \$5000.
+		\ex We went to see a movie \underline{which} the critics praised <gap> but <gap> was too violent for my taste.
+		Here is a book \underline{which}  I haven't read <gap> but <gap> was recommended by several professors.
+	\end{xlist}
+	\hspace*{\fill} \citep[(2): 3]{Anderson:1983} \hspace*{.5in}
+\end{exe}
+This would follow from an account of the badness of (\ref{ex:atbex}b) that depended on the architecture of the parser. But it is difficult to see how this effect could be explained by what is otherwise known about the syntax of across-the-board movement. 
+
+In general, judgments of well-formedness will not be able to distinguish those sentences that do not conform to the constraints of the grammar from those that do conform to those constraints but present problems for the on-line processor.\footnote{\citet{Chomsky:1963} is an early, and still useful, examination of this distinction.} There is no simple way of distinguishing these cases; they can be separated only through analysis. In the case of (\ref{ex:late1}), the decision that the effect is not grammatical but, instead, the result of the parser comes partly from finding no good grammatical way of distinguishing the cases and partly from finding that manipulating factors relevant for the parser's architecture determines whether the effect materializes. If (\ref{ex:atbex}b) turns out to also be due to a parsing effect, then the evidence from (\ref{ex:carol1}) was required to see that the relevant factors in its badness are perception based and not grammatical.
+
+One way eliciting grammaticality judgments can go wrong, then, is for the speaker to report the percept of unparsability as ungrammaticality. Another similar difficulty involves the fact that the meanings which sentences convey are typically bound to the context of a larger discourse. Let me illustrate this by describing a place where this has played a role in shaping theory. There is a process in English syntax that allows certain strings of words to go unpronounced. An example is~(\ref{ex:vpe1}).
+\begin{exe}
+	\raggedright
+	\ex \label{ex:vpe1} 
+	Mary eats nattoo but you shouldn't $\triangle$.
+\end{exe}
+The sentence following \emph{but} is understood to mean: \emph{you shouldn't eat nattoo}. Part of the meaning of that sentence is found spoken in the material before \emph{but}. One way of modeling this to imagine that the words \emph{eat natto} are indeed part of the sentence that follows \emph{but}, and there is a process that allows them to go unspoken. The name for this process is ``ellipsis.''
+\begin{exe}
+	\raggedright
+	\ex \label{ex:ell} Ellipsis\\
+	The pronunciation of the string of words $\alpha$ is optional if they match a string $\beta$ spoken elsewhere.
+\end{exe}
+A better formulation of Ellipsis would limit what $\alpha$ can be and define ``match.'' This way of formulating Ellipsis requires that there be somewhere in the signal spoken words that match the ones that go unspoken, and this predicts that ellipsis shouldn't be possible if those words are not present. In \citet{Hankamer:1976}, this consequence was investigated and their verdict was that it is correct. For instance, they raised the following kind of case.
+\begin{exe}
+	\raggedright
+	\ex \label{ex:surface} \emph{context: Sag raises a cleaver and prepares to hack off his left hand.}
+	\begin{xlist}
+		\ex Hankamer: *Don't worry, he never actually does $\triangle$.
+		\ex Hankamer: Don't worry, he never actually does it.
+	\end{xlist}
+\end{exe}
+\citet{Miller:2011} did a corpus study of ellipsis and discovered that where it was used seemed to have a pattern that put it in opposition to the use of \emph{do it}. In his analysis of that pattern, he pulled out some descriptions of the contexts where these two forms of anaphora are used, and he suggested that these contexts defined which was used. For example, ellipsis, he claims, is used in places where the sentence with the ellipsis is used to resolve possibilities raised in the sentence from which the spoken material is found. This happens in questions, for instance:
+\begin{exe}
+	\raggedright
+	\ex \label{ex:quesell} 
+	\begin{xlist}
+		\exi{A:} Senator Brown, does this bill end too-big-to-fail?
+		\exi{B:} Yes it does $\triangle$.
+		\exi{B':} *Yes it does it.
+	\end{xlist}
+	\ex \label{ex:quesell2}
+	\begin{xlist}
+		\exi{A:} Can I go now $\triangle$?
+		\exi{B:} Of course you can $\triangle$.
+		\exi{B':} *Of course you can do it.
+	\end{xlist}
+\end{exe}
+There seems to be a choice between using \emph{do it} and ellipsis when a speaker is trying to make reference to a previously occurring set of words, and this choice is made in connection with a context. Miller argues that the contexts that choose for ellipsis are not ones that can be set up easily without using linguistic means, and that could be why it looks like ellipsis requires matching linguistic material elsewhere. If one looks carefully for contexts of the sort in which ellipsis is chosen, one can find examples of ellipsis \underline{without} matching linguistic material:
+\begin{exe}
+	\raggedright
+	\ex \label{ex:exo} 
+	The aisles at the Lakewood Wal-Mart are surprisingly packed at 11 p.m. `Can we? Can we?' Vanessa tugs at her mother, pointing to a rack of `Lady and the Tramp' DVDs. Diaz shrugs. OK.
+\end{exe}
+For this reason, it looks like a formulation of ellipsis should not require matching linguistic material. Instead, it should require something that ensures ellipsis is available only in certain, yet to be defined, contexts. Those contexts generally, though not always, correlate with providing the ellipsis with matching linguistic material. 
+
+This, by the way, is an illustration of the sort of thing that studying corpora \underline{is} good for. We can find patterns of distribution with corpora. And we can simply find examples that we aren't able to think up cold. Corpora studies, then, are an important tool. For English, there are convenient online tools for doing it:
+\begin{exe}
+	\raggedright
+	\ex \label{ex:url} https://www.english-corpora.org
+\end{exe}
+Results like Miller's should encourage the use of corpora in studying syntactic knowledge. But it's important to keep in mind that the theories we will be building are not theories of corpora. They are instead theories about the linguistic knowledge that individual speakers possess. Only to the extent that the speakers who've contributed to the corpora we study have similar syntaxes will we be able to use data from corpora to reach conclusions about those syntaxes. 
+
+The problems posed by the contingencies of the real-time perception of sentences, and the function sentences have in a discourse, are similar. In both, the difficulty is in distinguishing judgments of well-formedness from other types of ill-formedness. The effect of these difficulties can be lessened if the following two practices are used in eliciting judgments.
+
+First, embed the sentences whose well-formedness you wish to determine in discourse contexts that make the meaning these sentences should have available and salient. This helps remove the second problem.
+
+Second, for every sentence you suspect is ungrammatical, present your informant with a matching sentence which you suspect to be grammatical. These two sentences -- the suspected grammatical and the suspected ungrammatical one -- should differ minimally. Your aim should be to remove all differences between these two sentences except for the factor that you suspect is responsible for the ungrammaticality. This will help mitigate processing effects, as the two sentences will end up matched in length and close to matched in complexity. It will also help remove any other confounds which might be responsible for the ungrammaticality of the sentence you wish to test.
+
+These practices are rarely used, unfortunately. As a result, the history of syntactic research is littered with dead ends and wrong turns that have resulted from errors in the empirical base. Don't fall victim to these errors. Wherever you can, follow the \textsc{Two Laws of Elicitation}.
+\begin{exe}
+\ex \label{ex:lelaws} \textsc{Two Laws of Elicitation}
+\begin{xlist}
+		\ex Every suspected ungrammatical sentence should be part of a minimal pair, the other member of which is grammatical.
+	\ex The sentences for which you elicit a grammaticality judgement should be embedded in a discourse that makes the meaning that sentence would have salient. You can determine this by finding a context in which your matched minimal pair is grammatical.
+\end{xlist}
+\end{exe}
+A minimal pair are two sentences that differ only with respect to the feature you are trying to investigate. We want to control for as many of the unknown variables that contribute to speakers' judgement of unacceptability and focus in on those that are the result of ungrammaticality.
+
+In these lectures, I will sometimes violate (\ref{ex:lelaws}a) whenever I haven't found a context that improves an ill-formedness judgement. In these cases, my guess is that the ungrammaticality of the sentence is not tied to its context dependency. Similarly, I will occasionally fail to give a minimal pair when I feel that the ungrammaticality of the sentence involved is dramatic enough to be obvious. For instance, examples such as (\ref{ex:1bad}) are so clearly violations of English sentence structure, that I cannot imagine a discourse context that could improve them, nor would minimally contrasting grammatical examples help remove the possibility of a processing effect.
+\begin{exe}
+\ex \label{ex:1bad} 
+\begin{xlist}
+	\ex[*]{Many happy the puppies barked.}
+	\ex[*]{She talked people to.}
+	\ex[*]{He ate should apples.}
+\end{xlist}
+\end{exe}
+I do this partly because it will make the exposition cleaner, but obviously also because I am lazy. It would be wise to maintain a healthy skepticism about the data I present when I've taken these shortcuts.\marginnote[0pt]{I will also violate (\ref{ex:lelaws}) when I am reporting data from the literature in which (\ref{ex:lelaws}) have not been followed.}
+
+There is one last danger in relying on elicited grammaticality judgments, and it is the mundane and familiar one of introducing bias. It is a commonplace among experimental psychologists that eliciting psychological data can involve very subtle ways of introducing bias. Whenever the judgments are less clear than obvious cases like (\ref{ex:1bad}), the syntactician should clearly not rely on her or his own judgments. In these cases only judgments elicited from na\"ive informants will do. And in eliciting those judgments, the syntactician should adopt some of the techniques developed by experimental psychologists. Produce a survey of examples that include the sentences you wish to find judgments for but include irrelevant ``fillers'' as well. Those sentences should be crafted in accordance with the \textsc{Two Laws of Elicitation}. Then present this survey to a number of speakers native in the relevant language, controlling as best as possible for dialect variation. Finally, present the items in the survey in a randomized order, mitigating any bias that the order of presentation might introduce. When reporting data, you should also report the number of informants you have used, and make a note of any variation in the judgments you have encountered. While these safeguards wouldn't satisfy the rigorous criteria of the experimental psychologist, they will go a long way towards removing error and making the data you report comparable to the data someone else gathers. Should the sentences being investigated elicit weak or highly variable judgements, or should they harbor unusual complexity, it is worth considering bringing more of the experimental psychologist's toolkit to bear.\marginnote[-20pt]{For a good discussion of the problems of using grammaticality judgments, their reliability, and ways of improving methodology see \citealt{Sprouse:2008a}, \citealt{Sprouse:2009}, \citealt{Sprouse:2012}, \citealt{Sprouse:2017}, and \citealt{Sprouse:2018a}.}
+
+Grammaticality judgments, then, will be the central evidence used here in uncovering the principles that constitute a speaker's syntactic knowledge. 
+
+\section{Where is syntax?} % (fold)
+\label{sec:what}
+
+In my discussion of the forces that might play a role in delivering judgments about the well-formedness of a sentence, I have highlighted two activities that speakers and perceivers of language are engaged in. Because sentences are used to convey information, their meanings are derived in full by considering the conversational contexts they are in. The context in which a sentence is uttered is relevant to an evaluation of its meaning and form. This means that speakers planning their sentences will consider how they fit into the conversation, and hearers perceiving those sentences will similarly calculate what message is intended by the speaker through an evaluation of that context. The evaluation of sentences, then, involves the cognitive mechanisms used by interlocutors to evaluate conversations. These mechanisms are not usually deemed part of what the syntactician is tasked with modeling, and so we regard the contribution made by these mechanisms as noise to be controlled for. Similarly, the mechanisms that are responsible for the fast, real-time, processing of the structure of sentences---the tasks that the parser undergoes---are also not what syntacticians are usually charged with modeling. The effects that trace back to the architecture of the parser are also usually regarded as noise by the syntactician. The Laws of Elicitation are partly aimed at reducing these sources of noise.
+
+One might reasonably ask what syntacticians are modeling, if it is not the processes that are involved in producing and perceiving sentences. A common frame of reference is the learning theoretic one discussed above. The syntactician is looking for information from the structure of sentences about how the learning process is constrained. But the models a syntactician comes up with aren't models of the acquisition process either. Models of acquisition should include mechanisms that extract information from the environment that informs the learning mechanism's guesses about the syntax being learned. It should include procedures that test the present guess against that information, and an engine that generates new guesses based on the outcome of those testing procedures. The models that a syntactician produces don't have these ingredients.
+
+What the syntactician models is not, strictly speaking, linguistic behavior. We might think of it as a model of knowledge of a certain domain: the knowledge humans have about their sentence structure. That such a domain even exists is merely a guess, I think we must admit. And what ``knowledge'' means is far from clear as well. The ``thing'' that syntacticians model is not easily identified. Indeed, identifying that thing turns largely on the success of the modeling. Because of this, it is easy to mistake a syntactician's model for one or the other of the models of language behavior described above. As we'll see, many of the models of syntax we will look at are framed in terms of a procedure, rather than a static formula or function. This encourages the misperception that syntactic models are, say, models for producing or perceiving a sentence. Similarly, because syntactic models include a map of language variation, they frequently have components that define how languages can, and cannot, vary. It's easy to mistake these components as a theory of language acquisition, when they are nothing more than a model of variation. One must guard against these misperceptions.
+
+It might be useful to think about what a syntax models in terms of its relation to the more straightforward models of linguistic behavior. The linguists who study how sentences convey information need to include in their models information about how interlocutors reason about the goals of a conversation. The linguists and psychologists who study how sentences are produced and perceived need to include in their models information about how human memory and attention are deployed, and how the human perceptual system works. To study the learning process involves studying child development, on the one hand, and formal models of learning, on the other. Models of acquisition need to include all of the kinds of information that the other linguistic enterprises described here involve, as well as the parochial mechanisms of guess-testing and revision. One way of viewing what the syntactician is modeling is in terms of what is shared in these other enterprises. A model of syntax is a model of the information about sentence structure that is found at the intersection of all these other modeling tasks. A successful model of syntax is one that reveals the relations that are required to determine, for any given language, which strings of its words are a sentence or not. For instance, a successful syntactic model will have identified the criteria by which strings of words form groupings. It will define the procedure that relates relative pronouns to their <gap> in a way that characterizes when that is possible in a natural language. The relations and procedures that a successful model of syntax provides should be found as a component of all the models of linguistic behavior that involve sentences: learning, processing, production, and information.
+
+It is entirely possible that there will be no thing that syntax models. It might be nothing more than a way of extracting information about the shared pieces of these other models of linguistic behavior. It might be that syntax is a result of how these other parts of language behavior interact, and nothing more. In this respect, ``syntax'' may be no different than ``English.'' Both might be words whose referent is not a thing in the world.
+
+Syntactic models can be useful even if it turns out there is no thing they model. They partition the unwieldy mishmash of linguistic behavior into a piece that can be studied with precision. Syntax is tasked with finding some of the laws behind linguistic behavior, not with finding their source. Syntax is part of the supply chain to models of linguistic behavior. Syntacticians provide an image of the structure of sentences. That image provides a goal, and hopefully offers clues, to all the other members up the chain. Everything, in other words, depends on us.
+
+% section what (end)

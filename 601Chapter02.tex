@@ -1,0 +1,2417 @@
+%!TEX root = /Users/kbj/Dropbox/*classes/601book/601master.tex
+\chapter{Phrase Structure}
+\label{ch:phrasestructure}
+\setcounter{exx}{0}
+
+Now that we have something of a setting for our inquiry, it is time to carve out that portion of linguistic theory that belongs to syntax. I think a rather conventional definition of syntax might be~(\ref{ex2:2syntax}).
+\begin{exe}
+	\ex \label{ex2:2syntax} \uline{Syntax} is the study of those principles and processes responsible for organizing words into sentences.
+\end{exe}
+Like many definitions of areas of study, this one uses terms that are the subject matter of the study. We need definitions of ``word,'' ``sentence'' and ``organizing,'' and syntax is partly responsible for delivering these definitions. We can start with some simple concepts of what these terms refer to and work from there.
+
+For ``word,'' let us start with the definition that orthographic practice provides. If it's an entry in a dictionary, it'll be a word. We'll soon see that this is too narrow a definition, but it will get us started. For ``sentence,'' we should aim for those sequences of words that discourses are made up of. Again, orthographic practice gives us a starting point. Those strings of words that a language pundit would acknowledge as being able to punctuate with a period will count. There are a variety of examples that have an uncertain status. For example, the utterances by ``B'' in the following exchanges are incomplete in other contexts.\label{defsyn}
+\begin{exe}
+	\ex \label{ex2:2senta} 
+	\begin{xlist}
+		\exi{A:} Jon has probably read this book.
+		\exi{B:} In fact, he hasn't.
+	\end{xlist}
+	\ex \label{ex2:2sentb}
+	\begin{xlist}
+		\exi{A:} Has Jon read this book?
+		\exi{B:} No.
+	\end{xlist}
+	\ex \label{ex2:2sentc}
+	\begin{xlist}
+		\exi{A:} What has Jon read?
+		\exi{B:} This book.
+	\end{xlist}
+\end{exe}
+But in these contexts we will treat them as sentences. We'll need to understand, of course, why the conversations they are part of allow them to be understood as complete sentences. And finally, for ``organizing'' we can begin with simple linear order. We will start, therefore, with the goal of modeling how words are linearly ordered to produce grammatical sentences.
+
+Beyond simple grammaticality judgments, there is one other kind of datum that is important to the syntactician. As we witnessed in the previous chapter, the syntax of sentences is intimately tied to the meanings they convey. It is the semanticist's job to discover the principles that allow users of language to extract these meanings from sentences, but their task and ours can be usefully done in tandem. Over a wide range of cases, the meanings conveyed by sentences appear to be derived, perhaps by general processes, from the meanings of the words they contain. This is a trivial observation. The kind of individual that each of the sentences in~(\ref{ex2:2compoa}) is about, depends on the meaning of the second word.
+\begin{exe}
+	\ex \label{ex2:2compoa} 
+	\begin{xlist}
+		\ex A woman jumped.
+		\ex A child jumped.
+		\ex A puppy jumped.
+		\ex A grasshopper jumped.
+	\end{xlist}
+\end{exe}
+But what these sentences say about that kind of individual stays the same. It would vary if the last word varied, as you can see by replacing \emph{jump} with some other verb. This observation about the meanings of sentences is known as the Law of Compositionality.
+\begin{exe}
+\ex \label{ex2:1comp} \textsc{The Law of Compositionality}\\
+			If the meaning of a collection of formatives, $\alpha$, is derivable from the meanings of those formatives then $\alpha$'s meaning is compositional. The meaning of a sentence is compositional.
+\end{exe}
+A working hypothesis is that there is a regular and productive relationship between the syntactic structure of a sentence and the ways its meanings are composed. To the extent that this is correct, then, we can use evidence about how meanings compose to investigate our hypotheses about how the syntax arranges words. 
+
+It should be noted that the ``formatives'' named in the Law of Compositionality do not match up with the ``words'' over which we have defined syntax. There are cases where strings of words seem to have a meaning that is not compositional. One famous example of that sort are idioms, such as~(\ref{ex2:2idiom}).%
+%
+\marginnote[0pt]{\textit{bark up the wrong tree}: ``to promote or follow a mistaken course (as in doing research),'' www.merriam-webster.com.}%
+%
+\begin{exe}
+	\ex \label{ex2:2idiom} Professor Maribel Romero is barking up the wrong tree.
+\end{exe}
+The string \emph{barking up the wrong tree} has two meanings. One is compositional, and involves an action and a tree and is thoroughly uncharacteristic of Professor Romero. The other is not compositional, invokes a particular kind of mistake but no tree, and is also thoroughly uncharacteristic of Professor Romero. Here, then, we have words that syntax has arranged but from which a compositional meaning is not derived. Similarly, there are certain morphemes that do not fit our criteria for words but which compose semantically in a way that fits the Law of Compositionality. One of these is the plural suffix found on many English nouns. The meaning of \emph{bees} is, apparently, derivable from the meanings of \emph{bee} and \emph{s}, for instance. A more complete theory than will be attempted in this chapter would cover these cases too. We'll set them aside for the moment.
+
+Here, then, is our specific task: discover the principles that underlie a language user's ability to recognize grammatical arrangements of words as sentences. What constitutes a grammatical sentence will vary from language to language, of course, and, less saliently, from one individual to another. We'll want a model of this variation as well, for the reasons sketched in the previous chapter. We must start with one grammar, of course, and because I can assume the readers of these notes to have some command of English, I will start with that language.
+
+Our first observation is that we can get far in this task using very little particular information about the words involved. A great deal about the processes which determine well-formed arrangements of words can be characterized using nothing more than syntactic position. To see this, let me introduce you to the word \textipa{[blow{\textturnr}snIk]} (`bloresnick'). Here is an example of \emph{bloresnick} in a sentence.
+\begin{exe}
+	\ex \label{ex2:2bloresnickin} The bloresnick is grey.
+\end{exe}
+If I tell you that (\ref{ex2:2bloresnickin}) is grammatical, you will also be able to determine that only~(\ref{ex2:goodnew}) of the examples in~(\ref{ex2:2newj}) is grammatical too.
+\begin{exe}
+\ex \label{ex2:2newj} 
+\begin{xlist}
+	\ex It bloresnick ran.
+	\ex \label{ex2:goodnew} He removed the long bloresnicks.
+	\ex She finds Sammy bloresnick.
+	\ex He let his face bloresnicks.
+\end{xlist}
+\end{exe}
+The position that \emph{bloresnick} has in (\ref{ex2:2bloresnickin}) is enough for you to know a lot about which positions it can, and cannot have, in English. Part of our knowledge of English syntax gives us this ability. We know that positions in sentences of English are connected to other positions in English sentences. If a word can stand in one of these positions in a grammatical English sentence, then we know it is possible for that word to stand in all the other connected positions, but no others. There are other forces that determine the well-formedness of a sentence, and sometimes these other forces will intervene. For instance, once the meaning of \emph{bloresnick} is discovered, we might find that (\ref{ex2:2newj}b) is also ungrammatical. What we're looking at here is a part of our syntactic knowledge that is independent of other influences that come with the particular word involved, like its meaning. If all you know is that a word can stand in position X, then this confers information about all the positions connected to X; namely, they are positions where that word might be expected to be able to stand. You know, then, that this word cannot stand in any of the positions that aren't connected to~X. This is what we are seeing in the inference from (\ref{ex2:2bloresnickin}) to~(\ref{ex2:2newj}).
+
+We will model this part of syntax by dividing the words of our vocabulary into kinds. The rules of syntax that are responsible for conveying this position-based piece of information refer to those kinds. Our syntactic rules will therefore define a set of positions in a sentence as being reserved for words of a particular kind. Thus, if all you know about a word is what position it can occupy in a sentence, you will know from your syntax what kind that word belongs to. This knowledge will block this word from being in any position that isn't reserved for words of this kind. These kinds are known as morphosyntactic categories, and many of them are familiar from the folk grammar we learn in school: noun, verb, preposition, adjective, and adverb. The sentence in (\ref{ex2:2bloresnickin}) is apparently sufficient for a knower of English to deduce that \emph{bloresnick} is a noun. And knowing that it is a noun is sufficient to know it cannot be in the position it occupies in the sentences of~(\ref{ex2:2newj}), except~(\ref{ex2:goodnew}).
+
+Our first task, then, will be to model this very small part of syntax. We will model what it is we know about the possible arrangements of morphosyntactic categories that make sentences in some language.
+
+\section{Substitution Classes}
+
+This way of thinking about what morphosyntactic categories are, makes them ``substitution classes.'' When a word is of morphosyntactic category ``noun,'' this means nothing more than that this word can be replaced by any other word in that morphosyntactic category and the resulting string will have the same grammaticality status (modulo whatever information the particular word brings). We can see this by considering  the sentences in (\ref{ex2:n1})-(\ref{ex2:n6}).\marginnote[0pt]{This way of conceiving of morphosyntactic categories, along with much of the particulars of this section, come from \citet{Harris:1946}.}
+\begin{exe}
+\ex \label{ex2:n1} 
+\begin{xlist}
+	\sn[]{The lamp exists.}
+	\sn[]{The girl exists.}
+	\sn[]{The sky exists.}
+	\sn[]{\gll The streetcar exists.\\ {} \ \ \ $\vdots$ {}\\}
+\end{xlist}
+\ex \label{ex2:n2}
+\begin{xlist}
+	\sn[*]{The happy exists.}
+	\sn[*]{The blue exists.}
+	\sn[*]{The short exists.}
+	\sn[*]{\gll The flat exists.\\ {} \ \ \ $\vdots$ {}\\}
+\end{xlist}
+\ex \label{ex2:n3}
+\begin{xlist}
+	\sn[*]{The in exists.}
+	\sn[*]{The out exists.}
+	\sn[*]{The from exists.}
+	\sn[*]{\gll The on exists.\\ {} \ \ \ $\vdots$ {}\\}
+\end{xlist}
+\pagebreak
+\ex \label{ex2:n4}
+\begin{xlist}
+	\sn[*]{The swim exists.}
+	\sn[*]{The have exists.}
+	\sn[*]{The ate exists.}
+	\sn[*]{\gll The broke exists.\\ {} \ \ \ $\vdots$ {}\\ }
+\end{xlist}
+\ex \label{ex2:n5}
+\begin{xlist}
+	\sn[*]{The slowly exists.}
+	\sn[*]{The apparently exists.}
+	\sn[*]{The always exists.}
+	\sn[*]{\gll The decidedly exists.\\ {} \ \ \ $\vdots$ {}\\}
+\end{xlist}
+\ex \label{ex2:n6}
+\begin{xlist}
+	\sn[*]{The every exists.}
+	\sn[*]{The much exists.}
+	\sn[*]{The no exists.}
+	\sn[*]{\gll The a exists.\\ {}  $\vdots$ {}\\}
+\end{xlist}
+\end{exe}
+The grammaticality status of the sentence \emph{the lamp exists} is preserved when \emph{lamp} is replaced by a word that belongs to the same morphosyntactic category, but changes when \emph{lamp} is replaced by a word belonging to another morphosyntactic category. We want to find a way of saying that the position \emph{lamp} resides in in (\ref{ex2:n1}a) is defined for nouns, and not words of other morphosyntactic categories. 
+
+Since we are thinking of the syntax of a sentence as being a particular linear arrangement of words, the notion of ``position'' that is relevant for defining where a word of a particular category can be should be linear as well. A simple---perhaps the simplest---definition of position is~(\ref{ex2:adj1}).
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:adj1} The position of a word, $\alpha$, in a sentence is defined as the word or words that $\alpha$ is string adjacent~to. 
+\end{exe}
+(\ref{ex2:adj1}) expresses the hypothesis that the most information one needs to define a category's position is very local: adjacent terms. We could  define noun as occupying the position in~(\ref{ex2:nf}).
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:nf} 
+	the \rule{5mm}{.1mm} exists
+\end{exe}
+\enlargethispage*{20pt}
+As can be seen, this technique picks out a list of words that match what the grammar school curriculum calls nouns, and segregates them from the others. A similarly discriminating environment can be devised for each category. For each (major) word class, I've given a distinguishing environment in~(\ref{ex2:cat1}). 
+\begin{exe}
+\ex \label{ex2:cat1} 
+\begin{xlist}
+	\ex have \rule{5mm}{.1mm} eaten: \textsc{Adverb} (Adv)
+	\ex the \rule{5mm}{.1mm} thing: \textsc{Adjective} (A)
+	\ex dance \rule{5mm}{.1mm} it: \textsc{Preposition} (P)
+	\ex in \rule{5mm}{.1mm} orange: \textsc{Determiner} (D)
+	\ex must \rule{5mm}{.1mm} there: \textsc{Verb} (V)
+\end{xlist}
+\end{exe}
+Understand (\ref{ex2:cat1}) as abbreviating the following claim: there is a sentence that is grammatical which contains ``X \rule{5mm}{.1mm} Y,'' and for which replacing a word of category \textsc{category} into ``\rule{5mm}{.1mm}'' preserves grammaticality. So, for instance, (\ref{ex2:cat1}a) should be understood as claiming that all the ways of completing the sentence in (\ref{ex2:cat1}a) involve filling ``\rule{5mm}{.1mm}'' with an adverb.
+\begin{exe}
+\ex \label{ex2:cat1a} They have \rule{5mm}{.1mm} eaten rutabagas.
+\end{exe}
+On this view, morpho-syntactic categories are simply partitions of the vocabulary into equivalence classes. The labels ``noun,'' ``verb'' and so on are merely convenient names for the resulting subsets of vocabulary items.
+
+It should be noted that other linguistic processes also recognize these same partitions of the vocabulary. The suffix \emph{able}, for instance, combines with verbs but not other morpho-syntactic classes, and the suffix \emph{ness} targets adjectives and not other categories.
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:able} 
+	\begin{xlist}
+		\ex[]{\emph{readable}, \emph{doable}, \emph{washable},\ldots}
+		\ex[*]{\emph{happiable}, \emph{brightable}, \emph{inable}, \emph{carable},\ldots}
+	\end{xlist}
+	\ex \label{ex2:nes}
+	\begin{xlist}
+		\ex[]{\emph{happiness}, \emph{brightness}, \emph{sadness},\ldots}
+		\ex[*]{\emph{readness}, \emph{doness}, \emph{inness}, \emph{carness},\ldots}
+	\end{xlist}
+\end{exe}
+Verbs in English also have a different stress pattern than do nouns and adjectives, and this leads to couplets like those in~(\ref{ex2:stress}).
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:stress}\ \\[-13pt]
+
+	\begin{tabular}{ll}
+	\emph{Verb} & \emph{Noun}\\ \hline
+	transp\'ort &  tr\'ansport\\
+	comp\'ound & c\'ompound\\
+	perm\'it & p\'ermit\\
+	overl\'ap & \'overlap\\
+	segm\'ent & s\'egment\\
+	compr\'ess & c\'ompress
+	\end{tabular}
+\end{exe}
+The division of the vocabulary into these subclasses is not merely a syntactic thing, then. There are syntax-independent linguistic processes that also indicate that lexicons are structured into subclasses, and moreover these processes are sensitive to the same subclasses as the syntax is. 
+
+I have defined morphosyntactic categories with an environment that is defined in terms of other words. The class \emph{noun}, for instance, is made up of those words in English that can stand between \emph{the} and \emph{exists} and result in a grammatical sentence. It is easy to see that if every word belongs to a morpho-syntactic category, this process could be translated into defining morpho-syntactic categories in terms of other morpho-syntactic categories. After all, replacing \emph{the} in (\ref{ex2:n1}) with another word that belongs to the same morpho-syntactic class often has no effect on the result:
+\pagebreak
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:n11} 
+	\begin{xlist}
+		\sn \emph{a} lamp exists.
+		\sn \emph{some} lamp exists.
+		\sn \emph{no} lamp exists.
+		\sn \emph{that} lamp exists.
+		% \sn \emph{every} lamp exists.
+		\sn \hspace*{.5in} $\vdots$
+	\end{xlist}
+\end{exe}
+And, similarly, replacing \emph{exists} with another word of the same morph-syntactic category doesn't change the outcome:
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:n111} 
+	\begin{xlist}
+		\sn the lamp \emph{remains}.
+		\sn the lamp \emph{persists}.
+		\sn the lamp \emph{falls}.
+		\sn the lamp \emph{disappeared}.
+		\sn \hspace*{.5in} $\vdots$
+	\end{xlist}
+\end{exe}
+If \emph{the} belongs to the morpho-syntactic category \underline{determiner}, and \emph{exists} is a \underline{verb}, then we can define \underline{noun} as that set of words that can grammatically stand between a determiner and a verb. The case of \emph{the} and \emph{exists} is merely a particular example of this more general pattern. We can make a similar generalization for each of the other environments that define a morpho-syntactic category in (\ref{ex2:cat1}). The environment defining adjective, for instance, can go from ``\emph{the}~\rule{5mm}{.1mm}~thing'' to ``D~\rule{5mm}{.1mm}~N.''
+
+Moving from defining categories from particular words, to defining them on the basis of other categories introduces errors that arise because of information that is brought into the mix by the particularities of the specific word chosen. For instance, the Determiner class picked out by (\ref{ex2:cat1}d) does not include \emph{much} or \emph{many}. There aren't grammatical sentences that contain \emph{in much thing} or \emph{in many thing} as a substring. But the more generalized definition of noun, does include \emph{much} and \emph{many}, because it is possible to find other nouns that fit into the template.
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:plr} 
+	\begin{xlist}
+		\ex Many things existed.
+		\ex Much stuff existed.
+	\end{xlist}
+\end{exe}
+If we look at a larger set of strings, we will discover that the class of words that can stand in the ``noun'' position of triples that start with \emph{much} or \emph{many} have a pattern. Just like our definition of morpho-syntactic category, the information concerning the position of \emph{many} and \emph{much} is not idiosyncratic; there is a pattern that conveys information about position. For instance, if I know that (\ref{ex2:plurpred}) is grammatical, then I can with confidence guess that (\ref{ex2:plurpred}a) is too, but that (\ref{ex2:plurpred}b) is not.
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:plurpred} 
+	Many bladel existed.
+	\begin{xlist}
+		\ex Some bladel existed.
+		\ex Every bladel existed.
+	\end{xlist}
+\end{exe}
+And if I know that (\ref{ex2:plurpred2}) is grammatical, I can predict that (\ref{ex2:plurpred2}a) will be grammatical and (\ref{ex2:plurpred2}b) won't be.
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:plurpred2} 
+	Much bladel existed.
+	\begin{xlist}
+		\ex Some bladel existed.
+		\ex Many bladel existed.
+	\end{xlist}
+\end{exe}
+What we are seeing here then is the same kind of information that the \emph{bloresnick} phenomenon is, and we could employ the same tool to capture it. We could divide up the lexicon so that \emph{many} is in the same set of words as \emph{some}, \emph{the}, etc. and separate that set from that which includes \emph{every}, \emph{a}, etc. Then there will be a third set of words that includes \emph{much}, and this set will intersect the set that includes \emph{many}; the words \emph{some} and \emph{the} will be in both, for instance. 
+
+There is another reaction to these data, however, and it is the one I shall follow. It's clear by comparing the environments that distinguish these cases have something to do with the meaning of the nouns and determiners involved. The difference in grammaticality between (\ref{ex2:plrx}a) and (\ref{ex2:plrx}b) concerns whether the noun describes a group or an item.
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:plrx} 
+	\begin{xlist}
+		\ex[]{Many cats existed.}
+		\ex[*]{Many cat existed.}
+	\end{xlist}
+\end{exe}
+A difference between the meaning of \emph{cats} and \emph{cat} is that the second describes a set objects that necessarily has a cardinality of~1, and the first can, and usually does, describe a set of objects whose cardinality is greater than~1. More technically, if some X is \emph{cats}, then there can be parts of X that are \emph{cat}. But if X is \emph{cat}, there can be no part of X that is also \emph{cat}. We say that \emph{cats} is plural and \emph{cat} singular.
+
+A similar sort of observation can be made about the contrast in~(\ref{ex2:plrmx}).
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:plrmx} 
+	\begin{xlist}
+		\ex[]{Much water existed.}
+		\ex[*]{Many water existed.}
+	\end{xlist}
+\end{exe}
+There is a sense in which \emph{water} is inherently plural. If X is \emph{water}, then there is a part of X that is also \emph{water}. Unless you learn otherwise in a physics class, this will always be true of \emph{water}. Thus, \emph{water}, from the standpoint of its meaning, isn't singular. Nouns whose meanings either have, or are treated as having, this inherent plurality are known as \underline{mass} nouns. The determiners are distributed in a way that is sensitive to this information about the nouns that follow them. The determiner \emph{much} can be followed only by a mass noun; and the determiner \emph{many} cannot be followed by a mass noun. %
+%
+\marginnote{Nouns that aren't mass are called \underline{count} nouns.}%
+%
+The determiner \emph{many} must be followed by a plural noun, and cannot be followed by a singular noun (hence the contrast in (\ref{ex2:plrx})). Some determiners, like \emph{every} can only be followed by singular nouns.
+\pagebreak
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:everyc}
+	\marginnote{Note that \emph{water} in (\ref{ex2:everyc}c) is grammatical, but with a shift in the meaning of \emph{water}. When a mass noun is forced to be singular, it shifts in meaning to refer to a kind. In (\ref{ex2:everyc}c), the meaning is roughly the same as ``every kind of water existed.''}
+	\begin{xlist}
+		\ex[]{Every cat existed.}
+		\ex[*]{Every cats existed.}
+		\ex[*]{Every water existed.}
+	\end{xlist}
+\end{exe}
+
+The generalization we are seeing here might, then, be best described semantically rather than syntactically. That is, the information that seems relevant to these patterns has to do with the meanings of the words involved. We could capture these patterns by letting the semantic rules that combine adjacent words (or strings of words) be sensitive to the status of a determiner and noun's plurality. We could give to plural nouns a meaning component that is shared across the class, and demand that a determiner which semantically combines with a noun do so in a way that is sensitive to this meaning component. We could do a similar thing for the distinction between mass and non-mass (count) nouns. We could then capture these sorts of patterns by way of semantic categories, and not morpho-syntactic categories.
+
+Is there really a distinction of this sort between semantic and morpho-syntactic category? Couldn't we imagine, for instance, that the fact that a noun is the kind of word that can be right-adjacent to a determiner a fact about the meanings of determiners and nouns? Could we not seek a similar common meaning component to nouns and rely on a semantic rule that combines words with that meaning component to define determiner? This is, in principle, possible and if successful, we could define morpho-syntactic categories in wholly semantic terms. The \emph{bloresnick} phenomenon would emerge as a fact about semantic categories. At present, however, no method of reducing morpho-syntactic categories like ``noun'' and ``verb'' to semantic ones is known. There are minimal contrasts, like (\ref{ex2:min}), that make the semantic difference between noun and verb ephemeral.
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:min} 
+	\begin{xlist}
+		\ex Erika's periodic examination of the problem (drove her partner mad.)
+		\ex Erika periodically examined the problem
+	\end{xlist}
+\end{exe}
+The difference between \emph{examination} and \emph{examine} is the difference between noun and verb; but there is very little difference in what these words mean in~(\ref{ex2:min}). I will proceed as if there are morpho-syntactic categories that cannot be defined by their meanings. If this turns out to be incorrect, then it should be possible to translate our system into one that rewrites ``noun'' into the appropriate semantic terms, and so on with the other categories.
+
+Our morpho-syntactic categories, then, are names for sets of words whose positions in a grammatical sentence can be defined by adjacent words. What this delivers is a set of triples, each showing the possible co\"occurrence of word categories.
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:cooc} 
+	DNV, VDN, PDN, DAN, VPD, \ldots
+\end{exe}
+The set of possible sentences in English, then, could be represented by a set of strings that are made from these triples, each corresponding to a possible sentence form.
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:sets} \textsc{List of Potential Sentences (LOPS)}\\[5pt]
+	DNV, DANV, DNVDN, DNVPDN, DANVDN, DANVDAN, DNVPDN, DANVPDN, DANVPDAN, \ldots
+\end{exe}
+I will call this the List of Potential Sentences (LOPS). These are merely potential sentences, as our system is designed only to capture the \emph{bloresnick} phenomenon. It merely models how we know something about where a word can be in a grammatical sentence if we know just one of those positions. There is knowledge about what constitutes a grammatical sentence that is determined by other kinds of information that accompany a word, but that isn't yet in our system. 
+
+LOPS gives a kind of outside limit for what grammatical sentences can be. It will be very long. We should seek a more compact way of representing it. Indeed, there are reasons for thinking that there \underline{must} be a more compact way of encoding the set of strings in (\ref{ex2:sets}). Consider the series in~(\ref{ex2:dans1}).
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:dans1} 
+	The dog barked.\\ The big dog barked.\\ The big bad dog barked.\\ The big brown bad dog barked.\\ The big hairy brown bad dog barked\\ \hspace*{1in}$\vdots$
+\end{exe}
+(\ref{ex2:dans1}) represents a particular way of rendering the series in~(\ref{ex2:dans2}).
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:dans2} 
+	DANV\\ DAANV\\ DAAANV\\ DAAAANV\\ DAAAAANV\\ \hspace*{.25in}$\vdots$
+\end{exe}
+This series is part of the list in (\ref{ex2:sets}). The series in (\ref{ex2:dans1}) is finite, there is no doubt. No human can speak or perceive an infinity of sentences. But the reason for that is arguably not syntactic. The point at which the series in (\ref{ex2:dans2}) ends is not determined by English syntax. This can be appreciated by picking any adjacent pairs of sentences in (\ref{ex2:dans1}) and determining their grammaticality status. If syntax were responsible for the finiteness of the series, there should be a pair somewhere in the series that spans the grammatical/ungrammatical divide. It seems likely that no such pair exists. Imagine having mustered the cognitive strength to understand a sentence with $n$ adjectives, where $n$ is large. Is it likely that adding one more adjective to that sentence would do anything more than merely demand more cognitive strength to understand it? The standard conclusion is that the list of strings of morphosyntactic categories that make grammatical sentences is infinite in length. If what we are modeling is a cognitive ability, then this list cannot be represented in our minds in this form. We need a method of generating this list from a more compact---at a minimum, finitely determinable---procedure. It is to this more compact procedure that we now turn.
+
+\section{Phrases}
+
+We have an intuition that sentences contain subgroupings of words. That intuition lives on several observations. One of these is that the pronunciation of sentences comes with a prosody which, like syllables, gives the impression of subgroupings. These prosodic groupings have an effect on various aspects of the phonology of sentences. They seem to influence the pitches and volume, and also the rate, of speech. For instance, a natural pronunciation of~(\ref{ex2:prosody1}) can introduce a slight pause after \emph{cracker}, and slow the relative duration of \textipa{[k{\textturnr}{\ae}k\textsyllabic{\textturnr}]}.
+\begin{exe}
+	\ex \label{ex2:prosody1} I can't eat every cracker today.
+	\begin{xlist}
+		\ex[]{I can't eat every \textsc{cracker} $|$ today.}
+		\ex[*]{I can't eat \textsc{every} $|$ cracker today.}
+	\end{xlist}
+\end{exe}
+I've indicated that pronunciation in (\ref{ex2:prosody1}a) by expressing the relatively slowed articulation of \emph{cracker} with all caps, and the pause with a pipe. Note that (\ref{ex2:prosody1}) does not permit a natural pronunciation of the sort indicated by~(\ref{ex2:prosody1}b), where \emph{every} is slowed and followed by a pause. The slowdown plus pause is thought to be permitted only at the right edge of prosodic phrases.\marginnote[0pt]{To get a feel for what is involved in locating prosodic groupings, see \citet{Liberman:1977}, \citet{Nespor:1986}, \citet{Beckman:1986}, \citet{Pierrehumbert:1980}, \citet{Selkirk:1980, Selkirk:1986} and \citet{Ladd:1996}.} There is a prosodic phrase that ends with \emph{cracker}, but not one that ends with \emph{every}. Phenomena like these, then, suggest that there are subgroupings within sentences.
+
+A second observation that speaks on behalf of the existence of subgroupings is semantic. Certain substrings of a sentence can be associated with a meaning in isolation, and others cannot. For instance, there is a difference in the meanings attached to the two strings in~(\ref{ex2:semphrase}), both parts of~(\ref{ex2:prosody1}).
+\begin{exe}
+	\ex \label{ex2:semphrase} 
+	\begin{xlist}
+		\ex cracker today
+		\ex every cracker
+	\end{xlist}
+\end{exe}
+(\ref{ex2:semphrase}a) is just a (short) list of words. (\ref{ex2:semphrase}b) has a meaning. Indeed, it seems to obey the Law of Compositionality. Some groups of words seem to be compositional in this way while others do not.
+
+A working hypothesis is that the subgroupings which the Law of Compositionality is sensitive to and the subgroupings that prosody is sensitive to are one and the same. There is some superficial evidence in support of this view. Consider, for example, the sentence in~(\ref{ex2:phraseintro}).
+\begin{exe}
+	\ex \label{ex2:phraseintro} She ate the cracker in the box.
+\end{exe}
+There are two ways this string can be semantically partitioned. In one, \emph{the cracker in the box} is associated with a meaning; it refers to an object that (\ref{ex2:phraseintro}) reports was eaten. In the other grouping, \emph{the cracker} and \emph{in the box} are independent; their meanings are not composed into the meaning that \emph{the cracker in the box} has. Under this second grouping, (\ref{ex2:phraseintro}) reports that the cracker was eaten in the box. These two semantic groupings can be associated with two prosodic groupings. If \emph{the cracker in the box} makes a semantic unit, (\ref{ex2:semphrase}) can be spoken in the way indicated in~(\ref{ex2:phraseintrop}) but not~(\ref{ex2:phraseintropp}). If, by contrast, \emph{the cracker} and \emph{in the box} make independent semantic units, the prosody in~(\ref{ex2:phraseintropp}) is preferred instead.
+\begin{exe}
+	\ex \label{ex2:phraseintroc} 
+	\begin{xlist}
+		\ex \label{ex2:phraseintrop} She ate the cracker in the \textsc{box} $|$.
+		\ex \label{ex2:phraseintropp} She ate the \textsc{cracker} $|$ in the box.
+	\end{xlist}
+\end{exe}
+The prosody in (\ref{ex2:phraseintropp}) corresponds to one in which a prosodic phrase ends at \emph{cracker}, whereas the one in (\ref{ex2:phraseintrop}) does not. If the prosodic and semantic groupings are the same, then this is what's expected. For \emph{the cracker in the box} to form a semantic unit, it cannot end at \emph{cracker} as in (\ref{ex2:phraseintropp}). But if \emph{the cracker} and \emph{in the box} do not form a semantic unit, then the juncture between these groupings in~(\ref{ex2:phraseintropp}) is expected.
+
+In addition to these criteria for subgroupings, there are wholly syntactic phenomena that suggest a similar subgrouping of the words in a sentence. Like words, the strings that make subgroupings are typed, and their distribution in sentences is controlled by that typing. This can be discovered in the same way that \emph{bloresnick} informed us that our vocabulary is divided into classes. If you come to believe that (\ref{ex2:bblore}) is a grammatical sentence in English, you will have derivative beliefs about the grammaticality of the sentences in~(\ref{ex2:bblored}).\marginnote[0pt]{(\ref{ex2:bblore}) should be pronounced with prosody that is consistent with \emph{bel droresnick} being a subgrouping. If a marked pause is put between \emph{bel} and \emph{droresnick}, there is another way of grouping the words in (\ref{ex2:bblore}), and a different set of inferences emerges.}
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:bblore} 
+	Bel droresnick has arrived.
+	\ex \label{ex2:bblored}
+	\begin{xlist}
+		\ex I stood on bel droresnick.
+		\ex I am happy bel droresnick.
+		\ex The discussion bel droresnick is here.
+		\ex Bel the droresnick is here.
+	\end{xlist}
+\end{exe} 
+Knowing that the string \emph{bel bloresnick} (\textipa{[bEl {\textdyoghlig}{\textturnr}ow{\textturnr}snIk]}) can be the initial string of a grammatical sentence is enough to know that (\ref{ex2:bblored}b-d) are unlikely to be grammatical, but that (\ref{ex2:bblored}a) could be grammatical. Our model of syntax should capture this piece of our knowledge as well. Knowing the position a substring occupies in a grammatical sentence is all that's required to know that the substring cannot occupy certain other positions in a grammatical sentence.
+
+There is one syntactic environment that can be useful in discovering subgroupings. It involves constructions in which \emph{or}, or, \emph{and} are found.
+\pagebreak
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:or1} 
+	\begin{xlist}
+		\ex The crackers or the cheese are here.
+		\ex The crackers and the cheese are here.
+	\end{xlist}
+\end{exe}
+In rough outline, the words \emph{or} and \emph{and} must have a string left-adjacent to it that is a subgrouping of the same kind as the substring right-adjacent to it. In (\ref{ex2:or1}), the string \emph{the cracker} and the string \emph{the cheese} are subgroupings of the same kind. They meet the prosodic and semantic criterion for subgroupings sketched above, and they have the same syntactic distribution. None of the other positions for \emph{or} or \emph{and} shown in (\ref{ex2:or2}) are grammatical.
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:or2} 
+	\begin{xlist}
+		\ex[*]{Or/and the crackers the cheese are here.}
+		\ex[*]{The or/and crackers the cheese are here.}
+		\ex[*]{The crackers the or/and cheese are here.}
+		\ex[*]{The crackers or/and are here.}
+		\ex[*]{The crackers are or/and here.}
+		\ex[*]{The crackers are here or/and.}
+	\end{xlist}
+\end{exe}
+I'll call these constructions ``co\"ordinations.'' They have the general shape indicated by~(\ref{ex2:conjr}).
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:conjr} 
+	$\alpha$ and/or $\alpha$, where $\alpha$ is a subgrouping of a particular type and the entire string ``$\alpha$ and/or $\alpha$'' is itself a subgrouping of the same type as~$\alpha$.
+\end{exe}
+As predicted, the knowledge that (\ref{ex2:bblore}) is grammatical confers the ability to make the grammaticality judgments indicated in~(\ref{ex2:bblorec}).
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:bblorec} 
+	\begin{xlist}
+		\ex[]{The cracker or/and bel droresnick are here.}
+		\ex[*]{The or/and cracker bel droresnick are here.}
+		\ex[*]{The cracker bel or/and droresnick are here.}
+		\ex[*]{The cracker bel droresnick or/and are here.}
+	\end{xlist}
+\end{exe}
+
+We will use co\"ordinations in what follows to discover subgroupings, and to determine their types as well, but there is an important caveat that needs to be placed on the utility of co\"ordinations. Co\"ordinations invoke processes that obscure what the strings they bring together are. This can be seen from the examples in~(\ref{ex2:gap1}).
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:gap1} 
+	\begin{xlist}
+		\ex A UMass professor knows syntax and teaches phonology.
+		\ex Some professors know syntax and others phonology.
+	\end{xlist}
+\end{exe}
+In these examples, the string that \emph{and} has to its left is a sentence. That sentence is a subgroup of the larger sentence, and it is the grouping that \emph{and} is joining with the string to its right. But, as we can see from the ungrammaticality of (\ref{ex2:gap2}), the strings to the right of \emph{and} are, neither of them, grammatical sentences.
+\pagebreak
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:gap2} 
+	\begin{xlist}
+		\ex[*]{Teaches phonology.}
+		\ex[*]{Others phonology.}
+	\end{xlist}
+\end{exe}
+Interestingly, the strings to the right of \emph{and} in (\ref{ex2:gap1}) have a meaning that seems to be more than the meanings delivered by the words in those strings. The sentences in (\ref{ex2:gap1}) are synonymous with the sentences in~(\ref{ex2:gap3}).
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:gap3} 
+	\begin{xlist}
+		\ex A UMass professor knows syntax and a UMass professor teaches phonology.
+		\ex Some professors know syntax and others know phonology.
+	\end{xlist}%
+%
+\marginnote[-30pt]{In fact, (\ref{ex2:gap1}a) is ambiguous. On one of its meanings, the group \emph{knows syntax} and the group \emph{teaches phonology} are what are brought together by \emph{and} in the co\"ordination. This is the way (\ref{ex2:conjr}) leads us to expect the sentence to be constructed. The meaning derived from this way of putting (\ref{ex2:gap1}a) together is paraphrasable by: ``There is a UMass professor who both knows syntax and teaches phonology.'' (Depending on how stringent the requirements imposed by \emph{know} are, this sentence is false.) We are interested here in the problematic syntax for (\ref{ex2:gap1}a), the one in which two full sentences are brought together by \emph{and}. This delivers the meaning that (\ref{ex2:gap3}a) has. A sentence that is more likely to be true.}%
+%
+\end{exe}
+What we are seeing here is that the meaning conveyed by some of the words in the first group are also present in the second group. One way of accounting for this is to use the process of Ellipsis described in the previous chapter. Ellipsis allows certain strings of words to go unpronounced if they are pronounced elsewhere. On this account, there are words in the second group that are not pronounced; those words match ones in the first group. On this view, the sentences in (\ref{ex2:gap1}) are actually just the sentences in (\ref{ex2:gap3}), but with the words \emph{a UMass professor} and \emph{know} unspoken.
+
+This kind of ellipsis is called ``Gapping,'' and it is found primarily in co\"ordinations. %
+%
+\marginnote[10pt]{The name comes from the first paper that examined this process: J.~R. Ross.``Gapping and the order of constituents.'' In M.~Bierwisch and K.~E. Heidolph, editors, {\em Progress in Linguistics}, pages 249--259. Mouton, The Hague, 1970.}% 
+%
+It doesn't form sentences like~(\ref{ex2:nogap}), for instance.
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:nogap} 
+	\begin{xlist}
+		\ex[*]{A UMass professor knows syntax because teaches phonology.}
+		\ex[*]{Some professors know syntax because others phonology.}
+	\end{xlist}
+\end{exe}
+Because of Gapping, one must be alert to the possibility that the rightmost group in co\"ordination might have elided material. Gapping allows for material in the second group to be unspoken, but not material in the first group; (\ref{ex2:gap4}) are ungrammatical.
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:gap4} 
+	\begin{xlist}
+		\ex[*]{Knows syntax and a UMass professor teaches phonology.}
+		\ex[*]{Some professors syntax and others know phonology.}
+	\end{xlist}
+\end{exe}
+So one must be diligent in discovering the true nature of the rightmost group in the co\"ordination. This can be done, often, by paying close attention to the meaning of that group.
+
+Another construction that problematizes co\"ordination is exemplified by~(\ref{ex2:rnr1}).
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:rnr1} Jo-Wang talked to, and Tohru talked about, the philosopher.
+\end{exe}
+In cases like these, there is material apparently in the second conjunction that seems to be part of the first conjunct. In (\ref{ex2:rnr1}), that material is \emph{the philosopher}. These constructions are often called Right Node Raising, and they have a characteristic intonation which helps identify them.%
+%
+\marginnote[-30pt]{See \citet{Phillips:2003} for a good survey of Right Node Raising, and \citet{Hartmann:1998} for an account that focuses on the intonation.}%
+%
+
+We have three criteria that determine the groupings of words in a sentence, then. Those groupings have an effect on prosody. They have a compositional meaning. And they have a distribution in sentences that shows that they are units, and of a particular type. Discovering the principles that determine these syntactic phrases will be one of our central tasks.
+
+As with the groupings that the semantic and prosodic phenomena pick out, a working hypothesis is that the groupings that the syntactic criterion select are the same thing. I'll adopt this hypothesis too.
+\begin{exe}
+	\ex \label{ex2:phrasesident} The subgroupings that the words of a sentence divide into are the same for its syntactic, prosodic, and semantic organization.
+\end{exe}
+It is not at all clear that (\ref{ex2:phrasesident}) is true; there are many apparent mismatches to understand if it is true. %
+%
+\marginnote[-20pt]{For some of these problems, see \citet{Selkirk:1984, Selkirk:1996}, \citet{Truckenbrodt:1995,Truckenbrodt:1999}, \citet{Zec:1990} and the papers in \citet{Inkelas:1990}.}%
+%
+Nonetheless, this is a useful starting position. Indeed, we will adopt the slightly stronger hypothesis in~(\ref{ex2:syntaxphrases}).
+\begin{exe}
+	\ex \label{ex2:syntaxphrases} The syntax of a sentence produces phrases, and the phonological and semantic groupings make use of these phrases.
+\end{exe}
+(\ref{ex2:syntaxphrases}) expresses a strategy for explaining (\ref{ex2:phrasesident}), should it be true. Syntax will include a procedure that forms phrases, and these phrases are used by the phonological and semantic components to assign a prosody and a meaning to the sentence. That image of syntax as a intermediary between the phonological and semantic interpretations of a sentence will recur throughout these lectures. A presently popular thesis is that many of the properties that syntax has can be explained by its role as an intermediary between the phonological and semantic manifestations of a sentence. In the case of phrases, for instance, one might imagine that the pronunciation of a sentence requires an ordering of the words it contains into phonological groupings. This is a requirement that the principles of phonology (and phonetics) alone impose. Similarly, one might imagine that for a sentence to convey a meaning, its words must be grouped for the semantic rules to be able to deliver that meaning. This requirement is a wholly semantic one; perhaps it is whatever underlies the Law of Compositionality. The ``function'' of syntax, we might imagine, is to deliver these groupings. Syntax could be defined as that portion of the phonological and semantic components that is shared. This is a view of the place of syntax in the larger linguistic panoply that Noam Chomsky has advanced in the last thirty years. He sometimes suggests that syntax is \underline{only} those portions of the other ``interpretive'' components that are shared. This is a guiding idea behind the so-called ``Minimalist Program,'' one of several current trends in syntactic theorizing.\cite{Chomsky:1995} This will be an idea that figures largely in what we will do in these lectures as well.
+\begin{exe}
+	\ex \label{ex2:themininmalist} The Minimalist Hypothesis\\
+	Syntax is made up only of those mechanisms necessary to mediate between the Phonology and Semantics of sentences.
+\end{exe}
+
+What, then, are the syntactic criteria for recognizing phrases? One proposal is to extend the process used to locate the morphosyntactic classes of words. Like nouns, verbs and the like, certain strings of categories also have a distribution within sentences that can be defined in terms of adjacent items. For example, the string D(eter\-miner)+Adj(ec\-tive)+N(oun) can appear immediately after a preposition and immediately preceding the \textit{'s} which marks the ``possessive.''
+\begin{exe}
+	\ex \label{ex2:phrase1} \rule{5mm}{.1mm} \textit{'s} \& P \rule{5mm}{.1mm}$\;$: D+Adj+N
+	\begin{xlist}
+		 \ex[]{I talked to \textbf{the happy woman}.}
+		 \ex[]{\textbf{the happy woman}'s friend}
+	\end{xlist} 
+\end{exe}
+This string can also be co\"ordinated with another identical string of categories. Thus, we find examples like (\ref{ex2:phrase2}) but not~(\ref{ex2:phrase3}).
+\begin{exe}
+	\ex \label{ex2:phrase2} the happy woman and an unhappy man
+	\ex \label{ex2:phrase3}
+	\begin{xlist}
+		 \ex[*]{the angry and an unhappy man}
+		 \ex[*]{the and an unhappy man}
+	\end{xlist} 
+\end{exe}
+Finally, with respect to all these distributional tests, the strings D+N+P(re\-po\-si\-tion)+N, N+P+N, Adj+N, N, and (infinitely) many others also pass. We need some way of describing the fact that these strings are ``the same,'' and different from, say, P+N which has a distinct distributional pattern. That is, this family of strings is a substitution class in the same sense that morpho-syntactic categories are.
+
+Families of strings like this are called ``phrases,'' and we can write Phrase Structure rules to describe which strings belong to such a family. In the case at hand, these rules might look like~(\ref{ex2:rule2}).
+\begin{exe}
+	\ex \label{ex2:rule2}
+	\begin{xlist}
+		\ex $\alpha$P $\rightarrow$ N
+		\ex $\alpha$P $\rightarrow$ Adj N 
+		\ex $\alpha$P $\rightarrow$ D Adj N 
+	\end{xlist} 
+\end{exe}
+Phrases are a model of the groupings that the prosody, semantics and syntax recognize.
+
+This leaves out the strings D+N+P+N and N+P+N. But these strings involve another phrase, made up of the string P+N. This string, along with any string that conforms to the template P or P+{\al}P or P+P or P+P+{\al}P has the defining distribution in (\ref{ex2:p}).%\enlargethispage*{17pt}
+\begin{exe}
+\ex \label{ex2:p}  A \rule{5mm}{.1mm} \& P \rule{5mm}{.1mm}
+\begin{xlist}
+	\ex I stood \textbf{around}.
+	\ex I knew the man \textbf{by Mary}.
+	\ex I remain disliked \textbf{by Mary}.
+	\ex I stood next \textbf{to Mary}.
+\end{xlist}
+\end{exe}
+Like $\alpha$Ps, $\beta$Ps may be co\"ordinated with other $\beta$Ps, but not with other $\alpha$Ps, as the following examples illustrate.
+\pagebreak
+\begin{exe}
+	\ex \label{ex2:phrase4} 
+	\begin{xlist}
+	\ex[]{Under the bed and behind the sofa are usually good places to find money in my house.}
+	\ex[*]{The dining room table and behind the sofa are usually good places to find money in house.}
+	\end{xlist}
+\end{exe}
+Hence, just as with {$\alpha$}Ps, this family of strings constitutes a substitution class.
+
+Putting these observations together, we come up with the Phrase Structure rules in~(\ref{ex2:rule3}).
+\begin{exe}
+	\ex \label{ex2:rule3} 
+	\begin{tabular}{ll}
+	$\alpha$P $\rightarrow$ N & $\alpha$P $\rightarrow$ N $\beta$P\\
+	$\alpha$P $\rightarrow$ Adj N & $\beta$P $\rightarrow$ P\\
+	$\alpha$P $\rightarrow$ D Adj N & $\beta$P $\rightarrow$ P $\alpha$P	
+	\end{tabular}
+\end{exe}
+
+Note that (\ref{ex2:rule3}a) and (\ref{ex2:rule3}d) together have the property of being recursive. This is an important aspect of phrase structure rules for it is the primary means by which we describe the indefinite length, and cardinality, of sentences. These two phrase structure rules are able to characterize infinitely many and infinitely long strings of words. This is a correct result, for we are, as far as our linguistic abilities go, capable of forming grammaticality judgments about an infinity of sentences and about sentences of infinite length. We have other properties that prevent us from doing this, of course. Our memories and attention are too ephemeral for even very long sentences; and even if we were able to overcome these cognitive limitations, our death will bring an eventual end to any sentence, or series of sentences, that we are evaluating. But there is no reason to think that this limitation is a linguistic one. There is not particular point at which a sentence's length become ungrammatical. We should let our model of grammaticality judgments characterize an infinity of sentences, as well as permit sentences of infinite length, and let the actual limits on the lengths and numbers of sentences that we evaluate be determined by other factors. The recursiveness of phrase structure rules is a step in that direction.
+
+Still another phrase structure rule is required to account for the fact that the family of strings that include V, V+$\alpha$P, V+$\beta$P, V+$\alpha$P+$\beta$P, and an infinite set of other such strings is a substitution class. The environment that defines them is~(\ref{ex2:vrule}).
+\begin{exe}
+\ex \label{ex2:vrule} Infl \rule{5mm}{.1mm}
+\begin{xlist}
+	\ex I should \textbf{eat rutabagas}.
+	\ex I will \textbf{talk to Mary}.
+	\ex I will \textbf{tell Mary about rutabagas}.
+\end{xlist}
+\end{exe}
+``Infl'' is a morpho-syntactic category that includes \emph{should}, \emph{will}, \emph{must}, \emph{would}, \emph{can}, \emph{could} and a few other words. It's an abbreviation for ``inflection.'' The words that belong to it are tied to the inflectional classes that verbs belong to, as we shall see.  Like $\alpha$Ps and $\beta$Ps, co\"ordination treats members of this family as equivalent and distinct from $\alpha$Ps and $\beta$Ps.
+\pagebreak
+\begin{exe}
+	\ex \label{ex2:phrase5} 
+	\begin{xlist}
+	\ex[]{Mary walked and talked.}
+	\ex[]{Mary visited Paul and kissed Barry.}
+	\ex[]{Mary talked to Paul and met with Barry.}
+	\end{xlist}
+\end{exe}
+These facts call for a Phrase Structure rule like the following:
+\begin{exe}
+	\ex \label{ex2:rule4} $\gamma$P $\rightarrow$ V ($\alpha$P) ($\beta$P)
+\end{exe}
+
+We have now arrived at the rules in~(\ref{ex2:initrule}).
+\begin{exe}
+\ex \label{ex2:initrule} 
+\begin{xlist}
+		\ex $\alpha$P $\rightarrow$ N
+		\ex $\alpha$P $\rightarrow$ Adj N 
+		\ex $\alpha$P $\rightarrow$ D Adj N 
+		\ex $\alpha$P $\rightarrow$ N $\beta$P
+		\ex $\beta$P $\rightarrow$ P
+	\ex $\beta$P $\rightarrow$ P $\alpha$P
+	\ex {\be}P $\rightarrow$ P $\beta$P
+	\ex $\gamma$P $\rightarrow$ V 
+	\ex $\gamma$P $\rightarrow$ V $\alpha$P
+	\ex $\gamma$P $\rightarrow$ V $\alpha$P $\beta$P
+\end{xlist}
+\end{exe}
+There is a common property to all these rules. In each case, all of the constituents are optional, except one. Thus, a verb is the only necessary member of a $\gamma$P, a noun the only requisite member of an $\alpha$P and a preposition is all that's required to make a $\beta$P. This is just another way of observing that the environments that define these phrases are also environments in which a word class is defined. This relationship is sometimes called ``Endocentricity,'' and I will define it with~(\ref{ex2:endodirect}).%
+%
+\marginnote[0pt]{The earliest discussions of the need to make Phrase Structure rules Endocentric that I have found are in \citet{Bach:1964a} and \citet{Schachter:1962}.}%
+%
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:endodirect} Endocentricity\\
+	If $\mathcal{P}$ is a position in a string that a kind of phrase, XP, can occupy, then $\mathcal{P}$ is a position that the kind of word X can occupy.
+\end{exe}
+A present hypothesis is that Endocentricity is a universal feature of phrases. This predicts that there will never be more phrase types than there are word types in a language. If a language doesn't have a kind of word that corresponds to English ``preposition,'' for instance, that language will not have a phrase that corresponds to the English $\beta$P. I don't know that this prediction has been systematically tested, and it is not trivial to do so, but I am not aware of counter-examples to it. Let us hypothesize that Endocentricity is a universal feature of phrase structure rules. 
+
+Although we have not seen enough to warrant concluding that taking Endocentricity to be universal is valid, it is useful to behave as if it is. That will force the rules we discover to be scrutinized for their relevance to this hypothesis. If making a phrase structure rule for a phrase we discover in a way that is contrary to Endocentricity seems to be necessary, we will have discovered the reasons for jettisoning~(\ref{ex2:endodirect}). If the phrases we discover seem capable of being characterized with rules that are Endocentric, then we will have discovered that there is no reason to abandon (\ref{ex2:endodirect}). Prematurely raising patterns we detect in our data to hypothesized laws enables us to discover actual laws by guiding our inquiry towards counter-examples to those patterns. Doing so might also blind us to patterns that are visible only after a certain number of cases are in front of us as well, and so we will want to be alert to the prejudiced image that this methodology delivers. But it has proven to be an effective method of guiding an inquiry away from spurious patterns. I will adopt it throughout.
+
+The word type that is defined by the same criteria that define a phrase type will be a member of every such phrase. Every $\gamma$P, for instance, will have a verb in it. The word that is in the relationship that Endocentricity defines for the phrase containing that word, is called the phrase's \emph{head}. It is common practice to name the phrases after their heads, so we'll rename $\alpha$P, NP, $\beta$P PP and $\gamma$P VP. Thus, we now have the rules in (\ref{ex2:rule5}).
+\begin{exe}
+	\ex \label{ex2:rule5}
+	\begin{xlist} 
+		\ex NP $\rightarrow$ N
+		\ex NP $\rightarrow$ Adj N 
+		\ex NP $\rightarrow$ D Adj N 
+		\ex NP $\rightarrow$ N PP
+		\ex PP $\rightarrow$ P
+	\ex PP $\rightarrow$ P NP
+	\ex PP $\rightarrow$ P PP
+	\ex VP $\rightarrow$ V 
+	\ex VP $\rightarrow$ V NP
+	\ex VP $\rightarrow$ V NP PP
+	\end{xlist}
+\end{exe}
+
+In addition to these Phrase Structure Rules, we'll need quite a few others. Indeed, the principle of endocentricity leads us to expect that for every category, there could be a Phrase Structure rule that builds a phrase headed by that category. For example, corresponding to the category Adjective, there could be rules that build adjective phrases; (\ref{ex2:ruleap}) is a good first approximation.
+\begin{exe}
+	\ex \label{ex2:ruleap} 
+	\begin{xlist}
+		\ex AP $\rightarrow$ A PP
+		\ex AP $\rightarrow$ A
+	\end{xlist}
+\end{exe}
+The presence of PPs within Adjective phrases is supported by the existence of strings like:
+\begin{exe}
+	\ex \label{ex2:phrase9} 
+	\begin{xlist}
+	\ex[]{She is \textbf{interested in syntax}.\\ She is \textbf{interested}.}
+	\ex[]{He seems \textbf{happy with linguistics}.\\ He seems \textbf{happy}.}
+	\end{xlist}
+\end{exe}
+The co\"ordination test treats A and A+PP strings as being the same, as (\ref{ex2:phrase10}) indicates.
+\begin{exe}
+	\ex \label{ex2:phrase10} 
+	\begin{xlist}
+	\ex[]{She is interested in syntax and happy.}
+	\ex[]{He seems happy with syntax and bored.}
+	\end{xlist}
+\end{exe}
+
+We'll also need a Phrase Structure rule that tells us how these various phrases are put together to form a sentence. (\ref{ex2:rule6'}) looks roughly right.
+\begin{exe}
+	\ex \label{ex2:rule6'} S $\rightarrow$ NP Infl VP
+\end{exe}
+The morpho-syntactic category that sentences are in a one-to-one relation with is Infl,\footnote{In this case, however, unlike what we found for the VP, NP and AP rules, Infl is not the only obligatory member of a sentence. It is presently controversial whether sentences are the only phrases that have this property. We will see in later chapters that there are syntactic reasons for the obligatory presence of NP, and likely semantic ones for the obligatory presence of VP.} and so in keeping with the convention of naming phrases after their heads, we should change (\ref{ex2:rule6'}) to (\ref{ex2:rule6}).
+\begin{exe}
+\ex \label{ex2:rule6} IP $\rightarrow$ NP Infl VP
+\end{exe}
+With this rule we have finally come to the task of characterizing the grammaticality judgments of English speakers. For any speaker of English whose vocabulary has been partitioned into noun, verb, preposition, adjective, determiner and Infl, (\ref{ex2:rule6}), with the rules in (\ref{ex2:rule5}), characterizes those strings of words that will be judged grammatical.
+
+(\ref{ex2:rule6}) says that no sentence can fail to have an Infl between NP and VP, but if Infl are just words such as \emph{can}, \emph{could}, \emph{will}, and so on, this is obviously false. There are grammatical sentences aplenty that fail to have these words in them. (\ref{ex2:m1}) is an example.
+\begin{exe}
+\ex \label{ex2:m1} Zahra walked.
+\end{exe}
+Where is the Infl between \emph{Zahra} and \emph{walked} in this sentence?
+
+If we look hard, we find that sentences are, in fact, in a one-to-one correlation with a category, but that category includes not just words, but bound morphemes as well. Consider the sentences in~(\ref{ex2:ip1}).
+\begin{exe}
+	\ex \label{ex2:ip1}
+	\begin{xlist}
+	\ex[]{Zahra leave\textbf{s}.}
+	\ex[]{Erika lef\textbf{t}.}
+	\ex[]{Seoyoung ha\textbf{s} left.}
+	\ex[]{Deniz ha\textbf{d} left.}
+	\ex[]{Brandon \textbf{should} leave.}
+	\ex[]{Rong \textbf{might} have left.}
+	\ex[]{Carolyn desires [Chris \textbf{to} leave].}
+	\ex[]{Caroline remembers [Coral leav\textbf{ing}].}
+	\end{xlist}
+\end{exe}
+The boldfaced terms have similar distributions: they are found either immediately preceding the verb (if they are free) or affixed onto the following verb (if they are bound). Every sentence has one of these, and so these terms meet the criteria of being the head of a sentence. To explain how it is that those Infls which are bound morphemes materialize affixed onto the following verb, we will have to invoke a process that goes beyond phrase structure rules. Let us put off doing this.
+
+Let's add a couple of additional phrases to our inventory. One of these is a sort of ``sentence'' found in examples like~(\ref{ex2:cp1}).
+\enlargethispage*{14pt}
+\begin{exe}
+	\ex \label{ex2:cp1} 
+	\begin{xlist}
+	\ex[]{Zahra said \textbf{that Brandon likes chocolate}.}
+	\ex[]{Mary recalled the rumor \textbf{that Brandon likes chocolate}.}
+	\ex[]{\textbf{That Brandon likes chocolate} bothers Zahra.}
+	\ex[]{Seoyoung is angry \textbf{that Brandon likes chocolate}.}
+	\end{xlist}
+\end{exe}
+Note that the strings following the word \emph{that} meet the conditions imposed by the rule that builds IPs. The word \emph{that} is called a ``complementizer'' and it is the head of the phrase found in these sentences. This phrase, or clause as sentence-like phrases are often called, is a ``Complementizer Phrase'' (CP). CPs conform to the requirements of the following Phrase Structure rule.
+\begin{exe}
+	\ex \label{ex2:cp2} CP $\rightarrow$ C IP
+\end{exe}
+Other complementizers are \emph{if} and \emph{whether}, as found in the following examples.\marginnote[-25pt]{The conclusion that sentences are headed by Infl, and that the subordinate sentences that include \emph{that} are headed by complementizers, is reached in \citet{Chomsky:1986} and connected to the pioneering work on English clause types in \citet{Bresnan:1972}. In the generative literature that precedes this work, these two types of sentences were given various treatments. \citet{Bresnan:1972} suggested that \emph{that}-clauses were of the same category as sentences; she called them \ibar{S}s. \citet{Jackendoff:1977} argued that sentences are larger VPs, headed by a verb. The IP/CP model is now standard, though the issue is periodically revisited.}
+\begin{exe}
+	\ex \label{ex2:cp3} 
+	\begin{xlist}
+	\ex[]{I wonder if Zahra likes chocolate.}
+	\ex[]{I asked whether Zahra likes chocolate.}
+	\end{xlist}
+\end{exe}
+
+Having introduced this constituent, we will now need to revise our previous Phrase Structure rules to include the positions where they may lie. Let me take this opportunity to introduce a new notational convention. Because one of our symbols for a category type---namely, ``I''---also is the way the first person singular pronoun is spelled in English, I'd like to find a way of dodging this potential confusion. I will, from now on, adopt the convention of representing terminals with a superscripted ``o.'' Thus the terminal corresponding to the head of a sentence is \obar{I}, and the first person singular pronoun is \emph{I}. With this convention in hand, our new battery of phrase structure rules is~(\ref{ex3:genrules1}).
+\begin{exe}
+	\ex \label{ex2:genrules1} 
+	\begin{xlist}
+	\ex IP $\rightarrow$ NP \obar{I} VP
+	\ex IP $\rightarrow$ CP \obar{I} VP
+	\ex CP $\rightarrow$ \obar{I} IP
+		\ex NP $\rightarrow$ \obar{N}
+		\ex NP $\rightarrow$ Adj \obar{N} 
+		\ex NP $\rightarrow$ \obar{D} Adj \obar{N} 
+		\ex NP $\rightarrow$ \obar{N} PP
+		\ex NP $\rightarrow$ \obar{N} CP
+		\ex PP $\rightarrow$ \obar{P}
+	\ex PP $\rightarrow$ \obar{P} NP
+	\ex PP $\rightarrow$ \obar{P} PP
+	\ex VP $\rightarrow$ \obar{V} 
+	\ex VP $\rightarrow$ \obar{V} CP
+	\ex VP $\rightarrow$ \obar{V} PP CP
+	\ex VP $\rightarrow$ \obar{V} NP CP
+	\ex VP $\rightarrow$ \obar{V} NP
+	\ex VP $\rightarrow$ \obar{V} NP PP
+	\end{xlist}
+\end{exe}
+Note that the option of having a CP in place of an NP at the beginning of a sentence.
+
+The second phrase we'll need are ones headed by adverbs. Adverbs are a word class that is sometimes defined on the position left adjacent to adjectives, as in~(\ref{ex2:adv1}). 
+\begin{exe}
+	\ex \label{ex2:adv1} 
+	\begin{xlist}
+		\ex[]{A \textbf{deliberately} angry child}
+		\ex[]{The \textbf{noticeably} large boat}
+	\end{xlist}
+\end{exe}
+They can also be found left adjacent to verbs, as in~(\ref{ex2:adv1'}).
+\begin{exe}
+\ex \label{ex2:adv1'}
+\begin{xlist}
+	\ex[]{I have \textbf{deliberately} misled.}
+	\ex[]{I have \textbf{noticeably} erred.}
+\end{xlist}
+\end{exe}
+We should modify our rules for VPs and APs to reflect these possibilities, then.
+\begin{exe}
+	\ex \label{ex2:newadv} 
+	\begin{xlist}
+\ex \label{ex2:advpr} AdvP $\rightarrow$ \obar{Adv}
+\ex AdvP $\rightarrow$ \obar{Deg} \obar{Adv}
+\ex \label{ex2:rule7} AP $\rightarrow$ \obar{Deg} AP
+\ex \label{ex2:rule8} VP $\rightarrow$ AdvP VP
+	\end{xlist}
+\end{exe}
+The ``Deg'' symbol here refers to another morpho-syntactic class of words in English that includes \emph{very} and \emph{so}, and a number of others. It is found in examples like~(\ref{ex2:degree1}).
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:degree1} 
+	\begin{xlist}
+		\ex She very quickly walked to town.
+		\ex She is so smart.
+	\end{xlist}
+\end{exe}
+These words indicate an ``extent'' or ``measure'' of the thing they are modifying. So, for instance, \emph{very} indicates that the angriness of the angry child is high. If the adjective that is to be modified is not ``gradable'' it cannot combine with these kinds of modifiers.
+\begin{exe}
+	\ex[*]{\label{ex2:nongrade} a very absolute position}
+\end{exe}
+
+There are some other changes to the VP rule that are necessary. Note, for instance, that VPs may occur immediately following a verb, as in (\ref{ex2:rule9}).%\enlargethispage*{16pt}
+\begin{exe}
+	\ex \label{ex2:rule9} 
+	\begin{xlist}
+	\ex[]{Zahra has walked.}
+	\ex[]{Zahra has talked to Shay.}
+	\ex[]{Zahra has visited Seoyoung.}
+	\end{xlist}
+\end{exe}
+We can allow for these options by adding to our rules the one in~(\ref{ex2:vvprule1}).
+\begin{exe}
+	\ex \label{ex2:vvprule1} VP $\rightarrow$ \obar{V} VP
+\end{exe}
+
+Further, it is possible to find APs embedded within VPs; (\ref{ex2:apvp1}) provides some examples.
+\begin{exe}
+	\ex \label{ex2:apvp1} 
+	\begin{xlist}
+	\ex[]{Alex remains [\AP angry at Chris].}
+	\ex[]{Kaden is [\AP happy with himself].}
+	\end{xlist}
+\end{exe}
+When APs follow verbs, they may be preceded by, at most, a PP, as in~(\ref{ex2:apvp2}).
+\begin{exe}
+	\ex \label{ex2:apvp2} Kaden seems [\PP to Anissa ] [\AP happy with his rutabagas$\,$].
+\end{exe}
+So we change the rule that characterizes VPs to:
+\begin{exe}
+	\ex \label{ex2:rule11} 
+	\begin{xlist}
+	\ex VP $\rightarrow$ \obar{V} VP
+	\ex VP $\rightarrow$ \obar{V} AP
+	\ex VP $\rightarrow$ \obar{V} PP AP
+	\end{xlist}
+\end{exe}
+
+Consider now strings like those in~(\ref{ex2:NPrulea}).
+\begin{exe}
+	\ex \label{ex2:NPrulea} 
+	\begin{xlist}
+	\ex[]{Zahra's book}
+	\ex[]{the man's toy}
+	\ex[]{the man on the table's nose}
+	\end{xlist}
+\end{exe}
+These examples involve a possessive or genitive phrase: \emph{Mary's}, \emph{the man's} and \emph{the mon on the table's}. This phrase is an NP with the morpheme \emph{'s} appended to the end. Further, note that this genitive phrase never co-occurs with a DP, as (\ref{ex2:nogen}) illustrates.
+\begin{exe}
+	\ex \label{ex2:nogen} 
+	\begin{xlist}
+	\ex[*]{the Zahra's book}
+	\ex[*]{the the man's toy}
+	\ex[*]{a the man on the moon's nose}
+	\end{xlist}
+\end{exe}
+One very typical explanation for this is to understand determiners and possessives as competing for the same position. That can be done by rigging the NP phrase structure rule in such a way that it either produces a DP or a genitive phrase in the same position.
+\begin{exe}
+	\ex \label{ex2:npruleb} NP $\rightarrow$ NP's \obar{N}
+\end{exe}
+
+One final Phrase Structure rule is required by the sorts of examples we've so far reviewed. This is the Phrase Structure rule that generates co\"ordinated phrases. This can be done with the following.
+\begin{exe}
+	\ex \label{ex2:conjp} $\alpha$ $\rightarrow$ $\alpha$ Conj $\alpha$
+\end{exe}
+This rule says that a phrase of any category can be made up of two other such phrases with a conjunct stuck between them. I'll call the morphosyntactic class of words that \emph{and} and \emph{or} belong to ``conjuncts.'' Another word that belongs to this category is \emph{but}.
+
+Summarizing, we've now introduced the following battery of Phrase Structure
+rules:
+\begin{exe}
+	\ex \label{ex2:fgenrule} 
+	\begin{tabular}{llll}
+	IP $\rightarrow$ NP \obar{I} VP & NP $\rightarrow$ \obar{N}     & VP $\rightarrow$ \obar{V}     & AdvP $\rightarrow$ \obar{Adv}\\
+	IP $\rightarrow$ CP \obar{I} VP & NP $\rightarrow$ AP \obar{N}  & VP $\rightarrow$ \obar{V} CP  & AdvP $\rightarrow$ \obar{Deg} \obar{Adv}\\
+	CP $\rightarrow$ \obar{C} IP		& NP $\rightarrow$ \obar{D} AP \obar{N} & VP $\rightarrow$ \obar{V} NP CP & AP $\rightarrow$ \obar{Deg} \obar{A}\\
+		                      & NP $\rightarrow$ \obar{N} PP   & VP $\rightarrow$ \obar{V} NP   & AP $\rightarrow$ AdvP \obar{A}\\
+	PP $\rightarrow$ \obar{P}			& NP $\rightarrow$ \obar{N} CP   & VP $\rightarrow$ \obar{V} NP PP & AP $\rightarrow$ \obar{A}\\
+	PP $\rightarrow$ \obar{P} NP		& NP $\rightarrow$ NP's \obar{N} & VP $\rightarrow$ \obar{V} VP & \\
+	PP $\rightarrow$ \obar{P} PP		&                         & VP $\rightarrow$ \obar{V} AP & \\
+		                      &                         & VP $\rightarrow$ \obar{V} PP AP & \\
+													&                         & VP $\rightarrow$ AdvP \obar{V}
+	\end{tabular}
+\end{exe}
+
+\section{Recursive Phrases}
+
+The rules in (\ref{ex2:fgenrule}) miss many phrases that are the result of combining these rules. For instance, they allow for the VP in~(\ref{ex2:recurvp}), but not~(\ref{ex2:recurvp2}).
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:recurvp} 
+	She will [\VP quickly run].
+	\ex \label{ex2:recurvp2}
+	She will [\VP quickly run the race].
+\end{exe}
+We have a rule that allows an Adverb Phrase to precede a verb, but not one that allows that option when the VP contains anything other than one verb. In fact, any VP can start with an Adverb Phrase, so we should re-write these rules so that this option is available for any way in which a VP is formed. 
+
+When we do this we should also make it so that there can be more than one adverb that begins a VP, since sentences like (\ref{ex2:recuradv}) are possible.
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:recuradv} 
+	\begin{xlist}
+		\ex She will probably quickly run the race.
+		\ex She will probably carefully quickly run the race.
+		\ex She will probably carefully never quickly run the race.
+	\end{xlist}
+\end{exe}
+This series, one that is formed by adding an adverb to the beginning of a VP that already has an adverb, stops for reasons that are probably not syntactic. We might run out of meaningful adverbs, we might wish to lessen the burden on our hearer, we might get bored; there are many reasons we might decide not to make a sentence with a string of adverbs at the beginning that exceed some certain number. But that number will be determined by these extra-syntactic reasons. We don't want to make the syntax decide that a VP that starts with n adverbs is grammatical, but one that starts with n+1 adverbs is not. For this reason, the usual decision is to allow the phrase structure rules to allow an indefinite number of adverbs in this position, and let other forces determine how this option is exploited. We can achieve this goal, and also connect the rule that builds a VP with an initial adverb with the other rules that build a VP by changing the rule we presently have to~(\ref{ex2:advvP}).
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:advvP} 
+	VP $\rightarrow$ AdvP VP
+\end{exe}
+This rule is recursive, and this is what allows it to make an indefinite number of adverbs at the beginning of a VP.
+
+We will want to do the same thing for PPs inside VPs. They too can be found in VPs indefinitely.
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:pprecurs} 
+	\begin{xlist}
+		\ex Alex danced.
+		\ex Brandon danced Chris Tuesday.
+		\ex Brandon Kaden on Tuesday with Shay.
+		\ex Brandon danced on Tuesday with Shay in the ballroom.
+		\ex Alex danced on Tuesday with Shay in the ballroom around the tables.
+	\end{xlist}
+\end{exe}
+We can achieve this, and also Kaden any VP that our Anissa rules build to include a PP, with~(\ref{ex2:pprule}).
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:pprule} 
+	VP $\rightarrow$ VP PP
+\end{exe}
+
+Similar conclusions can be reached about the rules that put APs and CPs within VPs. We have series of sentences that differ only in the number of APs that are in the VP:
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:apseries} 
+	\begin{xlist}
+		\ex Rong found her [\AP laughing].
+		\ex Rong found her [\AP laughing] [\AP happy with the findings].
+		\ex Rong found her [\AP laughing] [\AP happy with the findings] [\AP drunk].
+	\end{xlist}
+\end{exe}
+This can be captured with~(\ref{ex2:apruler}).
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:apruler} 
+	VP $\rightarrow$ VP AP 
+\end{exe}
+
+There are also series of this kind with CPs, though to see this requires having a better view of what a CP can look like. We won't develop that view for awhile, but when we do we will see that the bracketed strings in (\ref{ex2:cprecurs}) are recursive~CPs.
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:cprecurs} 
+	\begin{xlist}
+		\ex Brandon thought [\CP it had rained].
+		\ex Brandon thought [\CP it had rained] [\CP when he noticed the wet streets].
+		\ex Brandon thought [\CP it had rained] [\CP when he noticed the wet streets] [\CP as had everyone else].
+	\end{xlist}
+\end{exe}
+We can capture this with~(\ref{ex2:cpruler}).
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:cpruler} 
+	VP $\rightarrow$ VP CP
+\end{exe}
+
+With these new rules, we can integrate our present rules for VPs so that they better express what strings make a~VP. A revision to the VP rules is in~(\ref{ex2:newvprule}).
+\pagebreak
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:newvprule} 
+	VP $\rightarrow$ AdvP VP\\
+	VP $\rightarrow$ VP PP\\
+	VP $\rightarrow$ VP AP\\
+	VP $\rightarrow$ VP CP\\
+	VP $\rightarrow$ \obar{V} NP\\
+	VP $\rightarrow$ \obar{V} VP\\
+	VP $\rightarrow$ \obar{V} 
+\end{exe}
+
+A similar situation arises in Adjective Phrases. We've seen that they can include degree words and Adverb Phrases as well as the head adjectives, but as the series in ~(\ref{ex2:apppr}) indicates, they may also include an indefinite number of~PPs.
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:apppr} 
+	\begin{xlist}
+		\ex She was happy with Rong.
+		\ex She was happy with Rong after the meeting.
+		\ex She was happy with Rong after the meeting because of the agreement.
+	\end{xlist}
+\end{exe}
+This calls for the rule in~(\ref{ex2:appp}).
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:appp} 
+	AP $\rightarrow$ AP PP
+\end{exe}
+An indefinite number of CPs are also possible within an AP:
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:apcpr} 
+	\begin{xlist}
+		\ex She was happy that it had snowed.
+		\ex She was happy when it started raining that it had snowed.
+		\ex She was happy when it started raining that it had snowed like many people had said.
+	\end{xlist}
+\end{exe}
+This can be captured with the rule in~(\ref{ex2:apcp}).
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:apcp} 
+	AP $\rightarrow$ AP CP
+\end{exe}
+And APs can contain an indefinite number of adverb phrases as well.
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:advr} 
+	\begin{xlist}
+		\ex She is usually happy.
+		\ex She is never usually happy.
+		\ex She is probably never usually happy.
+	\end{xlist}
+\end{exe}
+We need~(\ref{ex2:advap}).
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:advap} 
+	AP $\rightarrow$ AdvP AP
+\end{exe}
+Together, we have the rules for APs in~(\ref{ex2:aprules}).
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:aprules} 
+	AP $\rightarrow$ \obar{A}\\
+	AP $\rightarrow$ \obar{Deg} AP\\
+	AP $\rightarrow$ AP CP\\
+	AP $\rightarrow$ AP PP\\
+	AP $\rightarrow$ AdvP AP
+\end{exe}
+
+Our rules for NPs need a similar revision. They presently do not integrate well, and they fail to express where recursion is present. One thing we will need to do is allow NPs to contain an indefinite number of APs, as~(\ref{ex2:apnpr}) shows.
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:apnpr} 
+	\begin{xlist}
+		\ex the big dog
+		\ex the big ugly dog
+		\ex the big ugly hairy dog
+		\ex the big ugly hairy brown dog
+	\end{xlist}
+\end{exe}
+We could capture this with the rule~(\ref{ex2:apnp}).
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:apnp} 
+	NP $\rightarrow$ AP NP
+\end{exe}
+Note that, unlike our earlier rule, this one places APs rather than just As inside NPs. That is made necessary by examples like~(\ref{ex2:degpN}).
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:degpN} 
+	the [\AP very big] dog.
+\end{exe}
+Degree words like \emph{very} are part of adjective phrases, and not noun phrases, so we know that it is an AP that precedes the noun \emph{dog} in (\ref{ex2:degpN}). This rule also predicts, wrongly, that every other AP can be in this position. For reasons that I do not understand, that isn't always the case. Examples like (\ref{ex2:apnnp}) are ungrammatical, for example.
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:apnnp} 
+	the happy with Mary boy
+\end{exe}
+Instead, in these sorts of cases, a different word order is preferred:
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:npnap} 
+	the boy happy with Mary
+\end{exe}
+This is a fact that will go unexplained. (I leave it to you to solve this.)
+
+The rule in (\ref{ex2:apnp}) is wrong for another reason, however. It predicts that APs can precede anything that is an NP, and that would allow strings like~(\ref{ex2:nbar1}).
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:nbar1} 
+	happy the dog\\ happy Mary's dog
+\end{exe}
+The problem with the rule in (\ref{ex2:apnp}) is that it shouldn't characterize APs, but instead some phrase within APs. These phrases should follow determiners and possessive NPs (like the \emph{Mary's} in (\ref{ex2:nbar1})), and they should have as their head a Noun. These phrases are often called ``N bars,'' and represented with the symbol: \ibar{N}. We change our rules to include these~\ibar{N}s.
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:nbar2} 
+	 NP $\rightarrow$ \obar{D} \ibar{N}\\
+	 NP $\rightarrow$ NP's \ibar{N}\\
+	 NP $\rightarrow$ \ibar{N}\\
+	 \ibar{N} $\rightarrow$ AP \ibar{N}
+	 \ibar{N} $\rightarrow$ \obar{N}
+\end{exe}
+In addition to APs, PPs and CPs can also occur indefinitely within NPs.
+\pagebreak
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:ppnpr} 
+	\begin{xlist}
+		\ex the dog behind Smith
+		\ex the dog behind Smith in the room
+		\ex the dog behind Smith in front of Jones in the room
+	\end{xlist}
+	\ex \label{ex2:cpnpr}
+	\begin{xlist}
+		\ex the fact that it's raining
+		\ex the fact that it's raining that we disputed
+		\ex the fact that it's raining that we disputed which no one else could believe
+	\end{xlist}
+\end{exe}
+I will speculate that these phrase are within \ibar{N}s, leading to the rules in~(\ref{ex2:nprr}).
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:nprr} 
+	\begin{xlist}
+		\ex \ibar{N} $\rightarrow$ \ibar{N} PP
+		\ex \ibar{N} $\rightarrow$ \ibar{N} CP
+	\end{xlist}
+\end{exe}
+Our rules for NPs now look like~(\ref{ex2:nprules}).
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:nprules} 
+	NP $\rightarrow$ \ibar{N}\\
+	NP $\rightarrow$ \obar{D} \ibar{N}\\
+	NP $\rightarrow$ NP's \ibar{N}\\
+	\ibar{N} $\rightarrow$ AP \ibar{N}\\
+	\ibar{N} $\rightarrow$ \ibar{N} PP\\
+	\ibar{N} $\rightarrow$ \ibar{N} CP\\
+	\ibar{N} $\rightarrow$ \obar{N}
+\end{exe}
+There is another solution to this problem that we will see below.
+
+Finally, let's reconsider the rules we have for building sentences. These are presently~(\ref{ex2:oldip}).
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:oldip} 
+	\begin{xlist}
+		\ex IP $\rightarrow$ NP \obar{I} VP
+		\ex IP $\rightarrow$ CP \obar{I} VP
+	\end{xlist}
+\end{exe}
+There is a recursive phrase inside IPs as well that these rules do not capture. This can be seen by the ability of IPs to contain an indefinite number of Adverb Phrases right before the head~I.
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:advipr} 
+	\begin{xlist}
+		\ex They probably will run.
+		\ex They apparently probably will run.
+		\ex They occasionally apparently probably will run.
+		\ex They occasionally apparently probably never will run. 
+	\end{xlist}
+\end{exe}
+To capture this requires that there be a phrase within an IP that contains the head I and the VP, and that this phrase be recursive. The rules should have the form in~(\ref{ex2:ibar1}) and be wedded to new IP rules like those in~(\ref{ex2:ibar2}).
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:ibar1} 
+	XP $\rightarrow$ AdvP XP\\ XP $\rightarrow$ \obar{I} VP
+	\ex \label{ex2:ibar2}
+	IP $\rightarrow$ NP XP\\ IP $\rightarrow$ CP XP
+\end{exe}
+XP has I as its head, but it shouldn't be IP because that would make the rules in (\ref{ex2:ibar2}) recursive and lead to the possibility of sentences with an indefinite number of NPs at the beginning.
+\begin{exe}
+	\raggedright
+	\ex[*]{\label{ex2:badip} \ [\IP Rong [\IP Michael [\IP Seoyoung [\IP will dance]]]].}
+\end{exe}
+The solution here is to allow for a different kind of phrase---a smaller IP---that is called ``I bar,'' and symbolized with \ibar{I}. The new rules for sentences are~(\ref{ex2:newip}).
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:newip} 
+	IP $\rightarrow$ NP \ibar{I}\\ IP $\rightarrow$ CP \ibar{I}\\
+	\ibar{I} $\rightarrow$ AdvP \ibar{I}\\ \ibar{I} $\rightarrow$ \obar{I} VP
+\end{exe}
+
+Together, these revisions deliver the body of phrase structure rules in~(\ref{ex2:cpsrules1}).
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:cpsrules1} 
+	\begin{xlist}
+		\ex IP $\rightarrow$ NP \ibar{I}\\ IP $\rightarrow$ CP \ibar{I}
+		\ex \ibar{I} $\rightarrow$ AdvP \ibar{I}\\ \ibar{I} $\rightarrow$ \obar{I} VP
+		\ex NP $\rightarrow$ \ibar{N}\\
+	NP $\rightarrow$ \obar{D} \ibar{N}\\
+	NP $\rightarrow$ NP's \ibar{N}
+	\ex
+	\ibar{N} $\rightarrow$ AP \ibar{N}\\
+	\ibar{N} $\rightarrow$ \ibar{N} PP\\
+	\ibar{N} $\rightarrow$ \ibar{N} CP\\
+	\ibar{N} $\rightarrow$ \obar{N}
+	\ex
+	VP $\rightarrow$ AdvP VP\\
+	VP $\rightarrow$ VP PP\\
+	VP $\rightarrow$ VP AP\\
+	VP $\rightarrow$ VP CP\\
+	VP $\rightarrow$ \obar{V} NP\\
+	VP $\rightarrow$ \obar{V} VP\\
+	VP $\rightarrow$ \obar{V}
+	\ex
+	AP $\rightarrow$ \obar{A}\\
+	AP $\rightarrow$ \obar{Deg} AP\\
+	AP $\rightarrow$ AP CP\\
+	AP $\rightarrow$ AP PP\\
+	AP $\rightarrow$ AdvP AP
+	\ex
+	AdvP $\rightarrow$ \obar{Adv}\\
+	AdvP $\rightarrow$ \obar{Deg} Adv
+	\ex 
+	PP $\rightarrow$ \obar{P}\\
+	PP $\rightarrow$ \obar{P} NP\\
+	PP $\rightarrow$ \obar{P} PP\\
+	PP $\rightarrow$ \obar{P} IP
+	\end{xlist}
+\end{exe}
+I've added to our battery of PP rules one that allows PPs to include an IP so that we can capture cases like~(\ref{ex2:ppip}).
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:ppip} 
+	Smith danced [\PP before [\IP Rodica danced]].
+\end{exe}
+
+There is a feature of this method of representing these subfamilies that I would like to draw attention to now. It allows for two separate parses of examples such as (\ref{ex2:17}).
+\begin{exe}
+	\ex \label{ex2:17} the considerate gift and donation
+\end{exe}
+It is possible to produce this string either by grouping \emph{considerate} and \emph{gift} into one \ibar{N} and conjoining that with an \ibar{N} consisting of just \emph{donation}, or it is possible to conjoin \emph{gift} and \emph{donation} into one \ibar{N} and then group that phrase with \emph{considerate} into an \ibar{N}. It is easy to represent these two parses by way of ``phrase marker trees,'' which graphically elucidate the constituent structure of strings. The two ways of producing (\ref{ex2:17}) are represented by the trees in~(\ref{ex2:ambtree}).
+\begin{exe}
+\ex \label{ex2:ambtree}
+	a.\hspace{5pt}
+	\small
+\begin{forest}
+[NP
+	[\obar{D} [the]]
+	[\ibar{N} 
+		[AP [\ibar{A} [\obar{A} [considerate]]]]
+		[\ibar{N} 
+			[\ibar{N} [\obar{N} [gift]]]
+			[and]
+			[\ibar{N} [\obar{N} [donation]]]
+		]
+	]
+]
+\end{forest}
+\hspace*{15pt}
+	b. \hspace{5pt}
+\begin{forest}
+[NP
+	[\obar{D} [the]]
+	[\ibar{N}
+	[\ibar{N} 
+		[AP [\ibar{A} [\obar{A} [considerate]]]]
+		[\ibar{N} [\obar{N} [gift]] ]
+	]
+	[and]
+	[\ibar{N} [\obar{N} [donation]]]
+]]
+\end{forest}
+\end{exe}
+\marginnote[-120pt]{Phrase marker trees have two interpretations in the literature. They can be regarded as a record of how the rules were used to produce the string. When interpreted this way, they are called ``derivational trees.'' But they can also be understood as objects created by the rules. On the second interpretation, they are part of the syntax, not merely a method of showing how the syntax created a particular string. It is this second interpretation that is the more common, and it is how we will understand phrase markers. See \citet{Lasnik:1977} for discussion.}We might note that there are two meanings attached to this string as well, having to do with how the meaning of \emph{considerate} is combined with the meanings of the rest of the parts. A loose paraphrase of these two meanings might be as given in (\ref{ex2:17mean}).%\enlargethispage*{17pt}
+\begin{exe}
+	\ex \label{ex2:17mean}
+	\begin{xlist}
+	\ex the things which are considerate and which are, first, a gift and, second, a donation
+	\ex the things which are, first, a considerate gift and, second, a donation 
+	\end{xlist} 
+\end{exe}
+The difference in these meanings tracks the semantic groupings we discussed earlier. In~(\ref{ex2:17mean}a), the meaning of \emph{considerate} is combined with the meaning of \emph{gift and donation}. In~(\ref{ex2:17mean}b), the meaning of \emph{considerate} instead combines with the meaning of \emph{gift}. These semantic groupings mirror the syntactic groupings in~(\ref{ex2:ambtree}).
+
+There are a variety of reasons for thinking that syntactic phrasing always maps onto semantic groupings in the way that~(\ref{ex2:ambtree}) and~(\ref{ex2:17mean}) illustrate. For one thing, the number of meanings and the number of parses matches. For instance, if we add one more adjective to the left of the co\"ordinated nouns, as in (\ref{ex2:17a}), our rules allow for a total of three parses, shown in (\ref{ex2:17b}), and there are three meanings as well, as indicated in~(\ref{ex2:17bm}).
+\begin{exe}
+	\ex \label{ex2:17a} the considerate big gift and donation
+\end{exe}
+\begin{exe}
+	\ex \label{ex2:17b}
+	\footnotesize 
+\begin{forest}
+[NP
+	[\obar{D} [the]]
+	[\ibar{N} 
+		[AP [\ibar{A} [\obar{A} [considerate]]]]
+		[\ibar{N} 
+			[AP [\ibar{A} [\obar{A} [big]]]]
+			[\ibar{N}
+			[\ibar{N} [\obar{N} [gift]] ]
+			[and]
+			[\ibar{N} [\obar{N} [donation]]]
+		 ]]
+	]
+]
+\end{forest}
+\hspace*{-10pt}
+\begin{forest}
+[NP
+	[\obar{D} [the]]
+	[\ibar{N} 
+		[AP [\ibar{A} [\obar{A} [considerate]]]]
+		[\ibar{N} 
+			[\ibar{N} 
+				[AP [\ibar{A} [\obar{A} [big]]]]
+				[\ibar{N} [\obar{N} [gift]] ]
+			]
+			[and]
+			[\ibar{N} [\obar{N} [donation]]]
+		 ]
+	]
+]
+\end{forest}
+\hspace*{25pt}
+\begin{forest}
+[NP
+	[\obar{D} [the]]
+	[\ibar{N}
+	[\ibar{N} 
+		[AP [\ibar{A} [\obar{A} [considerate]]]]
+		[\ibar{N} 
+			[AP [\ibar{A} [\obar{A} [big]]]]
+			[\ibar{N} [\obar{N} [gift]] ]
+		 ]
+	]
+	[and]
+	[\ibar{N} [\obar{N} [donation]]]
+]]
+\end{forest}
+\end{exe}
+\begin{exe}
+	\ex \label{ex2:17bm}
+	\begin{xlist}
+	\ex the things which are considerate and big and are also a gift and a donation.
+	\ex the things which are considerate and are also a big gift and a donation
+	\ex the things which are a considerate big gift and a donation
+	\end{xlist} 
+\end{exe}
+There is, then, a correspondence between the number of groupings that these rules afford and the number of meanings that can be associated with the relevant strings. This suggests that the syntactic phrases these rules produce correspond to the semantic groupings. This is what's expected from our thesis that phrases are just those strings that make compositional meanings. 
+
+Furthermore, the meanings vary in a predictable way with the linear order that these terms are arranged in. Thus, for instance, putting the second adjective to the left of the co\"ordinated nouns creates the three meanings listed in (\ref{ex2:17bm}), whereas putting the second adjective to the left of just the rightmost noun, as in (\ref{ex2:17aa}), produces just two readings: they are paraphrased in~(\ref{ex2:17aam}).
+\pagebreak
+\begin{exe}
+	\ex \label{ex2:17aa} the considerate gift and big donation
+	\ex \label{ex2:17aam}
+	\begin{xlist}
+	\ex the things which are considerate and both a gift and a big donation
+	\ex the things which are a considerate gift and a big donation
+	\end{xlist} 
+\end{exe}
+This is predictable in the sense that our syntactic characterization of these strings would deliver just the two parses for (\ref{ex2:17aa}) shown in~(\ref{ex2:17aat}).
+\begin{exe}
+	\ex \label{ex2:17aat}
+	a.
+	\small 
+\begin{forest}
+[NP
+	[\obar{D} [the]]
+	[\ibar{N} 
+		[AP [\ibar{A} [\obar{A} [considerate]]]]
+		[\ibar{N} 
+			[\ibar{N} [\obar{N} [gift] ]]
+			[and]
+			[\ibar{N}
+				[AP [\ibar{A} [\obar{A} [big]]]]
+				[\ibar{N} [\obar{N} [donation]] ]
+			 ]
+		]
+	]
+]
+\end{forest}
+\hspace*{10pt}
+b.
+\begin{forest}
+[NP
+	[\obar{D} [the]]
+	[\ibar{N} 
+		[\ibar{N}
+			[AP [\ibar{A} [\obar{A} [considerate]]]]
+			[\ibar{N} [\obar{N} [gift]]]
+		 ]
+		[and]
+		[\ibar{N}
+			[AP [\ibar{A} [\obar{A} [big]]]]
+			[\ibar{N}[\obar{N} [donation]] ]
+		]
+	]
+]
+\end{forest}
+\end{exe}
+
+This correspondence should give us some courage that we are on the right track in characterizing the infinite strings under discussion in terms of self-recursive phrases. It provides a set of structures that are in correspondence with what look like a parallel set of meanings. Our next step should be to flesh out this correspondence by spelling out the semantic rules that deliver the compositional meanings. But we have some work still to do in characterizing these basic facts about that portion of a syntax that concerns just the morpho-syntactic types of words and phrases. Let's return to that task. 
+
+All the phrase structure rules we've come up with (they're back in (\ref{ex2:cpsrules1})) meet the requirement of Endocentricity. Every phrase is matched to a head. That is, every phrase type is defined by criteria that are also part of the criteria that define a word type. Because our goal is to explain the \emph{bloresnick} phenomenon, those criteria are just ``position in a string.'' So, for example, the phrase VP is defined as the set of strings that can be in these positions: immediately following an Infl, immediately following a verb, immediately preceding a PP, and so on. The set of strings that make VP will always be found in one of these positions, and no others (according to our rules). The set of positions that define a verb are larger. They include, for instance, immediately preceding an NP. But they also include all of the positions that define a VP: immediately following an Infl, immediately following a verb, immediately preceding a PP, etc. The law of Endocentricity says that this will always be true of phrases in natural language syntax, and so far our rules have not needed to stray from this requirement. For many of the word type/phrase type pairs in (\ref{ex2:cpsrules1}), another correspondence holds. For almost every word type, there is a distinct phrase type. For instance, there is a set of strings that has this Endocentric relationship to the word type verb---those are the VPs. And there is a set of strings that has this Endocentric relationship to adjectives: the Adjective Phrases. There are two word types, however, that do not have accompanying phrase types. These are determiners and degree words. We might ask why this is. What makes degree words and determiners special?
+
+One popular answer is that the specialness of determiners and degree words isn't that they don't have accompanying phrases, but that their phrases are just harder to recognize. Let's see how this answer plays out in detail for determiners. I'll merely gesture to how it works for degree words; I won't work through the details for degree words since it would require diving into a construction type (comparatives) that we don't need to understand.
+
+For determiners, the proposal is to take the head of the strings I've been calling NPs to be the determiner rather than the noun. This proposal for determiners is credited to Steven Abney's MIT dissertation.\cite{Abney:1987} We won't have time to examine all his arguments for this view. To see them requires knowing more about how rules relating sentences work. I'll present those argument in a later chapter, when we've gotten to the point where they will make sense. At this stage, I just want you to see this proposal as another way of parsing nominals and to get a feel for some of the considerations that doing so turns on. This DP Hypothesis gives us rules like~(\ref{ex2:DPrules}).
+\begin{exe}
+	\ex \label{ex2:DPrules}
+	\begin{xlist}
+		\ex DP $\rightarrow$ DP's \ibar{D}
+		\ex DP $\rightarrow$ \ibar{D}
+		\ex \ibar{D} $\rightarrow$ \obar{D} NP
+		\ex \ibar{D} $\rightarrow$ \obar{D}
+		\ex NP $\rightarrow$ \ibar{N}
+		\ex \ibar{N} $\rightarrow$ \ibar{N} PP
+		\sn \hspace*{20pt}$\vdots$
+	\end{xlist}
+\end{exe}
+
+These rules predict, in line with the stronger form of Endocentricity, that every DP will have a determiner in it and that the smallest DP is just a determiner. Both of these predictions are not obviously true. Maybe the best case that a DP can be made up of just a determiner are those like~(\ref{ex2:many}).
+\enlargethispage*{\baselineskip}
+\begin{exe}
+	\ex \label{ex2:many} 
+	\begin{xlist}
+		\ex Many have wondered how syntax can be interesting.
+		\ex Few understand why phonology belongs to linguistics.
+		\ex (looking at a list of phrase structure rules) Each has its own flaw.
+	\end{xlist}
+\end{exe}
+For the strings \emph{many}, \emph{few}, and \emph{each} to be NPs and still obey Endocentricity in these examples would require there to be a silent noun in them. But in these cases there isn't any evidence, so far as I am aware, for this silent noun. Normally, silent pieces of a sentence share with the ellipsis process that we saw in the previous chapter the requirement that the silent words be spoken somewhere else in the conversation. That isn't what's happening in (\ref{ex2:many}). If determiners are the heads of these phrases however, then Endocentricity is satisfied by these strings.
+
+There are several examples which appear to counter-exemplify the prediction that every DP has a determiner in it. One such is found with DPs whose specifiers are filled, as in~(\ref{ex2:posstree}). 
+\begin{exe}
+	\ex \label{ex2:posstree}
+	\small
+\begin{forest}
+[DP
+	[DP's [Mary, roof]]
+	[\ibar{D} 
+		[\obar{D} [??]]
+		[NP [hat, roof]]
+	 ]
+]
+\end{forest}
+\end{exe}
+These are semantically roughly equivalent to \emph{the hat that belongs to Mary}. There is an element to the meaning of these phrases that we cannot identify with any of the words spoken within it. We can identify the meaning ``that belongs to,'' perhaps, with the possessive \emph{s}, and of course \emph{Mary} and \emph{hat} make their contributions to the phrase \emph{Mary's hat}. But in addition, we need to understand where the meaning associated with \emph{the} comes from. \emph{Mary's hat} doesn't mean ``a hat belonging to Mary'' or ``some hat belonging to Mary,'' it means ``THE hat belonging to Mary.'' There is a specific determiner meaning associated with this phrase, and this suggests that there is a determiner within this phrase. Perhaps we could credit the ``the'' part  of this meaning to a silent determiner? Let's take that view. This will give to these kinds of phrases the structure in~(\ref{ex2:possD}).
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:possD} 
+	\small
+\begin{forest}
+[DP
+	[DP's [Mary, roof]]
+	[\ibar{D}
+		[\obar{D} [\shade{the}]]
+		[NP [hat, roof]]
+	]
+]
+\end{forest}
+\end{exe}
+
+The need for silent determiners might be indicated elsewhere in English too. Many DPs cannot fail to have a determiner.
+\begin{exe}
+	\ex[*]{\label{ex2:detobl} hat fell.}
+\end{exe}
+But there are exceptions. One salient group of exceptions are plurals and the ``mass'' nouns we encountered earlier.
+\begin{exe}
+	\ex \label{ex2:detopt} Hats fell.\\ Rice poured.
+\end{exe}
+Mass nouns are grammatically singular, but somehow semantically inherently plural. The noun \emph{rice}, for instance, refers to a group of kernels, even though it does so as a singular. And \emph{water}, another mass noun, refers to a group of water parts even though it is singular. You can see that the thing \emph{water} refers to contains a plurality of things that are also \emph{water} by noticing that if you half a quantity of water, the two things you have are each still called \emph{water}. Plurals---whether grammatically plural or inherently plural---are capable of being used without expressing a determiner along with them. 
+
+There is evidence, however, that there is a silent determiner in these cases. As in the case of possessives, this can be seen by playing close attention to the meanings of such expressions. To see this, consider first the meaning of the DP \emph{no crackers} in~(\ref{ex2:crack1}).
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:crack1} 
+	I have brought no crackers.
+\end{exe}
+Like determiners generally, \emph{no} has a meaning that bears on the amount of the things that are denoted by the NP that follows. In the case of \emph{no}, that quantity is zero. The information that (\ref{ex2:crack1}) conveys is that there isn't anything that qualifies as ``crackers'' that I have brought. If, by contrast, (\ref{ex2:crack1}) were \emph{I have brought many crackers}, the determiner \emph{many} would convey the information that the amount of crackers this sentence is talking about is numerous. 
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:crack2} 
+	I have brought many crackers.
+\end{exe}
+(\ref{ex2:crack2}) says that there are crackers that I have brought and that they are numerous. We can learn something about the meaning that \emph{crackers} has by comparing \emph{no crackers} to \emph{many crackers}. The contribution \emph{crackers} makes to these two DPs is merely to describe the things that the determiner is quantifying. Note in particular that the meaning of \emph{crackers} can't include information about the quantity of cracker things; that job is entirely performed by the determiner. A way of paraphrasing the meanings of these DPs that makes salient what the contribution made by \emph{crackers} is, is~(\ref{ex2:paracrack}).
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:paracrack} 
+	\begin{xlist}
+		\ex \emph{no crackers} = there is no thing that is crackers
+		\ex \emph{many crackers} = there is a numerous thing that is crackers
+	\end{xlist}
+\end{exe}
+The meaning of \emph{crackers} is the part expressed by ``that is crackers.'' When these DPs are semantically integrated into the larger sentence, we get meanings that can be expressed in stilted English with~(\ref{ex2:para2crack}).
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:para2crack} 
+	\begin{xlist}
+		\ex \emph{I have brought no crackers} = there is no thing that is crackers which I have brought.
+		\ex \emph{I have brought many crackers} = there is a numerous thing that is crackers which I have brought.
+	\end{xlist}
+\end{exe}
+The ``there is X'' part corresponds to the contribution made by the determiner, the ``that is crackers'' part corresponds to the contribution made by \emph{crackers}, and the ``which I have brought'' part corresponds to the contribution made by \emph{I have brought}.
+
+Consider now what the meaning of~(\ref{ex2:crack3}) is.
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:crack3} 
+	I have brought crackers.
+\end{exe}
+A paraphrase of (\ref{ex2:crack3}) that uses the same kind of recipe I used to produce (\ref{ex2:para2crack}) is~(\ref{ex2:para3crack}).
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:para3crack} 
+	\emph{I have brought crackers} = there is a thing that is crackers which I have brought.
+\end{exe}
+The \emph{that is crackers} part corresponds to \emph{crackers}, and the \emph{which I have brought} part corresponds to \emph{I have brought}, but there is also in this paraphrase a ``there is X'' part. This is the meaning that is associated with the so-called indefinite determiner \emph{a}, as we can see by considering~(\ref{ex2:apart}).
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:apart} 
+	\emph{I brought a cracker} = there is a thing that is cracker which I have brought.
+\end{exe}
+There appears to be an element of the meaning associated with (\ref{ex2:crack3}) that corresponds to that found for the indefinite determiner~\emph{a}.) This could be explained if there is in fact an indefinite determiner in (\ref{ex2:crack3}), but obviously one that isn't pronounced.
+
+A perhaps relevant fact about determiners in English is that some of them are sensitive to the plurality of the noun they combine with. The determiners \emph{every} and \emph{a}, for instance, are grammatical only with singular nouns, and the determiner \emph{many} is grammatical only with plural nouns.
+\begin{exe}
+	\ex \label{ex2:dagree}
+	\begin{xlist}
+		\ex[]{every hat}
+		\ex[*]{every hats}
+		\ex[]{a hat}
+		\ex[*]{a hats}
+		\ex[*]{many hat}
+		\ex[]{many hats}
+	\end{xlist}
+\end{exe}
+In some languages related to English, there is a plural version of the indefinite determiner \emph{a}. Perhaps we could view English as also having a plural indefinite determiner, one whose morpho-phonology gives it no phonological material. A common idea is that there is plural version of \emph{a} in DPs with plural nouns that otherwise don't seem to have a determiner. %
+%
+\marginnote[0pt]{But see \citet{Carlson:1977b}.}%
+%
+Let's adopt that view. It will give to DPs of this kind, the parse in (\ref{ex2:smdp}), where ``sm'' represents the silent plural indefinite determiner. %
+%
+\marginnote[0pt]{I choose the symbol ``sm'' to remind one of the reduced, unstressed, version of the determiner \emph{some}, which has a very similar meaning.}%
+%
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:smdp} 
+	\small
+\begin{forest}
+[DP
+	[\obar{D} [\shade{sm}]]
+	[NP [crackers, roof]]
+]
+\end{forest}
+\end{exe}
+
+Pronouns are also expressions which seem to be DPs---they have that distribution, at any rate---but which do not seem to come with determiners. These are another counterexample, then, to the view that every DP must include the determiner that is its head. \citet{Postal:1969} argued that pronouns simply \emph{are} determiners, however, noting that under certain conditions, personal pronouns can combine with common nouns:
+\pagebreak
+\begin{exe}
+	\ex \label{ex2:postal}
+	\begin{xlist}
+		\ex We linguists
+		\ex Them knuckleheads
+	\end{xlist}
+\end{exe}
+Outside of these specialized expressions, pronouns cannot co\"occur with any of the material normally associated with DPs.
+\begin{exe}
+	\ex \label{ex2:badD}
+	\begin{xlist}
+		\ex[*]{Unhappy he left the classroom.}
+		\ex[*]{He unhappy left the classroom.}
+	\end{xlist}
+\end{exe}
+Perhaps this can be explained if pronouns are determiners which, except in the special cases that (\ref{ex2:postal}) discovered, are determiners that do not like to combine with an NP. Let us adopt this view about pronouns; they are determiners which head DPs in the way that (\ref{ex2:prond}) illustrates.
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:prond} 
+	\small
+\begin{forest}
+[DP [\ibar{D} [\obar{D} [she]]]]
+\end{forest}{\large ,}
+\hspace*{5pt}
+\begin{forest}
+	[DP [\ibar{D} [\obar{D} [they]]]]
+\end{forest}{\large ,}
+\hspace*{5pt}
+\begin{forest}
+	[DP [\ibar{D} [\obar{D} [we]]]]
+\end{forest}{\large ,}
+\hspace*{5pt}
+\begin{forest}
+	[DP [\ibar{D} [\obar{D} [you]]]]
+\end{forest}{\large ,}
+\hspace*{5pt}
+\begin{forest}
+	[DP [\ibar{D} [\obar{D} [his]]]]
+\end{forest}{\large ,}
+\ldots
+\end{exe}
+
+Finally, proper names do not appear with determiners in English. Interestingly, they do in many closely related languages, and in those languages the determiner that appears is the equivalent to English's \emph{the}. Perhaps English has a silent \emph{the} in these scenarios too, but the evidence for this is considerably more ephemeral. When a name is expressed in English, there is even less that can accompany that name than there is with a pronoun. We have very little information about what the internal shape of the DPs that contain names is. This case is presently just a mystery. %
+%
+\marginnote[0pt]{Though see \citet{Longobardi:1994} for an illuminating idea about the problem.}%
+%
+I will adopt the convention of expressing my ignorance about DPs with names in them by hiding the structure of those DPs with a triangle:
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:name} 
+	\small
+\begin{forest}
+[DP [Zahra, roof]]
+\end{forest}
+\end{exe}
+
+If these arguments are correct, and bracketing the problem raised by names, then every nominal phrase in English is accompanied by a determiner. As we've seen, however, there are nomninal phrases that do not come with a noun. This speaks on behalf of the conclusion that nominal phrases are in the Endocentric relationship with the category determiner, and not noun. We should henceforth know them, then, as~DPs.
+
+The problem posed by the absence of degree phrases has a similar solution. We should see (some) APs as actually being Degree Phrases that contain AP. This can be achieved with the rules in~(\ref{ex2:degprules}).
+\begin{exe}
+	\ex \label{ex2:degprules}
+	\begin{xlist}
+		\ex DegP $\rightarrow$ \obar{Deg} AP
+		\ex AP $\rightarrow$ \obar{A}
+		\ex AP $\rightarrow$ AP PP
+		\ex AP $\rightarrow$ AP CP
+		\ex AP $\rightarrow$ AdvP AP
+	\end{xlist}
+\end{exe}
+This too is a standard solution for degrees and adjectives, but because the literature on degree phrases isn't as large as nominals, it's not as well known. The case of AdvPs has not been widely examined, but I suspect that the AdvPs that have degree words in them are actually APs converted to AdvPs. To put this idea in a diagram, it would involve embracing something like~(\ref{ex2:advpconvert}).
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:advpconvert} 
+	\small
+\begin{forest}
+[AdvP
+	[DegP 
+		[\obar{Deg} [very]]
+		[AP [\obar{A}	[glad]]]
+	]
+	[\emph{ly}]
+]
+\end{forest}
+\end{exe}
+Let's set aside the cases of AdvPs and APs that have degree words within them.
+
+If we adopt these innovations, our rules become~(\ref{ex2:cpsrules2}).
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:cpsrules2} 
+	\begin{xlist}
+		\ex IP $\rightarrow$ 
+		DP \ibar{I}\\ 
+		IP $\rightarrow$ CP \ibar{I}
+		\ex 
+		\ibar{I} $\rightarrow$ AdvP \ibar{I}\\ 
+		\ibar{I} $\rightarrow$ \obar{I} VP
+		\ex
+		DP $\rightarrow$ DP \ibar{D}\\
+		DP $\rightarrow$ \ibar{D}\\
+		\ibar{D} $\rightarrow$ \obar{D} NP\\
+		\ibar{D} $\rightarrow$ \obar{D}
+		\ex 
+	NP $\rightarrow$ \ibar{N}\\
+	\ex
+	\ibar{N} $\rightarrow$ AP \ibar{N}\\
+	\ibar{N} $\rightarrow$ \ibar{N} PP\\
+	\ibar{N} $\rightarrow$ \ibar{N} CP\\
+	\ibar{N} $\rightarrow$ \obar{N}
+	\ex
+	VP $\rightarrow$ AdvP VP\\
+	VP $\rightarrow$ VP PP\\
+	VP $\rightarrow$ VP AP\\
+	VP $\rightarrow$ VP CP\\
+	VP $\rightarrow$ \obar{V} DP\\
+	VP $\rightarrow$ \obar{V} VP\\
+	VP $\rightarrow$ \obar{V}
+	\ex
+	DegP $\rightarrow$ \obar{Deg} AP
+	\ex
+	AP $\rightarrow$ AP CP\\
+	AP $\rightarrow$ AP PP\\
+	AP $\rightarrow$ AdvP AP\\
+	AP $\rightarrow$ \obar{A}
+	\ex
+	AdvP $\rightarrow$ \obar{Adv}
+	\ex 
+	PP $\rightarrow$ \obar{P} NP\\
+	PP $\rightarrow$ \obar{P} PP\\
+	PP $\rightarrow$ \obar{P} IP\\
+	PP $\rightarrow$ \obar{P}
+	\end{xlist}
+\end{exe}
+Notice that because NPs no longer contain determiners and possessives, the need we had to invoke \ibar{N}s is no longer present. It was the way in which determiners and possessive are positioned within nominals that led us to embrace the existence of \ibar{N}s, but once these terms are now recognized as part of DPs, \ibar{N}s are no longer needed. That is reflected in the rules in (\ref{ex2:cpsrules2}) by seeing that the only NP rule left is the one that makes it an \ibar{N}. This amounts to saying that \ibar{N}s are always just NPs. We could, then, change the rules for NPs so that they no longer include \ibar{N}s, and we would capture the same set of phrases. I haven't done that renovation, however, for reasons that will be clear soon.
+
+Consider how our structural method of stopping the recursion relates the terms that are within some phrase. We expect that those terms which are introduced in the terminal expansion ``\ibar{X} $\rightarrow$ \obar{X} \ldots'' or XP $\rightarrow$ \obar{X} \ldots (that is, the non-recursively introduced terms) will form the most inclusive substitution class of the phrase involved. There are some kinds of phenomena which suggest that this expectation is fulfilled. There are processes, for example, in which a rather surprisingly short string can substitute for one or another of the families we have discovered. This happens under conditions of anaphora.%
+%
+\marginnote[-30pt]{``Anaphora'' refers to processes in which a phrase in one position refers, in some fashion or other, to the same things that another phrase, in a different position, refers to. For instance, in the sentence: \emph{Mary knows that she is smart}, it is possible for \emph{she} to refer to the same individual that \emph{Mary} refers to. In such a case, we say that \emph{she} is \uline{anaphoric} to, or with, \emph{Mary}.}
+%
+
+For example, the VP family can be anaphorically connected to other VPs with the words \emph{do so}. When a VP is made up of \emph{do so}, its meaning derives from a VP spoken elsewhere. This is illustrated in~(\ref{ex2:dosointro}).
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:dosointro} 
+	\begin{xlist}
+		\ex Kaden must leave town, but Shay mustn't \textbf{do so}.\\ \textbf{do so} = ``leave town''
+		\ex Kaden should eventually read \emph{Aspects}, and Shay should immediately \textbf{do so}.\\ \textbf{do so} = ``read \emph{Aspects}''
+	\end{xlist}
+\end{exe}
+From the examples in~(\ref{ex2:dosotest1}), we learn that DPs cannot be a sister to \textbf{do so}.
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:dosotest1} 
+	\begin{xlist}
+		\ex[*]{Kaden must leave Chicago and Shay must \textbf{do so} New York.}
+		\ex[*]{Kaden must understand \emph{Aspects} and Shay must \textbf{do so} \emph{Syntactic Structures}.}
+	\end{xlist}
+\end{exe}
+This follows if \emph{do so} cannot stand in place of a V, but can stand in place of a VP. Because DPs are never sisters to VP---only sisters to a V---they cannot combine with \emph{do so}
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:dosor} 
+	A VP can be pronounced as \emph{do so}, if its meaning is the same as a VP spoken elsewhere.
+\end{exe}
+
+This way of distinguishing the recursively available parts and the non-recursively available parts of phrases also predicts that the non-recursive parts will always come between the head of their phrase and the recursive parts. This seems true sometimes, as in (\ref{ex2:27}) and~(\ref{ex2:27b}).
+\begin{exe}
+	\ex \label{ex2:27}
+	\begin{xlist}
+	\ex[]{Jill ate it at noon.}
+	\ex[*]{Jill ate noon it.}
+	\end{xlist}
+	\ex \label{ex2:27b}
+	\begin{xlist}
+	\ex[]{Jill ate sp\"atzle at noon.}
+	\ex[*]{Jill ate at noon sp\"atzle.}
+	\end{xlist}
+\end{exe}
+But for other cases it seems uncertain, or downright wrong, as in~(\ref{ex2:28}) and~(\ref{ex2:28a}).
+\begin{exe}
+	\ex \label{ex2:28} 
+	\begin{xlist}
+	\ex[]{Jill ate the rotting kumquats.}
+	\ex[]{Jill ate at noon the rotting kumquats.}
+	\end{xlist}
+	\ex \label{ex2:28a}
+	\begin{xlist}
+	\ex[??]{Jill said [that you shouldn't eat kumquats] at noon.}
+	\ex[]{Jill said at noon [that you shouldn't eat kumquats].}
+	\end{xlist}
+\end{exe}
+This then, is the difficulty in trying to place certain DPs within VP (and other phrases too, as we'll see). Let's set this problem aside momentarily. It will be the focus of a lot of our work in the chapters that follow.
+
+There is a similarity to the organization of the family of substitution classes that make up DP and IP. Abstractly, they both have one of the forms in~(\ref{ex2:xbar1}).
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:xbar1} 
+	\begin{xlist}
+		\ex XP $\rightarrow$ YP \ibar{X}
+		\ex XP $\rightarrow$ \ibar{X}
+		\ex \ibar{X} $\rightarrow$ ZP \ibar{X}
+		\ex \ibar{X} $\rightarrow$ \ibar{X} WP
+		\ex \ibar{X} $\rightarrow$ \obar{X} MP
+		\ex \ibar{X} $\rightarrow$ \obar{X}
+	\end{xlist}
+\end{exe}
+In addition to these rule forms, the other rules we have include these possibilities.
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:xbar2} 
+	\begin{xlist}
+		\ex XP $\rightarrow$ \obar{X}
+		\ex XP $\rightarrow$ XP WP
+		\ex XP $\rightarrow$ YP XP
+	\end{xlist}
+\end{exe}
+
+We might speculate that these are the only kinds of phrases allowed in a syntax. If so, this would be a major contribution to the issue of understanding how the learning sequence succeeds. If the only kinds of phrases that a child entertains as possible are those that can be produced by rules of the forms in (\ref{ex2:xbar1}) or (\ref{ex2:xbar2}), then the space of possible guesses the child makes when updating her grammar will be very usefully constrained. Although we have only looked at a small set of sentences in one language, it is useful to prematurely raise the patterns we detect to hypothesized principles of this sort because doing so forces us to find and confront counter-examples. We will formulate patterns we think we detect in our rules into laws. As we look at new data to be characterized, we will use these laws to shape our analysis; we will try to formulate our models so that the conform to those laws. When that becomes impossible, or drives us to implausible conclusions, then we will have discovered how that original pattern was mis-analyzed. We will discover not \underline{only} how the law we formulated is wrong, but also exactly how it is wrong. That will, with luck, allow us to find a different way of formulating the law so that it is more accurate, or, to recognize that the original pattern we fashioned our law for didn't exist. Prematurely raising generalizations to laws like this, gives us an ordered way of exploring the data we need to account for. It steers how we parse the facts that we are trying to model. Without this order, we have no way of navigating the search for patterns and the things that are responsible for those patterns. Our search through data become just an exercise in cataloguing.
+
+Of course, this heuristic brings with it the danger that the laws we are trying to conform to will bias how we look at the data we gather. It imposes a prior bias that is entirely a function of where our investigation started. So we will have to be diligent about facing this bias as we go forward. We should periodically reassess what our laws look like and how well that fit to the patterns we are detecting.
+
+At this juncture, however, let us adopt the hypothesis that all of the phrase structure rules of a syntax must look like one of the set in (\ref{ex2:xbar1}) or (\ref{ex2:xbar2}). In fact, we can do even better with a simple modification to the rules we've seen so far. We can translate all of the rules that have the forms in (\ref{ex2:xbar2}) into rules that have the form in (\ref{ex2:xbar1}), and lose none of the facts we have explained. The rewriting is simple: we simply let every XP be an \ibar{X}, and then use that \ibar{X} to introduce the recursion. Rewriting the rules along these lines gives us the set in~(\ref{ex2:finalpsrules}).
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:finalpsrules} 
+	\begin{xlist}
+		\ex 
+		IP $\rightarrow$ DP \ibar{I}\\ 
+		IP $\rightarrow$ CP \ibar{I}
+		\ex 
+		\ibar{I} $\rightarrow$ AdvP \ibar{I}\\ 
+		\ibar{I} $\rightarrow$ \obar{I} VP
+		\ex
+		DP $\rightarrow$ DP \ibar{D}\\
+		DP $\rightarrow$ \ibar{D}\\
+		\ibar{D} $\rightarrow$ \obar{D} NP\\
+		\ibar{D} $\rightarrow$ \obar{D}
+		\ex 
+	NP $\rightarrow$ \ibar{N}\\
+	\ex
+	\ibar{N} $\rightarrow$ AP \ibar{N}\\
+	\ibar{N} $\rightarrow$ \ibar{N} PP\\
+	\ibar{N} $\rightarrow$ \ibar{N} CP\\
+	\ibar{N} $\rightarrow$ \obar{N}
+	\ex
+	VP $\rightarrow$ \ibar{V}
+	\pagebreak
+	\ex
+	\ibar{V} $\rightarrow$ AdvP \ibar{V}\\
+	\ibar{V} $\rightarrow$ \ibar{V} PP\\
+	\ibar{V} $\rightarrow$ \ibar{V} AP\\
+	\ibar{V} $\rightarrow$ VP CP\\
+	\ibar{V} $\rightarrow$ \obar{V} NP\\
+	\ibar{V} $\rightarrow$ \obar{V} VP\\
+	\ibar{V} $\rightarrow$ \obar{V}
+	\ex 
+	DegP $\rightarrow$ \ibar{Deg}
+	\ex 
+	\ibar{Deg} $\rightarrow$ \obar{Deg} AP
+	\ex
+	AP $\rightarrow$ \ibar{A}
+	\ex
+	\ibar{A} $\rightarrow$ \ibar{A} CP\\
+	\ibar{A} $\rightarrow$ \ibar{A} PP\\
+	\ibar{A} $\rightarrow$ AdvP \ibar{A}\\
+	\ibar{A} $\rightarrow$ \obar{A}
+	\ex
+	AdvP $\rightarrow$ \ibar{Adv}\\
+	\ibar{Adv} $\rightarrow$ \obar{Adv}
+	\ex 
+	PP $\rightarrow$ \ibar{P}
+	\ex
+	\ibar{P} $\rightarrow$ \obar{P} NP\\
+	\ibar{P} $\rightarrow$ \obar{P} PP\\
+	\ibar{P} $\rightarrow$ \obar{P} IP\\
+	\ibar{P} $\rightarrow$ \obar{P}
+	\end{xlist}	
+\end{exe}
+This seems wrong in the sense that many of the XPs in this list amount to always just being \ibar{X}s. If it turns out that VPs, for instance, are indeed always the same thing that \ibar{V}s are, then this move is unwarranted. We should allow for the forms in (\ref{ex2:xbar2}). We'll see soon, however, that there is indeed a kind of phrase that a VP can be that a \ibar{V} cannot be. And we'll discover the same thing for APs and PPs as well. Adverb Phrases are too small---they never have many words in them---and NPs are too difficult to find, for us to be able to see that they differ from their \ibar{X}s. But the bulk of evidence suggests that in fact only the forms in (\ref{ex2:xbar1}) are what the syntaxes of English use. And that hypothesis also seems to be reasonably well supported in the syntaxes of other languages that have been well studied. At present, a good hypothesis is that these are the only kinds of phrase structure rules found.
+
+Sometimes this constraint on phrase structure rules is described by saying that they must conform to the \ibar{X} Skeleton.
+\begin{exe}
+	\ex \label{ex2:skeleton} 
+	\begin{tabbing}
+	\ibar{X} Skeleton: \= XP $\rightarrow$ \ibar{X}\\
+	 \> XP $\rightarrow$ ZP \ibar{X}\\
+				\>\ibar{X} $\rightarrow$ QP \ibar{X}\\ 
+				\>\ibar{X} $\rightarrow$ \ibar{X} WP\\ 
+				\>\ibar{X} $\rightarrow$ \obar{X} YP\\
+				\>\ibar{X} $\rightarrow$ \obar{X}
+	\end{tabbing}
+\end{exe}
+The symbols ``X,'' ``Y,'' ``Z,'' ``Q'' and ``W'' should be thought of as variables that range of morphosyntactic category names. 
+
+There are names for the positions that the \ibar{X} Skeleton creates. ZP is called the \emph{Specifier} of XP; WP, QP are called \emph{Adjunct}(s); and YP is called the \emph{Complement} of X.%
+%
+\marginnote[-20pt]{These definitions of ``Specifier,'' ``Adjunct'' and ``Complement'' come from \citet{Jackendoff:1977}, as do most of the basic ideas sketched in this section about how phrases are organized. Jackendoff's work is a detailed working out, and considerable extension, of proposals in \citet{Chomsky:1970}, where there is also a proposal about the underlying building blocks of morpho-syntactic category. Chomsky's work has its seeds in \citet{Harris:1946}.}%
+%
+
+It should be said that these rules leave out considerable detail. If you have a native English speaker handy, it won't take much time to discover many other kinds of combinations of words that form grammatical sentences. I will not provide an exhaustive list of the phrase structure rules for English. Instead, I will develop guidelines that you can use to make up those phrase structure rules when you confront the need to. One of those guidelines is that the rules you come up with must conform to the \ibar{X} Skeleton.
+
+\section{Arguments and Modifiers}
+
+Charting substitution classes in the way we've been doing characterizes grammatical arrangements of words solely in terms of the words' categorial status. It throws strings of words together according to their status as nouns, verbs, adjectives and the like and ignores all other properties of the particular verbs, nouns, adjectives, etc. chosen. It forms some pretty odd sentences:
+\begin{exe}
+	\ex \label{ex2:31} 
+	\begin{xlist}
+	\ex[]{Kaden danced at noon at midnight.}
+	\ex[]{Kaden slowly stood still.}
+	\ex[]{a green idea}
+	\end{xlist}
+\end{exe}
+These are odd because the meanings they deliver are so bizarre. But they are still recognizable as grammatical strings of words.
+
+But some combinations which these rules allow seem to go bad in a very different way. Consider~(\ref{ex2:32}).
+\begin{exe}
+	\ex \label{ex2:32} 
+	\begin{xlist}
+	\ex[]{Kaden laughed Zahra.}
+	\ex[]{Hotze gave it at Anissa.}
+	\ex[]{Shay died that you should eat better.}
+	\ex[]{Rong claimed to Chris.}
+	\ex[]{Kaden slapped.}
+	\end{xlist}
+\end{exe}
+These don't go together into weird meanings; they don't go together at all. These examples, arguably, should be marked as syntactically ill-formed. They are ungrammatical, and so our syntax should be revised.
+
+What's wrong here is that we've matched up verbs with the material that follows them incorrectly. As can be seen by comparing (\ref{ex2:32}) with (\ref{ex2:33}), if the verbs are followed by different material, the results are grammatical.
+\pagebreak
+\begin{exe}
+	\ex \label{ex2:33} 
+	\begin{xlist}
+	\ex[]{Kaden laughed.}
+	\ex[]{Hotze gave it to Anissa.}
+	\ex[]{Shay died.}
+	\ex[]{Rong claimed that you should eat better.}
+	\ex[]{Kaden slapped his thigh.}
+	\end{xlist}
+\end{exe}
+Here, then, is something more particularly about the words themselves that seems to be relevant to the procedure that recognizes grammatical strings. To capture what goes on here, we must do more than know what the category of the words being combined is. 
+% \enlargethispage*{20pt}
+
+There's another respect in which the particular choices of words seems to play a role in the syntax. Consider the different semantic contributions the DP \emph{Tuesday} makes in (\ref{ex2:34}).
+\begin{exe}
+	\ex \label{ex2:34} 
+	\begin{xlist}
+	\ex[]{I danced Tuesday.}
+	\ex[]{I remember Tuesday.}
+	\end{xlist}
+\end{exe}
+In the first case, \emph{Tuesday} indicates when \emph{I danced} happened. We say in this case that \emph{Tuesday} is a modifier. It modifies the sentence's meaning by restricting the events denoted by \emph{I danced} to just those that transpire on Tuesday. But this is not the role it has in the second case. Here \emph{Tuesday} refers to the thing remembered. We say in this case that it is an argument of the relation that \emph{remember} denotes.
+
+A similar contrast can be seen in the pair in~(\ref{ex2:35}).
+\begin{exe}
+	\ex \label{ex2:35} 
+	\begin{xlist}
+	\ex[]{I kissed her on the bus.}
+	\ex[]{I put her on the bus.}
+	\end{xlist}
+\end{exe}
+Again, \emph{on the bus} is a modifier in the first case. It locates the event described by \emph{I kissed her}; it indicates that this event took place on board the bus. In the second case, by contrast, it names a location related to the referents of \emph{I} and \emph{her} by \emph{put}. It is an argument.
+
+The semantic role an argument has in a sentence is determined by the word for which it is an argument. The meaning that modifiers contribute to the sentence they're part of is much less dependent on the meanings of the words and phrases nearby. Indeed, modifiers seem to be choosey about the kind of phrases they modify. Adjectives, for instance, can semantically combine with the projections of nouns but not verbs, and adverbs can semantically combine with projections of verbs, but not nouns. 
+
+When the arguments are DPs or, sometimes, PPs, there's a way of talking about argumenthood that is commonplace, and which we inherit from \citet{Gruber:1965} and \citet{Jackendoff:1972}.\marginnote[0pt]{\citet{Fillmore:1968} makes a very similar proposal to Gruber's.} Gruber was concerned with the problem of verb meanings, and in particular with finding a theory that restricted the kinds of argument types that verbs permit. He speculated that there was a finite, in fact quite small, set of argument types, or `roles', that could be put together by verbal meanings. He argued that the roles which verbs related were always ones that have to do with the metaphysics of motion. For example, a verb like \emph{send} involves three terms, one that can be seen as indicating the source of the motion, another that denotes the moved term and a third that names the goal, or endpoint, of that motion. Gruber called the role borne by the term undergoing motion `Theme.'
+\begin{exe}
+	\ex \label{ex2:36} \gll Jason sent {his book} {to Masashi}.\\ 
+			\emph{Source} {} \emph{Theme} \emph{Goal}\\ 
+\end{exe}
+On Gruber's thesis, then, verbs are just words that name different kinds of motion. The arguments of verbs will therefore always be the objects, locations, and manners of movement that are involved in that motion. Arguments will have roles in the motion relation named by a verb, and what those roles are will be determined by the verb. Those roles Gruber called ``theta roles,'' after the Theme role. You will often see ``theta role'' expressed as ``$\theta$-role.'' We say, then, that verbs assign \mbox{$\theta$-role}s to their arguments.
+
+There are cases where it is not obvious that motion underlies the relation named by a verb. Nothing has to move in the events described by (\ref{ex2:37}), for example.
+\begin{exe}
+	\ex \label{ex2:37}
+	\begin{xlist}
+	\ex Jason showed his book to Masashi.
+	\ex Jason pleases Masashi.
+\end{xlist}
+\end{exe}
+Perhaps in these cases, one might imagine that there is a kind of abstract motion involved. The image of \emph{his book} might be transferred from Sandy to Sean in (\ref{ex2:37}a), for example; and pleasure might be thought to have moved from Sandy to Sean in~(\ref{ex2:37}b). Gruber often resorted to this sort of analysis to maintain the thesis that all verb meanings could be related to the physics of motion. But there are cases which even metaphorical extensions of the logic of motion look unlikely to characterize. (\ref{ex2:38}) are some.
+% \enlargethispage*{\baselineskip}
+\begin{exe}
+	\ex \label{ex2:38} Jason finds Masashi upleasant.\\ 
+			   			Masashi is uhappy.\\
+			   			`Londres' refers to London in Portuguese.\\
+			   			This means that something is wrong.\\
+			   			Jason became unhappy.\\
+			   			They know something.
+\end{exe}
+That the way humans conceive of motion is employed in constraining the range of verb meanings has been pretty firmly abandoned. But the idea that the possible range of verb meanings emerges from the ways in which a finite set of elemental predicates, like \textsc{cause}, \textsc{move}, and \textsc{become}, as well as $\theta$-roles, remains a live idea. %
+%
+\marginnote[0pt]{\citet{Dowty:1979, Dowty:1989} are good points of entry into this literature.}%
+%
+On this conception, the roles that arguments play in a sentence can be viewed as resulting from being the arguments of these more basic predicates. We will continue to talk about verbs and the \mbox{$\theta$-role}s they assign, but we won't be constrained by Gruber's theory of what a $\theta$-role can be. And we should allow that the relations that verbs have with their arguments might go beyond what the stock of $\theta$-roles that Gruber, Jackendoff, and others have imagined.
+
+The relation between verbs and their arguments that is expressed by \mbox{$\theta$-roles} can be seen as a special instance of a more general relationship which goes under the name ``selection,'' or sometimes ``s-selection'' (for ``semantic'' selection). %
+%
+\marginnote[-50pt]{There is a subtle difference between what \mbox{$\theta$-roles} are and what s-selection is. When a predicate s-selects an argument, it specifies what kind of meaning its argument must have. When a predicate assigns a \mbox{$\theta$-role} to an argument, it determines how the meaning of its argument will be composed into the meaning of the sentence. In practice, these different notions cover nearly the same phenomena, since how a term's meaning is composed into a sentence is closely tied to what meanings that term may have.}%
+%
+This refers to the connection between a verb's (or other similar term's) meaning and the semantic values that its arguments deliver. \mbox{$\theta$-roles} express a similar function: they name the meaning that an argument's semantic value must be compatible with. But the relation holds for other cases too, where the language of \mbox{$\theta$-roles} does not so easily extend. One of those places is where verbs connect with clauses of various types. So, a verb's meaning determines somehow whether the clause it combines with must have the meaning of an interrogative or a declarative, for example.
+\begin{exe}
+	\ex \label{ex2:39} 
+	\begin{xlist}
+	\ex[]{Erika denied that Kaden has left.}
+	\ex[]{Erika said that Kaden has left.}
+	\ex[*]{Erika wonders that Kaden has left.}
+	\end{xlist}
+	\ex \label{ex2:40}
+	\begin{xlist}
+	\ex[*]{Erika denied whether Kaden has left.}
+	\ex[]{Erika said whether Kaden has left.}
+	\ex[]{Erika wonders whether Kaden has left.}
+	\end{xlist}
+\end{exe}
+We say of these cases that verbs select or s-select a question or declarative. Note that some verbs are compatible with either, as is~\emph{say}.
+
+Now that we have in view this distinction between arguments and non-arguments, let's return to the contrast between~(\ref{ex2:32}) and~(\ref{ex2:33}), repeated below.
+\begin{exe}
+\exr{ex2:32} 
+	\begin{xlist}
+	\ex[*]{Kaden laughed Zahra.}
+	\ex[*]{Hotze gave it at Anissa.}
+	\ex[*]{Shay died that you should eat better.}
+	\ex[*]{Rong claimed to Michael.}
+	\ex[*]{Kaden slapped.}
+	\end{xlist}
+\exr{ex2:33}
+	\begin{xlist}
+	\ex[]{Kaden laughed.}
+	\ex[]{Hotze gave it to Anissa.}
+	\ex[]{Shay died.}
+	\ex[]{Rong claimed that you should eat better.}
+	\ex[]{Kaden slapped his thigh.}
+	\end{xlist}
+\end{exe}
+In all these examples, I've chosen phrases that cannot get an interpretation as a modifier. The contrast between (\ref{ex2:32}) and (\ref{ex2:33}), then, hinges on giving the verbs involved the right argument. The post-verbal phrases differ with respect to their category. What we discover from these examples is that verbs are picky with respect to what category their arguments belong to. This can also be seen in examples, such as those in (\ref{ex2:41}) and (\ref{ex2:41a}), where the difference in the category of an argument is not tangled up so much with the meaning of that argument.\enlargethispage*{\baselineskip}
+\begin{exe}
+	\ex \label{ex2:41} 
+	\begin{xlist}
+	\ex[]{Andrew pleases Rong.}
+	\ex[*]{Andrew pleases to Rong.}
+	\end{xlist}
+	\ex \label{ex2:41a}
+	\begin{xlist}
+	\ex[*]{Andrew talks Rong.}
+	\ex[]{Andrew talks to Rong.}
+	\end{xlist}
+\end{exe}
+We say that verbs are \emph{subcategorized} by the category of their argument. Or---this term has been re-lexicalized---that verbs subcategorize their arguments. Sometimes this is also described as a verb \emph{c-selecting} its argument.%
+%
+\marginnote[0pt]{The terms \emph{s-select} and \emph{c-select} come from \citet{Pesetsky:1982}.}
+
+\citet{Jackendoff:1977} argues that arguments (when they follow the head they are an argument of) are necessarily in complement position. This is supported by contrasts like those in~(\ref{ex2:42}) and~(\ref{ex2:42a}), which make use of the \emph{do so} construction.%
+%
+\marginnote[25pt]{These sentences should be pronounced with contrastive focus on the terms in small caps.}%
+%
+\begin{exe}
+	\ex \label{ex2:42} 
+	\begin{xlist}
+	\ex[]{Erika will talk about this \textsc{today} and Shay will do so \textsc{tomorrow}.}
+	\ex[*]{Erika will remember \textsc{today} and Shay will do so \textsc{tomorrow}.}
+	\end{xlist}
+	\ex \label{ex2:42a}
+	\begin{xlist}
+	\ex[]{Erika will talk after \textsc{dinner} and Shay will do so after \textsc{lunch}.}
+	\ex[*]{Erika will talk to \textsc{Anissa} and Shay will do so to \textsc{Kaden}.}
+	\end{xlist}
+\end{exe}
+Because the phrase following the verb is an argument in (\ref{ex2:42}b) and (\ref{ex2:42a}b), Jackendoff's thesis requires it to be in complement position. This means that it must be within the \ibar{V} which gets mapped onto \emph{do so}. In  (\ref{ex2:42}a) and (\ref{ex2:42a}c), the phrase following the verb is a modifier and can therefore remain outside the \ibar{V} that \emph{do so} stands in place of.%
+%
+\marginnote[-60pt]{Recall that we saw that \emph{do so} cannot stand in the head position of a VP. Thus, the \ibar{V} it stands in for would, according to Jackendoff's thesis, necessarily have to ``contain'' any arguments that the verb whose meaning \emph{do so} also ``contains'' takes.}%
+%
+
+A problem for Jackendoff's thesis is that a verb may have two internal arguments, and in these cases neither of those arguments can stand outside~\emph{do so}.
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:2argdoso} 
+	\begin{xlist}
+		\ex[*]{Erika showed it to \textsc{Anissa} and Shay will do so to \textsc{Kaden}.}
+		\ex[*]{Erika put it on the \textsc{table} and Shay will do so on the \textsc{sofa}.}
+	\end{xlist}
+\end{exe}
+Jackendoff thought that there could be two complement positions, and that a parse for a VP headed by \emph{show} might be as in~(\ref{ex2:showp}).
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:showp} 
+	\small
+\begin{forest}
+[VP [\ibar{V}
+	[\obar{V} [show]]
+	[DP [it, roof]]
+	[PP [\ibar{P} 
+		[\obar{P} [to]]
+		[DP [Erika, roof]]
+	]]
+]]
+\end{forest}
+\end{exe}
+This isn't countenanced by the \ibar{X} Skeleton we've adopted, which allows for only one complement position. (Indeed, our \ibar{X} Skeleton allows no phrase to have more than two daughters.) There is evidence that the structures our parses deliver are correct, however. We can discover with co\"ordination, for instance, that the second argument can be a sister to a \ibar{V} that contains the first argument.%
+%
+\marginnote[0pt]{Remember my warning about making arguments from co\"ordination: there are ellipses process that arise in co\"ordinations that can obscure what the two co\"ordinated phrases actually are. One of those ellipses processes is what's called Right Node Raising, and it is the one that threatens to undercut my argument here. In Right Node Raising, material in the first of two conjuncts can be elided when it matches something in the second conjunct. This, for instance, is what's happened in~(i).
+\begin{exe}
+	\raggedright
+	\exi{i.} Janina talked to, and Winnie talked about, Pius. 
+\end{exe}
+A diagnostic property of Right Node Raising is that material at the end of the first conjunct must be contrasted with something in a parallel position in the right conjunct. In (i), for instance, \emph{to} is contrasted with \emph{for}. (See \citet{Hartmann:1998} and \citet{Fery:2005a}.) I have tried to construct an example that doesn't have this property with the hope that it will block a Right Node Raising analysis.}%
+%
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:coo2arg} 
+	\begin{xlist}
+		\ex She both showed the contract and explained it to Zahra.
+		\ex She first put it and then rolled it under the table.
+	\end{xlist}
+\end{exe}
+The parse for (\ref{ex2:coo2arg}a) is (\ref{ex2:coo2argt}). (I will leave out \emph{both}.)
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:coo2argt} 
+	\small
+\begin{forest}
+[IP
+	[DP [\ibar{D} [\obar{D} [she]]]]
+	[\ibar{I}
+		[\obar{I} [past]]
+		[VP [\ibar{V} 
+			[\ibar{V} 
+				[\ibar{V} 
+					[\obar{V} [show]]
+					[DP [\ibar{D} 
+						[\obar{D} [the]]
+						[NP [contract, roof]]
+					]]
+				 ]
+				[and]
+				[\ibar{V}
+					[\obar{V} [explain]]
+					[DP [\ibar{D} [\obar{D} [it]]] ]
+				]
+			]
+			[PP [\ibar{P}
+				[\obar{P} [to]]
+				[DP [Zahra, roof]]
+			]]
+		]]
+	 ]
+]
+\end{forest}
+\end{exe}
+
+If \ibar{V}s with two arguments in them are parsed in the way our rules require---rather than Jackendoff's---we cannot give a simple structural account of the conditions on \emph{do so} anaphora. Instead, the law that determines what \emph{do so} can stand in place of will have to be given by something like~(\ref{ex2:dosoproj}).
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:dosoproj} \emph{do so} Anaphora\\
+	\emph{do so} stands in the position of a verbal projection, X, and gets its meaning from some verbal projection, Y spoken elsewhere. Y must contain a verb and all of its arguments.
+\end{exe}
+
+Okay, to summarize: we're looking for a way to factor into our procedure for recognizing grammatical sentences enough of the meanings of the words involved to guarantee that verbs and nouns (and perhaps other words) combine with the arguments they select and subcategorize. Moreover, when these arguments follow them, we must find a way of guaranteeing that they are in some \ibar{X} headed by that argument taking verb, noun, what have you.
+
+We can ensure that these arguments are in one of the \ibar{X}s if we force them to bear a  \mbox{$\theta$-role}, and allow \mbox{$\theta$-roles} to be assigned only to positions within the the \ibar{X}. We need also to describe the fact that when a verb has a $\theta$-role, there must be an argument present in the syntax which bears that  \mbox{$\theta$-role}. It is customary to divide this task into two parts, which can be expressed as follows:\marginnote{The Theta Criterion comes from Chomsky's important \emph{Lectures on Government and Binding}.}
+\pagebreak
+\begin{exe}
+	\ex \label{ex2:47} Theta Criterion
+	\begin{xlist} 
+	\ex For every $\theta$-role associated with a word, there is a syntactic position to which that $\theta$-role is assigned. 
+	\ex For every $\theta$-position, there is something with an appropriate semantic value that occupies that position (i.e., the argument).
+	\end{xlist}
+\end{exe}
+It is usual to strengthen the Theta Criterion to a bijection between arguments and \mbox{$\theta$-roles}, because of cases like~(\ref{ex2:48}).
+\begin{exe}
+	\ex \label{ex2:48} Anissa showed Chris \emph{doesn't mean} Anissa showed Chris himself.
+\end{exe}
+Without constraining the \textsc{Theta Criterion} to a bijection, we might expect (\ref{ex2:48}) to get the disallowed interpretation since presumably the DP \emph{Chris} could name the object which bears both the Theme and Goal \mbox{$\theta$-roles}. So I'll change (\ref{ex2:47}) to~(\ref{ex2:49}).
+\begin{exe}
+	\ex \label{ex2:49} \textsc{The Theta Criterion}
+	\begin{xlist} 
+	\ex For every $\theta$-role associated with a word, there is a unique syntactic position to which that $\theta$-role is assigned. 
+	\ex For every $\theta$-position, there is something with an appropriate semantic value that occupies that position (i.e., the argument).
+	\end{xlist}
+\end{exe}
+Although this principle is stated in terms of $\theta$-roles, it is meant to hold of all arguments, even those for which the language of $\theta$-roles is not often used. Thus, an equivalent, though less usual, way of formulating the Theta Criterion is~(\ref{ex2:thetcritf}).
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:thetcritf} Theta Criterion\\
+		For every argument specified in a word's lexical semantics, there is a unique syntactic position where that argument must reside.
+\end{exe}
+
+We need to worry about cases like the following, of course, in which there appears to be an optional argument.
+\begin{exe}
+	\ex \label{ex2:51} 
+	\begin{xlist}
+	\ex[]{Hotze ate (pie).}
+	\ex[]{It seems (to me) that Shay left.}
+	\end{xlist}
+\end{exe}
+Here we might imagine either that there actually is an object in these cases that bears the \mbox{$\theta$-role}, but that argument is unpronounced. Alternatively, we might conjecture that something relaxes the condition which forces every \mbox{$\theta$-role} to be assigned to a position holding an argument. The common wisdom is that both possibilities exist---we will return to this issue in the next chapter. For now, let us imagine that there is a lexically determined process which allows \mbox{$\theta$-roles} for certain predicates to avoid the Theta Criterion.
+
+The Theta Criterion glues the positions that arguments can be in to the positions that \mbox{$\theta$-roles} are assigned to. Our next step should be to specify where those positions are. But we might also linger for a moment and ask whether we should write the Theta Criterion in terms of \mbox{c-selection} instead of \mbox{$\theta$-roles}, or ``\mbox{s-selection}.'' Might we say, for instance, that if a word \mbox{c-selects} a certain kind of phrase, there must be a single position that is occupied by a phrase of that type. There is an intimate connection between the kind of phrase \mbox{c-selected}, and the semantics of the \mbox{$\theta$-role} it is assigned, so it is not easy to tell which of these is relevant.
+
+In fact, so intimate a connection is there between \mbox{s-selection} and \mbox{c-selection}, that some have suggested that they should be collapsed. It is sometimes suggested that the categorial type some argument has can be determined from its \mbox{$\theta$-role}. Jane Grimshaw\cite{Grimshaw:1979} has provided a way of viewing this hypothesis which has gained some popularity. Her idea is that one of the functions that makes up the learning device assigns a categorial status to arguments on the basis of their \mbox{$\theta$-role}. She calls this function ``Canonical Structural Realization'' (CSR). She sketches how this function might work in the special case of CPs and DPs.
+
+So let's look as some of the facts she considers. Note first that CPs may distinguish themselves as according to whether they have meanings that we might describe as ``Propositions,'' ``Exclamatives'' and ``Questions.'' DPs can denote things of these types too, sometimes. Some examples are in~(\ref{ex2:52}).
+\begin{exe}
+	\ex \label{ex2:52} 
+	\begin{xlist}
+	\ex[]{Rong asked me $\left\{ \begin{array}{l} \text{what\ the\  time\ is}\\ 
+\text{the\ time} \end{array} \right. $ \hspace{.5in} (Question)} 
+	\ex[]{I'll assume $\left\{ \begin{array}{l} \text{that\ he's\  intelligent}\\ 
+\text{his\ intelligence} \end{array} \right.$ \hspace{.5in} (Proposition)}
+	\ex[]{Michael couldn't believe $\left\{ \begin{array}{l} \text{how\ hot\ it\ is}\\ 
+\text{the\ heat} \end{array} \right.$ \hspace{.5in} (Exclamative)}
+	\end{xlist}
+\end{exe}
+In these cases, then, the verbs s-select either Q(uestion), P(roposition) or E(xclamative) and c-select either an DP or CP.
+
+There are other verbs, however, which s-select these very same meanings, but c-select only CPs. Some examples are in~(\ref{ex2:53}).
+\begin{exe}
+	\ex \label{ex2:53} 
+	\begin{xlist}
+	\ex[]{Michael wondered $\left\{ \begin{array}{l} \text{what\ the\ time\  was}\\ \text{*the\ time} \end{array} \right.$ \hspace{.5in} (Question)}
+	\ex[]{I'll pretend $\left\{ \begin{array}{l} \text{that\ he's\  intelligent}\\ \text{*his\ intelligence} \end{array} \right.$ \hspace{.5in} (Proposition)}
+	\ex[]{Rong complained $\left\{ \begin{array}{l} \text{how\ hot\ it\ was}\\ \text{*the\ heat} \end{array} \right.$ \hspace{.5in} (Exclamative)}
+	\end{xlist}
+\end{exe}
+Here then, we have a special instance of the difference in s-selection and c-selection that needs to be overcome if one is to be derived from the other.
+
+Grimshaw's suggestion is that the CSR of Questions, Propositions and Exclamatives is CP and that those verbs which s-select DPs with these meanings are learned on a case-by-case basis. Thus, this is a partial collapse of c-selection to s-selection. It predicts that every verb which s-selects a Question, Proposition or Exclamative will c-select a CP; that is, there should be no verbs that c-select only DPs with this meaning. This seems to be correct.
+
+Whether or not this project can be maintained for the situation involving the relation between CPs and DP and the  meanings they have, I don't think a parallel story holds for the complements of other categorial type. Moreover, the scheme Grimshaw proposes won't help determine which verbs select non-finite as opposed to finite clauses, which also seems to be a rather language particular fact. The problem we face here is the same problem we face when we try to understand whether morphosyntactic word-class can be expressed in solely semantic terms. It remains unknown what the relationship between word-class and semantic type is, and consequently, we are not in a position to yet understand what the connection, if any, is between c-selection and s-selection. From now on let us assume that c-selection is at least in part independent of s-selection, and determined on a verb-by-verb basis.
+
+Interestingly, however, it looks like the thesis that c-selection can be derived from s-selection fares better when external arguments are concerned. To begin with, the range of categories that serve as external arguments looks somewhat less varied; to a large extent, only DPs and CPs seem to be clausal subjects in English. %
+%
+\footnote{With the exception of cases like ``Under the bed is a slipper,'' plausibly instances of impersonal constructions with inversion; see \citet{Stowell:1981}, \citet{Rochemont:1990}, and \citet{Bresnan:1994}.}%
+% 
+And second, when a \mbox{$\theta$-role} is consistent with either DP and CP, any kind of CP is possible as is an DP:
+\begin{exe}
+	\ex \label{ex2:54} $\left\{ \begin{array}{l} \text{That\ Coral\ left}\\ \text{To\ have\ to\ leave}\\ \text{Leaving}\\ \text{The\ fact} \end{array} \right\}$ $\begin{array}{l} \text{bothers\ Hsin-Lun.}\\ \text{makes\ Ivy\ happy.} \end{array}$
+\end{exe}
+By contrast, when the subject $\theta$-role is incompatible with the meanings that CPs yield they are banned from Specifier position:
+\begin{exe}
+	\ex \label{ex2:55} $\left\{ \begin{array}{l} *\text{That\ Coral\ left}\\ *\text{To\ have\ to\ leave}\\ *\text{Leaving}\\ \text{Rodica} \end{array} \right\} \begin{array}{l} \text{kisses\ Hsin-Lun.}\\ \text{likes\ Ivy.} \end{array}$
+\end{exe}
+Subject arguments do not seem to be c-selected by the verbs involved. The $\theta$-role they bear is sufficient to determine what category they can be. Only complements are c-selected.
+
+This is a reason, then, for writing the Theta Criterion in terms of \mbox{$\theta$-roles}, and not \mbox{c-selection}. We want to link both subject and object arguments to positions relative to the word they are arguments of, but only the object argument will be \mbox{c-selected}.
+
+We can summarize what we've discovered so far with~(\ref{ex2:57}).
+% \enlargethispage*{15pt}
+\begin{exe}
+	\ex \label{ex2:57} 
+	\begin{xlist}
+	\ex If a verb has a $\theta$-role, then there is a unique syntactic position to which that $\theta$-role is assigned.
+	\ex A $\theta$-marked position must be occupied by something with the appropriate semantic value.
+	\ex A verb c-selects only its object arguments.
+	\end{xlist}
+\end{exe}
+The statements in (\ref{ex2:57}a) and (\ref{ex2:57}b) are the \textsc{Theta Criterion}, whereas (\ref{ex2:57}c) concerns the relation between \mbox{c-selection} and \mbox{s-selection} which we've just reviewed. The \textsc{Theta Criterion} insists that for every $\theta$-role that some term has, there will be a unique position occupied by an argument bearing that \mbox{$\theta$-role}. (\ref{ex2:57}c) determines whether that argument will be \mbox{c-selected} or not.
+
+We now must specify where the $\theta$-positions are for the subject and object $\theta$-roles. For object $\theta$-roles, we've already seen that those positions are inside the \ibar{X} projection of the word that is assigning $\theta$-roles. There is evidence that those $\theta$-marked positions must be closer to the $\theta$-role assigner than positions which are not $\theta$-marked. This can be seen by the fact that it is the first DP or PP in (\ref{ex2:closearg}) that is understood as the object argument.
+\enlargethispage*{\baselineskip}
+\begin{exe}
+	\raggedright
+	\ex \label{ex2:closearg} 
+	\begin{xlist}
+		\ex She remembered Tuesday Wednesday.
+		\ex She put them on it in today's class.
+	\end{xlist}
+\end{exe}
+It is not possible to understand \emph{Wednesday} to be the object of \emph{remember} in (\ref{ex2:closearg}a); and it is not possible to understand \emph{Tuesday} to be the modifier of the VP in (\ref{ex2:closearg}b). The $\theta$-role that \emph{remember} assigns to its object is occupied by \emph{Tuesday} and not \emph{Wednesday}. Similarly, it is not possible to understand \emph{in today's class} to be an argument of \emph{put} in (\ref{ex2:closearg}b), nor is it possible to understand \emph{in it} to be a modifier in (\ref{ex2:closearg}b). The $\theta$-role that \emph{put} assigns to its second argument it must assign to the position that \emph{in it} occupies, and not the position that \emph{in Today's class} occupies. We want to force object arguments to be in the smallest \ibar{X} possible. 
+
+To force arguments to be within the smallest \ibar{X}, it will now be sufficient to force the \mbox{$\theta$-position} for that argument to be within the smallest \ibar{X}. We want this effect for object arguments only---we don't want to force ``subject'' arguments into \ibar{X}---so one way of doing this would be to restrict those positions that are \mbox{c-selected} to just those within the smallest \ibar{X}. This would mean that we'd have two principles: one that determines the \mbox{c-selected} position for verbs, and another, yet to be determined, which locates the \mbox{s-selected} position for subjects.
+
+We will follow a popular view of these principles that is first found in Chomsky's \emph{Lectures on Government and Binding}. He formulates there what he calls ``The Projection Principle,'' which is responsible for mapping the argument structure of a verb---or argument taking word more generally---into a syntactic representation. I will formulate his principle as~(\ref{ex2:58}).%
+%
+\marginnote[-30pt]{Chomsky's own formulation builds in various other properties that we will encounter later on; compare (\ref{ex2:58}) to \citet[pp. 34--48]{Chomsky:1981}. An ``internal $\theta$-role'' is one that is assigned to a c-selected term. An ``external $\theta$-role'' is the one assigned to the subject argument.
+
+This formulation of the Projection Principle is informal, and must be made more precise for it to be satisfied in examples like (\ref{ex2:coo2argt}). (\ref{ex2:58}a) should read something like this: ``If $\alpha$ assigns an internal $\theta$-role to $\beta$, then there must be a projection of $\alpha$ that immediately dominates $\beta$ and doesn't dominate any modifiers." (The goal here is to let co\"ordinators, like \emph{and}, be inside the projection.)}%
+%
+% \pagebreak
+\begin{exe}
+	\ex \label{ex2:58} \textsc{The Projection Principle}
+	\begin{xlist}
+	\ex If $\beta$ is c-selected by $\alpha$, then there must be a projection of $\alpha$, $\pi$, that immediately dominates $\beta$ and if $\pi$ dominates some other phrase, $\gamma$, then $\gamma$ must be another projection of $\alpha$ or part of another c-selected argument of~$\alpha$.
+	\ex If $\alpha$ assigns an external \mbox{$\theta$-role} to $\beta$, then $\beta$ must be in the Specifier of IP closest to~$\alpha$.
+	\end{xlist}
+\end{exe}
+The Projection Principle, in concert with the Theta Criterion, forces object arguments of a verb to be in the lowest~\ibar{V}.
+
+\section{Deriving Phrase Structure Rules}
+
+An interesting consequence of the Projection Principle is that it factors into the lexical specification of the verbs everything needed to know what sort of phrases will be found in the non-recursive part of \ibar{X}s. Tim Stowell, in his dissertation,\cite{Stowell:1981} argues that the information about what resides in the lowest \ibar{V} should only be found as part of the verb's lexical content.\marginnote[0pt]{A very similar conclusion is reached in Ann Farmer's dissertation. \nocite{Farmer:1980}} This sort of information doesn't properly reside in the phrase structure rules, since it is information that is tied to the particular choice of word and not the pure form that sentences may take. In fact, the information phrase structure rules give about the contents of the smallest \ibar{X} can now be seen as merely a summation of what is possible across particular lexical items filling the head slot. Thus, we should factor out of the phrase structure rules information which concerns the categorial nature of the complements involved. We can do the same for the subject arguments as well, since their categorial nature is derived from their \mbox{$\theta$-role}.
+
+What we have seen, then, is that the phrase structure rules can be stripped of a great deal of their information. Indeed, what is left is largely what the \ibar{X} skeleton expresses and the categorial specification of non-argu\-ments. We could complete factoring out the phrase structure rules into general statements, then, by simply listing the class of phrase-types that can be non-arguments inside other phrases. We could add to the \ibar{X} Skeleton a language particular set of statements of the form in~(\ref{ex2:59}).
+\begin{exe}
+	\ex \label{ex2:59}\marginnote[0pt]{I'll say that a phrase, $\alpha$ modifies another phrase, $\beta$, if the semantic composition rule that composes a compositional meaning from them is not of the argument/argument taking type.}
+	\begin{xlist}
+	\ex If $\alpha$ modifies \ibar{N}, then $\alpha$ must be \dots
+	\ex If $\alpha$ modifies \ibar{V}, then $\alpha$ must be \dots\\ \hspace*{1in}$\vdots$
+	\end{xlist}
+\end{exe}
+The ``\dots'' will carry lists of category types. We might imagine doing the same thing with respect to Specifiers. We could envision the grammar of a language having a set of statements like~(\ref{ex2:specstate}).\enlargethispage*{\baselineskip}
+\begin{exe}
+	\ex \label{ex2:specstate} 
+	\begin{xlist}
+		\ex If $\alpha$ is in the Specifier of IP, then $\alpha$ is a DP or CP.
+		\ex If $\alpha$ is in the Specifier of DP, then $\alpha$ is a DP's.
+ 	\end{xlist}
+\end{exe}
+
+If this project is successful, then the Phrase Structure rules of English collapse in full to the \ibar{X} Skeleton, the \mbox{c-selection} requirements of heads and statements like (\ref{ex2:59}) about what kind of phrase can modify another. Some have argued for a picture of language variation that makes the hierarchical arrangements of constituents that the \ibar{X} Skeleton, together with the \textsc{Projection Principle} and \textsc{Theta Criterion} and whatever yields (\ref{ex2:59}), completely immutable.\footnote{See \citet{Travis:1984}, for example.} All that varies across languages is the linear order in which the terms that follow the arrows in the \ibar{X} Skeleton may have. So, the phrase structure component of the grammar might have nothing more than (\ref{ex2:60}) in it, where ``\setof{$\alpha$, $\beta$}'' should be understood as representing both the string $\alpha$+$\beta$ and the string $\beta$+$\alpha$.
+\begin{exe}
+	\ex \label{ex2:60} 
+	\begin{xlist}
+	\ex XP $\rightarrow$ \ibar{X}
+	\ex XP $\rightarrow$ \{$\alpha$P, \ibar{X}\}
+	\ex \ibar{X} $\rightarrow$ \{\ibar{X}, $\beta$P\}
+	\ex \ibar{X} $\rightarrow$ \{\obar{X}, $\gamma$P\}
+	\ex \ibar{X} $\rightarrow$ \obar{X}
+	\end{xlist}
+\end{exe}
+What the morpho-syntactic category of $\alpha$, $\beta$ and $\gamma$ are is fully determined by the \mbox{c-selection} properties of \obar{X} and the language particular principles governing modifier types (i.e., (\ref{ex2:59})).\marginnote[-55pt]{The expression ``\obar{X}'' refers to the position in a phrase-marker that only a lexical item, a morpheme, can be fit into. It is the position of the ``head'' of the phrase.} And we'll understand ``X'' to be a variable over morpho-syntactic category which is determined by the morpho-syntactic category of the morpheme that is inserted into the \obar{X} position. Thus, for instance, if \emph{hat} is inserted into \obar{X} position, then X is N, and if \emph{run} is inserted into \obar{X}, then X is~V.
+
+The linear arrangements of these constituents must then be determined by the language particular part of the grammar. There is evidence from language typology that whatever it is that determines the order of Specifier and \ibar{X} is independent of what determines the order of heads and their complements. There is no widely agreed upon account of what is responsible for this factor, so let's leave this for the future. There is also typological evidence\footnote{See \citet{Greenberg:1963} and \citet{Dryer:1992}.} that the order or complement and head correlates with the order of modifier and \ibar{X}. One way of expressing this is with a ``headedness parameter'' which specifies whether the head of a phrase may come initially or finally in its (immediate) projection. This predicts that complements will either all precede or follow their heads, and not come among them. While this is not superficially true (German/Dutch, for example, look like counterexamples), it does look like this could be true of the underlying arrangements of these constituents and it does seem to capture a tendency that languages have.
+
+As a starting point, then, let's take the view that languages linearize their phrasal constituents by way of setting separately the linear order of the immediate constituents of XP and \ibar{X}. This can be achieved by letting languages pick the values ``first'' and ``last'' for the terms in~(\ref{ex2:61}).
+\begin{exe}
+	\ex \label{ex2:61} If $\sigma$ is an immediate daughter of $\pi$, $\pi$ a projection\marginnote{$\beta$ is a ``projection of $\alpha$'' iff $\beta$ dominates \al\ and they have the same head.} of \al, then choose a value in ``<$\;$ >'' for:
+	\begin{xlist}
+	\ex $\sigma$ = Specifier of $\pi$: <first in $\pi$, last in $\pi$>
+	\ex $\sigma$ = the term $\pi$ is a projection of: <first in $\pi$, last in $\pi$>, modulo (\ref{ex2:61}a)
+	\end{xlist}
+\end{exe}
+This connects the linear order of head and complement to the linear order of head and adjunct, which Dryer's work suggests might be correct.\footnote{See also \citet{Saito:1985} and \citet{Saito:1998}.} So, for instance, a language that sets Specifier to ``first'' and Projection-of-$\alpha$ to ``last'' will license sentence structures like those in (\ref{ex2:linl1}a), whereas a language that sets both terms to ``last'' will produce structures like those in~(\ref{ex2:linl1}b).
+\begin{exe}
+\ex \label{ex2:linl1} 
+a. \small
+\begin{forest}
+[IP
+	[XP ]
+	[\ibar{I} 
+		[VP 
+			[?? ]
+			[\ibar{V}
+				[WP ]
+				[\ibar{V} 
+					[MP ]
+					[\obar{V} ]
+				 ]
+			 ]
+		]
+		[\obar{I}]
+	 ]
+]
+\end{forest}
+b. \small
+\begin{forest}
+[IP
+	[\ibar{I} 
+		[VP 
+			[?? ]
+			[\ibar{V}
+				[WP ]
+				[\ibar{V} 
+					[MP ]
+					[\obar{V} ]
+				 ]
+			 ]
+		]
+		[\obar{I}]
+	 ]
+	[XP ]
+]
+\end{forest}
+\end{exe}
+The categorial values for MP will be determined by the \mbox{c-selection} specification of the verb involved. The categorial values for XP will be determined by the \mbox{$\theta$-role} it receives. And the categorial values for WP will be whatever (\ref{ex2:60}) for the language in question allows to modify \ibar{V}s. We haven't yet discovered what sits in the Specifier of VP, so this spot is marked with ``??.''
+
+The linearization parameters in (\ref{ex2:61}) produce these phrase markers in the following way. Setting Specifier to ``first'' in (\ref{ex2:linl1}a) linearizes XP and ?? so that they precede \ibar{I} and \ibar{V} respectively. Setting Projection-of-\al\ to ``last'' makes every other \ibar{I} and \ibar{V}, as well as I and V, follow the phrase they are sisters to. As a consequence WP, MP and VP precede the phrase they are complements to or modifiers of. In (\ref{ex2:linl1}b), by contrast, Specifier is set to ``last,'' which linearizes XP and ?? so that they follow \ibar{I} and \ibar{V} respectively. As with (\ref{ex2:linl1}), Projection-of-\al\ is set to ``last'' in (\ref{ex2:linl1}b) and the consequence for the position of WP, MP and VP is the same.
+
+Restricting the linearization options to just those in (\ref{ex2:61}) blocks certain phrase markers. It blocks languages, for instance, in which the complement to a verb falls on a different side of that verb than does a complement to a noun (or any other category). That is, it forces languages to unify the linearization of Specifier, Complement and modifier across phrase types. It is not hard to find languages that seem to violate this restriction, but as Greenberg and Dryer find, there is a tendency for languages to avoid this type. Similarly, (\ref{ex2:61}) prevents all languages that put modifiers to one side of the \ibar{X} they modify but put complements to the other side. For instance, phrase markers like (\ref{ex2:engb}) are prevented.
+\begin{exe}
+\ex \label{ex2:engb} 
+\small
+\begin{forest}
+[IP
+	[XP ]
+	[\ibar{I} 
+		[\obar{I} ]
+		[VP
+			[?? ]
+			[ \ibar{V}
+				[WP ]
+				[\ibar{V}
+					[\obar{V} ]
+					[MP ]
+				 ]
+			]
+		 ]
+	 ]
+]
+\end{forest}
+\end{exe}
+This phrase marker linearizes \ibar{V} (a projection of \obar{V}) ``last'' relative to WP, but linearizes V (also a projection of \obar{V}) ``first'' relative to its complement. Clearly there are languages of this unexpected type. English, for instance, seems to look precisely like~(\ref{ex2:engb}).
+
+This proposal, then, seems clearly too restrictive. Nonetheless, it will be our starting point. In the chapters that follow we will explore ways of loosening this model so that it is enabled to account for the range of language types we do see without losing the trends in linear organization that Greenberg and Dryer have discovered. What we have now is not yet complete enough to really engage this problem.
+
+In fact, the linearization scheme in (\ref{ex2:61}) is itself not yet complete enough to generate the strings we want to associate with the phrase markers it allows, for example those in (\ref{ex2:linl1}a) and (\ref{ex2:linl1}b). All (\ref{ex2:61}) does is linearize the phrases within a sentence. It does not determine how the strings of words within those phrases are linearized relative to the other phrases. To see this, consider a phrase marker like that in (\ref{ex2:lind1}), in which lower-cased letters should be understood as representing words.\enlargethispage*{20pt}
+\begin{exe}
+\ex \label{ex2:lind1} 
+\small
+\begin{forest}
+[XP
+	[YP 
+		[\obar{Y} [\textit{y}] ]
+		[MP [\ibar{M} 
+			[\obar{M} [\textit{m}] ]
+			[WP [\ibar{W} [\obar{W} [\textit{w}]]] ]
+		] ]
+	 ]
+	[\ibar{X}
+		[\obar{X} [\textit{x}] ]
+		[OP [\ibar{O} [\obar{O} [\textit{o}]]] ]
+	 ]
+]
+\end{forest}
+\end{exe}
+This phrase marker arises by imposing the \ibar{X} Skeleton and setting Specifier to ``first'' and Projection-of-\al\ also to ``first.'' What we would like is for this to be sufficient to generate the string $ymwxo$. Instead, however, all that these settings give us is the information in (\ref{ex2:lind2}).
+\begin{exe}
+\ex \label{ex2:lind2} 
+\begin{xlist}
+	\ex Y precedes MP
+	\ex M precedes WP
+	\ex YP precedes \ibar{X}
+	\ex X precedes OP
+\end{xlist}
+\end{exe}
+What's required is something to determine how the information in (\ref{ex2:lind2}) determines the linear order of $y$ relative to the words within MP and \ibar{X}, the linear order of $m$ relative to the words in WP, and the linear order of $x$ relative to the words within OP. Let's turn to that now.%
+%
+\marginnote[-65pt]{The relationship between phrase markers and the strings they map onto is investigated in a vast literature, where a wide array of different formalizations can be found. Two widely read classics are \citet{Chomsky:1985} and \citet{Lasnik:1977}. For a simple introduction to the formalisms of graph theory (from which phrase markers are drawn) and their projection onto strings, see \citet{Partee:1990}.}%
+
+Recall that in defining morpho-syntactic category, we entertained the hypothesis that looking at only adjacent terms would be sufficient for defining the relevant substitution classes. As it happens, in defining phrases we have also obeyed this constraint. As a result, phrases are always strings of adjacent terms. Let's elevate this too to an hypothesis:
+\begin{exe}
+\ex \label{ex2:contiguity} \textsc{Contiguity}\\
+Let $\tau$ = \{ \al_1, \al_2, \ldots, \al_n \} be terminals dominated by $\zeta$. The string formed from $\tau$ cannot contain \be\ if \be\ is not dominated by $\zeta$.
+\end{exe}
+If Contiguity holds, it is possible to determine from (\ref{ex2:lind2}) what the consequent linearization for all the words in (\ref{ex2:lind1}) is. If the words in MP must be adjacent to each other, then (\ref{ex2:lind2}a) is enough to know that $y$ precedes all those words (i.e. $m$ and $w$). Similarly, if the all the words in YP must form a contiguous string, and all the words in \ibar{X} must too, then from (\ref{ex2:lind2}c) it is possible to deduce that every word in YP (= $y$, $m$ and $w$) must precede every word in \ibar{X} (= $x$ and $o$). All that is required is an explicit statement that the words within a phrase, \al, are linearized with respect to the words in phrase \be\ in the same way that \al\ is linearized to \be. This can be done with~(\ref{ex2:alllin}). \enlargethispage*{16pt}
+\begin{exe}
+	\ex \label{ex2:alllin} \al\ < \be\ =_{\text{def.}} \al\ precedes \be.\\
+	\{_{\delta} \al, \be\} =_{\text{def.}} 
+	\footnotesize
+	\begin{forest}
+	[{\small $\delta$}
+		[{\small $\alpha$} ]
+		[{\small $\beta$} ]
+	]
+	\end{forest}
+or
+\begin{forest}
+[{\small $\delta$}
+	[{\small $\beta$} ]
+	[{\small $\alpha$} ]
+]
+\end{forest}
+\begin{xlist}
+	\normalsize
+\ex For all words, $x$ and $y$, within a phrase marker, either $x < y$ or $y < x$.
+\ex Let X and Y be points on a phrase marker. If X~<~Y, then $x~<~y$ for all $x$ dominated by X, and all $y$ dominated by Y.
+\end{xlist}
+\end{exe}
+(\ref{ex2:alllin}a) merely makes explicit that all the words in a phrase marker must have a linear relation to every other word in a phrase marker. (\ref{ex2:alllin}b) determines how these linear relations are derived from the language particular orderings imposed upon phrases. It also derives Contiguity.
+
+On this view, then, the phrase structures of languages are the result of four fixed universals---the \ibar{X} Skeleton, the Theta Criterion, the Projection Principle, and the linearization principles in (\ref{ex2:alllin})---plus the language particular pieces of information in~(\ref{ex2:langvar}).%\pagebreak
+\begin{exe}
+\ex \label{ex2:langvar} 
+\begin{xlist}
+	\ex Specifying the categories of adjuncts (i.e., (\ref{ex2:59})).
+	\ex Setting the ``headedness parameter'' (i.e., (\ref{ex2:61})).
+	\ex A vocabulary of lexical items s-select and c-select arguments.
+\end{xlist}
+\end{exe}
+There's a sense, then, in which languages do not actually have Phrase Structure rules. They are merely the epiphenomena that emerge when the various factors of Universal Grammar and language particular information are combined. This theory, if correct, meets the criterion of explanatory adequacy. It provides both inviolable constraints (i.e., \ibar{X} Theory, the Theta Criterion, the Projection Principle and (\ref{ex2:alllin})) and an evaluation metric (i.e., (\ref{ex2:langvar}) and the language particular vagaries of vocabulary).
+
+In moving from a battery of English specific phrase structure rules to the  more explanatory interaction between \ibar{X} Theory and the \mbox{c-selection} requirements of verbs, language particular settings of modifier types, etc., we have lost some information. Because that transition removed any reference to categories, it is no longer possible to order complements in situations, like (\ref{ex2:putp}), where there are more than two. 
+\begin{exe}
+\ex \label{ex2:putp} Ivy put this on the table.\\
+					\emph{compare:} *Ivy put on the table this.
+\end{exe}
+This information was conveyed in the phrase structure rules by way of referencing category type. We had rules such as (\ref{ex2:ordero}) for instance which ensure that if a verb is followed by two complements, the first will be the DP.
+\begin{exe}
+\ex \label{ex2:ordero} \ibar{V} $\rightarrow$ \obar{V} DP\\ \ibar{V} $\rightarrow$ \ibar{V} PP
+\end{exe}
+Because the \ibar{X} Skeleton does not have information about category type in it, it is not possible to use the \ibar{X} Skeleton to order complements. Nor would we want to rely on the \mbox{c-selection} requirements of verbs to do this. That would amount to the claim that the order of complements varies as a function of the verb involved. But the fact of English is that no matter what verb is selected, the complements line up in the way that (\ref{ex2:ordero}) requires.
+
+There must be another component of the grammar which expresses this information. Indeed, we have several outstanding problems concerning the position that arguments take. For instance, we have the paradoxical behavior of CP objects yet to understand. How are object CPs at once within the lowest \ibar{X} with respect to constituency tests like \emph{do so} anaphora, but also linearized so that they appear after modifiers that are not within this \ibar{X}?  Among the loose-ends fraying at the edges of the proposals presented in this chapter, the correct characterization of argument placement looms large. This will be the subject of the next chapter.
