@@ -3,9 +3,12 @@
 \usepackage[safe]{tipa}						% IPA
 % \usepackage[scaled=.92]{lsyntax}			% sans serif: Syntax
 % \usepackage{MnSymbol}						% mathfont
-\usepackage[mathlf,footnotefigures,medfamily]{MinionPro} % Minion 
+% \usepackage[mathlf,footnotefigures,medfamily]{MinionPro} % Minion 
 % \usepackage[]{clara}          % no oldstyle figures
 % \usepackage{ebgaramond-maths}
+\usepackage{fontspec}
+\setmainfont{Minion 3}[Numbers=OldStyle]
+\setsansfont{Myriad Pro}[Numbers=OldStyle, Scale=MatchLowercase]
 \usepackage{underarrows}
 \usepackage{mathrsfs}
 \usepackage{amsmath}
@@ -19,6 +22,7 @@
   {1em}% horizontal separation between label and title body
   {}% before the title body
 %   []% after the title body
+\usepackage[all]{nowidow}
 \usepackage{gb4etufte}
 
 \setcounter{secnumdepth}{3}

@@ -1,0 +1,84 @@
+% ===================================================================================
+% = This template creates a handout for a class.
+% = It produces a running header that alternates "lecture" with "class"
+% = It produces a running footer with centered page number. 
+% = You need to fill in the values for Lecture, Class and Date below.
+% ===================================================================================
+\documentclass[12pt]{kylehandout3}
+% \usepackage[safe]{tipa}					% loads IPA font
+\usepackage{fontspec}
+\setmainfont{Minion 3}[Numbers=OldStyle]
+\setsansfont{Myriad Pro}[Numbers=OldStyle, Scale=MatchLowercase]
+% \setsansfont{Proxima Nova}[Numbers=OldStyle]
+\usepackage[backend=bibtex,natbib,style=authoryear,sorting=nyt]{biblatex}
+\addbibresource{Bibliography.bib}
+% \usepackage[osf,sc]{mathpazo} 														% Adobe Palatino - roman; % \usepackage{CharisSIL}
+% \usepackage[oldstyle]{clara}
+% \usepackage[oldstylenums,nosf]{kpfonts}
+% \usepackage[osf,sups]{XCharter}
+% \usepackage[osf,sc]{mathpazo} 				% Adobe Palatino - roman; 
+% \usepackage[]{domitian}
+% \let\oldstylenums\oldstyle
+\usepackage{pifont}
+\usepackage{underarrows}
+\usepackage[all]{nowidow}
+
+\usepackage{gb4e}
+
+
+% ===========================================================
+% = Fill in values for "lecture," "class" and "date" below. =
+% ===========================================================
+\newcommand{\lecture}{f}		% Lecture
+\newcommand{\class}{f}			% Class
+\newcommand{\sdate}{f}			% Date
+% ===========================================================
+
+% ======================================================================
+% = Sets up a header that puts Johnson, class, lecture and date across =
+% ======================================================================
+\pagestyle{fancy}
+\rhead[\textsf{\sdate}]{\textsf{\sdate}}
+\lhead[\textsf{Johnson: \class}]{\textsf{Johnson: \class}}
+\chead[\textsf{\lecture}]{\textsf{\lecture}}
+
+% ======================================================================
+
+% ======================================================
+% = Produces a footer with a centered page number =
+% ======================================================
+\cfoot[\textsf{\large \thepage}]{\textsf{\large \thepage}}
+% ======================================================================
+
+
+\begin{document}
+	
+\thispagestyle{empty}
+
+% ================================
+% = This sets up the first page  =
+% ================================
+  \begin{flushleft}%
+    {\sffamily\Large \lecture %lecture
+    }%
+  \end{flushleft} \vspace*{-.17in}
+  \rule{\linewidth}{.5mm} \vspace*{-.25in}
+  \begin{flushright}
+    {\sffamily
+      Kyle Johnson \hspace*{\fill} \class \\
+    \sdate}%
+    \end{flushright}
+% ================================
+
+\vskip .25in
+\begin{multicols}{2}
+\raggedcolumns
+
+\noindent
+
+
+%References
+\printbibliography[title={\sffamily References}]
+
+\end{multicols}
+\end{document}
