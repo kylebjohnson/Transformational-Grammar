@@ -4,12 +4,13 @@
 \setcounter{exx}{0}
 % \setcounter{page}{137}
 
+\noindent
 One problem our grammar suffers from presently has to do with the fact that the heads of sentences are often not words. Many finite clauses are headed by bound morphology, as in~(\ref{ex4:1}).
 \begin{exe}
 \ex \label{ex4:1}
 \small
 \begin{forest}
-[IP
+[IP 
 	[DP [she, roof]]
 	[\ibar{I} 
 		[\obar{I} [pres] ]
@@ -154,7 +155,7 @@ A Verb Movement account of these phenomena lets phrase structure rules fix the l
 ]
 \end{forest}
 \vspace*{8pt}
-\ex \label{ex4:5}
+\ex \label{ex4:5}\marginnote{In the previous chapter we saw that there is evidence that verbs which have an external θ-role are accompanied with a ``\obar{v}'' that expresses that $\theta$-role. One of our tasks in this chapter is to understand how to capture the correlation between the $\theta$-role in \obar{v} and the verb that follows. We take up this task in 4.6. Until then, I will ignore the possible presence of \obar{v} in the parses, and revert to parses in which VPs involve \obar{V} and not \obar{v}.}
 a. 
 \small
 \begin{forest}
@@ -187,7 +188,7 @@ b.
 \end{exe}
 In these parses I've decided to position polarity items as heads that embed the following VP. Moreover, I've renamed these items, and the phrase they head, ``Negation.'' This renaming is common in the literature, as it is typical that only the negative item among the polarity terms is talked about. The representation in which \obar{Neg} embeds VP is argued for in \citet{Pollock:1989}, and we will consider his reasons soon. There are other possibilities which are consistent with what we've seen so far, however. One is to treat polarity items as heading a phrase that is a left-linearized daughter of the highest \ibar{V}, like an adverbial modifier can be.
 
-The representations in (\ref{ex4:5}) claims that auxiliary verbs select IPs as their complements. This gives us a way of capturing the fact that auxiliary verbs determine the inflection that is borne by the VPs they embed. The auxiliary verb \emph{have}, for instance, determines that the VP it embeds will be inflected as what's called a ``perfect participle'' in traditional grammars. These forms frequently look very much like the simple past form of a verb: \emph{heard}, \emph{liked}, etc. But not all perfect forms look like simple pasts, for example: \emph{taken}, \emph{eaten}, etc. If we imagine that auxiliary \emph{have} selects an Inflectional Phrase headed by the morphology that is responsible for inflecting a verb as a perfect participle, this will be derived. Similarly, there is an auxiliary verb \emph{be} that causes the VP it is embeds to be headed by a verb in the so-called ``progressive'' or ``present participle'' inflectional form, for example: \emph{eating}, \emph{running}, etc. Another auxiliary verb \emph{be} embeds the passive participle, which we've encountered in our discussion of the passive rule. For all three of these auxiliary verbs, we might speculate that they select an Inflectional Phrase headed by the morphology responsible for inflecting the embedded verb.
+The representations in (\ref{ex4:5}) claims that auxiliary verbs select IPs as their complements. This gives us a way of capturing the fact that auxiliary verbs determine the inflection that is borne by the VPs they embed. The auxiliary verb \emph{have}, for instance, determines that the VP it embeds will be inflected as what's called a ``perfect participle'' in traditional grammars. These forms frequently look very much like the simple past form of a verb: \emph{heard}, \emph{liked}, and \textit{dreamed} can be either perfect participles or past tense. But not all perfect forms look like simple pasts, for example: \emph{taken} is the perfect of \textit{take}, and \textit{took} is the past; \emph{eaten} is the perfect, and \textit{ate} the past. If we imagine that auxiliary \emph{have} selects an Inflectional Phrase headed by the morphology that is responsible for inflecting a verb as a perfect participle, we can derive that the perfect form of a verb follows auxiliary \textit{have}. Similarly, there is an auxiliary verb \emph{be} that causes the VP it is embeds to be headed by a verb in the so-called ``progressive'' or ``present participle'' inflectional form, for example: \emph{eating}, \emph{running}, etc. Another auxiliary verb \emph{be} embeds the passive participle, which we've encountered in our discussion of the passive rule. For all three of these auxiliary verbs, we might speculate that they select an Inflectional Phrase headed by the morphology responsible for inflecting the embedded verb.
 
 The Verb Movement rule could be formulated with~(\ref{ex4:vm1}).
 \begin{exe}
@@ -270,7 +271,7 @@ The Word Criterion, then, will force Verb Movement when \obar{I} contains someth
 		] ]
 	]
 ]
-\draw[->,>=stealth', ultra thin, gray] (trace) to[out=south west,in=south,looseness=1] node[pos=0.75,xshift=-10mm]{} (binder);
+\draw[->,>=stealth', ultra thin, gray] (trace) to[out=south west,in=south east,looseness=1] node[pos=0.75,xshift=-10mm]{} (binder);
 \end{forest}
 \end{exe}
 
@@ -301,6 +302,7 @@ And the processes that indicate whether a verb is in its VP, i.e., VP ellipsis a
 The process that brings inflection together with the verb on which it is expressed must have a different outcome when main verbs are involved. The challenge is to find a way of conceiving of this process so that both kinds of outcomes are possible. There have been a number of attempts to capture this flexibility, none of them entirely successful.
 
 One account, found in \citet{Chomsky:1957}, posits a transformational rule that moves the inflection down onto the verbal root when main verbs are involved. A sentence like (\ref{ex4:affhop}), for example, would enter into the derivation in~(\ref{ex4:affhopd}).
+\pagebreak
 \begin{exe}
 \ex \label{ex4:affhop} Andre likes apples.
 \ex \label{ex4:affhopd}
@@ -511,7 +513,7 @@ And \emph{do} is not present when there is an auxiliary verb that can move to fo
 \end{exe}
 A way of describing this distribution is to say that \emph{do} appears when no other way of pronouncing the bound morphemes in \obar{I} are possible. Finding a way of expressing that condition isn't possible in the syntax we presently have. There are proposals in the literature about how to achieve that, but to look at these now would take us too far off track. I will ignore the distribution of auxiliary verb \emph{do} in these lectures.
 
-We will, however, look at how to model the competing ways in which auxiliary and main verbs in English inflect. That is best done, as mentioned above, by looking at how these systems of inflecting verbs varies cross-linguistically. But first, there is one last piece to the picture of English verb placement that we should see.
+We will, however, look at how to model the competing ways in which auxiliary and main verbs in English inflect. That is best done, as mentioned above, by looking at how these systems of inflecting verbs vary cross-linguistically. But first, there is one last piece to the picture of English verb placement that we should see.
 
 \section{Movement to \obar{C}}
 \label{sec:movetoC}
@@ -595,7 +597,7 @@ This will produce derivations like~(\ref{ex4:itocd1}).\marginnote[0pt]{Note that
 \end{exe}
 The Word Criterion will correctly block movement of \obar{I} to \obar{C} in those cases where \obar{C} is filled with a complementizer, assuming that a complementizer and the modal or inflected verb in \obar{I} cannot together form one word.
 
-Okay, so this is, roughly, a sketch of the rules that go into making up our knowledge of this fragment of English syntax. We've got three rules, one that moves auxiliary verbs to \obar{I}, another than moves \obar{I} to \obar{C} and a third that inflects main verbs. The first and last are driven by the Stray Affix Filter, or some parallel condition on the view that inflection is assigned under \textsc{agree}, and the second arises in questions. We can make the movement of \obar{I} to \obar{C} obligatory with the Stray Affix Filter if we imagine that there is an inflection in the \obar{C} position of questions as well. This morpheme has no phonology associated with it, apparently, but expresses itself instead by forcing movement of \obar{I}. We can think of this morpheme as an affix on words that belong to the part of speech that \obar{I} names, must as tense/agreement inflection is an affix on the words that belong to the part of speech that \obar{V} names. I'll represent this abstract question affix with ``Q.''
+Okay, so this is, roughly, a sketch of the rules that go into making up our knowledge of this fragment of English syntax. We've got three rules, one that moves auxiliary verbs to \obar{I}, another than moves \obar{I} to \obar{C} and a third that inflects main verbs. The first and last are driven by the Stray Affix Filter, or some parallel condition on the view that inflection is assigned under \textsc{agree}, and the second arises in questions. We can make the movement of \obar{I} to \obar{C} obligatory with the Stray Affix Filter if we imagine that there is an inflectional morpheme in the \obar{C} position of questions as well. This morpheme has no phonology associated with it, apparently, but expresses itself instead by forcing movement of \obar{I}. We can think of this morpheme as an affix on words that belong to the part of speech that \obar{I} names, just as tense/agreement inflection is an affix on the words that belong to the part of speech that \obar{V} names. I'll represent this abstract question affix with ``Q.''
 \begin{exe}
 	\raggedright
 	\ex \label{ex4:itocd2} 
@@ -623,66 +625,53 @@ There's one last feature of these rules that we should consider. In all the case
 \begin{exe}
 	\ex \label{ex4:16} 
 	\small
-	\begin{forest}
-	[IP
-		[DP [they, roof]]
-		[\ibar{I} 
-			[\obar{I} [agr/pres] ]
-			[VP [\ibar{V}
-				[\obar{V} [have] ]
-				[IP [\ibar{I}
-					[\obar{I} [\emph{en}] ]
-					[VP [\ibar{V}
-						[\obar{V} [be] ]
-						[IP [\ibar{I}
-							[\obar{I} [\emph{ing}] ]
-							[VP [run, roof]run ]
-						] ]
-					] ]
-				] ]
-			] ]
-		]
-	]
-	\end{forest}
-\end{exe}
-Suppose that we move \emph{be} to \emph{-en} and form thereby the perfect participle form: \emph{been}. Imagine, further, that the \obar{I} which determines the present participle, the \obar{I} holding \emph{-ing}, inflects the main verb that follows in whatever way it turns out that main verbs inflect. All that would then remain is to provide the tns/agree morphology associated with the highest \obar{I} with a stem. The correct outcome is one in which \emph{have} moves to this \obar{I}. But what would prevent the participle \emph{been}, residing in the \obar{I} directly beneath \emph{have}, from moving into this \obar{I}. The outcome would be~(\ref{ex4:16b}), and this is clearly not possible.
-\begin{exe}
-\ex[*]{\label{ex4:16b} The been-re have running.}
-\end{exe}
-There's not even an inflectional form for \emph{be} in which agreement/tense inflection combines with the (perfect) participle.
-
-Similarly, consider how our rules might combine to apply to a D-structure representation like~(\ref{ex4:vtoc}). %\enlargethispage*{22pt}
-\begin{exe}
-\ex \label{ex4:vtoc} 
-\small 
 \begin{forest}
-[CP[\ibar{C}
-	[\obar{C} [Q]]
-	[\ibar{I} 
-		[\obar{I} [agr/tns] ]
+[IP
+	[\ibar{I}
+		[\obar{I} [agr/past]]
 		[VP [\ibar{V}
-			[\obar{V} [have] ]
-			[IP [\ibar{I}
-				[\obar{I} [\emph{en}] ]
-				[VP [\ibar{V}
-					[\obar{V} [be] ]
-					[IP [\ibar{I}
-						[\obar{I} [\emph{ing}] ]
-						[VP [run, roof] ]
-					] ]
-				] ]
-			] ]
+			[\obar{V} [make]]
+			[VP
+				[DP [it, roof]]
+				[\ibar{V}
+					[\obar{V} [be]]
+					[AP  [obvious that something's wrong, roof]]
+				 ]
+			 ]
 		] ]
-	]
-]]
+	 ]
+]
 \end{forest}
 \end{exe}
-In this example, we might imagine that, as before, the \obar{I} associated with \emph{-ing} inflects the following main verb and that \emph{be} moves into the \obar{I} associated with \emph{-en} and forms the participle: \emph{been}. Let verb movement also bring \emph{have} into the \obar{I} associated with tense/agreement morphology to form the finite verb \emph{have}. Finally, assume that this CP is a question and so triggers the rule that brings \obar{I} into \obar{C}. We might imagine that the \obar{I} holding \emph{been} could move into \obar{C}; but this is not grammatical, as~(\ref{ex4:vtoco}) indicates.
+Suppose that we move \emph{be} to \emph{agr/past} and form thereby the past tense form: \emph{were}. 
 \begin{exe}
-\ex[*]{\label{ex4:vtoco} Been they have running?}
+\raggedright
+	\ex \label{ex4:16a}
+	\small
+\begin{forest}
+[IP
+	[\ibar{I}
+		[\obar{I}
+		[\obar{V} [be, name=binder]]]
+		[\obar{I} [agr/past]]
+		]
+		[VP [\ibar{V}
+			[\obar{V} [make]]
+			[VP
+				[DP [it, roof]]
+				[\ibar{V}
+					[{\ }, name=trace]
+					[AP  [obvious that something's wrong, roof]]
+				 ]
+			 ]
+		] ]
+	 ]
+\draw[->,>=stealth', thin, gray] (trace) to[out=south west,in=south,looseness=1] node[pos=0.75,xshift=-10mm]{} (binder);
+\end{forest}
 \end{exe}
+But this is an ungrammatical outcome. Instead, the only grammatical outcome is one in which the past tense morphology is expressed on \textit{make}. We need to find a way of preventing derivations that include the movement in (\ref{ex4:16a}). 
 
-There might well be independent reasons for some of these effects. It might be, for instance, that English morphology does not allow participles to inflect for tense and agreement. And yet, all of the blocked outcomes fit a generalization that it might be worthwhile crediting for the whole class of cases. Lisa Travis\cite{Travis:1984} made just such a proposal. She suggests that there is a constraint on head movement rules that blocks them from moving past other \obar{X}s. She calls this condition the ``head movement constraint,'' and I will formulate it as (\ref{ex4:hmc}).\marginnote[0pt]{Travis formulates it differently, using the notion of government described in chapter~3. For the cases that we will look at, (\ref{ex4:hmc}) will do.}
+Lisa Travis\cite{Travis:1984} suggested that there is a constraint on head movement rules that blocks them from moving past other \obar{X}s. She calls this condition the ``head movement constraint,'' and I will formulate it as (\ref{ex4:hmc}).\marginnote[0pt]{Travis formulates it differently, using the notion of government described in chapter~3. For the cases that we will look at, (\ref{ex4:hmc}) will do.}
 \begin{exe}
 	\ex \label{ex4:hmc} \textsc{The Head Movement Constraint}\\ 
 				If \obar{X} adjoins to \obar{Y}, then there can be no \obar{Z} that c-commands \obar{X} and is c-commanded by~\obar{Y}.
@@ -862,7 +851,7 @@ This leads to the expectation that we might find other phrases preceding the fin
 \end{exe}
 The generalization about German word-order can be described this way: any phrase may be initial, but exactly one must be. German is sometimes described as having ``Verb Second'' word-order for this reason. The account we've just sketched of this captures Verb Second by way of a rule that moves the verbs that have moved into finite \obar{I} into \obar{C}, and by moving anything, but always something, into the single position that exists to the left of \obar{C}.
 
-That the verb in these cases has in fact moved into \obar{C} is further substantiated by cases where Verb Second word-order is found in embedded clauses. Though there is considerable dialectal variation here, in the standard dialects, V2 is possible in embedded clauses just in those cases where a complementizer may go missing. As in English, it is possible in German to unexpress the complementizer when the CP it heads is the complement to a certain class of verbs. The verb \emph{say}, for example, can go without a complementizer---as in (\ref{ex4:24})---and when it does so in German we find V2 word-order, see (\ref{ex4:25}).
+That the verb in these cases has in fact moved into \obar{C} is further substantiated by cases where Verb Second word-order is found in embedded clauses. Though there is considerable dialectal variation here, in the standard dialects, Verb Second is possible in embedded clauses just in those cases where a complementizer may go missing. As in English, it is possible in German to unexpress the complementizer when the CP it heads is the complement to a certain class of verbs. The verb \emph{say}, for example, can go without a complementizer---as in (\ref{ex4:24})---and when it does so in German we find Verb Second word-order, see (\ref{ex4:25}).
 \begin{exe}
 	\ex \label{ex4:24} Kathryn said (that) Martin has a dime.
 	\pagebreak
@@ -879,7 +868,7 @@ There are a host of mysteries about the grammar of verb placement in German that
 \begin{exe}
 	\ex[*]{\label{ex4:26} Ich sagte [\CP\ das Buch [ da\ss\ [\IP\ Hans [\VP\ gekauft] hat]]].}
 \end{exe}
-\citet{Vikner:1995} discusses some of the ideas that have been offered for answers to these questions. One thing we can model, however, is the force that forced \obar{I} to move to \obar{C} in root declarative clauses in German. We see a very similar thing happening in English questions: \obar{I} must move to \obar{C} in questions of English, but only when they are root sentences. We captured that fact by imagining that root questions in English were CPs headed by a silent question morpheme. That morpheme, represented by ``Q,'' we can imagine is a suffix on words of category \obar{I}, and the Word Criterion will therefore require it to share an \obar{X} with its root \obar{I} at S-structure. This is what forces movement of \obar{I} to \obar{C} in English root questions. We can give a parallel model to the obligatory movement of \obar{I} to \obar{C} in root declarative sentences in German. Imagine that root sentences of German must be CPs, and that when they are declaratives, the head of that CP is a silent suffix that requires an \obar{I} stem. I'll call this silent suffix ``top.''%
+\citet{Vikner:1995} discusses some of the ideas that have been offered for answers to these questions. One thing we can model, however, is the force that requires \obar{I} to move to \obar{C} in root declarative clauses in German. We see a very similar thing happening in English questions: \obar{I} must move to \obar{C} in questions of English, but only when they are root sentences. We captured that fact by imagining that root questions in English were CPs headed by a silent question morpheme. That morpheme, represented by ``Q,'' we can imagine is a suffix on words of category \obar{I}, and the Word Criterion will therefore require it to share an \obar{X} with its root \obar{I} at S-structure. This is what forces movement of \obar{I} to \obar{C} in English root questions. We can give a parallel model to the obligatory movement of \obar{I} to \obar{C} in root declarative sentences in German. Imagine that root sentences of German must be CPs, and that when they are declaratives, the head of that CP is a silent suffix that requires an \obar{I} stem. I'll call this silent suffix ``top.''%
 %
 \marginnote[0pt]{A common description of the conditions that accompany movement of a phrase into Specifier of CP is that the phrase is ``topicalized.'' I choose ``top'' as the name for the complementizer to evoke this description.}%
 %
@@ -941,10 +930,82 @@ This is remedied by moving \obar{I} to \obar{C} to form~(\ref{ex4:germwc}).
 	\end{forest}
 \end{exe}
 
-There are some things that we might notice about the verb movement processes in German which are similar to the parallel processes in English. For example, the Head Movement Constraint is preserved in the grammar of verb placement in German. Sentences like the following, where \emph{haben} (`have') moves past the modal are ungrammatical in German just as they are in English.
+There are some things that we might notice about the verb movement processes in German which are similar to the parallel processes in English. For example, the Head Movement Constraint is preserved in the grammar of verb placement in German. Sentences like the following, where the verb from an embedded VP moves into the higher clause, are ungrammatical.
 \begin{exe}
-	\ex[*]{\label{ex4:27} \gll Martin haben das Buch gekauft mu\ss\\ Martin have the book bought must\\}
+	\ex[*]{\label{ex4:27} \gll Martin schlief den Stubentiger auf dem Bett lassen.\\ Martin slept the cat on the bed let\\ `Martin let the cat sleep on the bed.'}
 \end{exe}
+The grammatical way of expressing the sentence that underlies (\ref{ex4:27}) is (\ref{ex4:27a}), whose syntax is in (\ref{ex4:27b}). The ungrammatical string in (\ref{ex4:27}) is produced by letting the embedded verb move in violation of the Head Movement Constraint in the way that (\ref{ex4:27c}) indicates.
+\begin{exe}
+\raggedright
+	\ex \label{ex4:27a} \gll Martin l\"ast den Stubentiger auf dem Bett schlafen.\\ Martin let the cat on the bed sleep\\ `Martin let the cat sleep on the bed.'
+	\ex \label{ex4:27b}
+	\small
+	\begin{forest}
+	[CP
+		[DP [Martin, name=binder, roof]]
+		[\ibar{C}
+			[\obar{C}
+				[\obar{I}, name=binderi
+					[\obar{V} [lassen\\ let]]
+					[\obar{I} [past]]
+				 ]
+				[\obar{C} [top]]
+			 ]
+			[IP
+				[{\ }, name=trace ]
+				[\ibar{I}
+					[VP [\ibar{V}
+						[VP
+							[DP [den Stubentiger\\ the cat, roof]]
+							[\ibar{V}
+								[PP [auf dem Bett\\ on the bed, roof]]
+								[\ibar{V} [\obar{V} [schlafen\\ sleep]] ]
+							 ]
+						 ]
+						[{\ }, name=tracev ]
+					 ]
+					[{\ }, name=tracei ]
+				 ]
+			 ]
+		 ]
+	]]
+	\draw[->,>=stealth', thin, gray] (trace) to[out=south west,in=south,looseness=1] node[pos=0.75,xshift=-10mm]{} (binder);
+	\draw[->,>=stealth', thin, gray] (tracev) to[out=south east,in=south,looseness=1] node[pos=0.75,xshift=-10mm]{} (tracei);
+	\draw[->,>=stealth', thin, gray] (tracei) to[out=south west,in=south,looseness=1] node[pos=0.75,xshift=-10mm]{} (binderi);
+	\end{forest}
+	\ex \label{ex4:27c}
+	\small
+	\begin{forest}
+	[CP
+		[DP [Martin, name=binder, roof]]
+		[\ibar{C}
+			[\obar{C}
+				[\obar{I}, name=binderi
+					[\obar{V} [lassen\\ let]]
+					[\obar{I} [past]]
+				 ]
+				[\obar{C} [top]]
+			 ]
+			[IP
+				[{\ }, name=trace ]
+				[\ibar{I}
+					[VP [\ibar{V}
+						[DP [den Stubentiger\\ the cat, roof]]
+						[\ibar{V}
+							[PP [auf dem Bett\\ on the bed, roof]]
+							[\ibar{V} [{\ }, name=tracev ]]
+						 ]
+					 ]]
+				[{\ }, name=tracei ]
+			 ]
+		 ]
+	]]
+	\draw[->,>=stealth', thin, gray] (trace) to[out=south west,in=south,looseness=1] node[pos=0.75,xshift=-10mm]{} (binder);
+	\draw[->,>=stealth', thin, gray] (tracev) to[out=east,in=south east,looseness=1] node[pos=0.75,xshift=-10mm]{} (tracei);
+	\draw[->,>=stealth', thin, gray] (tracei) to[out=south west,in=south,looseness=1] node[pos=0.75,xshift=-10mm]{} (binderi);
+	\end{forest}	
+\end{exe}
+The system that moves heads around in German seems to be constrained by the Head Movement Constraint, in the same way that the system that moves heads around in English is.
 
 Moreover, we can observe that there is a pattern to all these rules in German and English: the moved term always adjoins to another head. Because this appears to be something that is the same across German and English, it is a candidate language universal. Indeed, over a large range of cases examined across languages, this generalization appears to hold up. This suggests a constraint on movement rules that is sensitive to the phrase/head distinction. One of the first proposals for such a constraint is found in \citet{Baltin:1982}, who argues that this is part of a more general constraint on movement rules. He proposes that the position to which a phrase or head is moved always has the same phrasal status as the phrase or head being moved. So a head adjoins to another head position only, and a maximal projection can only move to another maximal projection position, and so on. Baltin calls this the \textsc{Like-attracts-Likes} Condition:
 \begin{exe}
@@ -1089,14 +1150,14 @@ A variety of hypotheses about this situation have been offered. Let us adopt for
 	\draw[->,>=stealth', ultra thin, gray] (trace) to[out=-115,in=south,looseness=1.5] node[pos=0.75,xshift=-10mm]{} (binder);
 	\end{forest}
 \end{exe}
-\marginnote[-100pt]{In this derivation, I have moved the verb to \obar{I} across \obar{Neg} in violation of the Head Movement Constraint. We will return to this feature of the derivation.}
+\marginnote[-100pt]{In this derivation, the verb moves to \obar{I} across \obar{Neg} in violation of the Head Movement Constraint. We noted earlier that a similar situation arises in English. We will return to this feature of the derivation.}
 
 So, let's see what we've got so far. If we factor out the parts to the set of rules in German, Danish and English that are common to the syntax of verb placement, we have the following:
 \begin{exe}
 	\ex \label{ex4:36} \textsc{Universals}\\
 								a. Structure Preservation\\ 
 								b. Upwards Constraint\\ 
-								c. The Head Movement Constraint\\ 
+								c. The Head Movement Constraint (with some counterexamples)\\ 
 								e. Word Criterion
 \end{exe}
 The differences that are left can be boiled down to the following four parts.
@@ -1108,11 +1169,11 @@ The differences that are left can be boiled down to the following four parts.
 	\ex[]{English and Danish VPs (and IPs?) are head initial.}
 	\ex[]{German and Danish: verbs (and \obar{I}?) are movable.}
 	\ex[]{English: auxiliary verbs and \obar{I} are movable.}
-	\ex[]{German and Danish: Root \obar{C} and Specifier of CP must be filled. (i.e., V2)}
+	\ex[]{German and Danish: Root \obar{C} and Specifier of CP must be filled. (i.e., Verb Second)}
 	\ex[]{English: Only wh-phrases move to Specifier of CP, and only questions trigger \obar{I}-to-\obar{C} movement.}
 	\end{xlist}
 \end{exe}
-Putting this in the terms of language acquisition which we started with, the differences in (\ref{ex4:37}) constitute what the child must learn in order to determine whether the grammar he or she is acquiring is German, Danish or English. By contrast, the Universals in (\ref{ex4:36}) are candidates for how the acquisition trajectory is limited. The guesses that children make about the syntax they are acquiring don't seem to include ones that violate one of the constraints in Universals.
+Putting this in the terms of language acquisition which we started with, the differences in (\ref{ex4:37}) constitute what must be learned in order to determine whether the grammar he or she is acquiring is German, Danish or English. By contrast, the Universals in (\ref{ex4:36}) are candidates for how the acquisition trajectory is limited. The guesses that children make about the syntax they are acquiring don't seem to include ones that violate one of the constraints in Universals.
 
 \section{The Pollockian revolution}
 
@@ -1388,7 +1449,7 @@ As this parse indicates, \emph{ne} gets carried to the position before \emph{pas
 %
 \marginnote[-2in]{The {S-structure} in (\ref{ex4:nehmc}) is derived as follows (ignoring the movement of the subject). The main verb, \emph{aime}, is moved into \obar{T}, where it combines with the tense morpheme. The resulting tensed verb (that is, \obar{T}) moves and adjoins to \emph{ne}. the resulting negated verb (that is, \obar{Neg}) moves into \obar{Agr}, where the agreement morpheme combines with the verb. This surface parse, then, claims that negation---\emph{ne}---is closer to the verbal stem than is the agreement morpheme, and this is somewhat surprising.}%
 %
-Note that we have to let something force the bound morphemes, that is, the tense and agreement suffixes, to linearize to the right of the term that has adjoined to them, but force \emph{ne} to linearize to the left of the term that has adjoined to it.
+\ Note that we have to let something force the bound morphemes, that is, the tense and agreement suffixes, to linearize to the right of the term that has adjoined to them, but force \emph{ne} to linearize to the left of the term that has adjoined to it.
 
 This can't be the only way that \emph{ne} manages to get to the left of \emph{pas}, because \emph{ne} shows up before \emph{pas} in infinitival clauses as well, even when no verb has moved into \obar{Agr}. In these situations, we might imagine that \emph{ne} moves on its own into \obar{Agr}. This, in fact, is what Pollock suggests. He hypothesizes that \emph{ne} adjoins to \obar{Agr} on its own in much the same way that so-called ``clitics'' do. ``Clitics'' are prosodically weak pronouns that, in the Romance languages, surface in construction with a verb; more particularly, they form a prosodic word with a verb and are therefore adjacent to that verb (or adjacent to something else that is part of the verb). In finite clauses, it is the finite verb that clitics appear with, and in infinitival clauses, it is typically the infinitival verb that the clitic appears on. One way of capturing this distribution is let clitics adjoin to \obar{Agr}, where they will come close enough to the finite or infinitival verb to be parsed with that verb prosodically.
 
@@ -1433,6 +1494,12 @@ If we adopt Pollock's suggestion, that \emph{ne} cliticizes to \obar{Agr}, we mi
 	\ex \label{ex4:adjlin} \textsc{Adjunction Linearization}\\
 				If \obar{$\alpha$} adjoins to \obar{$\beta$}, then \obar{$\alpha$} precedes \obar{$\beta$}.
 \end{exe}
+That tense morphemes are linearized to the right of their verbal stem is the predominant order in the world's languages.%
+%
+\marginnote{Julien equated tense and aspect morphemes in her survey. These are often difficult to distinguish, and in some languages aspect is the only means of expressing temporal information.}%
+%
+\ \citet{Julien:2002b}, who surveyed 530 languages, found tense suffixes far outnumbered tense prefixes. She divided her sample of languages into 280 genera—groups of languages that are historically related, and counted how many of those genera used tense prefixes or tense suffixes. (If languages in a genera had either order, the genera was counted as illustrating both types.) What she found was that 202 genera had tense suffixes but only 60 genera had tense prefixes. Most of the languages that had tense prefixes in her survey are head initial, and Julien argues that they have a different morphological status than tense suffixes.
+
 With these preliminaries, let's reconsider how the derivation in (\ref{ex4:nehmc}) might go for French. The D-structure representation would be as in~(\ref{ex4:nehmcd}).
 \begin{exe}
 	\raggedright
@@ -1674,13 +1741,11 @@ The grammatical outcome of this structure is one in which the inflectional head 
 \begin{exe}
 \ex[*]{\label{ex4:agreenoccomo} Bart should remembering Jill ski.}
 \end{exe}
-In general, examples of this sort are not found. If a verb bears inflection that is associated with an \obar{I}, that \obar{I} c-commands the verb. We don't want to design our theory so that the method by, say, main verbs in English get their inflection is completely divorced from the movement operation that inflects auxiliary verbs. If we did that, we would lose the fact that both Upwards and the Head Movement Constraint seem to govern how both processes work. We should design the system that inflects main verbs in English so that it is, somehow, the same process that is found governing verb movement, the process relevant for inflecting auxiliary verbs.
+In general, examples of this sort are not found. If a verb bears inflection that is associated with an \obar{I}, that \obar{I} c-commands the verb. We don't want to design our theory so that the method by which main verbs in English get their inflection is completely divorced from the movement operation that inflects auxiliary verbs. If we did that, we would lose the fact that both Upwards and the Head Movement Constraint seem to govern how both processes work. We should design the system that inflects main verbs in English so that it is, somehow, the same process that is found governing verb movement, the process relevant for inflecting auxiliary verbs.
 
 Note, by the way, that (\ref{ex4:agreenoccom}) confronts us with a question that our move to the Pollockian framework has produced. The root clause in (\ref{ex4:agreenoccom}) contains a modal, and this is a word that we have mapped onto the position that heads sentences. But we now have two heads, and two consequent phrases, that sentences are made from: which of these two should we map modals onto? Modals in English necessarily precede negation, and so this is evidence that modals are in the highest of projections that make up tense/agreement inflection. The evidence we have seen that distinguishes \obar{Agr} from \obar{T} in French doesn't exist in English. We have seen no cases where a verb surfaces in a position higher than its D-structure place but lower than negation in English. When modals or the infinitival \emph{to} appear, we see that \underline{both} tense and agreement morphology are absent. This might be evidence that tense and agreement morphology in English in fact are mapped to the same \obar{X}. This would be consistent with the fact that English verb placement doesn't have the pattern we've seen in French, and that tense and agreement morphology necessarily co-occur. H\"oskuldur Thra\'insson\cite{Thrainsson:1996} has argued that a difference between French and English is how the languages have decided to distribute their morphology across syntactic positions. In French, as we've seen, tense morphology and agreement morphology are inserted into different D-structure positions and brought together in the syntax. Maybe English decides to put tense morphology and agreement morphology together into one \obar{X} position at D-structure, and let the syntax only determine on which verb that morphology gets pronounced. I'll take this view from now on. We can represent English finite clauses as in~(\ref{ex4:TP}).%
 %
-\marginnote[0pt]{\citet{Bobaljik:1998} argues that whether a language maps tense and agreement onto one, or two, syntactic positions correlates with a number of other differences in their clausal syntax in a way that confrims the idea that this can be the locus of language variation.}%
-%
-%//todo Add references to bundling of heads: Giorgi and Pianesi 1996; Bianchi 1999; Pylkkanen 2002, 2008; Legate 2011, 2014; Harley 2017, Erlewine (TOba Batak paper)
+\marginnote[0pt]{\citet{Bobaljik:1998} argues that whether a language maps tense and agreement onto one, or two, syntactic positions correlates with a number of other differences in their clausal syntax in a way that confrims the idea that this can be the locus of language variation. That languages can differ depending on whether they put two features in different \obar{X} positions at D-structure, or ``bundle'' them together in one \obar{X} has found application in a variety of places. See, for examples, \citet{Giorgi:1996}, \citet{Bianchi:1999}, \citet{Pylkkanen:2008}, \citet{Harley:1989}, \citet{Legate:2014}, and \citet{Erlewine:2018}.}%
 %
 \begin{exe}
 	\raggedright
@@ -1702,6 +1767,7 @@ Note, by the way, that (\ref{ex4:agreenoccom}) confronts us with a question that
 This is just like the model of English sentences that we started with, except that I've renamed ``\obar{I}'' ``\obar{T}.'' And to keep the structures of English \obar{T}s parallel to the inflectional head (= \obar{Agr}) that holds tense and agreement morphology in French, I've shown \obar{T} has having these two parts.
 
 For structures like (\ref{ex4:TP}) to be possible D-structures, we will have to add to our inventory of \ibar{X} rules one that allows for an \obar{X} position to have two daughter \obar{X} positions. Let's therefore embellish the rules that generate D-structures so that they include~(\ref{ex4:newXn}).\marginnote[0pt]{Recall that ``\{ $\alpha$, $\beta$ \}'' stands for a linear-order-free relation of sisterhood.}
+\pagebreak
 \begin{exe}
 	\raggedright
 	\ex \label{ex4:newX} 
@@ -1723,7 +1789,7 @@ The c-command requirement and the Head Movement Constraint are presently formula
 \marginnote[0pt]{The system I will lay out here is modeled after \citet{Adger:2003a}.}%
 %
 
-First, let us formulate the condition under which inflectional heads assign verbal inflection: the relation known as \textsc{agree}. We begin by expressing the inflectional morphology involved in terms of features. Let verbs come with features that will determine how their morphological form is determined, and let \obar{Agr} and \obar{T} also come with those features. This allows us to express the assignment of inflectional morphology in terms of matching the relevant features on a verb with the features on \obar{Agr} and \obar{T}. The \textsc{agree} relation specifies the conditions required for this matching of features to occur.%
+First, let us formulate the condition under which inflectional heads assign verbal inflection: the relation known as \textsc{agree}. We begin by expressing the inflectional morphology involved in terms of features. Let verbs come with features that will determine how their morphological form is determined, and let \obar{Agr} and \obar{T} also come with those features. This allows us to express the assignment of inflectional morphology in terms of matching the relevant features on a verb with the features on \obar{Agr} and \obar{T}. The \textsc{agree} relation specifies the conditions required for this matching of features to occur.\enlargethispage*{\baselineskip}%
 %
 \marginnote[0pt]{The head with the unvalued features is called the \underline{probe} and the head with the valued features is called the \underline{goal}. \citet{Chomsky:1995,Chomsky:2000}, where this system is laid out, requires that the probe be the c-commanding term, not the c-commanded one. When the probe is the lower of the two in the \textsc{agree} relation, we say that we have ``upwards'' \textsc{agree}. The unvalued features look upwards for their values. See \citet{Zeijlstra:2012} and \citet{Bjorkman:2019} who make the case that all \textsc{agree} relations involve at least an upwards component. In later sections we will see the need for downwards agree as well.}%
 %
@@ -2215,7 +2281,7 @@ This is how (\ref{ex4:frenchauxinf}a) is derived.
 But the outcome in (\ref{ex4:frenchauxinf}b) requires a different set of assumptions. In that circumstance, an auxiliary verb that \obar{Agr} \textsc{agree}s with moves to \obar{Agr}. We want this option to only be available to auxiliary verbs. The technology we have allows that to be expressed by giving to auxiliary verbs the $\bullet$. For (\ref{ex4:frenchauxinf}b), then, our representation should be~(\ref{ex4:bulletfraux}).
 \begin{exe}
 \ex \label{ex4:bulletfraux}
-small
+\small
 \begin{forest}
 [AgrP
 	[DP [\textsc{pro}, roof]]
@@ -2354,7 +2420,7 @@ When we first looked at the denotation of verbs, we embraced the idea that verbs
 \end{exe}
 I've called the \obar{X} position that \textsc{patient} is inserted into \obar{v}, because that's what we've called the head position that external $\theta$-roles appear in. I've represented the portion of the verb that corresponds the event description with $\surd$visit. This is often called the ``root'' of the verb. If we give to the Patient $\theta$-role the same kind of denotation we adopted by external $\theta$-roles, then the semantic contribution of each of the pieces in the maximal \obar{V} position of (\ref{ex4:thetfeat1}) is~(\ref{ex4:tfeatden1}).%
 %
-\marginnote[0pt]{If we take the meanings of verbs to be derived syntactically in the way that is illustrated here, we will have to change our conception of the rule of Existential Closure introduced in the previous chapter. That rule was offered as a rule that changed lexical items -- verbs -- by binding off their internal argument with an existential operator. The view introduced here is that verbs are the way in which morphologically complex \obar{V}s are pronounced. They are not themselves morphemes with idiosyncratic denotations, and so they cannot be the input of a rule that builds new words from old ones. Instead, we'll have to take Existential Closure to be a syntactic rule that applies to \obar{V}s.}%
+\marginnote[0pt]{If we take the meanings of verbs to be derived syntactically in the way that is illustrated here, we will have to change our conception of the rule of Existential Closure introduced in the previous chapter. That rule was offered as a rule that changed lexical items---verbs---by binding off their internal argument with an existential operator. The view introduced here is that verbs are the way in which morphologically complex \obar{V}s are pronounced. They are not themselves morphemes with idiosyncratic denotations, and so they cannot be the input of a rule that builds new words from old ones. Instead, we'll have to take Existential Closure to be a syntactic rule that applies to \obar{V}s.}%
 %
 \begin{exe}
 	\raggedright
@@ -2407,14 +2473,11 @@ The denotations for both Patient and Agent requires that they combine with somet
 
 What this demonstrates is that if we take verbs to be matched to a \obar{X} position in which the $\theta$-roles and eventuality descriptions have been assembled by Lexical Insertion, we can use the rules of semantic composition to constrain the meanings that verbs have. If we have the denotation for $\theta$-roles right, and there are no other relevant rules of semantic composition, one prediction is that a verb can assign no more than one $\theta$-role. We have taken $\theta$-roles to mediate the connection between verbs and their DP and PP arguments, so the fact that verbs can combine with more than one DP and PP argument shows that something about these assumptions is incorrect. If $\theta$-roles only mediate the combination of verbs with DPs, however, we are closer to the mark. Setting aside specialized constructions, English verbs allow for only one internal DP argument.%
 %
-\marginnote[0pt]{One of the specialized constructions is the so-called double object construction: ``Helen gave Matt a book.'' We return to look at these cases in a later chapter.}
-%
-%//todo put citation to the chapter with double objects here 
-%
+\marginnote[0pt]{One of the specialized constructions is the so-called double object construction: ``Helen gave Matt a book.'' We return to look at these cases in chapter \ref{ch:compstructure}.}
+
 Let us provisionally adopt the view, then, that PPs, along with CPs and other clause-like objects, do not semantically combine with their verbs by way of $\theta$-roles. If that is correct, the syntax-semantics given to $\theta$-roles derives the fact that for a verb to combine with more than one DP argument, one of those $\theta$-roles will have to be external. In the case of \emph{visit}, that $\theta$-role is Agent.
 
-What is required, then, is to find a syntax in which the denotation of the Agent $\theta$-role
-is put in a place different than where the other other pieces of a verb's meaning are assembled. This is precisely the same situation that arises with tense inflection. The denotation of tense needs to be in a place different than where its exponent is, and \textsc{agree} is the way this is achieved. We'll allow $\theta$-roles to be features, then. A verb that comes with two $\theta$-roles will allow one of those $\theta$-roles to be inserted into the \obar{V} position valued. The other $\theta$-role will be placed in a position that gives it the right kind of semantic argument, but distances it from the verb -- its exponent. Thus, in the \obar{V} position will be an unvalued $\theta$-role feature that gets into the \textsc{agree} relation with the external $\theta$-role, thereby allowing the external $\theta$-role to be exponed, and satisfy the Stray Feature Filter. 
+What is required, then, is to find a syntax in which the denotation of the Agent $\theta$-role is put in a place different than where the other other pieces of a verb's meaning are assembled. This is precisely the same situation that arises with tense inflection. The denotation of tense needs to be in a place different than where its exponent is, and \textsc{agree} is the way this is achieved. We'll allow $\theta$-roles to be features, then. A verb that comes with two $\theta$-roles will allow one of those $\theta$-roles to be inserted into the \obar{V} position valued. The other $\theta$-role will be placed in a position that gives it the right kind of semantic argument, but distances it from the verb---its exponent. Thus, in the \obar{V} position will be an unvalued $\theta$-role feature that gets into the \textsc{agree} relation with the external $\theta$-role, thereby allowing the external $\theta$-role to be exponed, and satisfy the Stray Feature Filter. 
 
 Reverting back to the truncated way I've represented \obar{X} positions with complex contents, we can represent the D-structure scenario just described with~(\ref{ex4:transdecom}).
 \begin{exe}
@@ -2562,7 +2625,7 @@ I'll set aside how genitive Case is assigned, and restrict attention to just nom
 
 	\ex If a term has $\bullet$, then the \obar{X} containing that term must be inside a \obar{Z} that \obar{X} \textsc{agree}s with at S-structure.
 
-	\ex Feature assignments
+	\ex Feature assignments\marginnote[-15pt]{The statement that unvalued Case features are a part of argument DPs is cryptic. Our model requires that all of the features and morphemes come into a sentence through lexical insertion. For a feature to be a part of a phrase amounts to saying, then, that there is a head in that phrase whose lexical item contains that feature. What that head is, and why it is found in argument DPs, but not non-argument DPs, is unknown.}
 	\begin{xlist}
 	\ex An agreement feature is part of certain \obar{Agr}s and verbs. It comes with a value in~\obar{Agr}/\obar{T}.
 	\ex A tense feature is part of certain \obar{T}s and verbs. It comes valued in~\obar{T}s.
@@ -2572,7 +2635,7 @@ I'll set aside how genitive Case is assigned, and restrict attention to just nom
 	\ex \label{ex4:csys} Case Assignment
 	\begin{xlist}
 	\ex Nominative Case is assigned by finite \obar{T}/\obar{Agr} to the Specifier of the phrase it heads.
-	\ex Accusative Case is assigned by v and some prepositions to positions they:
+	\ex Accusative Case is assigned by \obar{v} and some prepositions to positions they:
 	\begin{xlist}
 	\ex c-command, and
 	\ex are klose to.
@@ -2714,7 +2777,88 @@ This will explain why Argument movement is blocked in examples like (\ref{ex4:no
 ]]
 \end{forest}
 \end{exe}
-The Case feature associated with \emph{Wayne} can get a value only from the preposition \emph{to}, as this is the only term with a valued Case feature that is klose enough to it. This means that \obar{T} cannot assign its Case feature value to this, or any other, DP. As a consequence, the $\bullet$ property on the case feature in \obar{T} cannot be satisfied. By contrast, the \emph{Wayne runs} example will have a representation like (\ref{ex4:wayne1}) upon Agreement.
+The Case feature associated with \emph{Wayne} can get a value only from the preposition \emph{to}, as this is the only term with a valued Case feature that is klose enough to it. This means that \obar{T} cannot assign its Case feature value to this, or any other, DP. Its valued nominative Case feature will therefore not get morphologically expressed, and this is a violation of the Stray Feature Filter. What makes nominative Case different from the others, then, is the EPP, which independently requires that Specifier of TP be occupied. A working%
+%
+\marginnote{Indeed, the common way of referring to $\bullet$ is as an ``EPP feature,'' though technically it's an attribute of a feature rather than a feature.}%
+%
+\ hypothesis is that the EPP is just $\bullet$, whose consequences in this domain is movement of the Nominative Case marked DP rather than movement of a head. Let us add, then,~(\ref{ex4:nomvl}).
+\begin{exe}
+\raggedright
+	\ex \label{ex4:nomvl} A valued $\bullet$ Nominative feature resides within \obar{T}.
+\end{exe}
+Presently the requirement that $\bullet$ imposes is written so that it applies correctly to cases in which one head moves to another. We need to widen this so that its requirements can be satisfied by moving a phrase. This is what (\ref{ex4:bulreq}) does.
+\begin{exe}
+\raggedright
+	\ex \label{ex4:bulreq} If a term, $\alpha$, has $\bullet$, then a projection of the \obar{X} containing $\alpha$ must be pronounced as a sister to a projection of a \obar{Z} that \obar{X} \textsc{agrees} with.
+\end{exe}
+To see how (\ref{ex4:bulreq}) works, consider the two scenarios in~(\ref{ex4:2scenes}).
+\begin{exe}
+\raggedright
+	\ex \label{ex4:2scenes}
+	\small
+	\begin{forest}
+	[\ibar{X}
+		[\obar{X}, name=probe [$\bullet$ feature: \textit{value}]]
+		[YP [\ibar{Y}
+			[\obar{Y}, name=goal [feature: \textit{value}]]
+			[ZP ]
+		] ]
+	]
+	\draw[|-|, dotted] (goal) to[out=south west,in=south west] node[pos=0.5,xshift=-5mm]{\emph{agree}} (probe);
+	\end{forest}
+	\hspace*{8pt}
+	\begin{forest}
+	[\ibar{X}
+		[\obar{X}, name=probe [$\bullet$ feature: \textit{value}]]
+		[YP [\ibar{Y}
+			[\obar{Y} ]
+			[ZP
+				[WP\\ feature: \textit{value}, name=goal ]
+				[\ibar{Z} [\obar{Z}] ]
+			 ]
+		] ]
+	]
+	\draw[|-|, dotted] (goal) to[out=south west,in=south west] node[pos=0.5,xshift=-5mm]{\emph{agree}} (probe);
+	\end{forest}
+\end{exe}
+For the requirement in (\ref{ex4:bulreq}) to be satisfied, movement must create a structure in which \obar{Y} or WP is a sister to a projection of \obar{Y}. The Likes-Attracts-Likes constraint allows that to happen by adjoining \obar{Y} to \obar{X} with Head Movement. But the Likes-Attracts-Likes constraint doesn't allow that to happen by adjoining WP to \obar{Y}. Instead, the Likes-Attracts-Likes compliant way of satisfying (\ref{ex4:bulreq}) is for WP to move to Specifier of YP. The $\bullet$, then, requires the structures in (\ref{ex4:2scenes}) to map onto the representations in~(\ref{ex4:2scenesm}).
+\begin{exe}
+\raggedright
+	\ex \label{ex4:2scenesm}
+	\footnotesize
+	\begin{forest}
+	[\ibar{X}
+		[\obar{X}
+			[\obar{Y} [feature: \textit{value}, name=binder]]
+			[\obar{X} [$\bullet$ feature: \textit{value}]]
+		 ]
+		[YP [\ibar{Y}
+			[{\ }, name=trace ]
+			[ZP ]
+		] ]
+	]
+	\draw[->,>=stealth', thin, gray] (trace) to[out=south west,in=south east,looseness=1] node[pos=0.75,xshift=-10mm]{} (binder);
+	\end{forest}
+	\hspace*{4pt}
+	\begin{forest}
+	[XP
+		[WP\\ feature: \textit{value}, name=binder ]
+		[\ibar{X}
+			[\obar{X} [$\bullet$ feature: \textit{value}]]
+			[YP [\ibar{Y}
+				[\obar{Y} ]
+				[ZP
+					[{\ }, name=trace ]
+					[\ibar{Z} [\obar{Z}] ]
+				 ]
+			] ]
+		 ]
+	]
+	\draw[->,>=stealth', thin, gray] (trace) to[out=south west,in=south,looseness=1] node[pos=0.75,xshift=-10mm]{} (binder);
+	\end{forest}
+\end{exe}
+
+Let's consider how this will apply to a situation in which nominative Case is applied. The sentence will have a representation like (\ref{ex4:wayne1}) upon agreement.
 \begin{exe}
 	\raggedright
 	\ex \label{ex4:wayne1}
@@ -2760,10 +2904,7 @@ One problem in this method of collapsing the EPP with the $\bullet$ attribute co
 \begin{exe}
 	\ex \label{ex4:cpmove} \linkto [\CP that mice squeak] \under seems [\AP \from{\ \ } obvious].
 \end{exe}
-In~(\ref{ex4:cpmove}), the EPP is satisfied by letting Argument movement move the CP \emph{that mice squeak} from its $\theta$-marked position within the AP headed by \emph{obvious} into the root AgrP. For this example to fit the proposal, it would require that the finite \obar{Agr} pass the Nominative value to the Case feature on this CP. That is, we would have to let this CP be assigned Nominative Case. In our discussion of Stowell's proposals about the order of verbal complements, we saw that it doesn't seem that CPs are subject to the Case filter, despite the evidence adduced on behalf of this by Stowell. We'll return to this problem in~\ref{sec:n}.
-%
-%//todo Make this discussion of CPs and the EPP/ Case filter consistent with chapter 3's discussion of Argument Movement of CPs.
-%
+In~(\ref{ex4:cpmove}), the EPP is satisfied by letting Argument movement move the CP \emph{that mice squeak} from its $\theta$-marked position within the AP headed by \emph{obvious} into the root AgrP. For this example to fit the proposal, it would require that the finite \obar{Agr} pass the Nominative value to the Case feature on this CP. That is, we would have to let this CP be assigned Nominative Case. In our discussion of Stowell's proposals about the order of verbal complements, we saw that it doesn't seem that CPs are subject to the Case filter, despite the evidence adduced on behalf of this by Stowell. We'll return to this problem in~\ref{sec:subinv}.
 
 \subsection{Low Subjects: English}
 
@@ -2802,6 +2943,7 @@ Indeed, the distribution of the \emph{there} that is found in (\ref{ex4:there1})
 If this is the right interpretation of these examples, then it confirms the hypothesis that nominative Case assignment occurs under c-command, just as accusative Case assignment does. But it presents a host of problems for the particular proposals we have arrived at. If \emph{there} satisfies the EPP in this example, then collapsing the EPP and the $\bullet$ property becomes difficult. Further, the distance between \obar{T} and the DP it Case marks in (\ref{ex4:there1d}) does not fit to our definition of klose: there is clearly more than one phrase that dominates \emph{a solution} but not \obar{Agr}. To fit this analysis to our system would require a different definition of klose, then.
 
 Moreover, examples of this type are governed by a set of constraints that remain little understood. The semantic type of the nominative Case marked DP matters, for instance. That argument must be an indefinite of a certain type, as the contrasts in (\ref{ex4:defthere}) illustrate.
+\pagebreak
 \begin{exe}
 \ex \label{ex4:defthere}
 \begin{xlist}
@@ -2851,11 +2993,11 @@ And in these cases, as can be seen, the nominative Case marked DP remains in its
 
 A better understanding of how to assimilate this construction to the general theory of Case assignment will probably appear once the source of these constraints is found.%\enlargethispage*{4pt}
 
-\subsection{Low Subjects: Subject Inversion Languages}
-% //todo Put in this section a discussion of CP movement to TP for satisfying the EPP. This goes with the idea that phi-features are the features that have the bullet feature, if CPs trigger agreement. Mention that there is some evidence that CPs are hidden DPs in these cases.
+\subsection{Low Subjects: Subject Inversion Languages} \label{sec:subinv}
+
 There are languages in which Nominative Case-marked DPs surface in \mbox{S-structure} positions that, like those we've just seen in English, are c-commanded by \obar{T}. In these languages, interestingly, there is no expletive like \emph{there} involved. Spanish, Italian and Greek are such languages. Examples from Spanish and Greek are in~(\ref{ex4:noepp1}).%
 %
-\marginnote[0pt]{My description of these languages will assume that, as in English apparently, the agreement and tense features are bundled into the \obar{T} position at D-structure. If, as in French, they are inserted into different positions at D-structure, then I should call \obar{Agr} the node that assigns Nominative Case.}%
+\marginnote[-45pt]{My description of these languages will assume that, as in English apparently, the agreement and tense features are bundled into the \obar{T} position at D-structure. If, as in French, they are inserted into different positions at D-structure, then I should call \obar{Agr} the node that assigns Nominative Case.}%
 %
 \pagebreak
 \begin{exe}
@@ -2978,7 +3120,71 @@ As can be seen, the correlative properties of high verb and low nominative DP ar
 
 The cases in English involving expletive \emph{there} seem to form a special case. Like the languages with the syntax in (\ref{ex4:alexnon}), the movement of the nominative Case marked DP is not required by the $\bullet$ property. But unlike the languages in which this is generally possible, the movement of verb does not satisfy the $\bullet$ property; instead, the presence of \emph{there} does. We will not examine how \emph{there} has this ability, nor will we try to unpack the causes for the constraints that govern this word-order in English. With these problems bracketed, however, we can see the \emph{there}-construction in English as a special instance of the syntax that gives subject inversion elsewhere.
 
-As noted above, this means that we will have to abandon our present formulation of klose, the locality condition on feature valuation when phrases are involved. We designed klose so that it would allow accusative Case assignment in (\ref{ex4:ecmklose}), but not in~(\ref{ex4:necmklose}).
+If the EPP arises because of $\bullet$ being on agreement features, rather than Case features, we might have a solution to the problem raised at the end of 4.7. That problem is how the EPP is satisfied by the movement of a CP, as well as a DP. If $\bullet$ is on Nominative Case, then we should expect its requirements to be satisfied only by moving things that \textsc{agree} in Case with the Nominative feature. We have evidence that CPs are not subject to the Case filter, and so it's unlikely that they could host an unvalued Nominative feature. But it's conceivable that CPs have the person and number features that English agreement morphology houses. This would permit derivations like that in~(\ref{ex4:cpraise}).
+\begin{exe}
+\raggedright
+	\ex \label{ex4:cpraise}
+	\small
+	\begin{forest}
+	[TP [\ibar{T}
+		[\obar{T}, name=probe [$\bullet$ person: nth{3}\\ $\bullet$ number: sing\\ tense: pres]]
+		[VP [\ibar{V}
+			[\obar{V} [seem]]
+			[AP
+				[CP\\ person: \nth{3}\\ number: sing, name=goal [that mice squeak, roof]]
+				[\ibar{A} [obvious, roof]]
+			 ]
+		] ]
+	]]
+	\draw[|-|, dotted] (goal) to[out=south west,in=south west] node[pos=0.5,xshift=-5mm]{\emph{agree}} (probe);
+	\end{forest}
+	\begin{forest}
+	[TP 
+	[CP\\ person: \nth{3}\\ number: sing, name=goal [that mice squeak, roof, name=binder]]
+	[\ibar{T}
+		[\obar{T}, name=probe [$\bullet$ person: nth{3}\\ $\bullet$ number: sing\\ tense: pres]]
+		[VP [\ibar{V}
+			[\obar{V} [seem]]
+			[AP
+				[{\ }, name=trace]
+				[\ibar{A} [obvious, roof]]
+			 ]
+		] ]
+	]]
+	\draw[->,>=stealth', thin, gray] (trace) to[out=south west,in=south,looseness=1] node[pos=0.75,xshift=-10mm]{} (binder);
+	\end{forest}
+\end{exe}
+
+A fact that might be related to this is peculiar restriction on A-movement of CPs discussed in section 3.7. We discovered there evidence that CPs can A-move only if they stand in positions where argument DPs can. Thus, for example, though (\ref{ex4:cppara1}) are grammatical instances of the passive, (\ref{ex2:cppara2}) are ungrammatical.
+\begin{exe}
+\raggedright
+	\ex \label{ex4:cppara1}
+	\begin{xlist}
+		\ex It was hoped that this will be the outcome.
+		\ex It was insisted that this is true.
+		\ex It was felt that this is likely.
+	\end{xlist}
+	\pagebreak
+	\ex \label{ex2:cppara2}
+	\begin{xlist}
+		\ex[*]{That this will be the outcome was hoped.} 
+		\ex[*]{That this is true was insisted.}
+		\ex[*]{That this is likely was felt.}
+	\end{xlist}
+\end{exe}
+The verbs \textit{hope}, \textit{insist}, and \textit{feel} do not c-select DP objects, as can be seen from the ungrammaticality of~(\ref{ex4:cppara3}).
+\begin{exe}
+\raggedright
+	\ex \label{ex4:cppara3}
+	\begin{xlist}
+		\ex[*]{This outcome was hoped.}
+		\ex[*]{This claim was insisted.}
+		\ex[*]{This emotion was felt.}
+	\end{xlist}
+\end{exe}
+Imagine that c-selection is not for DPs, but is instead for phrases that have person and number features associated with them. Because all DPs are the only phrases that can, and must, have these features, this will come close to having the same empirical footprint as c-selecting for DP. Finally, imagine that person number features can be associated with CPs, but that CPs aren't required to have these features. Framing c-selection in terms of person/number features means that the verbs \textit{hope}, \textit{insiste} and \textit{feel} don't allow their complements to be phrases with person/number features. The prevents them from combining with DPs (which must have person/number features) and with CPs unless those CPs don't have person/number features. But if a CP doesn't have person/number features, then it won't be able to stand in an \textsc{agree} relation with those unvalued features in \obar{T}. The only way to satisfy a $\bullet$ associated with these unvalued person/number features will be with an expletive. That is why (\ref{ex2:cppara1}) is grammatical, but (\ref{ex2:cppara2}) isn't. 
+
+Whether the \textsc{agree} relation between \obar{T} and an argument DP or CP involves $\bullet$'d person/number features, or a $\bullet$'d Case features, we'll have to abandon our present formulation of ``klose,'' the locality condition on feature valuation when phrases are involved. We designed klose so that it would allow accusative Case assignment in (\ref{ex4:ecmklose}), but not in~(\ref{ex4:necmklose}).
 \begin{exe}
 \ex \label{ex4:ecmklose}
 \small
@@ -3046,6 +3252,7 @@ We now need it to allow (\ref{ex4:longagr}) as well.
 We cannot define klose in such a way that it legislates against too many phrases between the Case assigner and the DP that gets assigned Case, as we did originally.
 
 One direction that some have taken is to make reference to the geometries of the phrase markers. In the good examples, both (\ref{ex4:longagr}) and (\ref{ex4:ecmklose}), the DP is embedded in phrases that are either complements or \obar{X}s. In the bad example, by contrast, the DP is embedded within a phrase that stands in Specifier position. A wide array of movement, and other, relations seem to be blocked when they reach into a phrase in a Specifier position. For instance, neither \emph{wh} Movement nor Complex NP Shift are possible out of such phrases:
+\pagebreak
 \begin{exe}
 \ex \label{ex4:subjcon}
 \begin{xlist}
@@ -3133,6 +3340,7 @@ For these reasons, then, we should leave person and number features associated w
 ]]
 \end{forest}
 \end{exe}
+\pagebreak
 To this end, \textsc{agree} becomes~(\ref{ex4:notlastagree}).
 \begin{exe}
 \ex \label{ex4:notlastagree} \textsc{agree} (provisional)\\
@@ -3160,6 +3368,7 @@ This version of \textsc{agree} still requires that the two terms in an \textsc{a
 \end{exe}
 
 The version of \textsc{agree} in (\ref{ex4:notlastagree}) would also let the values that DP has for the person and number features be fixed on \obar{V} by putting these terms into an \textsc{agree} relation with DP. This isn't desired, however. If the DP could directly agree with verbs, and other terms, then our desire to tie agreement to Case would be lost. We would expect that the values for $\phi$ features on a verb could be valued by a DP that is not getting its Case from \obar{T}. What we see is something different, however. It is the very DP that bears nominative Case whose $\phi$ features arise on the verb. We must prevent the DP from entering into an \textsc{agree} relation with \obar{V}. Its values for person and number must come from \obar{T}. One way of ensuring this is to require that the c-commanding term in an \textsc{agree} relation be a head. This would prevent the DP in (\ref{ex4:notlastagree}) from entering into an \textsc{agree} relation with the verb that follows. We therefore change \textsc{agree} once more.
+\pagebreak
 \begin{exe}
 \ex \label{ex4:nxt2lastagree} \textsc{agree}\\
 If X c-commands Y, then the unvalued features in X or Y can get the value of the matching features in the other just in case X and Y \textsc{agree}. X and Y \textsc{agree} iff:
