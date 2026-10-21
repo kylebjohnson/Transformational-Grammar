@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.6.9)  20 OCT 2026 15:41
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.6.9)  21 OCT 2026 12:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -940,7 +940,11 @@ Package: nowidow
 \c@rxnumiii=\count410
 \c@rxnumiv=\count411
 \lcommentsep=\skip107
-) (./601master.aux)
+) (./601master.aux (./601Chapter01.aux) (./601Chapter02.aux) (./601Chapter03.aux) (./601Chapter04.aux) (./601Chapter05.aux
+
+LaTeX Warning: Label `ex5:gift2' multiply defined.
+
+))
 \openout1 = `601master.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
@@ -970,12 +974,10 @@ File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
 LaTeX Font Info:    ... okay on input line 44.
 Package hyperref Info: Link coloring OFF on input line 44.
+ (./601master.out) (./601master.out)
 \@outlinefile=\write5
 \openout5 = `601master.out'.
 
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1090,280 +1092,852 @@ Class tufte-book Warning: Proper spacing of ALL-CAPS letters has not been set up
 
 ] [2
 
-]
-No file 601master.toc.
-\tf@toc=\write6
-\openout6 = `601master.toc'.
+] (./601master.toc
+
+LaTeX Font Warning: Font shape `TU/Minion3(0)/m/scit' undefined
+(Font)              using `TU/Minion3(0)/m/sc' instead on input line 21.
+
+
+LaTeX Font Warning: Font shape `TU/Minion3(0)/m/scit' undefined
+(Font)              using `TU/Minion3(0)/m/sc' instead on input line 22.
 
 [1
 
 
-] [2
+]
+LaTeX Font Info:    Trying to load font information for U+stmry on input line 29.
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 29.
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
 
-] [3
+LaTeX Font Warning: Font shape `TU/Minion3(0)/m/scit' undefined
+(Font)              using `TU/Minion3(0)/m/sc' instead on input line 32.
+
+
+LaTeX Font Warning: Font shape `TU/Minion3(0)/m/scit' undefined
+(Font)              using `TU/Minion3(0)/m/sc' instead on input line 33.
+
+
+LaTeX Font Warning: Font shape `TU/Minion3(0)/m/scit' undefined
+(Font)              using `TU/Minion3(0)/m/sc' instead on input line 34.
+
+)
+\tf@toc=\write6
+\openout6 = `601master.toc'.
+
+ [2] [3
+
 
 ] [4
 
 ]
+\openout2 = `601Chapter01.aux'.
+
+ (./601Chapter01.tex
+Chapter 1.
+[1
+
+
+] [2] [3
+
+] [4] [5] [6] [7]
+LaTeX Font Info:    Font shape `TU/MyriadPro(0)/m/n' will be
+(Font)              scaled to size 7.23962pt on input line 134.
+
+
+LaTeX Warning: Marginpar on page 8 moved.
+
+[8]
+
+LaTeX Warning: Marginpar on page 9 moved.
+
+LaTeX Font Info:    Trying to load font information for T3+Minion3(0) on input line 142.
+LaTeX Font Info:    No file T3Minion3(0).fd. on input line 142.
+
+LaTeX Font Warning: Font shape `T3/Minion3(0)/m/n' undefined
+(Font)              using `T3/cmr/m/n' instead on input line 142.
+
+[9] [10]
+
+LaTeX Warning: Marginpar on page 11 moved.
+
+[11]
+
+LaTeX Warning: Reference `ex:late2p' on page 12 undefined on input line 192.
+
+
+LaTeX Warning: Reference `ex:late1b' on page 12 undefined on input line 202.
+
+
+LaTeX Warning: Reference `ex:late3' on page 12 undefined on input line 204.
+
+LaTeX Font Info:    Font shape `TU/MyriadPro(0)/m/n' will be
+(Font)              scaled to size 4.52477pt on input line 204.
+
+LaTeX Warning: Marginpar on page 12 moved.
+
+[12] [13]
+
+LaTeX Warning: Marginpar on page 14 moved.
+
+[14] [15] [16]
+
+LaTeX Warning: Marginpar on page 17 moved.
+
+[17]
+
+LaTeX Warning: Marginpar on page 18 moved.
+
+[18] [19]) [20]
+\openout2 = `601Chapter02.aux'.
+
+ (./601Chapter02.tex
+Chapter 2.
+[21
+
+
+
+
+]
+LaTeX Font Info:    Font shape `TU/MyriadPro(0)/m/it' will be
+(Font)              scaled to size 7.23962pt on input line 52.
+
+
+LaTeX Warning: Marginpar on page 22 moved.
+
+[22] [23]
+
+LaTeX Warning: Marginpar on page 24 moved.
+
+[24] [25] [26] [27]
+
+LaTeX Warning: Marginpar on page 28 moved.
+
+
+LaTeX Warning: Marginpar on page 28 moved.
+
+[28]
+
+LaTeX Warning: Marginpar on page 29 moved.
+
+
+LaTeX Warning: Marginpar on page 29 moved.
+
+[29] [30]
+
+LaTeX Warning: Marginpar on page 31 moved.
+
+[31]
+
+LaTeX Warning: Marginpar on page 32 moved.
+
+[32] [33]
+
+LaTeX Warning: Marginpar on page 34 moved.
+
+
+LaTeX Warning: Marginpar on page 34 moved.
+
+
+LaTeX Warning: Reference `ex:ex2:rnr1' on page 34 undefined on input line 492.
+
+
+LaTeX Warning: Marginpar on page 34 moved.
+
+[34]
+
+LaTeX Warning: Marginpar on page 35 moved.
+
+
+LaTeX Warning: Marginpar on page 35 moved.
+
+[35] [36] [37]
+
+LaTeX Warning: Marginpar on page 38 moved.
+
+[38] [39]
+
+LaTeX Warning: Marginpar on page 40 moved.
+
+
+LaTeX Warning: Marginpar on page 40 moved.
+
+[40]
+
+LaTeX Warning: Marginpar on page 41 moved.
+
+
+Overfull \vbox (3.5pt too high) has occurred while \output is active []
+
+ [41] [42] [43]
+Overfull \hbox (46.06355pt too wide) in paragraph at lines 876--887
+[][]  
+ []
+
+[44] [45] [46] [47] [48]
+Overfull \hbox (0.73006pt too wide) in paragraph at lines 1178--1180
+[]\TU/Minion3(0)/m/n/10 Together, these revisions deliver the body of phrase structure rules in ([]129[]).  
+ []
+
+[49]
+Overfull \hbox (6.03902pt too wide) in paragraph at lines 1231--1260
+[]\TU/Minion3(0)/m/n/10 a.  [] |  \TU/Minion3(0)/m/n/9 b.   []  
+ []
+
+
+LaTeX Warning: Marginpar on page 50 moved.
+
+[50]
+Overfull \hbox (6.25125pt too wide) in paragraph at lines 1292--1326
+[][] |  [] 
+ []
+
+[51]
+Overfull \hbox (31.25658pt too wide) in paragraph at lines 1350--1386
+[]\TU/Minion3(0)/m/n/10 a. [] |  \TU/Minion3(0)/m/n/9 b. []  
+ []
+
+[52]
+
+LaTeX Warning: Marginpar on page 53 moved.
+
+
+Overfull \vbox (3.0pt too high) has occurred while \output is active []
+
+ [53]
+Overfull \vbox (3.0pt too high) has occurred while \output is active []
+
+ [54] [55]
+
+LaTeX Warning: Marginpar on page 56 moved.
+
+[56]
+
+LaTeX Warning: Marginpar on page 57 moved.
+
+
+LaTeX Warning: Marginpar on page 57 moved.
+
+[57] [58]
+
+LaTeX Warning: Marginpar on page 59 moved.
+
+[59] [60] [61] [62]
+
+LaTeX Warning: Marginpar on page 63 moved.
+
+[63] [64]
+
+LaTeX Warning: Marginpar on page 65 moved.
+
+[65]
+
+LaTeX Warning: Marginpar on page 66 moved.
+
+
+LaTeX Warning: Marginpar on page 66 moved.
+
+
+Overfull \vbox (0.5pt too high) has occurred while \output is active []
+
+ [66]
+
+LaTeX Warning: Marginpar on page 67 moved.
+
+
+LaTeX Warning: Marginpar on page 67 moved.
+
+[67]
+
+LaTeX Warning: Marginpar on page 68 moved.
+
+[68]
+
+LaTeX Warning: Marginpar on page 69 moved.
+
+
+LaTeX Warning: Marginpar on page 69 moved.
+
+[69]
+Overfull \hbox (0.25008pt too wide) in paragraph at lines 2134--2136
+\TU/Minion3(0)/m/n/10 Thus, an equivalent, though less usual, way of formulating the Theta Criterion 
+ []
+
+
+Overfull \hbox (5.78006pt too wide) in paragraph at lines 2153--2154
+[]\TU/Minion3(0)/m/n/10 In fact, so intimate a connection is there between [] and [], 
+ []
+
+
+Overfull \hbox (0.14008pt too wide) in paragraph at lines 2153--2154
+\TU/Minion3(0)/m/n/10 She sketches how this function might work in the special case of CPs and DPs.  
+ []
+
+
+LaTeX Warning: Marginpar on page 70 moved.
+
+[70] [71]
+
+LaTeX Warning: Marginpar on page 72 moved.
+
+[72]
+
+LaTeX Warning: Marginpar on page 73 moved.
+
+
+LaTeX Warning: Marginpar on page 73 moved.
+
+[73]
+
+LaTeX Warning: Marginpar on page 74 moved.
+
+
+LaTeX Warning: Marginpar on page 74 moved.
+
+
+LaTeX Warning: Marginpar on page 74 moved.
+
+
+LaTeX Warning: Marginpar on page 74 moved.
+
+
+LaTeX Warning: Marginpar on page 74 moved.
+
+
+Overfull \vbox (3.0pt too high) has occurred while \output is active []
+
+ [74]
+
+LaTeX Warning: Marginpar on page 75 moved.
+
+
+LaTeX Warning: Marginpar on page 75 moved.
+
+
+LaTeX Warning: Marginpar on page 75 moved.
+
+
+LaTeX Warning: Marginpar on page 75 moved.
+
+[75] [76]
+
+LaTeX Warning: Marginpar on page 77 moved.
+
+[77] [78]) [79]
+\openout2 = `601Chapter03.aux'.
+
+ (./601Chapter03.tex [80
+
+
+
+
+]
+Chapter 3.
+
+LaTeX Warning: Marginpar on page 81 moved.
+
+[81] [82] [83] [84]
+
+LaTeX Warning: Marginpar on page 85 moved.
+
+[85]
+Overfull \vbox (3.0pt too high) has occurred while \output is active []
+
+ [86] [87] [88]
+
+LaTeX Warning: Marginpar on page 89 moved.
+
+[89]
+
+LaTeX Warning: Marginpar on page 90 moved.
+
+
+LaTeX Warning: Marginpar on page 90 moved.
+
+[90]
+
+LaTeX Warning: Marginpar on page 91 moved.
+
+[91]
+
+LaTeX Warning: Marginpar on page 92 moved.
+
+[92] [93]
+
+LaTeX Warning: Marginpar on page 94 moved.
+
+
+Overfull \vbox (0.87598pt too high) has occurred while \output is active []
+
+ [94] [95]
+
+LaTeX Warning: Marginpar on page 96 moved.
+
+
+LaTeX Warning: Marginpar on page 96 moved.
+
+[96] [97]
+
+LaTeX Warning: Marginpar on page 98 moved.
+
+[98]
+
+LaTeX Warning: Marginpar on page 99 moved.
+
+[99] [100]
+
+LaTeX Warning: Marginpar on page 101 moved.
+
+[101] [102] [103] [104] [105]
+
+LaTeX Warning: Marginpar on page 106 moved.
+
+
+LaTeX Warning: Reference `ex:epp3' on page 106 undefined on input line 1172.
+
+[106] [107] [108] [109]
+
+LaTeX Warning: Marginpar on page 110 moved.
+
+
+LaTeX Warning: Marginpar on page 110 moved.
+
+
+LaTeX Warning: Marginpar on page 110 moved.
+
+[110] [111]
+
+LaTeX Warning: Marginpar on page 112 moved.
+
+[112]
+
+LaTeX Warning: Marginpar on page 113 moved.
+
+[113]
+
+LaTeX Warning: Marginpar on page 114 moved.
+
+
+LaTeX Warning: Marginpar on page 114 moved.
+
+[114]
+Overfull \hbox (13.59618pt too wide) in paragraph at lines 1538--1539
+[]\TU/Minion3(0)/m/n/10 If $\OML/cmm/m/it/10 ^^K$ \TU/Minion3(0)/m/n/10 is a floated quantifier related to the DP $\OML/cmm/m/it/10 ^^L$\TU/Minion3(0)/m/n/10 , then $\OML/cmm/m/it/10 ^^L$ \TU/Minion3(0)/m/n/10 must c-command $\OML/cmm/m/it/10 ^^K$\TU/Minion3(0)/m/n/10 .  
+ []
+
+[115]
+
+LaTeX Warning: Marginpar on page 116 moved.
+
+[116] [117] [118]
+Overfull \hbox (4.65501pt too wide) in paragraph at lines 1706--1706
+[]\TU/Minion3(0)/m/n/10 (German) 
+ []
+
+
+Overfull \hbox (2.45503pt too wide) in paragraph at lines 1706--1706
+[]\TU/Minion3(0)/m/n/10 ‘The teacher has without a doubt praised the students.’ |  []  
+ []
+
+[119]
+
+LaTeX Warning: Marginpar on page 120 moved.
+
+[120]
+
+LaTeX Warning: Marginpar on page 121 moved.
+
+Missing character: There is no ] ("5D) in font nullfont!
+
+Overfull \hbox (18.10097pt too wide) in paragraph at lines 1791--1848
+[]\TU/Minion3(0)/m/n/10 a. |  [] |  \TU/Minion3(0)/m/n/9 b. []  
+ []
+
+[121]
+Overfull \hbox (9.84004pt too wide) in paragraph at lines 1849--1850
+\TU/Minion3(0)/m/n/10 From this representation, A-movement could apply again to form the [] 
+ []
+
+
+LaTeX Warning: Marginpar on page 122 moved.
+
+[122] [123]
+
+LaTeX Warning: Marginpar on page 124 moved.
+
+[124] [125] [126]
+Overfull \hbox (0.36009pt too wide) in paragraph at lines 2001--2002
+\TU/Minion3(0)/m/n/10 esis 2 is likely to require, then, that words can be silent. It must credit the child 
+ []
+
+[127] [128]
+
+LaTeX Warning: Marginpar on page 129 moved.
+
+[129]
+
+LaTeX Warning: Marginpar on page 130 moved.
+
+
+Overfull \vbox (3.5pt too high) has occurred while \output is active []
+
+ [130]
+
+LaTeX Warning: Marginpar on page 131 moved.
+
+[131] [132]
+Overfull \hbox (3.44527pt too wide) in paragraph at lines 2275--2310
+[]\TU/Minion3(0)/m/n/9 Shai told Florian to sing. |  []  
+ []
+
+
+Overfull \hbox (1.12006pt too wide) in paragraph at lines 2313--2315
+[]\TU/Minion3(0)/m/n/10 What we’ve discovered in this section, then, is that there is a silent pronom- 
+ []
+
+[133]
+
+LaTeX Font Warning: Font shape `TU/Minion3(0)/m/scit' undefined
+(Font)              using `TU/Minion3(0)/m/sc' instead on input line 2322.
+
+[134]
+Overfull \hbox (79.93582pt too wide) in paragraph at lines 2368--2401
+[]\TU/Minion3(0)/m/n/10 Mari was shown that it seems that pigs fly. []  
+ []
+
+[135] [136] [137]
+
+LaTeX Warning: Marginpar on page 138 moved.
+
+[138] [139]
+Overfull \hbox (67.76924pt too wide) in paragraph at lines 2569--2602
+[][] |  []  
+ []
+
+[140] [141]
+Overfull \hbox (0.23009pt too wide) in paragraph at lines 2703--2704
+\TU/Minion3(0)/m/n/10 found that the \TU/Minion3(0)/m/sc/10 pro \TU/Minion3(0)/m/n/10 Restriction presents. The \TU/Minion3(0)/m/sc/10 pro \TU/Minion3(0)/m/n/10 Restriction describes the fact 
+ []
+
+[142] [143]
+
+LaTeX Warning: Marginpar on page 144 moved.
+
+[144]
+
+LaTeX Warning: Marginpar on page 145 moved.
+
+[145] [146]
+
+LaTeX Warning: Marginpar on page 147 moved.
+
+[147]
+
+LaTeX Font Warning: Font shape `TU/Minion3(0)/m/scit' undefined
+(Font)              using `TU/Minion3(0)/m/sc' instead on input line 2829.
+
+[148] [149] [150]
+
+LaTeX Warning: Marginpar on page 151 moved.
+
+[151]
+
+LaTeX Warning: Marginpar on page 152 moved.
+
+
+LaTeX Warning: Marginpar on page 152 moved.
+
+[152]
+Overfull \vbox (2.5pt too high) has occurred while \output is active []
+
+ [153]
+
+LaTeX Warning: Marginpar on page 154 moved.
+
+[154]
+
+LaTeX Warning: Marginpar on page 155 moved.
+
+
+LaTeX Warning: Marginpar on page 155 moved.
+
+[155]
+
+LaTeX Warning: Marginpar on page 156 moved.
+
+
+LaTeX Warning: Marginpar on page 156 moved.
+
+
+LaTeX Warning: Marginpar on page 156 moved.
+
+
+LaTeX Warning: Marginpar on page 156 moved.
+
+[156] [157]
+
+LaTeX Warning: Marginpar on page 158 moved.
+
+
+LaTeX Warning: Marginpar on page 158 moved.
+
+[158]
+
+LaTeX Warning: Marginpar on page 159 moved.
+
+
+LaTeX Warning: Marginpar on page 159 moved.
+
+[159]
+Overfull \hbox (15.512pt too wide) in paragraph at lines 3363--3364
+[]  
+ []
+
+
+LaTeX Warning: Marginpar on page 160 moved.
+
+[160]
+Overfull \vbox (3.0pt too high) has occurred while \output is active []
+
+ [161]
+
+LaTeX Warning: Marginpar on page 162 moved.
+
+[162] [163] [164]
+
+LaTeX Warning: Marginpar on page 165 moved.
+
+[165]
+
+LaTeX Warning: Marginpar on page 166 moved.
+
+
+LaTeX Warning: Marginpar on page 166 moved.
+
+[166]
+Overfull \hbox (9.11006pt too wide) in paragraph at lines 3601--3603
+[]\TU/Minion3(0)/m/n/10 In view of these differences, we can render our rule for the passive with ([]270[]).  
+ []
+
+
+LaTeX Warning: Marginpar on page 167 moved.
+
+[167]
+
+LaTeX Warning: Marginpar on page 168 moved.
+
+
+LaTeX Warning: Marginpar on page 168 moved.
+
+
+LaTeX Warning: Marginpar on page 168 moved.
+
+[168]
+
+LaTeX Warning: Marginpar on page 169 moved.
+
+
+LaTeX Warning: Marginpar on page 169 moved.
+
+[169]
+
+LaTeX Warning: Marginpar on page 170 moved.
+
+
+LaTeX Warning: Marginpar on page 170 moved.
+
+[170] [171]
+
+LaTeX Warning: Marginpar on page 172 moved.
+
+
+LaTeX Warning: Marginpar on page 172 moved.
+
+[172]
+
+LaTeX Warning: Marginpar on page 173 moved.
+
+
+LaTeX Warning: Marginpar on page 173 moved.
+
+
+Overfull \hbox (0.28006pt too wide) in paragraph at lines 3886--3901
+\TU/Minion3(0)/m/n/10 changed the rod into a flat rod. This sensitivity to being an external or internal 
+ []
+
+[173]
+
+LaTeX Warning: Marginpar on page 174 moved.
+
+
+LaTeX Warning: Marginpar on page 174 moved.
+
+
+LaTeX Warning: Marginpar on page 174 moved.
+
+
+LaTeX Warning: Marginpar on page 174 moved.
+
+
+LaTeX Warning: Marginpar on page 174 moved.
+
+[174]
+Overfull \hbox (106.96008pt too wide) in paragraph at lines 3955--3962
+[]  
+ []
+
+
+Overfull \hbox (88.26009pt too wide) in paragraph at lines 3962--3969
+[]  
+ []
+
+
+Overfull \hbox (7.72006pt too wide) in paragraph at lines 3969--3976
+[]  
+ []
+
+
+Overfull \hbox (58.73007pt too wide) in paragraph at lines 3976--3982
+[]  
+ []
+
+[175]
+
+LaTeX Warning: Marginpar on page 176 moved.
+
+[176]
+
+LaTeX Warning: Marginpar on page 177 moved.
+
+[177]
+
+LaTeX Warning: Marginpar on page 178 moved.
+
+[178]
+Overfull \hbox (15.70676pt too wide) in paragraph at lines 4085--4091
+[][]  
+ []
+
+
+Overfull \hbox (47.57677pt too wide) in paragraph at lines 4096--4104
+[][]  
+ []
+
+[179] [180] [181]
+
+LaTeX Warning: Marginpar on page 182 moved.
+
+[182]
+
+LaTeX Warning: Marginpar on page 183 moved.
+
+
+LaTeX Warning: Marginpar on page 183 moved.
+
+[183] [184]
+Overfull \hbox (11.8471pt too wide) in paragraph at lines 4367--4368
+[][]  
+ []
+
+[185]
+
+LaTeX Warning: Marginpar on page 186 moved.
+
+[186]
+
+LaTeX Warning: Marginpar on page 187 moved.
+
+[187] [188] [189]
+
+LaTeX Warning: Marginpar on page 190 moved.
+
+[190]
+
+LaTeX Warning: Marginpar on page 191 moved.
+
+
+LaTeX Warning: Marginpar on page 191 moved.
+
+[191]
+
+LaTeX Warning: Marginpar on page 192 moved.
+
+
+LaTeX Warning: Marginpar on page 192 moved.
+
+[192]
+
+LaTeX Warning: Marginpar on page 193 moved.
+
+[193]
+
+LaTeX Warning: Marginpar on page 194 moved.
+
+[194]
+
+LaTeX Warning: Marginpar on page 195 moved.
+
+[195]
+
+LaTeX Warning: Marginpar on page 196 moved.
+
+
+LaTeX Warning: Marginpar on page 196 moved.
+
+[196]
+Overfull \hbox (5.30826pt too wide) in paragraph at lines 4836--4853
+|  []  
+ []
+
+[197]) [198]
 \openout2 = `601Chapter04.aux'.
 
  (./601Chapter04.tex
-Chapter 1.
+Chapter 4.
 
-LaTeX Warning: Reference `ex4:1' on page 1 undefined on input line 8.
-
-LaTeX Font Info:    Trying to load font information for U+stmry on input line 23.
-(/usr/local/texlive/2026/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 23.
- (/usr/local/texlive/2026/texmf-dist/tex/latex/jknapltx/ursfs.fd
-File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-)
 Overfull \hbox (20.16005pt too wide) in paragraph at lines 25--26
 \TU/Minion3(0)/m/n/10 We reached this conclusion because it is morphology of this sort—agreement/tense 
  []
 
+[199
 
-Package natbib Warning: Citation `Chomsky:1957' on page 1 undefined on input line 27.
 
 
-LaTeX Warning: Reference `ex4:2' on page 1 undefined on input line 31.
 
-[1
+] [200] [201]
 
+LaTeX Warning: Marginpar on page 202 moved.
 
-]
-
-LaTeX Warning: Reference `ex4:2b' on page 2 undefined on input line 69.
-
-
-LaTeX Warning: Reference `ex4:mana' on page 2 undefined on input line 69.
-
-
-LaTeX Warning: Reference `ex4:mana' on page 2 undefined on input line 77.
-
-
-LaTeX Warning: Reference `ex4:manb' on page 2 undefined on input line 77.
-
-
-LaTeX Warning: Reference `ex4:2' on page 2 undefined on input line 85.
-
-
-LaTeX Warning: Reference `ex4:2' on page 2 undefined on input line 85.
-
-
-LaTeX Warning: Reference `ex4:2' on page 2 undefined on input line 85.
-
-
-LaTeX Warning: Reference `ex4:mana' on page 2 undefined on input line 85.
-
-
-LaTeX Warning: Reference `ex4:tag1' on page 2 undefined on input line 85.
-
-[2]
-
-LaTeX Warning: Reference `ex4:tag1' on page 3 undefined on input line 101.
-
-
-LaTeX Warning: Reference `ex4:tag3' on page 3 undefined on input line 101.
-
-
-LaTeX Warning: Reference `ex4:tag2' on page 3 undefined on input line 105.
-
-
-LaTeX Warning: Reference `ex4:tag4' on page 3 undefined on input line 105.
-
-
-LaTeX Warning: Reference `ex4:tag6' on page 3 undefined on input line 113.
-
-
-LaTeX Warning: Reference `ex4:tag7' on page 3 undefined on input line 113.
-
-
-LaTeX Warning: Reference `ex4:2' on page 3 undefined on input line 123.
-
-
-LaTeX Warning: Reference `ex4:2a' on page 3 undefined on input line 123.
-
-[3]
-
-LaTeX Warning: Reference `ex4:10vpe' on page 4 undefined on input line 139.
-
-
-LaTeX Warning: Reference `ex4:10vpm' on page 4 undefined on input line 139.
-
-
-LaTeX Warning: Reference `ex4:4' on page 4 undefined on input line 141.
-
-
-LaTeX Warning: Reference `ex4:5' on page 4 undefined on input line 141.
-
-LaTeX Font Info:    Font shape `TU/MyriadPro(0)/m/n' will be
-(Font)              scaled to size 7.23962pt on input line 158.
-
-LaTeX Warning: Marginpar on page 4 moved.
-
-
-Package natbib Warning: Citation `Pollock:1989' on page 4 undefined on input line 189.
-
-[4]
-
-LaTeX Warning: Reference `ex4:5' on page 5 undefined on input line 191.
-
-
-LaTeX Warning: Reference `ex4:vm1' on page 5 undefined on input line 193.
-
-
-LaTeX Warning: Reference `ex4:4' on page 5 undefined on input line 201.
-
-
-LaTeX Warning: Reference `ex4:5' on page 5 undefined on input line 201.
-
-
-LaTeX Warning: Reference `ex4:7' on page 5 undefined on input line 201.
-
-[5]
-
-Package natbib Warning: Citation `Lasnik:1981' on page 6 undefined on input line 245.
-
-
+[202] [203]
 Overfull \hbox (2.03726pt too wide) in paragraph at lines 248--249
 \TU/Minion3(0)/m/n/10 An affix must co-exist with its stem under a common X$[]$ at S-Structure.  
  []
 
+[204]
 
-LaTeX Warning: Reference `ex4:wcrit' on page 6 undefined on input line 250.
+LaTeX Warning: Marginpar on page 205 moved.
 
+[205] [206]
 
-LaTeX Warning: Reference `ex4:toobig' on page 6 undefined on input line 255.
+LaTeX Warning: Marginpar on page 207 moved.
 
-LaTeX Font Info:    Font shape `TU/MyriadPro(0)/b/n' will be
-(Font)              scaled to size 7.23962pt on input line 283.
 
-Package natbib Warning: Citation `Harris:1946' on page 6 undefined on input line 283.
+LaTeX Warning: Marginpar on page 207 moved.
 
+[207]
 
-Package natbib Warning: Citation `Halle:1993b' on page 6 undefined on input line 283.
+LaTeX Warning: Marginpar on page 208 moved.
 
+[208] [209]
 
-Package natbib Warning: Citation `Marantz:1996' on page 6 undefined on input line 283.
+LaTeX Warning: Marginpar on page 210 moved.
 
-[6]
 
-LaTeX Warning: Marginpar on page 7 moved.
+LaTeX Warning: Marginpar on page 210 moved.
 
-
-LaTeX Warning: Reference `ex4:6' on page 7 undefined on input line 290.
-
-
-Package natbib Warning: Citation `Chomsky:1957' on page 7 undefined on input line 304.
-
-
-LaTeX Warning: Reference `ex4:affhop' on page 7 undefined on input line 304.
-
-
-LaTeX Warning: Reference `ex4:affhopd' on page 7 undefined on input line 304.
-
-[7]
-
-LaTeX Warning: Reference `ex4:downv' on page 8 undefined on input line 329.
-
-
-LaTeX Warning: Reference `ex4:downv' on page 8 undefined on input line 361.
-
-[8]
-
-LaTeX Warning: Reference `ex4:upwardold' on page 9 undefined on input line 364.
-
-
-LaTeX Warning: Reference `ex4:downv' on page 9 undefined on input line 370.
-
-
-LaTeX Warning: Reference `ex4:7' on page 9 undefined on input line 370.
-
-
-LaTeX Warning: Reference `ex4:7' on page 9 undefined on input line 373.
-
-
-LaTeX Warning: Reference `ex4:downv' on page 9 undefined on input line 396.
-
-
-LaTeX Warning: Reference `ex4:upwardold' on page 9 undefined on input line 396.
-
-
-Package natbib Warning: Citation `Matushansky:2006' on page 9 undefined on input line 396.
-
-
-Package natbib Warning: Citation `Chomsky:1957' on page 9 undefined on input line 396.
-
-
-LaTeX Warning: Marginpar on page 9 moved.
-
-
-LaTeX Warning: Marginpar on page 9 moved.
-
-
-LaTeX Warning: Reference `ex4:7' on page 9 undefined on input line 402.
-
-
-LaTeX Warning: Reference `ex4:upwards' on page 9 undefined on input line 402.
-
-
-LaTeX Warning: Reference `ex4:downv' on page 9 undefined on input line 402.
-
-
-LaTeX Warning: Reference `ex4:upwards' on page 9 undefined on input line 402.
-
-[9]
-LaTeX Font Info:    Font shape `TU/MyriadPro(0)/m/n' will be
-(Font)              scaled to size 4.52477pt on input line 404.
-
-
-Package natbib Warning: Citation `Bobaljik:1994a' undefined on input line 404.
-
-LaTeX Font Info:    Font shape `TU/MyriadPro(0)/m/it' will be
-(Font)              scaled to size 7.23962pt on input line 404.
-
-Package natbib Warning: Citation `Bobaljik:1995a' undefined on input line 404.
-
-
-LaTeX Warning: Reference `ex4:bob1' on page 10 undefined on input line 404.
-
-
-LaTeX Warning: Marginpar on page 10 moved.
-
-
-LaTeX Warning: Reference `ex4:completely' on page 10 undefined on input line 431.
-
-
-LaTeX Warning: Reference `ex4:completely' on page 10 undefined on input line 431.
-
-[10]
-
-LaTeX Warning: Reference `ex4:completely2' on page 11 undefined on input line 453.
-
-
-Package hyperref Warning: Suppressing link with empty target on input line 461.
-
-
-LaTeX Warning: Reference `ex4:agree1' on page 11 undefined on input line 463.
-
-
-Package natbib Warning: Citation `Chomsky:1995' on page 11 undefined on input line 481.
-
-
-LaTeX Warning: Reference `ex4:agree1' on page 11 undefined on input line 481.
-
-
-LaTeX Warning: Reference `ex4:agree1' on page 11 undefined on input line 481.
-
-[11]
-
-LaTeX Warning: Marginpar on page 12 moved.
-
-
-LaTeX Warning: Marginpar on page 12 moved.
-
-[12]
+[210]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 518.
@@ -1381,1331 +1955,605 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 518.
 
 
-LaTeX Warning: Reference `ex4:12' on page 13 undefined on input line 521.
+LaTeX Warning: Marginpar on page 211 moved.
 
 
-LaTeX Warning: Reference `ex4:13' on page 13 undefined on input line 529.
+LaTeX Warning: Marginpar on page 211 moved.
 
 
-Package natbib Warning: Citation `Koster:1975' undefined on input line 547.
+LaTeX Warning: Marginpar on page 211 moved.
 
-
-Package natbib Warning: Citation `denBesten:1983' undefined on input line 547.
-
-
-LaTeX Warning: Reference `ex4:15' on page 13 undefined on input line 547.
-
-
-LaTeX Warning: Reference `ex4:15' on page 13 undefined on input line 547.
-
-
-LaTeX Warning: Marginpar on page 13 moved.
-
-
-LaTeX Warning: Marginpar on page 13 moved.
-
-
-LaTeX Warning: Marginpar on page 13 moved.
-
-[13]
+[211]
 Overfull \hbox (1.13007pt too wide) in paragraph at lines 555--557
 \TU/Minion3(0)/m/n/10 The same contrast is found in the position of finite auxiliaries in wh-questions.  
  []
 
 
-LaTeX Warning: Reference `ex4:itoc' on page 14 undefined on input line 566.
+LaTeX Warning: Marginpar on page 212 moved.
 
+[212] [213]
 
-LaTeX Warning: Reference `ex4:itocd1' on page 14 undefined on input line 574.
+LaTeX Warning: Marginpar on page 214 moved.
 
 
-LaTeX Warning: Marginpar on page 14 moved.
+LaTeX Warning: Marginpar on page 214 moved.
 
-[14]
 
-LaTeX Warning: Reference `ex4:16' on page 15 undefined on input line 624.
+LaTeX Warning: Marginpar on page 214 moved.
 
-[15]
+[214] [215] [216] [217] [218]
 
-LaTeX Warning: Reference `ex4:16a' on page 16 undefined on input line 672.
+LaTeX Warning: Marginpar on page 219 moved.
 
+[219] [220] [221]
 
-Package natbib Warning: Citation `Travis:1984' undefined on input line 674.
+LaTeX Warning: Marginpar on page 222 moved.
 
 
-LaTeX Warning: Reference `ex4:hmc' on page 16 undefined on input line 674.
+LaTeX Warning: Marginpar on page 222 moved.
 
 
-LaTeX Warning: Reference `ex4:hmc' on page 16 undefined on input line 674.
+LaTeX Warning: Marginpar on page 222 moved.
 
-
-LaTeX Warning: Marginpar on page 16 moved.
-
-
-LaTeX Warning: Marginpar on page 16 moved.
-
-
-LaTeX Warning: Marginpar on page 16 moved.
-
-
-LaTeX Warning: Reference `ex4:hmcp' on page 16 undefined on input line 680.
-
-[16]
-
-LaTeX Warning: Reference `ex4:20' on page 17 undefined on input line 718.
-
-
-LaTeX Warning: Reference `ex4:21' on page 17 undefined on input line 718.
-
-
-LaTeX Warning: Reference `ex4:21' on page 17 undefined on input line 731.
-
-
-LaTeX Warning: Reference `ex4:21' on page 17 undefined on input line 731.
-
-
-LaTeX Warning: Reference `ex4:22' on page 17 undefined on input line 731.
-
-[17]
-
-LaTeX Warning: Reference `ex4:22a' on page 18 undefined on input line 768.
-
-[18]
-
-LaTeX Warning: Reference `ex4:22' on page 19 undefined on input line 810.
-
-
-LaTeX Warning: Reference `ex4:23' on page 19 undefined on input line 810.
-
-[19]
-
-LaTeX Warning: Reference `ex4:24' on page 20 undefined on input line 854.
-
-
-LaTeX Warning: Reference `ex4:25' on page 20 undefined on input line 854.
-
-[20]
-
-LaTeX Warning: Reference `ex4:21' on page 21 undefined on input line 865.
-
-
-LaTeX Warning: Reference `ex4:26' on page 21 undefined on input line 867.
-
-
-Package natbib Warning: Citation `Vikner:1995' on page 21 undefined on input line 871.
-
-
-LaTeX Warning: Reference `ex4:germwcv' on page 21 undefined on input line 875.
-
-
-LaTeX Warning: Marginpar on page 21 moved.
-
-[21]
-
-LaTeX Warning: Reference `ex4:germwc' on page 22 undefined on input line 904.
-
-
-LaTeX Warning: Reference `ex4:27' on page 22 undefined on input line 937.
-
-
-LaTeX Warning: Reference `ex4:27a' on page 22 undefined on input line 937.
-
-
-LaTeX Warning: Reference `ex4:27b' on page 22 undefined on input line 937.
-
-
-LaTeX Warning: Reference `ex4:27' on page 22 undefined on input line 937.
-
-
-LaTeX Warning: Reference `ex4:27c' on page 22 undefined on input line 937.
-
-[22]
-
-Package natbib Warning: Citation `Baltin:1982' on page 23 undefined on input line 1010.
-
-[23]
-
-Package natbib Warning: Citation `Baltin:1982' on page 24 undefined on input line 1014.
-
-
-Package natbib Warning: Citation `Emonds:1970' undefined on input line 1016.
-
-
-LaTeX Warning: Marginpar on page 24 moved.
-
-
-LaTeX Warning: Marginpar on page 24 moved.
-
-
-LaTeX Warning: Marginpar on page 24 moved.
-
-
-LaTeX Warning: Reference `ex3:skel1' on page 24 undefined on input line 1032.
-
-
-LaTeX Warning: Reference `ex3:skel2' on page 24 undefined on input line 1032.
-
-
-LaTeX Warning: Reference `ex3:skel2' on page 24 undefined on input line 1041.
-
-
-LaTeX Warning: Reference `ex3:advp' on page 24 undefined on input line 1041.
-
-
-LaTeX Warning: Reference `ex3:skel2' on page 24 undefined on input line 1061.
-
-
-LaTeX Warning: Reference `ex4:newX' on page 24 undefined on input line 1061.
-
-
-LaTeX Warning: Reference `ex3:skel2' on page 24 undefined on input line 1061.
-
-[24]
-
-LaTeX Warning: Reference `ex4:29' on page 25 undefined on input line 1069.
-
-
-Package natbib Warning: Citation `Vikner:1995' on page 25 undefined on input line 1079.
-
-
-LaTeX Warning: Reference `ex4:32' on page 25 undefined on input line 1079.
-
-
-LaTeX Warning: Reference `ex4:33' on page 25 undefined on input line 1088.
-
-[25]
-
-LaTeX Warning: Reference `ex4:34' on page 26 undefined on input line 1097.
-
-
-LaTeX Warning: Reference `ex4:33' on page 26 undefined on input line 1109.
-
-
-LaTeX Warning: Reference `ex4:35' on page 26 undefined on input line 1113.
-
-
-LaTeX Warning: Reference `ex4:35' on page 26 undefined on input line 1118.
-
-
-LaTeX Warning: Reference `ex4:35t' on page 26 undefined on input line 1118.
-
-
+[222] [223]
 Overfull \vbox (3.0pt too high) has occurred while \output is active []
 
- [26]
+ [224] [225] [226]
 
-LaTeX Warning: Reference `ex4:37' on page 27 undefined on input line 1176.
+LaTeX Warning: Marginpar on page 227 moved.
 
+[227] [228]
 
-LaTeX Warning: Reference `ex4:36' on page 27 undefined on input line 1176.
+LaTeX Warning: Marginpar on page 229 moved.
 
-[27]
+[229]
 
-LaTeX Warning: Reference `ex4:51.1' on page 28 undefined on input line 1188.
+LaTeX Warning: Marginpar on page 230 moved.
 
+[230]
 
-LaTeX Warning: Reference `ex4:51.1' on page 28 undefined on input line 1188.
+LaTeX Warning: Marginpar on page 231 moved.
 
-
-LaTeX Warning: Reference `ex4:51.1' on page 28 undefined on input line 1188.
-
-
-LaTeX Warning: Reference `ex4:51.2' on page 28 undefined on input line 1190.
-
-
-LaTeX Warning: Reference `ex4:51.2' on page 28 undefined on input line 1198.
-
-
-LaTeX Warning: Reference `ex4:51.1' on page 28 undefined on input line 1198.
-
-[28]
-
-Package natbib Warning: Citation `Pollock:1989' on page 29 undefined on input line 1212.
-
-
-LaTeX Warning: Marginpar on page 29 moved.
-
-
-LaTeX Warning: Reference `ex4:51.4' on page 29 undefined on input line 1226.
-
-
-LaTeX Warning: Reference `ex4:51.4a' on page 29 undefined on input line 1226.
-
-[29]
-
-LaTeX Warning: Reference `ex4:51.7' on page 30 undefined on input line 1241.
-
-
-LaTeX Warning: Reference `ex4:51.7' on page 30 undefined on input line 1258.
-
-[30]
-
-Package natbib Warning: Citation `Belletti:1990' on page 31 undefined on input line 1264.
-
-
-LaTeX Warning: Marginpar on page 31 moved.
-
-
-LaTeX Warning: Reference `ex4:51.9' on page 31 undefined on input line 1274.
-
-[31]
-
-LaTeX Warning: Reference `ex4:51.9' on page 32 undefined on input line 1279.
-
-
-Package natbib Warning: Citation `Gibson:1980' on page 32 undefined on input line 1279.
-
-
-Package natbib Warning: Citation `Baker:1985a' on page 32 undefined on input line 1279.
-
-
-Package natbib Warning: Citation `Muysken:1979' on page 32 undefined on input line 1279.
-
-
-Package natbib Warning: Citation `Muysken:1981' on page 32 undefined on input line 1279.
-
-
-Package natbib Warning: Citation `Gerdts:1981' on page 32 undefined on input line 1279.
-
-
-LaTeX Warning: Marginpar on page 32 moved.
-
-
-Package natbib Warning: Citation `Baker:1985a' on page 32 undefined on input line 1289.
-
-
-LaTeX Warning: Reference `ex4:51.10' on page 32 undefined on input line 1291.
-
-
-LaTeX Warning: Reference `ex4:51.11' on page 32 undefined on input line 1291.
-
-
-LaTeX Warning: Reference `ex4:51.11' on page 32 undefined on input line 1303.
-
-
-LaTeX Warning: Reference `ex4:51.8' on page 32 undefined on input line 1305.
-
-
-LaTeX Warning: Reference `ex4:51.12' on page 32 undefined on input line 1305.
-
-[32]
-
-LaTeX Warning: Reference `ex4:51.13' on page 33 undefined on input line 1323.
-
-LaTeX Font Info:    Trying to load font information for T3+Minion3(0) on input line 1327.
-LaTeX Font Info:    No file T3Minion3(0).fd. on input line 1327.
-
-LaTeX Font Warning: Font shape `T3/Minion3(0)/m/n' undefined
-(Font)              using `T3/cmr/m/n' instead on input line 1327.
-
-
-LaTeX Warning: Reference `ex4:51.14' on page 33 undefined on input line 1331.
-
-
-Package natbib Warning: Citation `Vikner:1995' on page 33 undefined on input line 1341.
-
-
-LaTeX Warning: Reference `ex4:51.12' on page 33 undefined on input line 1343.
-
-
-LaTeX Warning: Marginpar on page 33 moved.
-
-[33]
-
-LaTeX Warning: Reference `ex4:Eng' on page 34 undefined on input line 1347.
-
-
-LaTeX Warning: Reference `ex4:French' on page 34 undefined on input line 1347.
-
-[34]
-
-LaTeX Warning: Reference `ex4:51.20' on page 35 undefined on input line 1386.
-
-[35]
-
-LaTeX Warning: Reference `ex4:nehmc' on page 36 undefined on input line 1409.
-
-
-LaTeX Warning: Reference `ex4:nehmc' on page 36 undefined on input line 1409.
-
+[231] [232] [233]
 Missing character: There is no ] ("5D) in font nullfont!
+[234]
 
-Package hyperref Warning: Suppressing link with empty target on input line 1450.
+LaTeX Warning: Marginpar on page 235 moved.
 
-[36]
-
-LaTeX Warning: Reference `ex4:51.22' on page 37 undefined on input line 1456.
-
-
-LaTeX Warning: Reference `ex4:adjlin' on page 37 undefined on input line 1492.
-
-
-Package natbib Warning: Citation `Julien:2002b' on page 37 undefined on input line 1501.
-
-
-LaTeX Warning: Marginpar on page 37 moved.
-
-[37]
-
-Package hyperref Warning: Suppressing link with empty target on input line 1503.
-
-
-LaTeX Warning: Reference `ex4:nehmcd' on page 38 undefined on input line 1503.
-
-
-LaTeX Warning: Reference `ex4:nehmc1' on page 38 undefined on input line 1530.
-
-
-LaTeX Warning: Reference `ex4:nehmc2' on page 38 undefined on input line 1565.
-
-[38]
-
-LaTeX Warning: Reference `ex4:51.24' on page 39 undefined on input line 1609.
-
-
-LaTeX Warning: Reference `ex4:51.25' on page 39 undefined on input line 1609.
-
-
-LaTeX Warning: Reference `ex4:51.25' on page 39 undefined on input line 1618.
-
-
-LaTeX Warning: Reference `ex4:51.25' on page 39 undefined on input line 1618.
-
-
-LaTeX Warning: Reference `ex4:51.24' on page 39 undefined on input line 1618.
-
-
-LaTeX Warning: Reference `ex4:51.24' on page 39 undefined on input line 1618.
-
-
-LaTeX Warning: Reference `ex4:51.25' on page 39 undefined on input line 1618.
-
-[39]
-
-LaTeX Warning: Reference `ex4:51.26' on page 40 undefined on input line 1620.
-
-
-LaTeX Warning: Reference `ex4:Eng' on page 40 undefined on input line 1626.
-
-
-LaTeX Warning: Reference `ex4:French' on page 40 undefined on input line 1626.
-
-
-LaTeX Warning: Reference `ex4:51.18' on page 40 undefined on input line 1626.
-
-
-LaTeX Warning: Reference `ex4:ice' on page 40 undefined on input line 1626.
-
-
-LaTeX Warning: Reference `ex4:51.27' on page 40 undefined on input line 1628.
-
-[40]
-
-LaTeX Warning: Reference `ex4:51.27' on page 41 undefined on input line 1632.
-
-
+[235] [236] [237] [238]
 Overfull \hbox (0.25409pt too wide) in paragraph at lines 1630--1634
 []\TU/Minion3(0)/m/n/10 A main verb merged to a morpheme, $\OML/cmm/m/it/10 ^^K$\TU/Minion3(0)/m/n/10 , at S-structure creates ungram- 
  []
 
 
-LaTeX Warning: Marginpar on page 41 moved.
+LaTeX Warning: Marginpar on page 239 moved.
 
 
 LaTeX Font Warning: Font shape `TU/Minion3(0)/m/scit' undefined
 (Font)              using `TU/Minion3(0)/m/sc' instead on input line 1636.
 
-
-LaTeX Warning: Reference `ex4:agree1a' on page 41 undefined on input line 1638.
-
-
-LaTeX Warning: Reference `ex4:agree2' on page 41 undefined on input line 1658.
-
-[41]
-
-LaTeX Warning: Reference `ex4:agreelow' on page 42 undefined on input line 1688.
-
-
-LaTeX Warning: Reference `ex4:agreelowa' on page 42 undefined on input line 1688.
-
-[42]
-
-LaTeX Warning: Reference `ex4:agreenoccom' on page 43 undefined on input line 1714.
-
-
-LaTeX Warning: Reference `ex4:agreenoccom' on page 43 undefined on input line 1714.
-
-
-Package hyperref Warning: Suppressing link with empty target on input line 1740.
-
-
-LaTeX Warning: Reference `ex4:agreenoccomo' on page 43 undefined on input line 1740.
-
-
+[239] [240]
 Overfull \hbox (11.21007pt too wide) in paragraph at lines 1740--1742
 \TU/Minion3(0)/m/n/10 head determining the suffix \TU/Minion3(0)/m/it/10 ing \TU/Minion3(0)/m/n/10 assigns that inflection to the verb it c-commands: 
  []
 
+[241]
 
-Package hyperref Warning: Suppressing link with empty target on input line 1746.
-
-
-Package hyperref Warning: Suppressing link with empty target on input line 1746.
+LaTeX Warning: Marginpar on page 242 moved.
 
 
-Package natbib Warning: Citation `Thrainsson:1996' undefined on input line 1746.
+LaTeX Warning: Marginpar on page 242 moved.
 
 
-LaTeX Warning: Reference `ex4:TP' on page 43 undefined on input line 1746.
+LaTeX Warning: Marginpar on page 242 moved.
 
+[242]
 
-Package natbib Warning: Citation `Bobaljik:1998' on page 43 undefined on input line 1748.
-
-
-Package natbib Warning: Citation `Giorgi:1996' on page 43 undefined on input line 1748.
-
-
-Package natbib Warning: Citation `Bianchi:1999' on page 43 undefined on input line 1748.
-
-
-Package natbib Warning: Citation `Pylkkanen:2008' on page 43 undefined on input line 1748.
-
-
-Package natbib Warning: Citation `Harley:1989' on page 43 undefined on input line 1748.
-
-
-Package natbib Warning: Citation `Legate:2014' on page 43 undefined on input line 1748.
-
-
-Package natbib Warning: Citation `Erlewine:2018' on page 43 undefined on input line 1748.
-
-[43]
-
-LaTeX Warning: Marginpar on page 44 moved.
-
-
-LaTeX Warning: Marginpar on page 44 moved.
-
-
-LaTeX Warning: Reference `ex4:TP' on page 44 undefined on input line 1769.
-
-
-LaTeX Warning: Reference `ex4:newXn' on page 44 undefined on input line 1769.
-
-
-LaTeX Warning: Marginpar on page 44 moved.
-
-[44]
-
-Package natbib Warning: Citation `Chomsky:1995' on page 45 undefined on input line 1786.
-
-
-Package natbib Warning: Citation `Adger:2003a' on page 45 undefined on input line 1788.
-
-
-LaTeX Warning: Marginpar on page 45 moved.
-
-
-Package natbib Warning: Citation `Chomsky:1995' on page 45 undefined on input line 1793.
-
-
-Package natbib Warning: Citation `Chomsky:2000' on page 45 undefined on input line 1793.
+LaTeX Warning: Marginpar on page 243 moved.
 
 
 LaTeX Font Warning: Font shape `TU/MyriadPro(0)/m/sc' undefined
-(Font)              using `TU/MyriadPro(0)/m/n' instead on input line 1793.
+(Font)              using `TU/MyriadPro(0)/m/n' instead on input line 1794.
 
 LaTeX Font Info:    Font shape `TU/MyriadPro(0)/m/sc' will be
-(Font)              scaled to size 7.23962pt on input line 1793.
+(Font)              scaled to size 7.23962pt on input line 1794.
 
-Package natbib Warning: Citation `Zeijlstra:2012' on page 45 undefined on input line 1793.
-
-
-Package natbib Warning: Citation `Bjorkman:2019' on page 45 undefined on input line 1793.
-
-
-LaTeX Warning: Marginpar on page 45 moved.
-
-
-LaTeX Warning: Reference `ex4:agreedemo1' on page 45 undefined on input line 1803.
-
-
-LaTeX Warning: Marginpar on page 45 moved.
-
-[45]
-
-LaTeX Warning: Reference `ex4:agreedemo1a' on page 46 undefined on input line 1825.
-
-
-LaTeX Warning: Reference `ex4:negpagree' on page 46 undefined on input line 1844.
-
-[46]
-
-LaTeX Warning: Reference `ex4:negpagree' on page 47 undefined on input line 1867.
-
-
-LaTeX Warning: Reference `ex4:sff' on page 47 undefined on input line 1869.
-
-
-LaTeX Warning: Reference `ex4:negpagree' on page 47 undefined on input line 1876.
-
-
-LaTeX Warning: Reference `ex4:sff' on page 47 undefined on input line 1876.
-
-
-Package natbib Warning: Citation `Lasnik:1981' on page 47 undefined on input line 1876.
-
-
-LaTeX Warning: Reference `ex4:sff' on page 47 undefined on input line 1876.
-
-[47]
-
-LaTeX Warning: Reference `ex4:agreeaux1' on page 48 undefined on input line 1879.
-
-
-LaTeX Warning: Reference `ex4:agreeaux2' on page 48 undefined on input line 1896.
-
-
-LaTeX Warning: Reference `ex4:eppstar' on page 48 undefined on input line 1913.
-
-
-LaTeX Warning: Reference `ex4:eppstar' on page 48 undefined on input line 1917.
-
-
-LaTeX Warning: Marginpar on page 48 moved.
-
-
-LaTeX Warning: Reference `ex4:agreeaux2' on page 48 undefined on input line 1920.
-
-
-LaTeX Warning: Reference `ex4:agreeaux3' on page 48 undefined on input line 1920.
-
-[48]
-
-LaTeX Warning: Marginpar on page 49 moved.
-
-
-Package natbib Warning: Citation `Lasnik:2003e' on page 49 undefined on input line 1947.
-
-
-LaTeX Warning: Reference `ex4:agreeaux3' on page 49 undefined on input line 1949.
-
-
-LaTeX Warning: Marginpar on page 49 moved.
-
-
-Package natbib Warning: Citation `Stechow:1996' on page 49 undefined on input line 1955.
-
-
-Package natbib Warning: Citation `Fox:2000' on page 49 undefined on input line 1955.
-
-
-Package natbib Warning: Citation `Chomsky:1995' on page 49 undefined on input line 1957.
-
-
-Package natbib Warning: Citation `Lasnik:1995' on page 49 undefined on input line 1959.
-
-
-Package natbib Warning: Citation `Stroik:1999a' on page 49 undefined on input line 1959.
-
-
-Package natbib Warning: Citation `Pesetsky:1989' undefined on input line 1961.
-
-[49]
-
-LaTeX Warning: Marginpar on page 50 moved.
-
-
-LaTeX Warning: Marginpar on page 50 moved.
-
-
-LaTeX Warning: Marginpar on page 50 moved.
-
-
-LaTeX Warning: Marginpar on page 50 moved.
-
-
-LaTeX Warning: Marginpar on page 50 moved.
-
-
-LaTeX Warning: Reference `ex4:deriv4' on page 50 undefined on input line 1975.
-
-
-LaTeX Warning: Reference `ex4:deriv4' on page 50 undefined on input line 1975.
-
-
-LaTeX Warning: Reference `ex4:deriv4' on page 50 undefined on input line 1977.
-
-
-LaTeX Warning: Reference `ex4:sendef' on page 50 undefined on input line 1977.
-
-
-LaTeX Warning: Reference `ex4:newsendef' on page 50 undefined on input line 1977.
-
-
-LaTeX Warning: Reference `ex4:earliness' on page 50 undefined on input line 1983.
-
-
-Package natbib Warning: Citation `Pesetsky:1989' on page 50 undefined on input line 1983.
-
-
-Package natbib Warning: Citation `Pesetsky:1998' on page 50 undefined on input line 1983.
-
-
-Package natbib Warning: Citation `Pesetsky:2001' on page 50 undefined on input line 1983.
-
-
-Package natbib Warning: Citation `Takahashi:2006b' on page 50 undefined on input line 1983.
-
-[50]
-
-LaTeX Warning: Marginpar on page 51 moved.
-
-
-LaTeX Warning: Reference `ex4:negauxin' on page 51 undefined on input line 1990.
-
-[51]
-
-Package natbib Warning: Citation `Anderson:2008a' undefined on input line 2029.
-
-
-LaTeX Warning: Marginpar on page 52 moved.
-
-
-LaTeX Warning: Reference `ex4:contrac' on page 52 undefined on input line 2036.
-
-
-LaTeX Warning: Reference `ex4:auxlex' on page 52 undefined on input line 2057.
-
-
-LaTeX Warning: Marginpar on page 52 moved.
-
-[52]
-
-LaTeX Warning: Reference `ex4:yup' on page 53 undefined on input line 2190.
-
-[53]
-
-LaTeX Warning: Reference `ex4:frenchauxinf' on page 54 undefined on input line 2201.
-
-
-LaTeX Warning: Reference `ex4:frenchauxinf' on page 54 undefined on input line 2203.
-
-
-LaTeX Warning: Reference `ex4:frenchauxinf' on page 54 undefined on input line 2209.
-
-
-LaTeX Warning: Reference `ex4:frenchauxinfr' on page 54 undefined on input line 2209.
-
-
-LaTeX Warning: Reference `ex4:frenchauxinf' on page 54 undefined on input line 2245.
-
-
-LaTeX Warning: Reference `ex4:frenchauxinf' on page 54 undefined on input line 2245.
-
-
-LaTeX Warning: Reference `ex4:frenchauxinf' on page 54 undefined on input line 2245.
-
-[54]
-
-LaTeX Warning: Reference `ex4:frenchauxinf' on page 55 undefined on input line 2278.
-
-
-LaTeX Warning: Reference `ex4:frenchauxinf' on page 55 undefined on input line 2280.
-
-
-LaTeX Warning: Reference `ex4:frenchauxinf' on page 55 undefined on input line 2280.
-
-
-LaTeX Warning: Reference `ex4:bulletfraux' on page 55 undefined on input line 2280.
-
-[55]
-
-LaTeX Warning: Reference `ex4:bulletauxfrm' on page 56 undefined on input line 2314.
-
-
-LaTeX Warning: Reference `ex4:frenchauxinf' on page 56 undefined on input line 2351.
-
-[56]
-
-LaTeX Warning: Reference `ex4:whmove' on page 57 undefined on input line 2353.
-
-
-LaTeX Warning: Reference `ex4:whmove' on page 57 undefined on input line 2357.
-
-
-LaTeX Warning: Reference `ex4:whmove2' on page 57 undefined on input line 2357.
-
-
-LaTeX Warning: Reference `ex4:whmove3' on page 57 undefined on input line 2361.
-
-
-LaTeX Warning: Reference `ex4:hnpse' on page 57 undefined on input line 2367.
-
-[57]
-
-LaTeX Warning: Reference `ex4:hnpse' on page 58 undefined on input line 2375.
-
-
-LaTeX Warning: Reference `ex4:hnpse' on page 58 undefined on input line 2375.
-
-
-LaTeX Font Warning: Font shape `TU/Minion3(0)/m/scit' undefined
-(Font)              using `TU/Minion3(0)/m/sc' instead on input line 2379.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2379.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\theta' on input line 2379.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2379.
-
-
-LaTeX Warning: Reference `ex4:tr1' on page 58 undefined on input line 2382.
-
-[58]
-
-LaTeX Warning: Reference `ex4:thetfeat1' on page 59 undefined on input line 2405.
-
-
-LaTeX Warning: Reference `ex4:thetfeat1' on page 59 undefined on input line 2420.
-
-
-LaTeX Warning: Reference `ex4:tfeatden1' on page 59 undefined on input line 2420.
-
-[59]
-
-LaTeX Warning: Marginpar on page 60 moved.
-
-
-LaTeX Warning: Reference `ex4:thetfeat1' on page 60 undefined on input line 2447.
-
-
-LaTeX Warning: Reference `ex4:ppfl1' on page 60 undefined on input line 2449.
-
-
-Overfull \hbox (14.25404pt too wide) in paragraph at lines 2453--2470
-|  []  
- []
-
-[60]
-
-LaTeX Warning: Reference `ch:compstructure' on page 61 undefined on input line 2475.
-
-
-LaTeX Warning: Marginpar on page 61 moved.
-
-
-LaTeX Warning: Reference `ex4:transdecom' on page 61 undefined on input line 2481.
-
-[61]
-
-LaTeX Warning: Reference `ex:eat1' on page 62 undefined on input line 2506.
-
-
-LaTeX Warning: Reference `ex4:transdecom' on page 62 undefined on input line 2512.
-
-
-LaTeX Warning: Reference `ex4:transdecom2' on page 62 undefined on input line 2512.
-
-
-LaTeX Warning: Reference `ex4:transdecom2' on page 62 undefined on input line 2537.
-
-
-LaTeX Warning: Reference `ex4:transdecom2' on page 62 undefined on input line 2537.
-
-
-Overfull \hbox (27.45445pt too wide) in paragraph at lines 2556--2557
-[]  
- []
-
-[62]
-
-LaTeX Warning: Reference `ex4:mspello' on page 63 undefined on input line 2568.
-
-
-LaTeX Font Warning: Font shape `TU/Minion3(0)/m/scit' undefined
-(Font)              using `TU/Minion3(0)/m/sc' instead on input line 2607.
-
-[63]
-
-LaTeX Warning: Reference `ex4:vsys' on page 64 undefined on input line 2611.
-
-
-LaTeX Warning: Reference `ex4:csys' on page 64 undefined on input line 2611.
-
-
-LaTeX Warning: Marginpar on page 64 moved.
-
-[64]
-
-LaTeX Warning: Reference `ex4:csys' on page 65 undefined on input line 2647.
-
-
-LaTeX Warning: Reference `ex4:newsys1' on page 65 undefined on input line 2649.
-
-
-LaTeX Warning: Reference `ex4:featass' on page 65 undefined on input line 2649.
+LaTeX Warning: Marginpar on page 243 moved.
 
 
 Overfull \vbox (3.0pt too high) has occurred while \output is active []
 
- [65]
+ [243]
 
-LaTeX Warning: Reference `ex4:nomsamp1' on page 66 undefined on input line 2686.
+LaTeX Warning: Marginpar on page 244 moved.
 
+[244] [245]
 
-LaTeX Warning: Reference `ex4:nomsamp1' on page 66 undefined on input line 2690.
+LaTeX Warning: Marginpar on page 246 moved.
 
+[246]
 
-LaTeX Warning: Marginpar on page 66 moved.
+LaTeX Warning: Marginpar on page 247 moved.
 
-[66]
 
-LaTeX Warning: Reference `ex4:nomsamp3' on page 67 undefined on input line 2725.
+LaTeX Warning: Marginpar on page 247 moved.
 
+[247]
 
-LaTeX Warning: Reference `ex4:nomsamp3' on page 67 undefined on input line 2725.
+LaTeX Warning: Marginpar on page 248 moved.
 
 
-LaTeX Warning: Reference `ex4:nocase' on page 67 undefined on input line 2747.
+LaTeX Warning: Marginpar on page 248 moved.
 
 
-LaTeX Warning: Reference `ex4:newstar' on page 67 undefined on input line 2753.
+LaTeX Warning: Marginpar on page 248 moved.
 
-[67]
 
-LaTeX Warning: Reference `ex4:nocase' on page 68 undefined on input line 2759.
+LaTeX Warning: Marginpar on page 248 moved.
 
 
-Package hyperref Warning: Suppressing link with empty target on input line 2759.
+LaTeX Warning: Marginpar on page 248 moved.
 
+[248]
 
-LaTeX Warning: Reference `ex4:nocased' on page 68 undefined on input line 2759.
+LaTeX Warning: Marginpar on page 249 moved.
 
+[249]
 
-LaTeX Warning: Reference `ex4:nocase' on page 68 undefined on input line 2759.
+LaTeX Warning: Marginpar on page 250 moved.
 
 
-LaTeX Warning: Reference `ex4:nomvl' on page 68 undefined on input line 2783.
+LaTeX Warning: Marginpar on page 250 moved.
 
+[250] [251] [252] [253] [254] [255]
 
-LaTeX Warning: Marginpar on page 68 moved.
+LaTeX Font Warning: Font shape `TU/Minion3(0)/m/scit' undefined
+(Font)              using `TU/Minion3(0)/m/sc' instead on input line 2380.
 
 
-LaTeX Warning: Reference `ex4:bulreq' on page 68 undefined on input line 2788.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 2380.
 
-[68]
 
-LaTeX Warning: Reference `ex4:bulreq' on page 69 undefined on input line 2793.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\theta' on input line 2380.
 
 
-LaTeX Warning: Reference `ex4:2scenes' on page 69 undefined on input line 2793.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 2380.
 
+[256]
 
-LaTeX Warning: Reference `ex4:bulreq' on page 69 undefined on input line 2823.
+LaTeX Warning: Marginpar on page 257 moved.
 
+[257]
+Overfull \hbox (14.25404pt too wide) in paragraph at lines 2454--2471
+|  []  
+ []
 
-LaTeX Warning: Reference `ex4:bulreq' on page 69 undefined on input line 2823.
+[258]
 
+LaTeX Warning: Marginpar on page 259 moved.
 
-LaTeX Warning: Reference `ex4:2scenes' on page 69 undefined on input line 2823.
+[259]
+Overfull \hbox (27.45445pt too wide) in paragraph at lines 2557--2558
+[]  
+ []
 
+[260]
 
-LaTeX Warning: Reference `ex4:2scenesm' on page 69 undefined on input line 2823.
+LaTeX Font Warning: Font shape `TU/Minion3(0)/m/scit' undefined
+(Font)              using `TU/Minion3(0)/m/sc' instead on input line 2608.
 
-Missing character: There is no , ("2C) in font nullfont!
-Missing character: There is no n ("6E) in font nullfont!
-Missing character: There is no a ("61) in font nullfont!
-Missing character: There is no m ("6D) in font nullfont!
-Missing character: There is no e ("65) in font nullfont!
-Missing character: There is no = ("3D) in font nullfont!
-Missing character: There is no t ("74) in font nullfont!
-Missing character: There is no r ("72) in font nullfont!
-Missing character: There is no a ("61) in font nullfont!
-Missing character: There is no c ("63) in font nullfont!
-Missing character: There is no e ("65) in font nullfont!
-[69]
+[261]
 
-LaTeX Warning: Reference `ex4:wayne1' on page 70 undefined on input line 2860.
+LaTeX Warning: Marginpar on page 262 moved.
 
+[262]
+Overfull \vbox (3.0pt too high) has occurred while \output is active []
 
-LaTeX Warning: Reference `ex4:cpmove' on page 70 undefined on input line 2902.
+ [263]
 
-[70]
+LaTeX Warning: Marginpar on page 264 moved.
 
-LaTeX Warning: Reference `ex4:cpmove' on page 71 undefined on input line 2906.
+[264] [265]
 
+LaTeX Warning: Marginpar on page 266 moved.
 
-LaTeX Warning: Reference `sec:subinv' on page 71 undefined on input line 2906.
+[266] [267] [268] [269]
 
+LaTeX Warning: Marginpar on page 270 moved.
 
-LaTeX Warning: Reference `ex4:there1' on page 71 undefined on input line 2910.
 
-
-LaTeX Warning: Reference `ex4:thereloc' on page 71 undefined on input line 2914.
-
-
-LaTeX Warning: Reference `ex4:there1' on page 71 undefined on input line 2918.
-
-
-LaTeX Warning: Reference `ex4:there1' on page 71 undefined on input line 2918.
-
-
-LaTeX Warning: Reference `ex4:there1d' on page 71 undefined on input line 2918.
-
-[71]
-
-LaTeX Warning: Reference `ex4:there1d' on page 72 undefined on input line 2942.
-
-
-LaTeX Warning: Reference `ex4:defthere' on page 72 undefined on input line 2944.
-
-[72]
-
-LaTeX Warning: Reference `ex4:therepred3' on page 73 undefined on input line 2982.
-
-
-Package natbib Warning: Citation `Milsark:1974' on page 73 undefined on input line 2990.
-
-
-Package natbib Warning: Citation `Safir:1985' on page 73 undefined on input line 2990.
-
-
-Package natbib Warning: Citation `Safir:1987b' on page 73 undefined on input line 2990.
-
-
-Package natbib Warning: Citation `Heim:1987' on page 73 undefined on input line 2990.
-
-
-Package natbib Warning: Citation `Diesing:1992b' on page 73 undefined on input line 2990.
-
-
-Package natbib Warning: Citation `Levin:1993' on page 73 undefined on input line 2990.
-
-
-Package natbib Warning: Citation `Chomsky:1995' on page 73 undefined on input line 2990.
-
-
-Package natbib Warning: Citation `Lasnik:1992b' on page 73 undefined on input line 2990.
-
-
-Package natbib Warning: Citation `Lasnik:1995' on page 73 undefined on input line 2990.
-
-
-Package natbib Warning: Citation `Moro:1997' on page 73 undefined on input line 2990.
-
-
-Package natbib Warning: Citation `Chomsky:1998' on page 73 undefined on input line 2990.
-
-
-Package natbib Warning: Citation `Chomsky:2000' on page 73 undefined on input line 2990.
-
-
-Package natbib Warning: Citation `Chomsky:2001a' on page 73 undefined on input line 2990.
-
-
-Package natbib Warning: Citation `Boskovic:2002' on page 73 undefined on input line 2990.
-
-
-Package natbib Warning: Citation `Boskovic:2002c' on page 73 undefined on input line 2990.
-
-
-Package natbib Warning: Citation `Groat:1999' on page 73 undefined on input line 2990.
-
-
-Package natbib Warning: Citation `Groat:1995' on page 73 undefined on input line 2990.
-
-
-Package natbib Warning: Citation `Hazout:2004a' on page 73 undefined on input line 2990.
-
-
-Package natbib Warning: Citation `Epstien:2005' on page 73 undefined on input line 2990.
-
-
-Package natbib Warning: Citation `Vikner:1995' on page 73 undefined on input line 2990.
-
-
-LaTeX Warning: Reference `ex4:noepp1' on page 73 undefined on input line 2996.
-
-
-Overfull \hbox (12.42006pt too wide) in paragraph at lines 2996--3002
+Overfull \hbox (12.42006pt too wide) in paragraph at lines 2998--3004
 [] \TU/Minion3(0)/m/n/10 positions that, like those we’ve just seen in English, are c-commanded 
  []
 
 
-LaTeX Warning: Marginpar on page 73 moved.
+LaTeX Warning: Marginpar on page 270 moved.
 
-[73]
+[270]
 
-Package natbib Warning: Citation `Alexiadou:1998a' on page 74 undefined on input line 3007.
+LaTeX Warning: Marginpar on page 271 moved.
 
+[271] [272] [273] [274] [275] [276]
 
-LaTeX Warning: Reference `ex4:noepp1' on page 74 undefined on input line 3009.
+LaTeX Warning: Marginpar on page 277 moved.
 
+[277] [278]
 
-LaTeX Warning: Reference `ex4:noepp1t' on page 74 undefined on input line 3009.
+LaTeX Warning: Marginpar on page 279 moved.
 
+[279] [280] [281]
 
-LaTeX Warning: Marginpar on page 74 moved.
-
-
-LaTeX Warning: Reference `ex4:noepp1t' on page 74 undefined on input line 3035.
-
-
-LaTeX Warning: Reference `ex4:sicor' on page 74 undefined on input line 3035.
-
-
-LaTeX Warning: Reference `ex4:sicorex' on page 74 undefined on input line 3037.
-
-
-LaTeX Warning: Reference `ex4:sicorexl' on page 74 undefined on input line 3037.
-
-
-Package natbib Warning: Citation `Perlmutter:1971' on page 74 undefined on input line 3044.
-
-
-Package natbib Warning: Citation `Rizzi:1982' on page 74 undefined on input line 3044.
-
-
-Package natbib Warning: Citation `Alexiadou:1998a' on page 74 undefined on input line 3044.
-
-
-Package natbib Warning: Citation `Alexiadou:1999a' on page 74 undefined on input line 3044.
-
-[74]
-
-Package natbib Warning: Citation `Alexiadou:1998a' on page 75 undefined on input line 3046.
-
-
-LaTeX Warning: Reference `ex4:numbper' on page 75 undefined on input line 3046.
-
-
-LaTeX Warning: Reference `ex4:numbper' on page 75 undefined on input line 3056.
-
-
-Package natbib Warning: Citation `Alexiadou:1998a' on page 75 undefined on input line 3058.
-
-
-LaTeX Warning: Reference `ex4:ualex' on page 75 undefined on input line 3058.
-
-
-LaTeX Warning: Reference `ex4:alexeng' on page 75 undefined on input line 3075.
-
-[75]
-
-LaTeX Warning: Reference `ex4:alexnon' on page 76 undefined on input line 3096.
-
-
-LaTeX Warning: Reference `ex4:alexnon' on page 76 undefined on input line 3119.
-
-
-LaTeX Warning: Reference `ex4:cpraise' on page 76 undefined on input line 3121.
-
-[76]
-
-LaTeX Warning: Reference `ex4:cppara1' on page 77 undefined on input line 3156.
-
-
-LaTeX Warning: Reference `ex2:cppara2' on page 77 undefined on input line 3156.
-
-[77]
-
-LaTeX Warning: Reference `ex4:cppara3' on page 78 undefined on input line 3172.
-
-
-LaTeX Warning: Reference `ex2:cppara1' on page 78 undefined on input line 3182.
-
-
-LaTeX Warning: Reference `ex2:cppara2' on page 78 undefined on input line 3182.
-
-
-LaTeX Warning: Reference `ex4:ecmklose' on page 78 undefined on input line 3184.
-
-
-LaTeX Warning: Reference `ex4:necmklose' on page 78 undefined on input line 3184.
-
-[78]
-
-LaTeX Warning: Reference `ex4:longagr' on page 79 undefined on input line 3225.
-
-
-LaTeX Warning: Reference `ex4:longagr' on page 79 undefined on input line 3251.
-
-
-LaTeX Warning: Reference `ex4:ecmklose' on page 79 undefined on input line 3251.
-
-[79]
-
-Package natbib Warning: Citation `Ross:1967' on page 80 undefined on input line 3261.
-
-
-Package natbib Warning: Citation `Huang:1982' on page 80 undefined on input line 3261.
-
-
-Package natbib Warning: Citation `Lasnik:1984' on page 80 undefined on input line 3261.
-
-
-Package natbib Warning: Citation `Chomsky:1986' on page 80 undefined on input line 3261.
-
-
-Package natbib Warning: Citation `Kayne:1983' on page 80 undefined on input line 3261.
-
-
-Package natbib Warning: Citation `Pesetsky:1982' on page 80 undefined on input line 3261.
-
-
-LaTeX Warning: Reference `ex4:necmklose' on page 80 undefined on input line 3261.
-
-
-LaTeX Warning: Reference `ex4:agreerev' on page 80 undefined on input line 3261.
-
-
-LaTeX Warning: Marginpar on page 80 moved.
-
-
-LaTeX Warning: Reference `ex4:ca1' on page 80 undefined on input line 3276.
-
-
-LaTeX Warning: Reference `ex4:ca1' on page 80 undefined on input line 3292.
-
-
-LaTeX Warning: Reference `ex4:ca1' on page 80 undefined on input line 3292.
-
-
-LaTeX Warning: Reference `ex4:ca2' on page 80 undefined on input line 3294.
-
-[80]
-
-LaTeX Warning: Reference `ex4:ca2' on page 81 undefined on input line 3310.
-
-[81]
-
-LaTeX Warning: Reference `ex4:caprinc' on page 82 undefined on input line 3316.
-
-
-LaTeX Warning: Marginpar on page 82 moved.
-
-
-LaTeX Warning: Reference `ex4:caprinc' on page 82 undefined on input line 3323.
-
-
-LaTeX Warning: Reference `ex4:ca2' on page 82 undefined on input line 3325.
-
-
-LaTeX Warning: Reference `ex4:ca2a' on page 82 undefined on input line 3325.
-
-
-LaTeX Warning: Reference `ex4:ca2' on page 82 undefined on input line 3327.
-
-
-LaTeX Warning: Reference `ex4:notlastagree' on page 82 undefined on input line 3339.
-
-[82]
-
-LaTeX Warning: Reference `ex4:ca2' on page 83 undefined on input line 3348.
-
-
-LaTeX Warning: Reference `ex4:ca3' on page 83 undefined on input line 3348.
-
-
-LaTeX Warning: Reference `ex4:notlastagree' on page 83 undefined on input line 3365.
-
-
-LaTeX Warning: Reference `ex4:notlastagree' on page 83 undefined on input line 3365.
-
-[83]
-
-LaTeX Warning: Reference `ex4:neghmill' on page 84 undefined on input line 3385.
-
-
-LaTeX Warning: Reference `ex4:hmcitc' on page 84 undefined on input line 3406.
-
-
-LaTeX Warning: Reference `ex4:itocf' on page 84 undefined on input line 3411.
-
-[84]
-
-LaTeX Warning: Reference `ex4:itocf' on page 85 undefined on input line 3434.
-
-
-LaTeX Warning: Reference `ex4:v2feat' on page 85 undefined on input line 3434.
-
-
-LaTeX Warning: Marginpar on page 85 moved.
-
-
-LaTeX Warning: Reference `ex4:hmcitc' on page 85 undefined on input line 3471.
-
-
-LaTeX Warning: Reference `ex4:hmcitc' on page 85 undefined on input line 3471.
-
-
-LaTeX Warning: Reference `ex4:hmcitcd' on page 85 undefined on input line 3471.
+LaTeX Warning: Marginpar on page 282 moved.
 
 
 Overfull \vbox (0.5pt too high) has occurred while \output is active []
 
- [85]
+ [282]
 
-LaTeX Warning: Marginpar on page 86 moved.
+LaTeX Warning: Marginpar on page 283 moved.
 
+[283]
 
-LaTeX Warning: Reference `ex4:hmcitc' on page 86 undefined on input line 3501.
+LaTeX Warning: Marginpar on page 284 moved.
 
+[284]) [285]
+\openout2 = `601Chapter05.aux'.
 
-LaTeX Warning: Reference `ex4:hmf' on page 86 undefined on input line 3503.
-
-
-LaTeX Warning: Reference `ex4:longagr' on page 86 undefined on input line 3503.
-
-
-LaTeX Warning: Reference `ex4:longagr' on page 86 undefined on input line 3505.
-
-[86]
-
-Package natbib Warning: Citation `Rizzi:1990' undefined on input line 3525.
-
-
-LaTeX Warning: Reference `ex4:hmcitcd' on page 87 undefined on input line 3525.
-
-
-LaTeX Warning: Reference `ex4:hmcitca' on page 87 undefined on input line 3525.
-
-
-LaTeX Warning: Marginpar on page 87 moved.
-
-
-LaTeX Warning: Reference `ex4:neghmill' on page 87 undefined on input line 3531.
-
-
-LaTeX Warning: Reference `ex4:longagr' on page 87 undefined on input line 3556.
-
-[87]
-
-LaTeX Warning: Reference `ex4:rm' on page 88 undefined on input line 3558.
-
-) [88] (./601master.bbl
-Chapter 2.
-[89
+ (./601Chapter05.tex [286
 
 
 
-] [90] [91] [92])
 
-Package natbib Warning: There were undefined citations.
+]
+Chapter 5.
 
-[93] (./601master.aux (./601Chapter04.aux)
+LaTeX Warning: Marginpar on page 287 moved.
 
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
+[287]
+Overfull \hbox (27.16716pt too wide) in paragraph at lines 93--94
+[][]  
+ []
 
-)
+[288]
+
+LaTeX Warning: Marginpar on page 289 moved.
+
+[289]
+
+LaTeX Warning: Marginpar on page 290 moved.
+
+[290] [291]
+
+LaTeX Warning: Marginpar on page 292 moved.
+
+
+Overfull \hbox (22.7931pt too wide) in paragraph at lines 309--310
+[]  
+ []
+
+[292]
+
+LaTeX Warning: Marginpar on page 293 moved.
+
+[293]
+
+LaTeX Warning: Marginpar on page 294 moved.
+
+[294]
+
+LaTeX Warning: Marginpar on page 295 moved.
+
+[295] [296] [297]
+
+LaTeX Warning: Marginpar on page 298 moved.
+
+
+LaTeX Warning: Marginpar on page 298 moved.
+
+[298] [299]
+
+LaTeX Warning: Marginpar on page 300 moved.
+
+[300]
+
+LaTeX Warning: Marginpar on page 301 moved.
+
+[301]
+
+LaTeX Warning: Marginpar on page 302 moved.
+
+
+LaTeX Warning: Marginpar on page 302 moved.
+
+
+LaTeX Warning: Marginpar on page 302 moved.
+
+Missing character: There is no ] ("5D) in font nullfont!
+[302]
+
+LaTeX Warning: Marginpar on page 303 moved.
+
+[303]
+
+LaTeX Warning: Marginpar on page 304 moved.
+
+
+LaTeX Warning: Marginpar on page 304 moved.
+
+
+LaTeX Warning: Marginpar on page 304 moved.
+
+
+LaTeX Warning: Marginpar on page 304 moved.
+
+[304] [305] [306]
+
+LaTeX Warning: Marginpar on page 307 moved.
+
+[307]
+
+LaTeX Warning: Marginpar on page 308 moved.
+
+[308]
+
+LaTeX Warning: Marginpar on page 309 moved.
+
+[309] [310] [311]
+
+LaTeX Warning: Marginpar on page 312 moved.
+
+
+LaTeX Warning: Marginpar on page 312 moved.
+
+[312] [313]
+
+LaTeX Warning: Marginpar on page 314 moved.
+
+[314]
+
+LaTeX Warning: Marginpar on page 315 moved.
+
+[315]
+
+LaTeX Warning: Marginpar on page 316 moved.
+
+
+LaTeX Warning: Marginpar on page 316 moved.
+
+[316]
+
+LaTeX Warning: Marginpar on page 317 moved.
+
+
+LaTeX Warning: Marginpar on page 317 moved.
+
+[317]
+
+LaTeX Warning: Marginpar on page 318 moved.
+
+[318] [319]
+
+LaTeX Warning: Marginpar on page 320 moved.
+
+[320]
+
+LaTeX Warning: Marginpar on page 321 moved.
+
+
+Overfull \hbox (0.15012pt too wide) in paragraph at lines 1743--1745
+\TU/Minion3(0)/m/n/10 the extent that the argument structure of a verb is given by the shape of the VP 
+ []
+
+
+LaTeX Warning: Marginpar on page 321 moved.
+
+[321]
+
+LaTeX Warning: Marginpar on page 322 moved.
+
+[322]
+
+LaTeX Warning: Marginpar on page 323 moved.
+
+[323]
+
+LaTeX Warning: Marginpar on page 324 moved.
+
+
+Overfull \hbox (0.63512pt too wide) in paragraph at lines 1852--1854
+\TU/Minion3(0)/m/n/10 For \TU/Minion3(0)/m/it/10 buy\TU/Minion3(0)/m/n/10 , \TU/Minion3(0)/m/it/10 throw\TU/Minion3(0)/m/n/10 , \TU/Minion3(0)/m/it/10 mail\TU/Minion3(0)/m/n/10 , etc., $\OMS/cmsy/m/n/10 R$ \TU/Minion3(0)/m/n/10 is something like “with the goal of.” The examples 
+ []
+
+
+LaTeX Warning: Marginpar on page 324 moved.
+
+
+LaTeX Warning: Marginpar on page 324 moved.
+
+
+Overfull \vbox (6.0pt too high) has occurred while \output is active []
+
+ [324]
+
+LaTeX Warning: Marginpar on page 325 moved.
+
+
+LaTeX Warning: Marginpar on page 325 moved.
+
+[325]
+
+LaTeX Warning: Marginpar on page 326 moved.
+
+
+LaTeX Warning: Marginpar on page 326 moved.
+
+
+LaTeX Warning: Marginpar on page 326 moved.
+
+
+LaTeX Warning: Marginpar on page 326 moved.
+
+
+LaTeX Warning: Marginpar on page 326 moved.
+
+
+LaTeX Warning: Marginpar on page 326 moved.
+
+[326]
+
+LaTeX Warning: Marginpar on page 327 moved.
+
+[327]
+Missing character: There is no m ("6D) in font nullfont!
+Missing character: There is no e ("65) in font nullfont!
+[328]
+Overfull \vbox (3.0pt too high) has occurred while \output is active []
+
+ [329]
+
+LaTeX Warning: Marginpar on page 330 moved.
+
+
+Overfull \hbox (56.38162pt too wide) in paragraph at lines 2212--2213
+[][]  
+ []
+
+
+LaTeX Warning: Marginpar on page 330 moved.
+
+[330]
+
+LaTeX Warning: Marginpar on page 331 moved.
+
+[331]
+
+LaTeX Warning: Marginpar on page 332 moved.
+
+
+LaTeX Warning: Marginpar on page 332 moved.
+
+[332] [333] [334] [335]
+
+LaTeX Warning: Marginpar on page 336 moved.
+
+
+LaTeX Warning: Marginpar on page 336 moved.
+
+[336]
+
+LaTeX Warning: Marginpar on page 337 moved.
+
+[337] [338]
+
+LaTeX Warning: Marginpar on page 339 moved.
+
+[339]
+
+LaTeX Warning: Marginpar on page 340 moved.
+
+[340]
+
+LaTeX Warning: Marginpar on page 341 moved.
+
+[341]
+
+LaTeX Warning: Marginpar on page 342 moved.
+
+
+LaTeX Warning: Marginpar on page 342 moved.
+
+
+Overfull \hbox (42.39679pt too wide) in paragraph at lines 2801--2802
+[]  
+ []
+
+[342]
+
+LaTeX Warning: Marginpar on page 343 moved.
+
+[343]
+
+LaTeX Warning: Marginpar on page 344 moved.
+
+
+LaTeX Warning: Marginpar on page 344 moved.
+
+
+LaTeX Warning: Marginpar on page 344 moved.
+
+
+LaTeX Warning: Marginpar on page 344 moved.
+
+[344]
+
+LaTeX Warning: Marginpar on page 345 moved.
+
+
+Overfull \hbox (0.95009pt too wide) in paragraph at lines 2843--2848
+\TU/Minion3(0)/m/n/10 not telic ones. A classic example of this is \TU/Minion3(0)/m/it/10 for X\TU/Minion3(0)/m/n/10 , where “X” is an expression that 
+ []
+
+
+LaTeX Warning: Marginpar on page 345 moved.
+
+
+LaTeX Warning: Marginpar on page 345 moved.
+
+[345]
+
+LaTeX Warning: Marginpar on page 346 moved.
+
+[346]
+Overfull \hbox (0.12454pt too wide) in paragraph at lines 2922--2924
+\TU/Minion3(0)/m/n/10 sure of the internal $\OML/cmm/m/it/10 ^^R$\TU/Minion3(0)/m/n/10 -role is blocked when there is an external $\OML/cmm/m/it/10 ^^R$\TU/Minion3(0)/m/n/10 -role. Whether 
+ []
+
+
+Overfull \hbox (0.24005pt too wide) in paragraph at lines 2922--2924
+\TU/Minion3(0)/m/n/10 So, what’s at stake is whether the contrast in ([]185[]) shows up without the exter- 
+ []
+
+[347]
+
+LaTeX Warning: Marginpar on page 348 moved.
+
+
+LaTeX Warning: Marginpar on page 348 moved.
+
+
+LaTeX Warning: Marginpar on page 348 moved.
+
+[348] [349] [350]
+*** Recursion on "exe"---your example numbering will probably be screwed up!
+
+LaTeX Warning: Marginpar on page 351 moved.
+
+
+Overfull \vbox (0.5pt too high) has occurred while \output is active []
+
+ [351]
+
+LaTeX Warning: Marginpar on page 352 moved.
+
+[352] [353] [354]
+
+LaTeX Warning: Marginpar on page 355 moved.
+
+[355] [356] [357]
+Overfull \hbox (43.00562pt too wide) in paragraph at lines 3458--3459
+[]  
+ []
+
+) [358] (./601master.bbl
+Chapter 6.
+[359
+
+
+
+] [360] [361] [362] [363] [364] [365] [366] [367] [368] [369] [370] [371] [372] [373] [374] [375] [376] [377]) [378] (./601master.aux (./601Chapter01.aux) (./601Chapter02.aux) (./601Chapter03.aux) (./601Chapter04.aux) (./601Chapter05.aux))
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-05-26>
@@ -2718,24 +2566,22 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
+Package rerunfilecheck Info: File `601master.out' has not changed.
+(rerunfilecheck)             Checksum: 77FF397113CB65D936B2C2789A023E74;4993.
+ )
+(\end occurred inside a group at level 1)
 
-Package rerunfilecheck Warning: File `601master.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `601master.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  AB04286C7EB1BE3980CB499ED4F4FFB5;1377.
- ) 
+### simple group (level 1) entered at line 152 ({)
+### bottom level 
 Here is how much of TeX's memory you used:
- 47926 strings out of 467813
- 1097565 string characters out of 5423447
- 1446792 words of memory out of 5000000
- 76361 multiletter control sequences out of 15000+600000
- 637564 words of font info for 131 fonts, out of 8000000 for 9000
+ 62571 strings out of 467813
+ 1499845 string characters out of 5423447
+ 1570374 words of memory out of 5000000
+ 90963 multiletter control sequences out of 15000+600000
+ 637620 words of font info for 138 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 213i,12n,184p,2030b,3370s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 253i,13n,212p,2139b,5034s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 601master.xdv (99 pages, 3163424 bytes).
+Output written on 601master.xdv (384 pages, 12279756 bytes).
