@@ -1,1512 +1,282 @@
-\begin{thebibliography}{301}
+\begin{thebibliography}{55}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{{\tt #1}}\fi
 \expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
-
-\bibitem[{Abney(1987)}]{Abney:1987}
-Abney, Steven. 1987.
-\newblock The {E}nglish noun phrase in its sentential aspect.
-\newblock Doctoral Dissertation, Massachusetts Institute of Technology.
-
-\bibitem[{Adger(2003)}]{Adger:2003a}
-Adger, David. 2003.
-\newblock {\em Core syntax\/}.
-\newblock Oxford: Oxford University Press.
-
-\bibitem[{Alexiadou and Anagnostopoulou(1998)}]{Alexiadou:1998a}
-Alexiadou, Artemis, and Elena Anagnostopoulou. 1998.
-\newblock Parametrizing {A}gr: word order, {V}-movement and {EPP}-checking.
-\newblock {\em Natural Language and Linguistic Theory\/} 16:491--539.
-
-\bibitem[{Alexiadou and Anagnostopoulou(1999)}]{Alexiadou:1999a}
-Alexiadou, Artemis, and Elena Anagnostopoulou. 1999.
-\newblock {EPP} without {S}pec, {IP}.
-\newblock In {\em Specifiers\/}, ed. David Adger, Bernadette Plunkett, George Tsoulas, and Susan Pintzuk, 93--109. Oxford: Oxford University Press.
-
-\bibitem[{Alexiadou and Sch\"afer(2010)}]{Alexiadou:2010}
-Alexiadou, Artemis, and Florian Sch\"afer. 2010.
-\newblock On the syntax of episodic vs. dispositional -er nominals.
-\newblock In {\em The syntax of nominalizations across languages and frameworks\/}, ed. Artemis Alexiadou and M.~Rathert, 9--38. De Gruyter Mouton.
-
-\bibitem[{Alrenga(2005)}]{Alrenga:2005}
-Alrenga, Peter. 2005.
-\newblock A sentential subject asymmetry in {E}nglish and its implications for complement selection.
-\newblock {\em Syntax\/} 8:175--207.
-
-\bibitem[{Anagnostopoulou(2003)}]{Anagnostopoulou:2003}
-Anagnostopoulou, Elena. 2003.
-\newblock {\em The syntax of ditransitives. evidence from clitics\/}.
-\newblock Berlin: Mouton de Gruyter.
-
-\bibitem[{Anderson(1983)}]{Anderson:1983}
-Anderson, Carol. 1983.
-\newblock Generating coordinate structures with asymmetric gaps.
-\newblock In {\em Proceedings of {C}hicago {L}inguistics {S}ociety\/}, ed. Amy Chukerman, Mitchell Marks, and John~F. Richardson, volume~19, 3--14.
-
-\bibitem[{Anderson(1983-1984)}]{Anderson:1983a}
-Anderson, Mona. 1983-1984.
-\newblock Prenominal genitive {NP}s.
-\newblock {\em Linguistic Review\/} 3:1--24.
-
-\bibitem[{Anderson(2008)}]{Anderson:2008a}
-Anderson, Stephen~R. 2008.
-\newblock English reduced auxiliaries really are simple clitics.
-\newblock {\em Lingue e linguaggio\/} 7:169--186.
-
-\bibitem[{Bach(1964)}]{Bach:1964a}
-Bach, Emmon. 1964.
-\newblock Subcategories in transformational grammars.
-\newblock In {\em Proceedings of the Ninth International Congress of Linguists\/}, ed. H.~Lunt, 672--678. The Hague: Mouton and Company.
-
-\bibitem[{Bach(1986)}]{Bach:1986}
-Bach, Emmon. 1986.
-\newblock The algebra of events.
-\newblock {\em Linguistics and Philosophy\/} 9:5--16.
-
-\bibitem[{Baker(1985)}]{Baker:1985a}
-Baker, Mark. 1985.
-\newblock The mirror principle and morphosyntactic explanation.
-\newblock {\em Linguistic Inquiry\/} 16:373--416.
-
-\bibitem[{Baker(1988)}]{Baker:1988c}
-Baker, Mark. 1988.
-\newblock {\em Incorporation\/}.
-\newblock Chicago, Illinois: University of Chicago Press.
-
-\bibitem[{Baker et~al.(1989)Baker, Johnson, and Roberts}]{Baker:1989a}
-Baker, Mark, Kyle Johnson, and Ian Roberts. 1989.
-\newblock Passive arguments raised.
-\newblock {\em Linguistic Inquiry\/} 20:219--251.
 
 \bibitem[{Bale(2007)}]{Bale:2007}
 Bale, Alan~Clinton. 2007.
 \newblock Quantifiers and verb phrases: An exploration of propositional complexity.
 \newblock {\em Natural Language and Linguistic Theory\/} 25:447--483.
 
-\bibitem[{Baltin(1982)}]{Baltin:1982}
-Baltin, Mark. 1982.
-\newblock A landing site theory of movement rules.
-\newblock {\em Linguistic Inquiry\/} 13:1--38.
+\bibitem[{Baltin(1987)}]{Baltin:1987}
+Baltin, Mark. 1987.
+\newblock Do antecedent-contained deletions exist?
+\newblock {\em Linguistic Inquiry\/} 18:579--596.
 
-\bibitem[{Beavers(2011)}]{Beavers:2011a}
-Beavers, John. 2011.
-\newblock An aspectual analysis of ditransitive verbs of caused possession in {E}nglish.
-\newblock {\em Journal of Semantics\/} 28:1--54.
+\bibitem[{Barss(1986)}]{Barss:1986b}
+Barss, Andrew. 1986.
+\newblock Chains and anaphoric dependence: On reconstruction and its implications.
+\newblock Doctoral Dissertation, Massachusetts Institute of Technology.
 
-\bibitem[{Beavers and Koontz-Garboden(2017)}]{Beavers:2017}
-Beavers, John, and Andrew Koontz-Garboden. 2017.
-\newblock The semantic contribution of idiosyncratic roots in ditransitive verbs.
-\newblock In {\em Proceedings of the 34th {W}est {C}oast {C}onference on {F}ormal {L}inguistics\/}, ed. Cole Brendel, Aaron Kaplan, Abby Kaplan, Miranda McCarvel, Jeff Pynes, and Edward~J. Rubin, 70--80. Somerville, Massachusetts: Cascadilla Proceedings Project.
-
-\bibitem[{Beavers and Koontz-Garboden(2020)}]{Beavers:2020}
-Beavers, John, and Andrew Koontz-Garboden. 2020.
-\newblock {\em The roots of verbal meaning\/}.
-\newblock Oxford University Press.
-
-\bibitem[{Beavers et~al.(2009)Beavers, Ponvert, and Wechsler}]{Beavers:2009}
-Beavers, John, Elias Ponvert, and Stephen Wechsler. 2009.
-\newblock Possession of a controlled substantive: Light `have' and other verbs of possession.
-\newblock In {\em Proceedings of {Semantics} and {Linguistic Theory}\/}, ed. Tova Friedman and Satoshi Ito, volume XVII, 108--125. Ithaca, NY.
-
-\bibitem[{Beck(2005)}]{Beck:2005}
-Beck, Sigrid. 2005.
-\newblock There and back again: A semantic analysis.
-\newblock {\em Journal of Semantics\/} 22:3--51.
-
-\bibitem[{Beck(2006)}]{Beck:2006b}
-Beck, Sigrid. 2006.
-\newblock Focus on \emph{again}.
-\newblock {\em Linguistics and Philosophy\/} 29:277--314.
-
-\bibitem[{Beck et~al.(2008)Beck, Crnic, and G{\"o}tz}]{Beck:2008}
-Beck, Sigrid, Luka Crnic, and Thilo G{\"o}tz. 2008.
-\newblock Ruin and restitution.
-\newblock {\em Natural Language Semantics\/} 16:111--114.
-
-\bibitem[{Beck and Johnson(2004)}]{Beck:2004}
-Beck, Sigrid, and Kyle Johnson. 2004.
-\newblock Double objects again.
-\newblock {\em Linguistic Inquiry\/} 35:97--123.
-
-\bibitem[{Beckman and Pierrehumbert(1986)}]{Beckman:1986}
-Beckman, Mary, and Janet Pierrehumbert. 1986.
-\newblock Intonational structure of {J}apanese and {E}nglish.
-\newblock {\em Phonology\/} 3:255--309.
-
-\bibitem[{Belletti(1982)}]{Belletti:1982}
-Belletti, Adriana. 1982.
-\newblock On the anaphoric status of the reciprocal construction in {I}talian.
-\newblock {\em The Linguistic Review\/} 2:101--138.
-
-\bibitem[{Belletti(1990)}]{Belletti:1990}
-Belletti, Adriana. 1990.
-\newblock {\em Generalized verb movement\/}.
-\newblock Rosenberg \& Sellier.
-
-\bibitem[{den Besten(1983)}]{denBesten:1983}
-den Besten, Hans. 1983.
-\newblock On the interaction of root transformations and lexical deletive rules.
-\newblock In {\em On the formal syntax of the {W}estgermania\/}, ed. W.~Abraham. Amsterdam, The Netherlands: John Benjamins Publishing Company.
-
-\bibitem[{Bianchi(1999)}]{Bianchi:1999}
-Bianchi, Valentina. 1999.
-\newblock {\em Consequences of {A}ntisymmetry: Headed relative clauses\/}.
-\newblock Mouton de Gruyter.
-
-\bibitem[{Biggs(2016)}]{Biggs:2016}
-Biggs, Alison. 2016.
-\newblock Locating variation in the dative alternation.
-\newblock {\em Linguistic Variation\/} 16:151--182.
-
-\bibitem[{Bjorkman and Zeijlstra(2019)}]{Bjorkman:2019}
-Bjorkman, Bronwyn~M., and Hedde Zeijlstra. 2019.
-\newblock Checking up on ($\phi$-){A}gree.
-\newblock {\em Linguistic Inquiry\/} 50:527--569.
-
-\bibitem[{Bobaljik(1994)}]{Bobaljik:1994a}
-Bobaljik, Jonathan. 1994.
-\newblock What does adjacency do?
-\newblock In {\em The morphology-syntax connection\/}, ed. Heidi Harley and Colin Phillips, 1--32. MIT.
+\bibitem[{Barwise and Cooper(1981)}]{Barwise:1981}
+Barwise, John, and Robin Cooper. 1981.
+\newblock Generalized quantifiers and natural language.
+\newblock {\em Linguistics and Philosophy\/} 4:159--219.
 
 \bibitem[{Bobaljik(1995)}]{Bobaljik:1995a}
 Bobaljik, Jonathan. 1995.
 \newblock Morphosyntax: The syntax of verbal inflection.
 \newblock Doctoral Dissertation, Massachusetts Institute of Technology, Cambridge.
 
-\bibitem[{Bobaljik(2003)}]{Bobaljik:2003}
-Bobaljik, Jonathan. 2003.
-\newblock Floating quantifiers: Handle with care.
-\newblock In {\em The second {Glot} {I}nternational state-of-the-article book\/}, ed. Lisa L.-S. Cheng and Rint Sybesma, 107--148. Mouton de Gruyter.
-
-\bibitem[{Bobaljik and Thr{\'a}insson(1998)}]{Bobaljik:1998}
-Bobaljik, Jonathan~David, and H{\'o}skuldur Thr{\'a}insson. 1998.
-\newblock Two heads aren't always better than one.
-\newblock {\em Syntax\/} 1:37--71.
-
-\bibitem[{Bod et~al.(2003)Bod, Hay, and Jannedy}]{Bod:2003}
-Bod, Rens, Jennifer Hay, and Stefanie Jannedy. 2003.
-\newblock {\em Probabilistic linguistics\/}.
-\newblock Cambridge, Massachusetts: MIT Press.
-
-\bibitem[{Boeckx and Hornstein(2003)}]{Boeckx:2003a}
-Boeckx, Cedric, and Norbert Hornstein. 2003.
-\newblock Reply to ``{C}ontrol is not movement''.
-\newblock {\em Linguistic Inquiry\/} 34:269--280.
-
-\bibitem[{Boeckx and Hornstein(2004)}]{Boeckx:2004b}
-Boeckx, Cedric, and Norbert Hornstein. 2004.
-\newblock Movement under control.
-\newblock {\em Linguistic Inquiry\/} 35:431--452.
-
-\bibitem[{Boeckx and Hornstein(2006{\natexlab{a}})}]{Boeckx:2006c}
-Boeckx, Cedric, and Norbert Hornstein. 2006{\natexlab{a}}.
-\newblock Control in {I}celandic and theories of control.
-\newblock {\em Linguistic Inquiry\/} 37:591--606.
-
-\bibitem[{Boeckx and Hornstein(2006{\natexlab{b}})}]{Boeckx:2006b}
-Boeckx, Cedric, and Norbert Hornstein. 2006{\natexlab{b}}.
-\newblock The virtues of control as movement.
-\newblock {\em Syntax\/} 9:118--130.
-
-\bibitem[{Boersma and Hayes(2001)}]{Boersma:2001}
-Boersma, Paul, and Bruce Hayes. 2001.
-\newblock Empirical tests of the gradual learning algorithm.
-\newblock {\em Linguistic Inquiry\/} 32:45--86.
-
-\bibitem[{Bolinger(1971)}]{Bolinger:1971}
-Bolinger, Dwight. 1971.
-\newblock {\em The phrasal verb in {E}nglish\/}.
-\newblock Cambridge, Massachusetts: Harvard University Press.
-
-\bibitem[{Borer(2005{\natexlab{a}})}]{Borer:2005}
-Borer, Hagit. 2005{\natexlab{a}}.
-\newblock {\em In name only. {S}tructuring {S}ense\/}, volume~1.
-\newblock Oxford: Oxford University Press.
-
-\bibitem[{Borer(2005{\natexlab{b}})}]{Borer:2005a}
-Borer, Hagit. 2005{\natexlab{b}}.
-\newblock {\em The normal course of events. {S}tructuring {S}ense\/}, volume~2.
-\newblock Oxford: Oxford University Press.
-
-\bibitem[{Borer(2013)}]{Borer:2013}
-Borer, Hagit. 2013.
-\newblock {\em Taking form. {S}tructuring {S}ense\/}, volume~3.
-\newblock Oxford: Oxford University Press.
-
-\bibitem[{Bo{\v{s}}kovi{\'c}(2001)}]{Boskovic:2001}
-Bo{\v{s}}kovi{\'c}, {\v{Z}}eljko. 2001.
-\newblock Floating quantifiers and theta-role assignment.
-\newblock In {\em North East Linguistic Society\/}, ed. Minjoo Kim and Uri Strauss, 59--78. Georgetown University: GLSA.
-
-\bibitem[{Bo{\v{s}}kovi{\'c}(2002{\natexlab{a}})}]{Boskovic:2002c}
-Bo{\v{s}}kovi{\'c}, {\v{Z}}eljko. 2002{\natexlab{a}}.
-\newblock A-movement and the {EPP}.
-\newblock {\em Syntax\/} 5:167--218.
-
-\bibitem[{Bo{\v{s}}kovi{\'c}(2002{\natexlab{b}})}]{Boskovic:2002}
-Bo{\v{s}}kovi{\'c}, {\v{Z}}eljko. 2002{\natexlab{b}}.
-\newblock Expletives don't move.
-\newblock In {\em Proceedings of North East Linguistic Society 32\/}, ed. Masako Hirotani, volume~1, 21--40.
-
-\bibitem[{Bo{\v{s}}kovi{\'c}(2004)}]{Boskovic:2004a}
-Bo{\v{s}}kovi{\'c}, {\v{Z}}eljko. 2004.
-\newblock Be careful where you float your quantifiers.
-\newblock {\em Natural Language and Linguistic Theory\/} 22:681--742.
-
-\bibitem[{Bowers(1993)}]{Bowers:1993}
-Bowers, John. 1993.
-\newblock The syntax of predication.
-\newblock {\em Linguistic Inquiry\/} 24:591--656.
+\bibitem[{Bouton(1970)}]{Bouton:1970}
+Bouton, L.~F. 1970.
+\newblock Antecedent contained pro-forms.
+\newblock In {\em Papers from the Sixth Regional Meeting of the Chicago Linguistics Society\/}, 154--167. Chicago: Chicago Linguistics Society.
 
 \bibitem[{Bresnan(1972)}]{Bresnan:1972}
 Bresnan, Joan. 1972.
 \newblock Theory of complementation in {E}nglish syntax.
 \newblock Doctoral Dissertation, Massachusetts Institute of Technology.
 
-\bibitem[{Bresnan(1994)}]{Bresnan:1994}
-Bresnan, Joan. 1994.
-\newblock Locative inversion and the architecture of universal grammar.
-\newblock {\em Language\/} 70:72--131.
+\bibitem[{Chomsky(1977{\natexlab{a}})}]{Chomsky:1977}
+Chomsky, Noam. 1977{\natexlab{a}}.
+\newblock Conditions on transformations.
+\newblock In {\em Essays on form and interpretation\/}, 81--162. New York, New York: Elsevier North-Holland, Inc.
 
-\bibitem[{Bresnan and Moshi(1990)}]{Bresnan:1990}
-Bresnan, Joan, and Lioba Moshi. 1990.
-\newblock Object asymmetries in comparative {B}antu syntax.
-\newblock {\em Linguistic Inquiry\/} 22:147--186.
-
-\bibitem[{Bruening(2010{\natexlab{a}})}]{Bruening:2010a}
-Bruening, Benjamin. 2010{\natexlab{a}}.
-\newblock Ditransitive asymmetries and a theory of idiom formation.
-\newblock {\em Linguistic Inquiry\/} 41:519--562.
-
-\bibitem[{Bruening(2010{\natexlab{b}})}]{Bruening:2010}
-Bruening, Benjamin. 2010{\natexlab{b}}.
-\newblock Double object constructions disguised as prepositional datives.
-\newblock {\em Linguistic Inquiry\/} 41:281--305.
-
-\bibitem[{Burzio(1986)}]{Burzio:1986}
-Burzio, Luigi. 1986.
-\newblock {\em Italian syntax\/}.
-\newblock Reidel Publishers.
-
-\bibitem[{Carlson(1977)}]{Carlson:1977b}
-Carlson, Gregory~N. 1977.
-\newblock A unified analysis of the {E}nglish bare plural.
-\newblock {\em Linguistics and Philosophy\/} 1:413--457.
-
-\bibitem[{Chierchia(1984)}]{Chierchia:1984}
-Chierchia, Gennaro. 1984.
-\newblock Topics in the syntax and semantics of infinitives and gerunds.
-\newblock Doctoral Dissertation, University of Massachusetts, Amherst.
-
-\bibitem[{Chierchia(2004)}]{Chierchia:2004}
-Chierchia, Gennaro. 2004.
-\newblock A semantics for unaccusatives and its syntactic consequences.
-\newblock In {\em The unaccusativity puzzle: Explorations of the syntax-lexicon interface\/}, ed. Artemis Alexiadou, Elena Anagnostopoulou, and Martin Evereart, 22--59. Oxford: Oxford University Press.
-
-\bibitem[{Chierchia(2010)}]{Chierchia:2010}
-Chierchia, Gennaro. 2010.
-\newblock Mass nouns, vagueness and semantic variation.
-\newblock {\em Synthese\/} 174:99--149.
-
-\bibitem[{Chomsky(1957)}]{Chomsky:1957}
-Chomsky, Noam. 1957.
-\newblock {\em Syntactic structures\/}.
-\newblock Mouton.
-
-\bibitem[{Chomsky(1965)}]{Chomsky:1965}
-Chomsky, Noam. 1965.
-\newblock {\em Aspects of the theory of syntax\/}.
-\newblock Cambridge, Massachusetts: M.I.T. Press.
-
-\bibitem[{Chomsky(1970)}]{Chomsky:1970}
-Chomsky, Noam. 1970.
-\newblock Remarks on nominalization.
-\newblock In {\em Readings in {E}nglish transformational grammar\/}, ed. J.~Jacobs and P.~Rosenbaum, 184--221. Waltham, Massachusetts: Ginn.
-
-\bibitem[{Chomsky(1975)}]{Chomsky:1975a}
-Chomsky, Noam. 1975.
-\newblock {\em The logical structure of linguistic theory\/}.
-\newblock Springer.
-
-\bibitem[{Chomsky(1981)}]{Chomsky:1981}
-Chomsky, Noam. 1981.
-\newblock {\em Lectures on government and binding\/}.
-\newblock Dordrecht, The Netherlands: Foris Publications.
-
-\bibitem[{Chomsky(1985)}]{Chomsky:1985}
-Chomsky, Noam. 1985.
-\newblock {\em The logical structure of linguistic theory\/}.
-\newblock Chicago: University of Chicago Press.
-
-\bibitem[{Chomsky(1986{\natexlab{a}})}]{Chomsky:1986}
-Chomsky, Noam. 1986{\natexlab{a}}.
-\newblock {\em Barriers\/}.
-\newblock Cambridge, Massachusetts: MIT Press.
-
-\bibitem[{Chomsky(1986{\natexlab{b}})}]{Chomsky:1986b}
-Chomsky, Noam. 1986{\natexlab{b}}.
-\newblock {\em Knowledge of language\/}.
-\newblock New York, New York: Praeger Publishers.
-
-\bibitem[{Chomsky(1995)}]{Chomsky:1995}
-Chomsky, Noam. 1995.
-\newblock {\em The minimalist program\/}.
-\newblock Cambridge, Massachusetts: MIT Press.
-
-\bibitem[{Chomsky(1998)}]{Chomsky:1998}
-Chomsky, Noam. 1998.
-\newblock Some observations on economy in generative grammar.
-\newblock In {\em Is the best good enough?\/}, ed. Pilar Barbosa, Danny Fox, Paul Hagstrom, Martha McGinnis, and David Pesetsky, 115--128. Cambridge, Massachusetts: MIT Press.
-
-\bibitem[{Chomsky(2000)}]{Chomsky:2000}
-Chomsky, Noam. 2000.
-\newblock Minimalist inquiries: The framework.
-\newblock In {\em Step by step: Essays on minimalist syntax in honor of {H}oward {L}asnik\/}, ed. Roger Martin, David Michaels, and Juan Uriagereka, 89--156. MIT Press.
-
-\bibitem[{Chomsky(2001)}]{Chomsky:2001a}
-Chomsky, Noam. 2001.
-\newblock Derivation by phase.
-\newblock In {\em Ken {H}ale: A life in linguistics\/}, ed. Michael Kenstowicz, 1--52. Cambridge, Massachusetts: MIT Press.
-
-\bibitem[{Chomsky and Halle(1968)}]{Chomsky:1968}
-Chomsky, Noam, and Morris Halle. 1968.
-\newblock {\em The sound pattern of {E}nglish\/}.
-\newblock New York: Haper \& Row, Publishers.
-
-\bibitem[{Chomsky and Lasnik(1993)}]{Chomsky:1993}
-Chomsky, Noam, and Howard Lasnik. 1993.
-\newblock Principles and parameter theory.
-\newblock In {\em Syntax: an international handbook of contemporary research\/}, ed. Arnim von Stechow, W.~Sternefeld, and T.~Vennemann, 506--569. Berlin: Walter de Gruyter.
-
-\bibitem[{Chomsky and Miller(1963)}]{Chomsky:1963}
-Chomsky, Noam, and George Miller. 1963.
-\newblock Finitary models of language users.
-\newblock In {\em Handbook of Mathematical Psychology 2\/}, ed. Luce, Bush, and Galanter, volume Handbook of Mathematical Psychology 2, 419--491. New York, New York: Wiley and Sons.
+\bibitem[{Chomsky(1977{\natexlab{b}})}]{Chomsky:1977b}
+Chomsky, Noam. 1977{\natexlab{b}}.
+\newblock {\em Essays on form and interpretation\/}.
+\newblock Amsterdam, The Netherlands: North-Holland Publishing Company.
 
 \bibitem[{Chung and Ladusaw(2004)}]{Chung:2004a}
 Chung, Sandra, and William~A. Ladusaw. 2004.
 \newblock {\em Restriction and saturation\/}.
 \newblock MIT Press.
 
-\bibitem[{Citko and Gra{\v{c}}anin-Yuksek(2020)}]{Citko:2020}
-Citko, Barbara, and Martina Gra{\v{c}}anin-Yuksek. 2020.
-\newblock {\em Merge: Binarity in (multidominant) syntax\/}.
+\bibitem[{Cooper(1983)}]{Cooper:1983}
+Cooper, Robin. 1983.
+\newblock {\em Quantification and syntactic theory\/}.
+\newblock D. Reidel Publishing Company.
+
+\bibitem[{Cresti(1995)}]{Cresti:1995}
+Cresti, Diana. 1995.
+\newblock Extraction and reconstruction.
+\newblock {\em Natural Language Semantics\/} 3:79--122.
+
+\bibitem[{Elbourne(2005)}]{Elbourne:2005a}
+Elbourne, Paul~D. 2005.
+\newblock {\em Situations and individuals\/}.
 \newblock MIT Press.
 
-\bibitem[{Collins(2005)}]{Collins:2005a}
-Collins, Chris. 2005.
-\newblock A smuggling approach to the passive in {E}nglish.
-\newblock {\em Syntax\/} 8:81--120.
+\bibitem[{Engdahl(1980)}]{Engdahl:1980}
+Engdahl, Elisabet. 1980.
+\newblock The syntax and semantics of questions in {S}wedish.
+\newblock Doctoral Dissertation, University of Massachusetts, Amherst, Massachusetts.
 
-\bibitem[{Comrie(1976)}]{Comrie:1976}
-Comrie, Bernard. 1976.
-\newblock {\em Aspect\/}.
-\newblock Cambridge University Press.
+\bibitem[{Engdahl(1982)}]{Engdahl:1982}
+Engdahl, Elisabet. 1982.
+\newblock A note on the use of lambda conversion in generalized phrase structure grammars.
+\newblock {\em Linguistics and Philosophy\/} 4:505--516.
 
-\bibitem[{Davidson(1967)}]{Davidson:1967}
-Davidson, Donald. 1967.
-\newblock The logical form of action sentences.
-\newblock In {\em The logic of decision and action\/}, ed. Nicholas Rescher, 81--95. Pittsburgh: Pittsburgh University Press.
-
-\bibitem[{Dayal(2011)}]{Dayal:2011}
-Dayal, Veneeta. 2011.
-\newblock Hindi pseudo-incorporation.
-\newblock {\em Natural Language and Linguistic Theory\/} 29:123--167.
-
-\bibitem[{D{\'e}prez(1989)}]{Deprez:1989}
-D{\'e}prez, Vivian. 1989.
-\newblock On the typology of syntactic positions and the nature of chains.
-\newblock Doctoral Dissertation, MIT, Cambridge, Massachusetts.
-
-\bibitem[{Diesing(1992)}]{Diesing:1992b}
-Diesing, Molly. 1992.
-\newblock {\em Indefinites\/}.
-\newblock Cambridge, Massachusetts: MIT Press.
-
-\bibitem[{Dikken(1992)}]{Dikken:1992}
-Dikken, Marcel~den. 1992.
-\newblock {\em Particles\/}.
-\newblock Dordrecht, The Netherlands: Holland Institute of Generative Linguistics.
-
-\bibitem[{Doetjes(1995)}]{Doetjes:1995}
-Doetjes, Jenny. 1995.
-\newblock Quantification at a distance and iteration.
-\newblock In {\em Proceedings of the North East Linguistic Society 25\/}, ed. Jill Beckman, 111--126. University of Pennsylvania: Graduate Linguistic Student Association.
-
-\bibitem[{Dowty(1989)}]{Dowty:1989}
-Dowty, David. 1989.
-\newblock On the semantic content of the notion of `thematic role'.
-\newblock In {\em Properties, types and meaning: Semantic issues\/}, ed. Gennaro Chierchia, Barbara~H. Partee, and Raymond Turner. Dordrecht, The Netherlands: Kluwer Academic Press.
-
-\bibitem[{Dowty(1991)}]{Dowty:1991}
-Dowty, David. 1991.
-\newblock Thematic proto-roles and argument selection.
-\newblock {\em Language\/} 67:547--619.
-
-\bibitem[{Dowty(1979)}]{Dowty:1979}
-Dowty, David~R. 1979.
-\newblock {\em Word meaning and {M}ontague grammar\/}, volume~7.
-\newblock Dordrecht, The Netherlands: Kluwer Academic Publishers.
-
-\bibitem[{Dryer(1992)}]{Dryer:1992}
-Dryer, Matthew~S. 1992.
-\newblock The {G}reenbergian word order correlations.
-\newblock {\em Language\/} 68:81--138.
-
-\bibitem[{Elliott(2017)}]{Elliott:2017}
-Elliott, Patrick~D. 2017.
-\newblock Elements of clausal embedding.
-\newblock Doctoral Dissertation, University College London.
-
-\bibitem[{Emonds(1970)}]{Emonds:1970}
-Emonds, Joseph~E. 1970.
-\newblock Root and structure-preserving transformations.
-\newblock Doctoral Dissertation, Massachusetts Institute of Technology, Cambridge, Massachusetts.
-
-\bibitem[{Emonds(1976)}]{Emonds:1976}
-Emonds, Joseph~E. 1976.
-\newblock {\em A transformational approach to {E}nglish syntax\/}.
-\newblock New York, New York: Academic Press.
-
-\bibitem[{Epstein et~al.(2005)Epstein, Pires, and Seely}]{Epstien:2005}
-Epstein, Samuel~David, Acrisio Pires, and T.~Daniel Seely. 2005.
-\newblock {EPP} in {T}: More controversial subjects.
-\newblock {\em Syntax\/} 8:65--80.
-
-\bibitem[{Erlewine(2018)}]{Erlewine:2018}
-Erlewine, Michael. 2018.
-\newblock Extraction and licensing in {T}oba {B}atak.
-\newblock {\em Language\/} 3:662--697.
-
-\bibitem[{Farmer(1980)}]{Farmer:1980}
-Farmer, Ann~K. 1980.
-\newblock On the interaction of morphology and syntax.
-\newblock Doctoral Dissertation, Massachusetts Institute of Technology.
-
-\bibitem[{F{\'e}ry and Hartmann(2005)}]{Fery:2005a}
-F{\'e}ry, Caroline, and Katharina Hartmann. 2005.
-\newblock The focus and prosodic structure of {G}erman {R}ight {N}ode {R}aising and {G}apping.
-\newblock {\em The Linguistic Review\/} 22:69--116.
-
-\bibitem[{Fillmore(1968)}]{Fillmore:1968}
-Fillmore, Charles. 1968.
-\newblock The case for case.
-\newblock In {\em Universals in linguistic theory\/}, ed. Emmon Bach and Richard Harms, 1--90. New York, New York: Holt, Rinehart and Winston.
+\bibitem[{Fox(1999)}]{Fox:1999}
+Fox, Danny. 1999.
+\newblock Reconstruction, binding theory, and the interpretation of chains.
+\newblock {\em Linguistic Inquiry\/} 30:157--196.
 
 \bibitem[{Fox(2000)}]{Fox:2000}
 Fox, Danny. 2000.
 \newblock {\em Economy and semantic interpretation\/}.
 \newblock Cambridge, Massachusetts: MIT Press.
 
-\bibitem[{Fraser(1970)}]{Fraser:1970ab}
-Fraser, Bruce. 1970.
-\newblock Some remarks on the action nominalization in {E}nglish.
-\newblock In {\em Readings in {E}nglish transformational grammar\/}, ed. Roderick Jacobs and Peter~S. Rosenbaum, 83--98. Ginn and Company.
+\bibitem[{Fox(2002)}]{Fox:2002}
+Fox, Danny. 2002.
+\newblock Antecedent-contained deletion and the copy theory of movement.
+\newblock {\em Linguistic Inquiry\/} 33:63--96.
 
-\bibitem[{Frazier(1978)}]{Frazier:1978}
-Frazier, Lyn. 1978.
-\newblock On comprehending sentences: Syntactic parsing strategies.
-\newblock Doctoral Dissertation, University of Connecticut, Storrs.
+\bibitem[{Fox(2003)}]{Fox:2003a}
+Fox, Danny. 2003.
+\newblock On logical form.
+\newblock In {\em Minimalist syntax\/}, ed. Randall Hendrick, 82--123. Oxford: Blackwell Publishers.
 
-\bibitem[{Fukui and Speas(1986)}]{Fukui:1986a}
-Fukui, Naoki, and Margaret Speas. 1986.
-\newblock Specifiers and projection.
-\newblock In {\em {MIT} working papers in linguistics\/}, ed. Naoki Fukui, Tova~R. Rapoport, and Elizabeth Sagey, volume~8, 128--172. Department of Linguistics and Philosophy.
+\bibitem[{Fox and Nissenbaum(1999)}]{Fox:1999a}
+Fox, Danny, and Jon Nissenbaum. 1999.
+\newblock Extraposition and scope: a case for overt {QR}.
+\newblock In {\em Proceedings of the West Coast Conference on Formal Linguistics 18\/}, ed. Sonya Bird, Andrew Carnie, Jason~D. Haugen, and Peter Norquest, 132--144. Somerville, Massachusetts: Cascadilla Press.
 
-\bibitem[{Garey(1957)}]{Garey:1957}
-Garey, Howard~B. 1957.
-\newblock Verbal aspects in {F}rench.
-\newblock {\em Language\/} 33:91--110.
+\bibitem[{Frege(1879)}]{Frege:1879}
+Frege, Gottlob. 1879.
+\newblock {\em Begriffsschrift. eine der arithmetischen nachgebildete {F}ormelsprache des reinen {D}enkens\/}.
+\newblock Halle, Germany: Neubert.
 
-\bibitem[{Gary and Keenan(1977)}]{Gary:1977}
-Gary, J, and E.~L. Keenan. 1977.
-\newblock On collapsing grammatical relations in universal grammar.
-\newblock In {\em Syntax and semantics 8: Grammatical relations\/}, ed. Peter Cole and Jerrold~M. Sadock. Academic Press.
-
-\bibitem[{Gerdts(1981)}]{Gerdts:1981}
-Gerdts, Donna. 1981.
-\newblock Object and absolutive in {H}alkomelem {S}alish.
-\newblock Doctoral Dissertation, University of California, San Diego.
-
-\bibitem[{Gibson(1998)}]{Gibson:1998a}
-Gibson, Edward. 1998.
-\newblock Linguistic complexity: Locality of syntactic dependencies.
-\newblock {\em Cognition\/} 68:1--76.
-
-\bibitem[{Gibson(1980)}]{Gibson:1980}
-Gibson, Jean. 1980.
-\newblock Clause union in {C}hamorro and in universal grammar.
-\newblock Doctoral Dissertation, University of California, San Diego.
-
-\bibitem[{Giorgi and Pianesi(1996)}]{Giorgi:1996}
-Giorgi, Alessandra, and Fabio Pianesi. 1996.
-\newblock Verb movement in italian and syncretic categories.
-\newblock {\em Probus\/} 8:137--160.
-
-\bibitem[{Giusti(1990{\natexlab{a}})}]{Giusti:1990b}
-Giusti, Giuliana. 1990{\natexlab{a}}.
-\newblock Floating quantifiers in {G}ermanic.
-\newblock In {\em Grammar in progress\/}, ed. Joan Mascar{\'o} and Marina Nespor, 137--146. Dordrecht, The Netherlands: Foris Publications.
-
-\bibitem[{Giusti(1990{\natexlab{b}})}]{Giusti:1990}
-Giusti, Giuliana. 1990{\natexlab{b}}.
-\newblock Floating quantifiers, scrambling and configurationality.
-\newblock {\em Linguistic Inquiry\/} 21:633--641.
-
-\bibitem[{Godfrey et~al.(1992)Godfrey, Holliman, and McDaniel}]{Godfrey:1992}
-Godfrey, J., E.~Holliman, and J.~McDaniel. 1992.
-\newblock \textsc{switchboard:} telephone speech corpus for research and development.
-\newblock In {\em Proceedings of ICASSP 92\/}, 517--520. San Francisco.
-
-\bibitem[{Goldberg(1994)}]{Goldberg:1994}
-Goldberg, A.~E. 1994.
-\newblock {\em Constructions: a {C}onstruction {G}rammar approach to argument structure\/}.
-\newblock Chicago Illinois: University of Chicago Press.
-
-\bibitem[{Green(1974)}]{Green:1974}
-Green, Georgia~M. 1974.
-\newblock {\em Semantics and syntactic regularity\/}.
-\newblock Bloomington, Indiana: Indiana University Press.
-
-\bibitem[{Greenberg(1963)}]{Greenberg:1963}
-Greenberg, Joseph~H. 1963.
-\newblock Some universals of grammar with particular reference to the order of meaningful elements.
-\newblock In {\em Universals of language\/}, ed. Joseph Greenberg. Cambridge, Massachusetts: MIT Press.
-
-\bibitem[{Grewendorf(1989)}]{Grewendorf:1989}
-Grewendorf, G{\"u}nther. 1989.
-\newblock {\em Ergativity in {G}erman\/}.
-\newblock Dordrecht: Foris.
-
-\bibitem[{Grimshaw(1979)}]{Grimshaw:1979}
-Grimshaw, Jane. 1979.
-\newblock Complement selection and the lexicon.
-\newblock {\em Linguistic Inquiry\/} 10:279--326.
-
-\bibitem[{Grimshaw(1990)}]{Grimshaw:1990b}
-Grimshaw, Jane. 1990.
-\newblock {\em Argument structure\/}.
-\newblock Cambridge, Massachusetts: MIT Press.
-
-\bibitem[{Groat(1999)}]{Groat:1999}
-Groat, Erich. 1999.
-\newblock Raising the case of expletives.
-\newblock In {\em Working minimalism\/}, ed. Samuel Epstein and Norbert Hornstein, 27--43. Cambridge, Massachusetts: MIT Press.
-
-\bibitem[{Groat(1995)}]{Groat:1995}
-Groat, Erich~M. 1995.
-\newblock English expletives: A minimalist approach.
-\newblock {\em Linguistic Inquiry\/} 26:354--365.
-
-\bibitem[{Gropen et~al.(1989)Gropen, Pinker, Hollander, Godberg, and Wilson}]{Gropen:1989}
-Gropen, Jess, Steven Pinker, Michelle Hollander, Richard Godberg, and Ronald Wilson. 1989.
-\newblock The learnability and acquisition of the dative alternation in {E}nglish.
-\newblock {\em Language\/} 65:203--257.
-
-\bibitem[{Gruber(1965)}]{Gruber:1965}
-Gruber, Jeffrey~S. 1965.
-\newblock Studies in lexical relations.
-\newblock Doctoral Dissertation, Massachusetts Institute of Technology, Cambridge, Massachusetts.
-
-\bibitem[{Gussenhoven(1984)}]{Gussenhoven:1984}
-Gussenhoven, Carlos. 1984.
-\newblock {\em On the grammar and semantics of sentence accents\/}.
-\newblock De Gruyter.
-
-\bibitem[{Haddican and Holmberg(2019)}]{Haddican:2019}
-Haddican, Bill, and Anders Holmberg. 2019.
-\newblock Object symmetry effects in {G}ermanic.
-\newblock {\em Natural Language and Linguistic Theory\/} 37:91--122.
-
-\bibitem[{Haddican(2010)}]{Haddican:2010}
-Haddican, William. 2010.
-\newblock Theme-goal ditransitives and theme passivisation in {B}ritish {E}nglish dialects.
-\newblock {\em Lingua\/} 120:2424--2443.
-
-\bibitem[{Hall(1965)}]{Hall:1965}
-Hall, Barbara~Corey. 1965.
-\newblock Subject and object in modern {E}nglish.
-\newblock Doctoral Dissertation, Massachusetts Institute of Technology.
-
-\bibitem[{Halle and Marantz(1993)}]{Halle:1993b}
-Halle, Morris, and Alec Marantz. 1993.
-\newblock Distributed morphology and the pieces of inflection.
-\newblock In {\em The view from building 20\/}, ed. Kenneth Hale and Samuel~Jay Keyser, 111--176. Cambridge, Massachusetts: MIT Press.
-
-\bibitem[{Halliday(1967)}]{Halliday:1967}
-Halliday, M. A.~K. 1967.
-\newblock Notes on transitivity and theme in {E}nglish, part i.
-\newblock {\em Journal of Linguistics\/} 3:37--81.
+\bibitem[{Hanink(2018)}]{Hanink:2018}
+Hanink, Emily. 2018.
+\newblock Structural sources of anaphora and sameness.
+\newblock Doctoral Dissertation, University of Chicago.
 
 \bibitem[{Hankamer and Sag(1976)}]{Hankamer:1976}
 Hankamer, Jorge, and Ivan Sag. 1976.
 \newblock Deep and surface anaphora.
 \newblock {\em Linguistic Inquiry\/} 7:391--428.
 
-\bibitem[{Harley(1989)}]{Harley:1989}
-Harley, Heidi. 1989.
-\newblock The bundling hypothesis and the disparate functions of little v.
-\newblock In {\em The verbal domain\/}, ed. Roberta D'Alessandro, Irene Franco, and Ang\'el~J. Gallego, 3--28. Oxford: Oxford University Press.
-
-\bibitem[{Harley(1996)}]{Harley:1996}
-Harley, Heidi. 1996.
-\newblock If you have {Have}, you can {G}ive.
-\newblock In {\em Proceedings of {WCCFL} {XV}\/}, ed. Brian Agbayani and Sze-Wing Tang, 193--207. Somerville, Massachusetts: Cascadilla Press.
-
-\bibitem[{Harley(2002)}]{Harley:2002a}
-Harley, Heidi. 2002.
-\newblock Possession and the double object construction.
-\newblock In {\em Yearbook of Linguistic Variation\/}, ed. Pierre Pica and Johan Rooryck, volume~2, 29--68. Benjamins.
-
-\bibitem[{Harley(2004)}]{Harley:2004}
-Harley, Heidi. 2004.
-\newblock Wanting, having, and getting: A note on {F}odor and {L}epore 1998.
-\newblock {\em Linguistic Inquiry\/} 35:255--267.
-
-\bibitem[{Harley(2012)}]{Harley:2012}
-Harley, Heidi. 2012.
-\newblock Lexical decomposition in modern generative grammar.
-\newblock In {\em Handbook of compositionality\/}, ed. Wolfram Hinzen, Markus Werning, and Edouard Machery, 328--350. Oxford University Press.
-
-\bibitem[{Harley and Kyoung~Jung(2015)}]{Harley:2015}
-Harley, Heidi, and Hyun Kyoung~Jung. 2015.
-\newblock In support of the {P}_{have} analysis of the double object construction.
-\newblock {\em Linguistic Inquiry\/} 46:703--730.
-
-\bibitem[{Harris(1946)}]{Harris:1946}
-Harris, Zellig. 1946.
-\newblock From morpheme to utterance.
-\newblock {\em Language\/} 22:161--183.
-
-\bibitem[{Hartman(2012)}]{Hartman:2012}
-Hartman, Jeremy. 2012.
-\newblock Varieties of clausal complementation.
-\newblock Doctoral Dissertation, Massachusetts Institute of Technology.
-
-\bibitem[{Hartmann(1998)}]{Hartmann:1998}
-Hartmann, Katharina. 1998.
-\newblock Right node raising and gapping.
-\newblock Doctoral Dissertation, Goethe-Universit\"at zu Frankfurt am Main, Frankfurt.
-
-\bibitem[{Harves and Kayne(2012)}]{Harves:2012}
-Harves, Stephanie, and Richard~S. Kayne. 2012.
-\newblock Having `need' and needing 'have'.
-\newblock {\em Linguistic Inquiry\/} 43:120--132.
-
-\bibitem[{Haspelmath(1993)}]{Haspelmath:1993}
-Haspelmath, Martin. 1993.
-\newblock More on the typology of {I}nchoative/{C}ausative verb alternations.
-\newblock In {\em Causatives and transitivity\/}, ed. Bernard Comrie and M.~Polinsky, 87--120. Amsterdam: John Benjamins.
-
-\bibitem[{Hazout(2004)}]{Hazout:2004a}
-Hazout, Ilan. 2004.
-\newblock The syntax of existential constructions.
-\newblock {\em Linguistic Inquiry\/} 35:393--430.
-
-\bibitem[{Heim(1987)}]{Heim:1987}
-Heim, Irene. 1987.
-\newblock Where does the definiteness restriction apply evidence from the definiteness of variables.
-\newblock In {\em The representation of (in)definiteness(14)\/}, ed. Eric~J. Reuland and Alice G. B.~ter Meulen, 21--42. Cambridge, Massachusetts: MIT Press.
-
-\bibitem[{Heim(1990)}]{Heim:1990a}
-Heim, Irene. 1990.
-\newblock Presupposition projection.
-\newblock In {\em Presupposition, lexical meaning, and discourse processes\/}, ed. R.~van~der Sant. Workshop Reader.
+\bibitem[{Heim(1993)}]{Heim:1993}
+Heim, Irene. 1993.
+\newblock Anaphora and semantic interpretation: A reinterpretation of {R}einhart's approach.
+\newblock SfS-Report 7--93, Universit{\"a}t T{\"u}bingen, Germany.
 
 \bibitem[{Heim and Kratzer(1998)}]{Heim:1998}
 Heim, Irene, and Angelika Kratzer. 1998.
 \newblock {\em Semantics in generative grammar\/}.
 \newblock Malden, MA: Blackwell.
 
-\bibitem[{Higginbotham(1983)}]{Higginbotham:1983}
-Higginbotham, James. 1983.
-\newblock Logical form, binding, and nominals.
-\newblock {\em Linguistic Inquiry\/} 14:395--420.
+\bibitem[{Higginbotham(1980)}]{Higginbotham:1980}
+Higginbotham, James. 1980.
+\newblock Pronouns and bound variables.
+\newblock {\em Linguistic Inquiry\/} 11:679--708.
 
 \bibitem[{Higginbotham(1985)}]{Higginbotham:1985}
 Higginbotham, James. 1985.
 \newblock On semantics.
 \newblock {\em Linguistic Inquiry\/} 16:547--594.
 
-\bibitem[{Hoekstra(1984)}]{Hoekstra:1984}
-Hoekstra, Teun. 1984.
-\newblock {\em Transitivity: Grammatical relations in government-binding theory\/}.
-\newblock Dordrecht, Holland: Foris Publications.
-
-\bibitem[{Hoekstra(1988)}]{Hoekstra:1988}
-Hoekstra, Teun. 1988.
-\newblock Small clause results.
-\newblock {\em Lingua\/} 74:101--139.
-
-\bibitem[{Hoekstra and Mulder(1990)}]{Hoekstra:1990}
-Hoekstra, Teun, and Rene Mulder. 1990.
-\newblock Unergatives as copular verbs: Locational and existential predication.
-\newblock {\em The Linguistic Review\/} 7:1--79.
-
-\bibitem[{Horn(1980)}]{Horn:1980}
-Horn, Laurence~R. 1980.
-\newblock Affixation and the {U}naccusative {H}ypothesis.
-\newblock In {\em Papers from the sixteenth regional meeting of the Chicago Linguistic Society\/}, ed. Jody Kreiman and Almerindo~E. Ojeda, volume~16, 134--146. Chicago Linguistics Society.
-
-\bibitem[{Hornstein(1999)}]{Hornstein:1999}
-Hornstein, Norbert. 1999.
-\newblock Movement and control.
-\newblock {\em Linguistic Inquiry\/} 30:69--96.
-
-\bibitem[{Hornstein(2000)}]{Hornstein:2000}
-Hornstein, Norbert. 2000.
-\newblock Control in {GB} and minimalism.
-\newblock In {\em The first glot international state-of-the-article book\/}, ed. Lisa L.-S. Cheng and Rint Sybesma, 27--45. New York: Mouton de Gruyter.
-
-\bibitem[{Hornstein and Lightfoot(1987)}]{Hornstein:1987}
-Hornstein, Norbert, and David Lightfoot. 1987.
-\newblock Predication and {PRO}.
-\newblock {\em Language\/} 63:23--52.
-
-\bibitem[{Hovav and Levin(2008)}]{Hovav:2008}
-Hovav, Malka~Rappaport, and Beth Levin. 2008.
-\newblock The {E}nglish dative alternation: The case for verb sensitivity.
-\newblock {\em Journal of Linguistics\/} 44:129--167.
-
-\bibitem[{Huang(1982)}]{Huang:1982}
-Huang, C.-T.~James. 1982.
-\newblock Logical relations in {C}hinese and the theory of grammar.
-\newblock Doctoral Dissertation, Massachusetts Institute of Technology.
-
-\bibitem[{von Humboldt(1836)}]{Humboldt:1836}
-von Humboldt, Wilhelm. 1836.
-\newblock {\em {\"u}ber die {V}erschiedenheit des {M}enschlichen {S}prachbaues und {I}hren {E}influss auf die {G}eistige {E}ntwickelung des {M}enschengeschlechts\/}.
-\newblock Berlin: Royal Academy of Sciences of {B}erlin.
-
-\bibitem[{Inkelas and Zec(1990)}]{Inkelas:1990}
-Inkelas, Sharon, and Draga Zec, ed. 1990.
-\newblock {\em The phonology-syntax connection\/}.
-\newblock Chicago Illinois: University of Chicago Press.
+\bibitem[{Hiraiwa(2005)}]{Hiraiwa:2005}
+Hiraiwa, Ken. 2005.
+\newblock Dimensions of symmetry in syntax: Agreement and clausal architecture.
+\newblock Doctoral Dissertation, Massachusetts Institute of Technology, Cambridge, Massachusetts.
 
 \bibitem[{Jackendoff(1972)}]{Jackendoff:1972}
 Jackendoff, Ray. 1972.
 \newblock {\em Semantic interpretation in generative grammar\/}.
 \newblock Cambridge, Massachusetts: MIT Press.
 
-\bibitem[{Jackendoff(1977)}]{Jackendoff:1977}
-Jackendoff, Ray. 1977.
-\newblock {\em X$'$ {S}yntax\/}.
+\bibitem[{Jo(2000)}]{Jo:2000}
+Jo, Jung-Min. 2000.
+\newblock Morphosyntax of a dummy verb `ha-' in {K}orean.
+\newblock {\em Studies in the Linguistics Sciences\/} 30:77--100.
+
+\bibitem[{Katz and Postal(1964)}]{Katz:1964}
+Katz, Jerrold~J., and Paul Postal. 1964.
+\newblock {\em An integrated theory of linguistic descriptions\/}.
 \newblock Cambridge, Massachusetts: MIT Press.
 
-\bibitem[{Jackendoff(1996)}]{Jackendoff:1996}
-Jackendoff, Ray. 1996.
-\newblock The proper treatment of measuring out, telicity, and perhaps even quantification in english.
-\newblock {\em Natural Language and Linguistic Theory\/} 14:305--354.
+\bibitem[{Keenan and Stavi(1986)}]{Keenan:1986}
+Keenan, E.~L., and Jonathan Stavi. 1986.
+\newblock A semantic characterization of natural language determiners.
+\newblock {\em Linguistics and Philosophy\/} 9:253--326.
 
-\bibitem[{Jaeggli(1982)}]{Jaeggli:1982}
-Jaeggli, Osvaldo. 1982.
-\newblock {\em Topics in {R}omance syntax\/}.
-\newblock Dordrecht Holland: Foris Publications.
+\bibitem[{Kennedy and Merchant(2000)}]{Kennedy:2000a}
+Kennedy, Chris, and Jason Merchant. 2000.
+\newblock Attributive comparative deletion.
+\newblock {\em Natural Language and Linguistic Theory\/} 18:89--146.
 
-\bibitem[{Johnson(1991)}]{Johnson:1991}
-Johnson, Kyle. 1991.
-\newblock Object positions.
-\newblock {\em Natural Language and Linguistic Theory\/} 9:577--636.
+\bibitem[{Ladd(1980)}]{Ladd:1980}
+Ladd, Robert. 1980.
+\newblock {\em The structure of intonational meaning\/}.
+\newblock Indiana University Press.
 
-\bibitem[{Julien(2002)}]{Julien:2002b}
-Julien, Marit. 2002.
-\newblock {\em Syntactic {H}eads and {W}ord {F}ormation\/}.
-\newblock Oxford Studies in Comparative Syntax. Oxford University Press.
-
-\bibitem[{Kayne(1981)}]{Kayne:1981b}
-Kayne, Richard. 1981.
-\newblock Unambiguous paths.
-\newblock In {\em Levels of syntactic representation\/}, ed. Robert May and Jan Koster, 143--183. Foris Publications.
-
-\bibitem[{Kayne(1975)}]{Kayne:1975}
-Kayne, Richard~S. 1975.
-\newblock {\em French syntax: the transformational cycle\/}.
-\newblock Cambridge, Massachusetts: MIT Press.
-
-\bibitem[{Kayne(1983)}]{Kayne:1983}
-Kayne, Richard~S. 1983.
-\newblock Connectedness.
-\newblock {\em Linguistic Inquiry\/} 14:223--249.
-
-\bibitem[{Kayne(1984{\natexlab{a}})}]{Kayne:1984b}
-Kayne, Richard~S. 1984{\natexlab{a}}.
-\newblock Principles of particle constructions.
-\newblock In {\em Grammatical representation\/}, ed. Jacqueline Gu{\'e}ron, Hans~G. Obenauer, and Jean-Yves Pollock, 101--140. Dordrecht, The Netherlands: Foris Publications.
-
-\bibitem[{Kayne(1984{\natexlab{b}})}]{Kayne:1984d}
-Kayne, Richard~S. 1984{\natexlab{b}}.
-\newblock Unambiguous paths.
-\newblock In {\em Connectedness and binary branching\/}, 129--164. Dordrecht: Foris Publications.
-
-\bibitem[{Kayne(1993)}]{Kayne:1993}
-Kayne, Richard~S. 1993.
-\newblock Toward a modular theory of auxiliary selection.
-\newblock {\em Studia Linguistica\/} 47:3--31.
-
-\bibitem[{Kimball(1973)}]{Kimball:1973}
-Kimball, J. 1973.
-\newblock Seven principles of surface structure parsing in natural language.
-\newblock {\em Cognition\/} 2:15--47.
-
-\bibitem[{Kitagawa(1986)}]{Kitagawa:1986}
-Kitagawa, Yoshihisa. 1986.
-\newblock Subjects in {J}apanese and {E}nglish.
+\bibitem[{Lebeaux(1988)}]{Lebeaux:1988}
+Lebeaux, David. 1988.
+\newblock Language acquisition and the form of the grammar.
 \newblock Doctoral Dissertation, University of Massachusetts, Amherst.
 
-\bibitem[{Klima(1964)}]{Klima:1964}
-Klima, Edward~S. 1964.
-\newblock Negation in {E}nglish.
-\newblock In {\em The structure of language: Readings in the philosophy of language\/}, ed. Jerry~A. Fodor and Jerrold~J. Katz, 246--323. Prentice Hall.
+\bibitem[{Lebeaux(2009)}]{Lebeaux:2009}
+Lebeaux, David. 2009.
+\newblock {\em Where does binding theory apply?\/}.
+\newblock Linguistic Inquiry Monographs. Cambridge, Massachusetts: MIT Press.
 
-\bibitem[{Koenig and Davis(2001)}]{Koenig:2001}
-Koenig, Jean-Pierre, and Anthony~R. Davis. 2001.
-\newblock Sublexical modality and the structure of lexical semantic representations.
-\newblock {\em Linguistics and Philosophy\/} 24:71--124.
+\bibitem[{Lindstr{\"o}m(1966)}]{Lindstrom:1966}
+Lindstr{\"o}m, Per. 1966.
+\newblock First order predicate logic with generalized quantifiers.
+\newblock {\em Theoria\/} 23:186--195.
 
-\bibitem[{Koizumi(1995)}]{Koizumi:1995}
-Koizumi, Masatoshi. 1995.
-\newblock Phrase structure in minimalist syntax.
-\newblock Doctoral Dissertation, Massachusetts Institute of Technology, Cambridge, Massachusetts.
+\bibitem[{Matushansky(2002)}]{Matushansky:2002}
+Matushansky, Ora. 2002.
+\newblock Tipping the scales: The syntax of scalarity in the complement of \emph{seem}.
+\newblock {\em Syntax\/} 5:219--276.
 
-\bibitem[{Koopman and Sportiche(1991)}]{Koopman:1991}
-Koopman, Hilda, and Dominique Sportiche. 1991.
-\newblock The position of subjects.
-\newblock {\em Lingua\/} 85:211--258.
-
-\bibitem[{Koster(1975)}]{Koster:1975}
-Koster, Jan. 1975.
-\newblock {D}utch as an {SOV} language.
-\newblock {\em Linguistic Analysis\/} 1:111--136.
-
-\bibitem[{Koster(1978)}]{Koster:1978}
-Koster, Jan. 1978.
-\newblock Why subject sentences don't exist.
-\newblock In {\em Recent transformational studies in {E}uropean languages\/}, ed. Samuel~Jay Keyser. Cambridge, Massachusetts: MIT Press.
-
-\bibitem[{Kratzer(1996)}]{Kratzer:1996}
-Kratzer, Angelika. 1996.
-\newblock Severing the external argument from its verb.
-\newblock In {\em Phrase structure and the lexicon\/}, ed. Johan Rooryck and Laurie Zaring, 109--137. Dordrecht, The Netherlands: Kluwer Academic Publishers.
-
-\bibitem[{Kratzer(2005)}]{Kratzer:2005}
-Kratzer, Angelika. 2005.
-\newblock Building resultatives.
-\newblock In {\em Event arguments in syntax, semantics, and discourse\/}, ed. Claudia Maienborn and Angelika W{\"o}llstein-Leisten, 177--212. T\"ubingen: Niemeyer.
-
-\bibitem[{Krifka(1999)}]{Krifka:1999}
-Krifka, Manfred. 1999.
-\newblock Manner in dative alternation.
-\newblock In {\em Proceedings of {WCCFL} 18\/}, ed. Sonya Bird, Andrew Carnie, Jason~D. Haugen, and Peter Norquest. Somerville, Massachusetts: Cascadilla Press.
-
-\bibitem[{Krifka(2003)}]{Krifka:2003a}
-Krifka, Manfred. 2003.
-\newblock Semantic and pragmatic conditions for the dative alternation.
-\newblock In {\em International Conference on {E}nglish Language and Linguistics\/}. Seoul, South Korea: KASELL.
-
-\bibitem[{Kuroda(1988)}]{Kuroda:1988}
-Kuroda, S.-Y. 1988.
-\newblock Whether we agree or not.
-\newblock {\em Linguisticae Investigationes\/} 12:1--47.
-
-\bibitem[{Ladd(1996)}]{Ladd:1996}
-Ladd, Robert~D. 1996.
-\newblock {\em Intonational phonology\/}.
-\newblock Cambridge: Cambridge University Press.
-
-\bibitem[{Landau(2004)}]{Landau:2004}
-Landau, Idan. 2004.
-\newblock The scale of finiteness and the calculus of control.
-\newblock {\em Natural Language and Linguistic Theory\/} 22:811--877.
-
-\bibitem[{Langacker(1969)}]{Langacker:1969}
-Langacker, Ronald~W. 1969.
-\newblock On pronominalization and the chain of command.
-\newblock In {\em Modern studies in {E}nglish\/}, ed. David~A. Reibel and Sandford~A. Schane, 160--186. Prentice Hall.
-
-\bibitem[{Larson(1988)}]{Larson:1988}
-Larson, Richard. 1988.
-\newblock On the double object construction.
-\newblock {\em Linguistic Inquiry\/} 19:335--392.
-
-\bibitem[{Lasnik(1981)}]{Lasnik:1981}
-Lasnik, Howard. 1981.
-\newblock Restricting the theory of transformations.
-\newblock In {\em Explanation in linguistics\/}, ed. Norbert Hornstein and David Lightfoot. London: Longmans.
-
-\bibitem[{Lasnik(1992)}]{Lasnik:1992b}
-Lasnik, Howard. 1992.
-\newblock Case and expletives: Notes toward a parametric account.
-\newblock {\em Linguistic Inquiry\/} 23:381--406.
-
-\bibitem[{Lasnik(1995)}]{Lasnik:1995}
-Lasnik, Howard. 1995.
-\newblock Case and expletives revisited: On greed and other human failings.
-\newblock {\em Linguistic Inquiry\/} 26:615--634.
-
-\bibitem[{Lasnik(2003)}]{Lasnik:2003e}
-Lasnik, Howard. 2003.
-\newblock On feature strength: three minimalist approaches to overt movement.
-\newblock {\em Minimalist Investigations in Linguistic Theory\/} 83--102.
-
-\bibitem[{Lasnik and Kupin(1977)}]{Lasnik:1977}
-Lasnik, Howard, and J.~Kupin. 1977.
-\newblock A restrictive theory of transformational grammar.
-\newblock {\em Theoretical Linguistics\/} 4:173--196.
-
-\bibitem[{Lasnik and Saito(1984)}]{Lasnik:1984}
-Lasnik, Howard, and Mamoru Saito. 1984.
-\newblock On the nature of proper government.
-\newblock {\em Linguistic Inquiry\/} 15:235--290.
-
-\bibitem[{Legate(2014)}]{Legate:2014}
-Legate, Julie~Anne. 2014.
-\newblock {\em Voice and v: Lessons from {A}chenese\/}.
-\newblock MIT Monographs in Linguistics.
-
-\bibitem[{Levin(1993)}]{Levin:1993}
-Levin, Beth. 1993.
-\newblock {\em English verb classes and alternations\/}.
-\newblock Chicago: University of Chicago Press.
-
-\bibitem[{Levin and Hovav(1995)}]{Levin:1995}
-Levin, Beth, and Malka~Rappaport Hovav. 1995.
-\newblock {\em Unaccusativity\/}.
+\bibitem[{May(1985)}]{May:1985}
+May, Robert. 1985.
+\newblock {\em Logical form: Its structure and derivation\/}.
 \newblock Cambridge, Massachusetts: MIT Press.
 
-\bibitem[{Levin and Rappaport(1986)}]{Levin:1986}
-Levin, Beth, and Malka Rappaport. 1986.
-\newblock The formation of adjectival passives.
-\newblock {\em Linguistic Inquiry\/} 17:623--661.
-
-\bibitem[{Liberman and Prince(1977)}]{Liberman:1977}
-Liberman, Mark, and Alan Prince. 1977.
-\newblock On stress and linguistic rhythm.
-\newblock {\em Linguistic Inquiry\/} 8:249--336.
-
-\bibitem[{Lin et~al.(2018)Lin, Hacohen, and Schaeffer}]{Lin:2018}
-Lin, J., A.~Hacohen, and J.~Schaeffer. 2018.
-\newblock The interpretation of the mass-count distinction across languages and populations: Introduction.
-\newblock {\em Glossa\/} 3:70.
-
-\bibitem[{Longobardi(1994)}]{Longobardi:1994}
-Longobardi, Giuseppe. 1994.
-\newblock Reference and proper names.
-\newblock {\em Linguistic Inquiry\/} 25:609--666.
-
-\bibitem[{Manzini and Franco(2016)}]{Manzini:2016}
-Manzini, M.~Rita, and Ludovico Franco. 2016.
-\newblock Goal and {DOM} datives.
-\newblock {\em Natural Language and Linguistic Theory\/} 34:197--240.
-
-\bibitem[{Manzini and Savoia(2011)}]{Manzini:2011}
-Manzini, Rita~M., and Leonardo~M. Savoia. 2011.
-\newblock {\em Grammatical categories\/}.
-\newblock Cambridge University Press.
-
-\bibitem[{Marantz(1993)}]{Marantz:1993}
-Marantz, Alec. 1993.
-\newblock Implications of asymmetries in double object constructions.
-\newblock In {\em Theoretical aspects of {B}antu grammar 1\/}, ed. Sam~A. Mchombo, 113--151. Stanford University: CSLI Publications.
-
-\bibitem[{Marantz(1997)}]{Marantz:1996}
-Marantz, Alec. 1997.
-\newblock No escape from syntax: Don't try morphological analysis in the privacy of your own lexicon.
-\newblock In {\em University of pennsylvania working papers in linguistics vol. 4.2\/}, ed. Alexis Dimitriadis, Laura Siegel, Clarissa Surek-Clark, and Alexander Williams, 201--225. University of Pennsylvania.
-
-\bibitem[{Marcus et~al.(1993)Marcus, Santorini, and Marcinkiewicz}]{Marcus:1993}
-Marcus, Mitchell, Beatrice Santorini, and May~Ann Marcinkiewicz. 1993.
-\newblock Building a large annotated corpus of {E}nglish: The {P}enn treebank.
-\newblock In {\em Computational Linguistics 19\/}, 313--330.
-
-\bibitem[{Martin(1992)}]{Martin:1992}
-Martin, Roger. 1992.
-\newblock On the distribution and case features of {PRO}.
-\newblock Doctoral Dissertation, University of Connecticut, Storrs, University of Connecticut, Storrs.
-
-\bibitem[{Martin(2001)}]{Martin:2001}
-Martin, Roger. 2001.
-\newblock Null case and the distribution of {PRO}.
-\newblock {\em Linguistic Inquiry\/} 32:141--166.
-
-\bibitem[{Massam(2012)}]{Massam:2012}
-Massam, Diane, ed. 2012.
-\newblock {\em Count and mass across languages\/}.
+\bibitem[{Merchant(2001)}]{Merchant:2001}
+Merchant, Jason. 2001.
+\newblock {\em The syntax of silence: sluicing, islands, and the theory of ellipsis\/}.
 \newblock Oxford: Oxford University Press.
 
-\bibitem[{Matushansky(2006)}]{Matushansky:2006}
-Matushansky, Ora. 2006.
-\newblock Head movement in linguistic theory.
-\newblock {\em Linguistic Inquiry\/} 37:69--109.
+\bibitem[{Mostowski(1957)}]{Mostowski:1957}
+Mostowski, Andrzej. 1957.
+\newblock On a generalization of quantifiers.
+\newblock {\em Fundamenta Mathematicae\/} 44:12--36.
 
-\bibitem[{McCawley(1970)}]{McCawley:1968a}
-McCawley, James~D. 1970.
-\newblock English as a {VSO} language.
-\newblock {\em Language\/} 46:286--299.
-
-\bibitem[{McCawley(1973)}]{McCawley:1973a}
-McCawley, James~D. 1973.
-\newblock Prelexical syntax.
-\newblock In {\em Grammar and meaning: Papers on syntactic and semantic topics\/}, 343--356. Tokyo: Taishukan Publications.
-
-\bibitem[{McCawley(1974)}]{McCawley:1974b}
-McCawley, James~D. 1974.
-\newblock On identifying the remains of deceased clauses.
-\newblock {\em Language Research\/} 9:73--85.
-
-\bibitem[{Miller(2011)}]{Miller:2011}
-Miller, Philip. 2011.
-\newblock The choice between verbal anaphors in discourse.
-\newblock In {\em Anaphora Processing and Applications: 8th Discourse Anaphora and Anaphor Resolution Colloquium\/}, ed. Iris Hendrickx, Sobha~Lalitha Devi, Antonio Branco, and Ruslan Mitkov, 82--95. Berlin: Springer.
-
-\bibitem[{Milsark(1974)}]{Milsark:1974}
-Milsark, Gary. 1974.
-\newblock Existential sentences in {E}nglish.
-\newblock Doctoral Dissertation, Massachusetts Institute of Technology, Cambridge, Massachusetts.
-
-\bibitem[{Milsark(1988)}]{Milsark:1988}
-Milsark, G.L. 1988.
-\newblock Singl-\emph{ing}.
-\newblock {\em Linguistic Inquiry\/} 19:611--634.
-
-\bibitem[{Miyagawa(1989)}]{Miyagawa:1989}
-Miyagawa, Shigeru. 1989.
-\newblock {\em Structure and case marking in {J}apanese\/}.
-\newblock San Diego: Academic Press.
-
-\bibitem[{Moro(1997)}]{Moro:1997}
-Moro, Andrea. 1997.
-\newblock {\em The raising of predicates : predicative noun phrases and the theory of clause structure\/}.
-\newblock Cambridge ; New York ;: Cambridge University Press.
-
-\bibitem[{Moulton(2009)}]{Moulton:2009}
-Moulton, Keir. 2009.
-\newblock Natural selection and the syntax of clausal complementation.
-\newblock Doctoral Dissertation, University of Massachusetts at Amherst.
-
-\bibitem[{Moulton(2014)}]{Moulton:2014}
-Moulton, Keir. 2014.
-\newblock Simple event nominalizations: Roots and their interpretation.
-\newblock In {\em Cross-linguistic investigations of {N}ominalization patterns\/}, ed. Paul Ileana, 119--144. John Benjamins.
-
-\bibitem[{Moulton(2015)}]{Moulton:2015}
-Moulton, Keir. 2015.
-\newblock {CP}s: {C}opies and {C}ompositionality.
-\newblock {\em Linguistic Inquiry\/} 46:305--342.
-
-\bibitem[{Muysken(1979)}]{Muysken:1979}
-Muysken, Pieter. 1979.
-\newblock Quechua causatives and {L}ogical {F}orm: A case study in markedness.
-\newblock In {\em Theory of markedness in generative grammar\/}, ed. Adriana Belletti, Luigi Brandi, and Luigi Rizzi. Scuola Normale Superiore, Pisa.
-
-\bibitem[{Muysken(1981)}]{Muysken:1981}
-Muysken, Pieter. 1981.
-\newblock Quechua word structure.
-\newblock In {\em Binding and filtering\/}, ed. Frank Heny. Cambridge, Massachusetts: MIT Press.
-
-\bibitem[{Nespor and Vogel(1986)}]{Nespor:1986}
-Nespor, Marina, and Irene Vogel. 1986.
-\newblock {\em Prosodic phonology\/}.
-\newblock Dordrecht, Holland ; Riverton, N.J.: Foris.
-
-\bibitem[{Oehrle(1976)}]{Oehrle:1976}
-Oehrle, Richard. 1976.
-\newblock The grammatical status of the {E}nglish dative alternation.
-\newblock Doctoral Dissertation, Massachusetts Institute of Technology.
-
-\bibitem[{Partee et~al.(1990)Partee, Meulen, and Wall}]{Partee:1990}
-Partee, Barbara~Hall, Alice G. B.~ter Meulen, and Robert~Eugene Wall. 1990.
-\newblock {\em Mathematical methods in linguistics\/}.
-\newblock Dordrecht ; Boston: Kluwer Academic.
-
-\bibitem[{Perlmutter(1971)}]{Perlmutter:1971}
-Perlmutter, David. 1971.
-\newblock {\em Deep and surface structure constraints in syntax\/}.
-\newblock New York: Holt, Rinehart and Winston.
-
-\bibitem[{Perlmutter(1978)}]{Perlmutter:1978}
-Perlmutter, David. 1978.
-\newblock Impersonal passives and the unaccusative hypothesis.
-\newblock In {\em Berkeley Linguistic Society\/}, volume~{IV}, 157--189. University of California, Berkeley.
-
-\bibitem[{Perlmutter and Postal(1984)}]{Perlmutter:1984a}
-Perlmutter, David, and Paul Postal. 1984.
-\newblock The 1-advancement exclusiveness law.
-\newblock In {\em Studies in relational grammar volume 2\/}, ed. David Perlmutter and Carol Rosen. University of Chicago Press.
-
-\bibitem[{Perlmutter(1983)}]{Perlmutter:1983}
-Perlmutter, David~M. 1983.
-\newblock {\em Studies in relational grammar 1\/}.
-\newblock Chicago, Illinois: The University of Chicago Press.
-
-\bibitem[{Perlmutter and Rosen(1984)}]{Perlmutter:1984}
-Perlmutter, David~M., and Carol Rosen. 1984.
-\newblock {\em Studies in relational grammar 2\/}.
-\newblock Chicago, Illinois: The University of Chicago Press.
-
-\bibitem[{Pesetsky(1982)}]{Pesetsky:1982}
-Pesetsky, David. 1982.
-\newblock Paths and categories.
-\newblock Doctoral Dissertation, Massachusetts Institute of Technology.
-
-\bibitem[{Pesetsky(1989)}]{Pesetsky:1989}
-Pesetsky, David. 1989.
-\newblock The earliness principle.
-\newblock Paper presented at GLOW.
-
-\bibitem[{Pesetsky(1995)}]{Pesetsky:1995}
-Pesetsky, David. 1995.
-\newblock {\em Zero syntax\/}.
+\bibitem[{Neale(1990)}]{Neale:1990}
+Neale, Stephen. 1990.
+\newblock {\em Descriptions\/}.
 \newblock Cambridge, Massachusetts: MIT Press.
 
-\bibitem[{Pesetsky(1998)}]{Pesetsky:1998}
-Pesetsky, David. 1998.
-\newblock Some optimality principles of sentence pronunciation.
-\newblock In {\em Is the best good enough?\/}, ed. Pilar Barbosa, Danny Fox, Paul Hagstrom, Martha McGinnis, and David Pesetsky, 337--384. Cambridge, Massachusetts: MIT Press.
+\bibitem[{Overfelt(2015)}]{Overfelt:2015}
+Overfelt, Jason. 2015.
+\newblock Extraposition of {NPI}s from {NP}.
+\newblock {\em Lingua\/} 164:25--44.
 
-\bibitem[{Pesetsky and Torrego(2001)}]{Pesetsky:2001}
-Pesetsky, David, and Esther Torrego. 2001.
-\newblock {T}-to-{C} movement: Causes and consequences.
-\newblock In {\em Ken {H}ale: A life in language\/}, ed. Michael Kenstowicz, 355--426. MIT Press.
+\bibitem[{Pancheva(2003)}]{Pancheva:2003a}
+Pancheva, Roumyana. 2003.
+\newblock The aspectual makeup of perfect participles \& the interpretations of the perfect.
+\newblock In {\em Perfect explorations\/}, ed. Artemis Alexiadou, M.~Rathert, and A.~von Stechow, 153--204. Mouton de Gruyter.
 
-\bibitem[{Phillips(2003)}]{Phillips:2003}
-Phillips, Colin. 2003.
-\newblock Linear order and constituency.
-\newblock {\em Linguistic Inquiry\/} 34:37--90.
-
-\bibitem[{Pierrehumbert(1980)}]{Pierrehumbert:1980}
-Pierrehumbert, Janet. 1980.
-\newblock The phonetics and phonology of {E}nglish intonation.
-\newblock Doctoral Dissertation, Massachusetts Institute of Technology.
-
-\bibitem[{Pinker(1989)}]{Pinker:1989}
-Pinker, Steven. 1989.
-\newblock {\em Learnability and cognition. the acquisition of argument structure\/}.
-\newblock Cambridge, Massachusetts: MIT Press.
-
-\bibitem[{Pires(2001)}]{Pires:2001}
-Pires, Acrisio. 2001.
-\newblock Clausal and {TP}-defective gerunds: control without tense.
-\newblock In {\em North East Linguistic Society\/}, ed. Minjoo Kim and Uri Strauss, 390--406. Georgetown University: GLSA.
-
-\bibitem[{Pires(2006)}]{Pires:2006}
-Pires, Acrisio. 2006.
-\newblock {\em The {M}inimalist syntax of {D}efective {D}omains\/}.
-\newblock Amsterdam/Philadelphia: John Benjamins Publishing Company.
-
-\bibitem[{Pollock(1989)}]{Pollock:1989}
-Pollock, Jean-Yves. 1989.
-\newblock Verb movement, {UG} and the structure of {IP}.
-\newblock {\em Linguistic Inquiry\/} 20:365--424.
-
-\bibitem[{Poole(2017)}]{Poole:2017}
-Poole, Ethan. 2017.
-\newblock Movement and the semantic type of traces.
-\newblock Doctoral Dissertation, University of Massachusetts at Amherst.
-
-\bibitem[{Postal(1974)}]{Postal:1974}
-Postal, Paul. 1974.
-\newblock {\em On raising\/}.
-\newblock Cambridge, Massachusetts: MIT Press.
-
-\bibitem[{Postal(1969)}]{Postal:1969}
-Postal, Paul~M. 1969.
-\newblock On so-called `pronouns' in {E}nglish.
-\newblock In {\em Modern studies in {E}nglish\/}, ed. D.~Reibel and Sandford Schane, 201--244. Englewood Cliffs, New Jersey: Prentice-Hall.
-
-\bibitem[{Pylkk{\"a}nen(2008)}]{Pylkkanen:2008}
-Pylkk{\"a}nen, Liina. 2008.
-\newblock {\em Introducing arguments\/}.
-\newblock Cambridge, Massachusetts: MIT Press.
-
-\bibitem[{Quine(1960)}]{Quine:1960}
-Quine, Willard Van~Orman. 1960.
-\newblock {\em Word and object\/}.
-\newblock MIT Press.
-
-\bibitem[{Rappaport~Hovav and Levin(1992)}]{Rappaport:1992}
-Rappaport~Hovav, Malka, and Beth Levin. 1992.
-\newblock \emph{-er} nominals: Implications for a theory of argument structure.
-\newblock In {\em Syntax and semantics 26: Syntax and the lexicon\/}, ed. Tim Stowell and Eric Wehrli, 127--153. New York, New York: Academic Press.
-
-\bibitem[{Reinhart(1976)}]{Reinhart:1976}
-Reinhart, Tanya. 1976.
-\newblock The syntactic domain of anaphora.
-\newblock Doctoral Dissertation, Massachusetts Institute of Technology.
-
-\bibitem[{Rizzi(1982)}]{Rizzi:1982}
-Rizzi, Luigi. 1982.
-\newblock {\em Issues in {I}talian syntax\/}.
-\newblock Dordrecht, Holland: Foris Publications.
-
-\bibitem[{Rizzi(1990)}]{Rizzi:1990}
-Rizzi, Luigi. 1990.
-\newblock {\em Relativized minimality\/}.
-\newblock Cambridge, Massachusetts: MIT Press.
-
-\bibitem[{Roberts(1987)}]{Roberts:1987}
-Roberts, Craige. 1987.
-\newblock Modal subordination, anaphora and distributivity.
-\newblock Doctoral Dissertation, University of Massachusetts, Amherst.
-
-\bibitem[{Rochemont and Culicover(1990)}]{Rochemont:1990}
-Rochemont, Michael, and Peter~W. Culicover. 1990.
-\newblock {\em English focus constructions and the theory of grammar\/}.
-\newblock Cambridge: Cambridge University Press.
-
-\bibitem[{Rosen(1984)}]{Rosen:1984}
-Rosen, Carol. 1984.
-\newblock The interface between semantic roles and initial grammatical relations.
-\newblock In {\em Studies in relational grammar 2\/}, ed. David~M. Perlmutter and Carol Rosen, 38--77. University of Chicago Press.
-
-\bibitem[{Rosenbaum(1967)}]{Rosenbaum:1967}
-Rosenbaum, Peter~S. 1967.
-\newblock {\em The grammar of {E}nglish predicate complement constructions\/}.
-\newblock Cambridge, Massachusetts: MIT Press.
+\bibitem[{Rooth(1992)}]{Rooth:1992}
+Rooth, Mats. 1992.
+\newblock A theory of focus interpretation.
+\newblock {\em Natural Language Semantics\/} 1:117--121.
 
 \bibitem[{Ross(1967)}]{Ross:1967}
 Ross, John~Robert. 1967.
 \newblock Constraints on variables in syntax.
 \newblock Doctoral Dissertation, Massachusetts Institute of Technology.
 
-\bibitem[{Rothstein(2004)}]{Rothstein:2004}
-Rothstein, Susan. 2004.
-\newblock {\em Structuring events\/}.
-\newblock Blackwell Publishing.
+\bibitem[{Russell(1905)}]{Russell:1905}
+Russell, Bertrand. 1905.
+\newblock On denoting.
+\newblock {\em Mind\/} 14:479--493.
 
-\bibitem[{Roussou(2001)}]{Roussou:2001}
-Roussou, Anna. 2001.
-\newblock Control and raising in and out of subjunctive complements.
-\newblock In {\em Comparative syntax of {B}alkan languages\/}, ed. Mar{\'\i}a Luisa~Rivero and Angela Ralli, 74--104. Oxford: Oxford University Press.
+\bibitem[{Sauerland(1998)}]{Sauerland:1998c}
+Sauerland, Uli. 1998.
+\newblock The meaning of chains.
+\newblock Doctoral Dissertation, Massachusetts Institute of Technology, Cambridge, Massachusetts.
 
-\bibitem[{Safir(1985)}]{Safir:1985}
-Safir, Kenneth. 1985.
-\newblock {\em Syntactic chains\/}.
-\newblock Cambridge: Cambridge University Press.
+\bibitem[{Sauerland(2004)}]{Sauerland:2004}
+Sauerland, Uli. 2004.
+\newblock The interpretation of traces.
+\newblock {\em Natural Language Semantics\/} 12:63--127.
 
-\bibitem[{Safir(1987)}]{Safir:1987b}
-Safir, Kenneth~J. 1987.
-\newblock What explains the definiteness effect?
-\newblock In {\em The representation of (in)definiteness(14)\/}, ed. Eric~J. Reuland and Alice G. B.~ter Meulen, 71--97. Cambridge, Massachusetts: MIT Press.
-
-\bibitem[{Saito(1985)}]{Saito:1985}
-Saito, Mamoru. 1985.
-\newblock Some asymmetries in {J}apanese and their theoretical implications.
-\newblock Doctoral Dissertation, Massachusetts Institute of Technology.
-
-\bibitem[{Saito and Fukui(1998)}]{Saito:1998}
-Saito, Mamoru, and Naoki Fukui. 1998.
-\newblock Order in phrase structure and movement.
-\newblock {\em Linguistic Inquiry\/} 29:439--474.
-
-\bibitem[{Sapir(1921)}]{Sapir:1921}
-Sapir, Edward. 1921.
-\newblock {\em Language: an introduction to the study of speech\/}.
-\newblock New York: Harcourt, Brace and Co.
-
-\bibitem[{Schachter(1962)}]{Schachter:1962}
-Schachter, Paul. 1962.
-\newblock Review of {L}ees 1963.
-\newblock {\em International Journal of American Linguistics\/} 28:134--145.
-
-\bibitem[{Sedivy(2007)}]{Sedivy:2007}
-Sedivy, Julie~C. 2007.
-\newblock Implicature during real time conversation: A view from language processing research.
-\newblock {\em Philosophy Compass\/} 2:475--496.
-
-\bibitem[{Selkirk(1980)}]{Selkirk:1980}
-Selkirk, Elisabeth~O. 1980.
-\newblock The role of prosodic categories in {E}nglish word stress.
-\newblock {\em Linguistic Inquiry\/} 11:563--605.
+\bibitem[{Schwarz(2009)}]{Schwarz:2009}
+Schwarz, Florian. 2009.
+\newblock Two types of definites in natural languages.
+\newblock Doctoral Dissertation, University of Massachusetts at Amherst.
 
 \bibitem[{Selkirk(1984)}]{Selkirk:1984}
 Selkirk, Elisabeth~O. 1984.
 \newblock {\em Phonology and syntax : the relation between sound and structure\/}.
 \newblock Cambridge, Mass.: MIT Press.
 
-\bibitem[{Selkirk(1986)}]{Selkirk:1986}
-Selkirk, Elisabeth~O. 1986.
-\newblock On derived domains in sentence phonology.
-\newblock {\em Phonology\/} 3:371--405.
+\bibitem[{Sportiche(2019)}]{Sportiche:2019}
+Sportiche, Dominique. 2019.
+\newblock Somber prospects for late merger.
+\newblock {\em Linguistic Inquiry\/} 50:416--424.
 
-\bibitem[{Selkirk(1996)}]{Selkirk:1996}
-Selkirk, Elisabeth~O. 1996.
-\newblock Sentence prosody: intonation, stress and phrasing.
-\newblock In {\em The handbook of phonological theory\/}, ed. J.~A. Goldsmith. London: Blackwell Publishers.
+\bibitem[{Tancredi(1992)}]{Tancredi:1992}
+Tancredi, Christopher. 1992.
+\newblock Deletion, deaccenting and presupposition.
+\newblock Doctoral Dissertation, Massachusetts Institute of Technology, Cambridge.
 
-\bibitem[{Sigur{\dh}sson(1991)}]{Sigurdhsson:1991}
-Sigur{\dh}sson, Halld{\'o}r~{\'A}rmann. 1991.
-\newblock Icelandic case-marked {PRO} and the licensing of lexical arguments.
-\newblock {\em Natural Language and Linguistic Theory\/} 9:327--363.
+\bibitem[{Trinh(2011)}]{Trinh:2011}
+Trinh, Tue. 2011.
+\newblock Edges and linearization.
+\newblock Doctoral Dissertation, Massachusetts Institute of Technology, Cambridge, Massachusetts.
 
-\bibitem[{Simpson(1983)}]{Simpson:1983c}
-Simpson, Jane. 1983.
-\newblock Resultatives.
-\newblock In {\em Ppers in {L}exical-{F}unctional {G}rammar\/}, ed. L.~Levin, M.~Rappaport, and A.~Zaenen, 143--157. Indiana University Linguistics Club.
-
-\bibitem[{Son(2006)}]{Son:2006}
-Son, Minjeong. 2006.
-\newblock Causation and syntactic decomposition of events.
-\newblock Doctoral Dissertation, University of Delaware.
-
-\bibitem[{Sportiche(1988)}]{Sportiche:1988}
-Sportiche, Dominique. 1988.
-\newblock A theory of floating quantifiers and its corollaries for constituent structure.
-\newblock {\em Linguistic Inquiry\/} 19:425--449.
-
-\bibitem[{Sprouse(2008)}]{Sprouse:2008a}
-Sprouse, Jon. 2008.
-\newblock The differential sensitivity of acceptability judgments to processing effects.
-\newblock {\em Linguistic Inquiry\/} 39:686--694.
-
-\bibitem[{Sprouse(2009)}]{Sprouse:2009}
-Sprouse, Jon. 2009.
-\newblock Revisiting satiation: Evidence for an equalization response strategy.
-\newblock {\em Linguistic Inquiry\/} 40:329--341.
-
-\bibitem[{Sprouse and Almeida(2012)}]{Sprouse:2012}
-Sprouse, Jon, and Diogo Almeida. 2012.
-\newblock The empirical status of data in syntax: A replay to {G}ibson and {F}edorenko.
-\newblock {\em Language and Cognitive Processes\/} 28:222--228.
-
-\bibitem[{Sprouse and Almeida(2017)}]{Sprouse:2017}
-Sprouse, Jon, and Diogo Almeida. 2017.
-\newblock Design sensitivity and statistical power in acceptability judgment experiments.
-\newblock {\em Glossa\/} 2:1--32.
-
-\bibitem[{Sprouse and Almeida(2018)}]{Sprouse:2018a}
-Sprouse, Jon, and Diogo Almeida. 2018.
-\newblock Setting the empirical record straight: Acceptability judgments appear to be relieable, robust, and replicable.
-\newblock {\em Behavioral and Brian Sciences\/} 40.
-
-\bibitem[{von Stechow(1995)}]{vonStechow:1995}
-von Stechow, Arnim. 1995.
-\newblock Lexical decomposition in syntax.
-\newblock In {\em The lexicon in the organization of language\/}, ed. U.~Egli, P.~E. Pause, Ch. Schwarze, Arnim von Stechow, and G.~Wienold, 81--118. Amsterdam and Philadelphia: John Benjamins Publishing Company.
-
-\bibitem[{von Stechow(1996)}]{vonStechow:1996}
-von Stechow, Arnim. 1996.
-\newblock The different readings of \emph{wieder} \emph{``again''}: A structural account.
-\newblock {\em Journal of Semantics\/} 13:87--138.
-
-\bibitem[{Stechow(1996)}]{Stechow:1996}
-Stechow, Arnim~von. 1996.
-\newblock Against {LF} pied-piping.
-\newblock {\em Natural Language Semantics\/} 4:57--110.
-
-\bibitem[{Stowell(1978)}]{Stowell:1978}
-Stowell, Tim. 1978.
-\newblock What was there before there was there.
-\newblock In {\em Proceedings of the Fourteenth Regional Meeting of the Chicago Linguistic Society\/}, ed. D.~Farkas, volume Proceedings of the Fourteenth Regional Meeting of the Chicago Linguistic Society. Chicago, Illinois: The University of Chicago.
-
-\bibitem[{Stowell(1981)}]{Stowell:1981}
-Stowell, Timothy. 1981.
-\newblock Origins of phrase structure.
-\newblock Doctoral Dissertation, Massachusetts Institute of Technology.
-
-\bibitem[{Stroik(1999)}]{Stroik:1999a}
-Stroik, Thomas~S. 1999.
-\newblock The survive principle.
-\newblock {\em Linguistic Analysis\/} 29:282--309.
-
-\bibitem[{Takahashi(2006)}]{Takahashi:2006b}
-Takahashi, Shoichi. 2006.
-\newblock Decompositionality and identity.
-\newblock Doctoral Dissertation, Massachusetts Institute of Technology.
-
-\bibitem[{Terzi(1992)}]{Terzi:1992}
-Terzi, Arhonto. 1992.
-\newblock {PRO} and obviation in modern {G}reek subjunctives.
-\newblock In {\em The Proceedings of the Tenth West Coast Conference on Formal Linguistics\/}, ed. Dawn Bates, 471--482. Stanford, California: Center for the Study of Language and Information.
-
-\bibitem[{Thra{\'\i}nsson(1996)}]{Thrainsson:1996}
-Thra{\'\i}nsson, H{\"o}skuldur. 1996.
-\newblock On the (non)-universality of functional projections.
-\newblock In {\em Minimal ideas\/}, ed. Werner Abraham, Samuel~D. Epstein, H{\"o}skuldur Thra{\'\i}nsson, and C.~Jan-Wouter Zwart, 253--281. Benjamins.
-
-\bibitem[{Travis(1984)}]{Travis:1984}
-Travis, Lisa. 1984.
-\newblock Parameters and effects of word order variation.
-\newblock Doctoral Dissertation, Massachusetts Institute of Technology.
-
-\bibitem[{Truckenbrodt(1995)}]{Truckenbrodt:1995}
-Truckenbrodt, Hubert. 1995.
-\newblock Extraposition from np and prosodic structure.
-\newblock In {\em Proceedings of the North East Linguistic Society 25\/}, ed. Jill Beckman, 503--518. University of Pennsylvania: Graduate Linguistic Student Association.
-
-\bibitem[{Truckenbrodt(1999)}]{Truckenbrodt:1999}
-Truckenbrodt, Hubert. 1999.
-\newblock On the relation betwen syntactic phrases and phonological phrases.
-\newblock {\em Linguistic Inquiry\/} 30:219--255.
-
-\bibitem[{Vendler(1957)}]{Vendler:1957}
-Vendler, Zeno. 1957.
-\newblock Verbs and {T}imes.
-\newblock {\em Philosophical Review\/} 66:143--160.
-
-\bibitem[{Vendler(1967)}]{Vendler:1967}
-Vendler, Zeno. 1967.
-\newblock {\em Linguistics in philosophy\/}.
-\newblock Ithaca: Cornell University Press.
-
-\bibitem[{Vikner(1995)}]{Vikner:1995}
-Vikner, Sten. 1995.
-\newblock {\em Verb movement and expletive subjects in the {G}ermanic languages\/}.
-\newblock Oxford: Oxford University Press.
-
-\bibitem[{Wasow(1977)}]{Wasow:1977}
-Wasow, Tom. 1977.
-\newblock Transformations and the lexicon.
-\newblock In {\em Formal syntax\/}, ed. Peter Culicover, Tom Wasow, and Adrian Akmajian, 327--360. New York, New York: Academic Press.
-
-\bibitem[{Wechsler(1997)}]{Wechsler:1997}
-Wechsler, Stephen. 1997.
-\newblock Resultative predicates and control.
-\newblock {\em Texas Linguistics Forum\/} 38:307--321.
-
-\bibitem[{Williams(1978)}]{Williams:1978}
-Williams, Edwin. 1978.
-\newblock Across-the-board rule application.
-\newblock {\em Linguistic Inquiry\/} 9:31--43.
-
-\bibitem[{Williams(1980)}]{Williams:1980}
-Williams, Edwin. 1980.
-\newblock Predication.
-\newblock {\em Linguistic Inquiry\/} 11:203--238.
-
-\bibitem[{Williams(1989)}]{Williams:1989}
-Williams, Edwin. 1989.
-\newblock The anaphoric nature of theta roles.
-\newblock {\em Linguistic Inquiry\/} 20:425--456.
-
-\bibitem[{Woolford(1993)}]{Woolford:1993}
-Woolford, Ellen. 1993.
-\newblock Symmetric and asymmetric passives.
-\newblock {\em Natural Language and Linguistic Theory\/} 11:679--728.
-
-\bibitem[{Yang(2016)}]{Yang:2016}
-Yang, Charles. 2016.
-\newblock {\em The price of linguistic productivity: How children learn to break the rules\/}.
-\newblock MIT Press.
-
-\bibitem[{Zaenen et~al.(1985)Zaenen, Maling, and Thr{\'a}insson}]{Zaenen:1985}
-Zaenen, Annie, Joan Maling, and Hoskuldur Thr{\'a}insson. 1985.
-\newblock Case and grammatical functions: the {I}celandic passive.
-\newblock {\em Natural Language and Linguistic Theory\/} 3:441--483.
-
-\bibitem[{Zec and Inkelas(1990)}]{Zec:1990}
-Zec, Draga, and Sharon Inkelas. 1990.
-\newblock Prosodically constrained syntax.
-\newblock In {\em The phonology-syntax connection\/}, ed. Sharon Inkelas and Draga Zec, 365--378. Chicago: University of Chicago Press.
-
-\bibitem[{Zeijlstra(2012)}]{Zeijlstra:2012}
-Zeijlstra, Hedde. 2012.
-\newblock There is only one way to {A}gree.
-\newblock {\em The Linguistic Review\/} 29:491--539.
-
-\bibitem[{Zucchi(1989)}]{Zucchi:1989}
-Zucchi, Alessandro. 1989.
-\newblock The language of propositions and events.
-\newblock Doctoral Dissertation, University of Massachusetts at Amherst, Amherst.
+\bibitem[{Whitehead and Russell(1910)}]{Whitehead:1910}
+Whitehead, Alfred~North, and Bertrand Russell. 1910.
+\newblock {\em Principia mathematica\/}.
+\newblock Cambridge University Press.
 
 \end{thebibliography}

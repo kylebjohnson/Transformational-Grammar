@@ -5,6 +5,7 @@
 \setcounter{exx}{0}
 % %\setcounter{page}{131}
 
+\noindent
 Our present grammar defines a sentence as a series of parses.
 \begin{exe}
 	\raggedright
@@ -199,7 +200,9 @@ c.
 \end{exe}
 These four instances of movement and \textsc{agree} have satisfied the $\bullet$ attribute on \emph{acc}, and have brought $\surd$buy into a position which allows it to value the person/number/tense features and produce a terminal that corresponds to \emph{buy}. The only thing left to do to make this a well-formed s-structure is to satisfy the $\bullet$ attribute on the $\phi$ feature in \obar{T}. This is done by moving the subject so that it merges with a projection of~\obar{T}.
 
-I pointed out that (\ref{ex6:firstder}) produces a structure that our semantics can interpret, and which gives us the correct interpretation. But none of the representations produced from (\ref{ex6:firstder}) are ones that we want to let the semantics interpret. One view we could have, then, is that the semantic interpretation looks at a structure in the derivation that is different from the one that the linearization algorithm looks at. In derivations like the one that we just stepped through, for instance, there are operations that have no effect on the semantic interpretation of the sentence. That derivations are defined in this way was a popular view in the 1960's. In 1964, Jerrold Katz and Paul Postal, formulated what's come to be known as the Katz-Postal Hypothesis.\nocite{Katz:1964} That thesis maintains that the denotations of the elements that make up a sentence are semantically composed in a way that the syntax of what we're calling D-structures corresponds to. The rest of the forms in a derivation, including the S-structure, do not reflect the way in which the denotations of the component parts are composed. Syntax furnishes, on the one hand, a way of structuring how the denotations are combined and, on the other hand, a way of structuring the morphology: bringing together the information that make up lexical items. A theory of derivations is a theory of the relation between these two representations. I don't know where the $\bullet$ attribute's requirements fit into this picture, but since their requirements are ones that hold of the morphological connection that is established by \textsc{agree}, it doesn't seem too wild to hope that it too will come from some aspect of morphology. Syntax, then, could be seen as a way of mediating the independent needs that the morphology and the semantics place on the items that are being arranged into sentences. Derivations are models of the solution space to the open equations that the morphological and semantic requirements produce. It's this conception of syntax that we've been using up to now.
+I pointed out that (\ref{ex6:firstder}) is a structure that our semantics can interpret, and which gives us the correct interpretation. But none of the representations produced from (\ref{ex6:firstder}) can be semantically interpreted however. This is a general property of the derivations we've considered so far. A reasonable hypothesis is that this defines derivations. That is, that the first parse in a derivation is the one that is semantically interpreted, and no other parse is. The D-structure parse is the one that represents how the morphemes in a sentence are grouped semantically, and the S-structure parse is the one from which the morphological and prosodic grouping is determined. All the other parses in a derivation are just are model of the function that maps a D-structure onto an S-structure. 
+
+That derivations are defined in this way was a popular view in the 1960's. In 1964, Jerrold Katz and Paul Postal, formulated what's come to be known as the Katz-Postal Hypothesis.\nocite{Katz:1964} That thesis maintains that the denotations of the elements that make up a sentence are semantically composed in a way that the syntax of what we're calling D-structures corresponds to. The rest of the forms in a derivation, including the S-structure, do not reflect the way in which the denotations of the component parts are composed. Syntax furnishes, on the one hand, a way of structuring how the denotations are combined and, on the other hand, a way of structuring the morphology: bringing together the information that make up lexical items. A theory of derivations is a theory of the relation between these two representations. I don't know where the $\bullet$ attribute's requirements fit into this picture, but since their requirements are ones that hold of the morphological connection that is established by \textsc{agree}, it doesn't seem too wild to hope that it too will come from some aspect of morphology. Syntax, then, could be seen as a way of mediating the independent needs that the morphology and the semantics place on the items that are being arranged into sentences. Derivations are models of the solution space to the open equations that the morphological and semantic requirements produce. It's this conception of syntax that we've been using up to now.
 
 In the derivation we've just looked at, the movement operations are all ones that cannot feed the semantic interpretation. In this chapter we're going to confront evidence that this is incorrect. In particular, we'll see that movement can create structures that are semantically interpreted. As it stands, our definition of movement does nothing more than change the syntactic position a term has in order to make sentences comply with morphological requirements. But there are examples which seem to require that movement can itself create meanings. We'll need to develop two things together, then. We'll need a new definition of derivation, one that allows more than just the D-structure to be semantically interpreted. And we'll need a new definition of movement, one that weds a change in meaning to the change in position that it presently expresses.
 
@@ -301,7 +304,7 @@ This gives the vP of (\ref{ex6:da2r}) the denotation in~(\ref{ex6:da2rd}).
 \medskip
 When \emph{every} semantically combines with \emph{woman}, a denotation is formed that is a function whose domain is relations between entities and events. Our semantics makes the denotation of \ibar{v} a function of that sort, and so the function that the DP denotes can take the denotation of the \ibar{v} as its argument. The result is \denotes{vP}, which is a function from events to the statement that for every x if x is a woman then x is the agent of that event, where that event is a remembering whose theme is the thing that \emph{her first paper} refers to. The vP describes, then, events which are rememberings of her (=Thui's) first paper by x if for every x, x is a woman. This is a very close approximation of the meaning expressed by~(\ref{ex6:da3}). %
 %
-\marginnote[-10pt]{We'll see later that there is a small, but important, mismatch between what this semantics delivers and the meaning that (\ref{ex6:da2}) actually has. Our semantics will require some tweaking.}%
+\marginnote[-10pt]{We'll see later that there is a subtle, but important, mismatch between what this semantics delivers and the meaning that (\ref{ex6:da2}) actually has. Our semantics will require some tweaking.}%
 %
 An event of the kind that \denotes{vP} describes requires that the sequence of conjunctions in (\ref{ex6:da2r}) hold of that event. That is, for an event to make the function that \denotes{vP} is map to True, it must be an event in which woman \#1 remembers Thui's first paper and woman \#2 remembers Thui's first paper, and woman \#3 remembers Thui's first paper, etc., until every woman (in the context) is listed among the rememberers.
 
@@ -453,7 +456,7 @@ A popular way of characterizing this gives to (\ref{ex6:ellip2}a) nearly the sam
 \end{exe}
 I've used \sout{strikeouts} to indicate the words that haven't been pronounced. These words are said to be ``elided,'' and the process that achieves this in (\ref{ex6:ellip2t}) is called ``VP Ellipsis.'' %
 %
-\marginnote[-40pt]{There are several ways of modeling ellipsis. We might imagine, for instance, that there is a designated anaphor---like a personal pronoun---for VPs, and that its phonology is silence. But we shall see evidence later that supports the view that an ellipsis contains syntactic material that is unspoken.}%
+\marginnote[-40pt]{There are several ways of modeling ellipsis. We might imagine, for instance, that there is a designated anaphor---like a personal pronoun---for VPs, and that its phonology is silence. \citet{Hardt:1993, Hardt:1999} lays out an account of this type. But we shall see evidence later that supports the view that an ellipsis contains syntactic material that is unspoken.}%
 %
 This is an unfortunate name for the process, as it can elide the words in phrases that aren't VPs, as (\ref{ex6:apdel}) demonstrates, and being a VP is not sufficient to allow the process, as (\ref{ex6:causedel}) shows.
 \begin{exe}
@@ -553,7 +556,6 @@ What's unexpected in (\ref{ex6:corebnd1}) is how the interpretation of the prono
 	no sophomore understood $x$'s paper either.
 \end{exe}
 It's useful when judging the meanings of complicated sentences to frame those sentences with a context that biases towards the target meaning. A context that favors giving (\ref{ex6:corebnd1}) the interpretation described by (\ref{ex6:ccombnd1}) is provided in~(\ref{ex6:context1}).
-\pagebreak
 \begin{exe}
 	\raggedright
 	\sn 
@@ -567,7 +569,7 @@ If Carolyn has correctly reported the situation in her class to Thuy, then (\ref
 
 This turns out to be due to a condition on the bound variable interpretation that limits the syntactic positions that the binder may have relative to the variable. Let's take a moment to learn about this condition.
 
-The method for providing the semantics of a bound variable interpretation crucially involved the meaning of the determiner responsible for introducing the ``family of sentences'' part of the meaning. We saw how that worked for pronouns that get bound by DPs headed by \emph{every} earlier, but it's true in a parallel way for pronouns that get bound by DPs headed by other quantificational determiners as well. For instance, in (\ref{ex6:no1}), it is crediting \emph{no} with a denotation that involves variable binding that is responsible for giving \emph{her} its bound variable interpretation.
+The method we adopted for providing the semantics of a bound variable interpretation crucially involved the meaning of the determiner responsible for introducing the ``family of sentences'' part of the meaning. We saw how that worked for pronouns that get bound by DPs headed by \emph{every} earlier, but it's true in a parallel way for pronouns that get bound by DPs headed by other quantificational determiners as well. For instance, in (\ref{ex6:no1}), it is crediting \emph{no} with a denotation that involves variable binding that is responsible for giving \emph{her} its bound variable interpretation.
 \begin{exe}
 	\raggedright
 	\ex \label{ex6:no1} No woman reads her first paper
@@ -815,7 +817,16 @@ What makes (\ref{ex6:corebnd2}) relevantly different from (\ref{ex6:corebnd1}), 
 \end{forest}
 \end{exe}
 
-So far, then, the condition on focus anaphora correctly captures the meanings of the pronouns in (\ref{ex6:corebnd1}). It accounts for the fact that the second pronoun is coreferent with whatever the first pronoun is coreferent with. And it predicts, with the aid of the c-command condition on bound variables, that when the first pronoun is a variable bound to \emph{no freshman}, the second pronoun cannot similarly be bound to \emph{no freshman}. Interestingly, though, when the first pronoun is bound by \emph{no freshman}, there is a possible interpretation for (\ref{ex6:corebnd1}). When the first pronoun is bound to \emph{no freshman}, the second pronoun can be bound to \emph{no sophomore}. (\ref{ex6:corebnd1}) can have the interpretation expressed in~(\ref{ex6:borebnd1slop}).
+So far, then, the condition on focus anaphora correctly captures the meanings of the pronouns in (\ref{ex6:corebnd1}), repeated here.
+\begin{exe}
+	\raggedright
+	\exr{ex6:corebnd1}
+	\begin{xlist}
+	\ex As they lunched at the Wellesley cafeteria, Carolyn told Thuy that no freshman understood her paper and that <no> SOPHOMORE <understood her paper> either.
+	\ex As they lunched at the Wellesley cafeteria, Carolyn told Thuy that no freshman understood her paper and that <no> SOPHOMORE did either.
+	\end{xlist}
+\end{exe}
+It accounts for the fact that the second \textit{her} is coreferent with whatever the first \textit{her} is coreferent with. And it predicts, with the aid of the c-command condition on bound variables, that when the first her is a variable bound to \emph{no freshman}, the second \textit{her} cannot similarly be bound to \emph{no freshman}. Interestingly, though, when the first \textit{her} is bound by \emph{no freshman}, there is a possible interpretation for (\ref{ex6:corebnd1}). When the first pronoun \textit{her} \textit{her} to \emph{no freshman}, the second \textit{her} can be bound to \emph{no sophomore}. (\ref{ex6:corebnd1}) can have the interpretation expressed in~(\ref{ex6:borebnd1slop}).
 \begin{exe}
 	\raggedright
 	\ex \label{ex6:borebnd1slop}
@@ -950,7 +961,7 @@ It is very difficult to see how the theory that explains what the antecedent for
 ]
 \end{forest}
 \end{exe}
-This parse also doesn't provide the material necessary to satisfy the conditions on the focus anaphor. Indeed, this parse doesn't provide the right configuration for our semantics to give it an interpretation at all. In particular, the verb \emph{visit} in the root clause cannot semantically compose with the object DP, and so this parse does not allow the object DP to get the $\theta$-role we understand it to have. But at least this syntax does not put the focus anaphor inside the material that could furnish it with an antecedent. It overcomes the largest problem with deriving the requisite meaning from~(\ref{ex6:acdat}). The solution I will lay out here seeks a way of allowing (\ref{ex6:cnpcacd1}) to get a semantic interpretation.
+This parse also doesn't provide the material necessary to satisfy the conditions on the focus anaphor. Indeed, this parse doesn't provide the right configuration for our semantics to give it an interpretation at all. In particular, the verb \emph{visit} in the root clause cannot semantically compose with the object DP, and so this parse does not allow the object DP to get the $\theta$-role we understand it to have. But at least this syntax does not put the focus anaphor inside the material that could furnish it with an antecedent. It overcomes the largest problem with deriving the requisite meaning from~(\ref{ex6:acdat}). The solution I will lay out here seeks a way of allowing (\ref{ex6:cnpcacd1}) to get a semantic interpretation, and thereby furnish the antecedent for the focus anaphor.
 
  This will require a change to our syntax, but also a change to how our syntax interacts with the semantics. It will no longer be the case that only the D-structure parse in a derivation gets a semantic interpretation. Instead, we will have to allow parses that are created from the D-structure by a transformational rule be able to give rise to a semantic interpretation. Let's change now our definition of derivation in anticipation of this new architecture.
 \begin{exe}
@@ -1153,7 +1164,7 @@ This will give to an S-structure that has been created with Complex NP Shift a r
 	]
 	\end{forest}
 \end{exe}
-Note that both Argument Movement of \emph{Thuy} and Complex NP Shift of \emph{every student} have invoked traces, and that their referential indices are distinct. The requirement in (\ref{ex6:tracemove}a) that the referential index on a trace be unique is responsible for ensuring that each trace in a syntactic representation be associated with independent referential indices. To see the effect that (\ref{ex6:tracemove}b) has, we will look at how the semantics assigns denotations to the pieces of (\ref{ex6:tracemove}). We have not developed a semantics for \emph{will}, however, and so we are not equipped with everything necessary to do that. In general terms, we have not developed a semantics for modals or tense---the two kinds of terms that occupy \obar{T} position in finite clauses---and this is why we've not endeavored to give meanings for anything larger than vP in our parses. The meanings of these expressions requires a dive into purely semantic issues that will not, in my estimation, further our understanding of syntax. Let's ignore entirely the contribution that the contents of \obar{T} makes.
+Note that both Argument Movement of \emph{Thuy} and Complex NP Shift of \emph{every student} have invoked traces, and that their referential indices are distinct. The requirement in (\ref{ex6:tracemove}a) that the referential index on a trace be unique is responsible for ensuring that each trace in a syntactic representation be associated with independent referential indices. To see the effect that (\ref{ex6:tracemove}b) has, we will look at how the semantics assigns denotations to the pieces of (\ref{ex6:tracemove}). We have not developed a semantics for \emph{will}, however, and so we are not equipped with everything necessary to do that. In general terms, we have not developed a semantics for modals or tense---the two kinds of terms that occupy \obar{T} position in finite clauses---and this is why we've not endeavored to give meanings for anything larger than vP in our parses. The meanings of these expressions requires a dive into purely semantic issues that will not, in my estimation, further our understanding of syntax. Let's therefore ignore entirely the semantic contribution that the contents of \obar{T} makes.
 
 If we do this, the semantic composition of the pieces of (\ref{ex6:tracet1}) that we have previously determined is~(\ref{ex6:tracet1den}).
 \medskip
@@ -1250,7 +1261,7 @@ Semantically, these sentences differ in a way that can be described in terms of 
 \end{exe}
 Just as in (\ref{ex6:aspectintro}), these sentences differ in how the singing eventuality is situated temporally with respect to tense. But rather than that relation holding between the time of the eventuality and the time at which the sentences are produced, the relation holds between the time of the eventuality and a time prior to when the sentences are produced. Thus, for instance, (\ref{ex6:aspectintro2}b) says that the singing eventuality occurs at a time that includes some time prior to when (\ref{ex6:aspectintro2}b) is produced. And (\ref{ex6:aspectintro2}a) conveys that the singing eventuality should be regarded as a kind of state that occurred at a time prior to the time at which (\ref{ex6:aspectintro2}a) is produced. 
 
-We shall not investigate how this semantic information is conveyed by the material in a syntactic representation. As the examples above indicate, these distinctions in English involve the use of auxiliary verbs as well as morphology on the verbs those auxiliaries embed. Because neither of these ingredients are present in (\ref{ex6:aspectintro}a)/(\ref{ex6:aspectintro2}a), it is not obvious that aspectual information is present in these examples. The evidence for an aspect morpheme in these examples comes largely from a semantic theory of aspect. It is also in the semantics of aspect that we find evidence for it being responsible for introducing the existential binder of an event variable. Because I will not develop this semantics, I will not be able to provide you with the evidence for equating \obar{X} with Aspect. Instead, I will rely solely on the evidence provided by (\ref{ex6:pres}) for the conclusion that \obar{X} is situated in a position syntactically lower than \obar{T}---a position I will call~\obar{Asp}. For our purposes, we need not reveal the full semantics of the morpheme that occupies \obar{Asp}. Instead, we can let \obar{Asp} have just the semantics of \obar{X}. That is, we will focus on just this part of its denotation.
+We shall not investigate how this semantic information is conveyed by the material in a syntactic representation. As the examples above indicate, these distinctions in English involve the use of auxiliary verbs as well as morphology on the verbs those auxiliaries embed. Because neither of these ingredients are present in (\ref{ex6:aspectintro}a)/(\ref{ex6:aspectintro2}a), it is not obvious that aspectual information is present in these examples. The evidence for an aspect morpheme in these examples comes largely from a semantic theory of aspect. It is also in the semantics of aspect that we find evidence for it being responsible for introducing the existential binder of an event variable. Because I will not develop this semantics, I will not be able to provide you with the evidence for equating \obar{X} with Aspect. Instead, I will rely solely on the evidence provided by (\ref{ex6:pres}) for the conclusion that \obar{X} is situated in a position syntactically lower than \obar{T}---a position I will call~\obar{Asp}. For our purposes, we need not reveal the full semantics of the morpheme that occupies \obar{Asp}. Instead, we can let \obar{Asp} have just the semantics of \obar{X}. That is, we will focus on just the part of its denotation that existentially closes the event variable.
 
 If we adopt the denotation for \emph{asp}, the content of \obar{Asp}, indicated in~(\ref{ex6:existev1}), then \emph{she ran} will have the denotation indicated in~(\ref{ex6:existev2}).%
 %
@@ -1282,9 +1293,9 @@ If we adopt the denotation for \emph{asp}, the content of \obar{Asp}, indicated 
 \end{exe}
 This gives to TP a denotation that claims that there exists an eventuality that has the properties that vP describes. In the case of (\ref{ex6:existev2}), the TP's meaning claims that there is an eventuality of dancing whose agent is whatever \emph{she} refers to. 
 
-Putting the term that existentially closes the eventuality in the position that (\ref{ex6:existev2}) does correctly puts it inside the constituent that \emph{not}, and the other exponents of \emph{neg}, negates. Assume that \emph{neg} is a function that takes the denotation of its complement and returns that denotation negated; this is what (\ref{ex6:negden}) does.%
+Putting the term that existentially closes the eventuality in the position that (\ref{ex6:existev2}) does correctly puts it inside the constituent that \emph{not}, and the other exponents of \emph{neg}, negates. Assume that \emph{neg} is a function which takes the denotation of its complement and returns that denotation negated; this is what (\ref{ex6:negden}) does.%
 %
-\marginnote[0pt]{Understand the meaning of ``$\neg p$'' to have the paraphrase given by ``not p.'' That is: the conditions under which $p$ are true, $\neg p$ is false.}%
+\marginnote[0pt]{Understand the meaning of ``$\neg p$'' to have the paraphrase given by ``not p.'' That is: if $p$ is true, $\neg p$ is false.}%
 %
 \begin{exe}
 \raggedright
@@ -1418,7 +1429,7 @@ But by introducing AspP, and thereby changing the denotations of \ibar{T} and TP
 	\end{exe}
 \end{fullwidth}
 \medskip
-But this is just the syntactic representation that we need to find a denotation for.
+But this is just the syntactic representation that we need to find a denotation for, in order to solve the problem posed by antecedent contained anaphora.
 
 Let's solve this problem by designing the denotations of \emph{no}, \emph{some}, and \emph{every} so that they can be interpreted in their moved positions, but not in their underlying position. The new denotations are~(\ref{ex6:newqden}).
 \begin{exe}
@@ -1471,7 +1482,7 @@ The second argument of these denotations now requires something that is a functi
 This change to the semantics of quantifiers is independently required. The semantics I introduced originally for quantifiers harbors a problem, which can be seen by considering~(\ref{ex6:lowno1}).
 \begin{exe}
 \raggedright
-	\ex \label{ex6:lowno1} No child finishes this book.
+	\ex \label{ex6:lowno1} No reader finishes this book.
 \end{exe}
 On the denotation for \emph{no} that I gave originally (=(\ref{ex6:quantoldden}a)), (\ref{ex6:lowno1}) should get the meaning indicated in~(\ref{ex6:lowno1t}).%
 %
@@ -1589,9 +1600,9 @@ The denotation in (\ref{ex6:everylow1t}) says that there is a single ending even
 	\end{exe}
 \end{fullwidth}
 \medskip
-As desired, (\ref{ex6:everylow2}) says that for all $x$ if $x$ is a student then there is an end-eventuality that it is the theme of.
+As desired, (\ref{ex6:everylow2}) says that for all $x$ if $x$ is a class then there is an end-eventuality that it is the theme of.
 
-These facts about the meaning of quantifiers are our first clue that we don't want to force D-structures to be the only parse that is semantically interpreted. DPs headed by quantifiers shouldn't be semantically interpreted in their D-structure positions, as the cases in (\ref{ex6:lowno1}) and (\ref{ex6:everylow1}) indicate.
+These facts about the meaning of quantifiers are another indication that we don't want to force D-structures to be the only parse that is semantically interpreted. DPs headed by quantifiers shouldn't be semantically interpreted in their D-structure positions, as the cases in (\ref{ex6:lowno1}) and (\ref{ex6:everylow1}) indicate.
 
 Summarizing, then, we've done three things to allow movement to make new meanings. We've let movement create something---a trace---in the position that the term being moved resides in. That trace employs a new syntactic formative, an index. This has been wedded to a semantic rule that changes the meaning of the phrase that is the sister to the moved term's new position. That change introduces a $\lambda$-expression that binds the trace. And finally, we've adjusted the denotations of quantificational determiners so that they can be interpreted in the positions they move into. This adjustment now prevents the DPs that are headed by quantifiers to be interpreted in their D-structure position. Thus, this last amendment has made D-structures that have quantificational DPs in them incapable of delivering a meaning. Movement is forced to interpret these~DPs.%
 %
@@ -1624,7 +1635,7 @@ Note that the revision to movement in (\ref{ex6:tracemove}) puts traces into the
 \end{exe}
 The (\ref{ex6:tracemove}c) part of the new definition of movement causes vP to have a denotation that forces it to take the \emph{aime}+present=\obar{T} term as its argument. I have hidden from our view the meaning of tense, but there is compelling evidence that its denotation does not allow it to combine semantically with the denotation we have given to verbs. And even if there was a means of combining these two pieces, the resulting meaning should not be placed ``into'' the position marked by the variable ``$2$.'' For these reasons, I have prevented the new rule of movement from allowing a head to be semantically interpreted in any except its D-structure position. We will have an opportunity to revisit this decision before this chapter is over.
 
-It is useful to have a way of representing in our syntactic parses which phrases have undergone the change in meaning that (\ref{ex6:tracemove}c) describes. That change has the effect of making the phrase that has been replaced by the trace, be the argument of the function that (\ref{ex6:tracemove}c) creates. Although technically not correct, this XP is said to be the trace's binder. The standard way of representing which phrase has undergone the change that (\ref{ex6:tracemove}c) describes is to give the ``binder'' a subscript that matches the referential index on the trace. With this notation in place, (\ref{ex6:tracet1}) becomes~(\ref{ex6:tracet1co}).%
+It is useful to have a way of representing in our syntactic parses which phrases have undergone the change in meaning that (\ref{ex6:tracemove}c) describes. That change has the effect of making the phrase that has been replaced by the trace, be the argument of the function that (\ref{ex6:tracemove}c) creates. Although technically not correct, this phrase is said to be the trace's binder. The standard way of representing which phrase has undergone the change that (\ref{ex6:tracemove}c) describes is to give the ``binder'' a subscript that matches the referential index on the trace. With this notation in place, (\ref{ex6:tracet1}) becomes~(\ref{ex6:tracet1co}).%
 %
 \marginnote[0pt]{Wherever convenient, I will suppress the presence of AspP in parses. I will reveal their presence only when I judge that doing otherwise would confuse.}%
 %
@@ -1658,9 +1669,9 @@ It is useful to have a way of representing in our syntactic parses which phrases
 	]
 	\end{forest}	
 \end{exe}
-This compactly indicates which traces are related to which moved phrases. 
+The subscript on \textit{Thuy} indicates, then, that the movement rule has changed the denotation for \ibar{T} into a function that takes as its argument This notation gives us a compact way of indicating which traces are related to which moved phrases. 
 
-I find this convention confusing, however, and I will modify it in these lectures. We will see that DPs other than traces can have referential indices as part of their meaning. When we encounter these cases, it will be convenient to be able to represent them with the same subscript notation that we are using now with traces. We will therefore want to have a different way of indicating where (\ref{ex6:tracemove}c) has applied; the technique illustrated in (\ref{ex6:tracet1co}) looks just like the method we will use to indicate where referential indices are. For this reason, I will adopt the convention of indicating where the binder of a trace is by appending to it a superscript that matches the referential index on the trace.%
+Although this notation is standard, I find it confusing and will modify it in these lectures. We will see that DPs other than traces can have referential indices as part of their meaning. When we encounter these cases, it will be convenient to be able to represent them with the same subscript notation that we are using now with traces.  Some of these terms can also be binders; that is, we will want to be able to indicate that one term can have a referential index that is bound and simultaneously be a binder of another referential index. We will therefore want to have a different way of indicating what a term binds and what a term is bound by. The notation illustrated in (\ref{ex6:tracet1co}) to illustrate that \textit{Thuy} is a binder looks just like the way used to indicate that \textit{Thuy} has a referential index and therefore is bound. We should keep these distinct. We need different ways of indicating where a referential index is and where a binder is. For this reason, I will adopt the convention of indicating where the binder of a trace is by appending to it a superscript that matches the referential index on the trace.%
 %
 \marginnote[0pt]{This convention is introduced in \citet{Heim:1993}. That terms can be both variables and binders of variables is first discussed in \citet{Higginbotham:1980}.}%
 %
@@ -1763,7 +1774,7 @@ Let's take a look at how this will provide a way of deriving the bound variable 
 \medskip
 Because movement of \emph{no freshman} has changed the meaning of \ibar{T} into a function that binds variables with the index ``2,'' the pronoun \emph{her} is construed as one of those variables when it includes that index. The fact that pronouns can be understood as variables corresponds to the proposal that pronouns can include indices as part of the ingredients that make them up. Those indices can be interpreted when movement has created a function that is positioned so that it binds that index.
 
-Trace theory, then, has the useful consequence of providing a syntax for determining how, and where, pronouns can get their bound variable interpretation. Because the rule of movement changes the meaning of the phrase that the moved term becomes a sister to, it creates a meaning that can bind pronouns in that phrase. The movement rule not only creates a meaning for this phrase that allows it to bind the trace, but it creates a meaning that allows it to bind any pronoun that shares the referential index of that trace as well. Independently of providing an ingredient in the still-to-be-given solution to the problem of antecedent contained anaphora, Trace theory gives a model of how pronouns can get their bound variable interpretation.
+Trace theory, then, has the useful consequence of providing a syntax for determining how, and where, pronouns can get their bound variable interpretation. Because the rule of movement changes the meaning of the phrase that the moved term becomes a sister to, it creates a meaning that can bind pronouns in that phrase. The movement rule not only creates a meaning for this phrase that allows it to bind the trace, it also creates a meaning that allows it to bind any pronoun that shares the referential index of that trace as well. Independently of providing an ingredient in the still-to-be-given solution to the problem of antecedent contained anaphora, Trace theory gives a model of how pronouns can get their bound variable interpretation.
 
 Trace theory also constrains derivations in a way that removes the problems that arise by adopting the Lebeaux model, and its abandonment of making D-structure the only semantically interpretable element of a derivation. Recall that by removing the requirement that D-structures be the only element of the derivation that is semantically interpreted, the Lebeaux model allows D-structures to violate the Theta Criterion. This wrongly allows derivations like that sketched in~(\ref{ex6:baddertc}).
 \medskip
@@ -1871,11 +1882,11 @@ Trace theory closes this problem. Because it requires movement of phrases to lea
 \medskip
 The complement TP to \emph{$\surd$believe} has no denotation, as there is no semantic rule that can compose the meaning of the trace in Specifier TP with the denotation of its sister:~\ibar{T}. This problem will arise in every parse of the derivation; therefore, no parse in this derivation will be semantically interpretable. The ungrammaticality of this derivation, then, derives from the fact that Trace theory blocks a semantic interpretation of the sentence the derivation models.
 
-In general terms, Trace theory requires every position a moved XP occupies in a derivation to be a position in which it, or its trace, can be semantically interpreted. This requires that the XPs in a D-structure are either semantically interpretable in those positions, or could be replaced by traces that are semantically interpretable in those positions. That is sufficient to ensure that the Theta Criterion holds of D-structures. To my knowledge, it is sufficient to ensure that the constraints on D-structures that are trace back to the semantics to be generally preserved.
+In general terms, Trace theory requires every position a moved XP occupies in a derivation to be a position in which it, or its trace, can be semantically interpreted. This requires that the XPs in a D-structure are either semantically interpretable in those positions, or could be replaced by traces that are semantically interpretable in those positions. That is sufficient to ensure that the Theta Criterion holds of D-structures. To my knowledge, it is sufficient to ensure that the constraints on D-structures that trace back to the semantics are preserved in the Lebeaux Model.
 
 Trace theory has three useful ingredients, then. It allows more parses in a derivation to be relevant to the semantic interpretation of a sentence without losing the effects of restricting semantic interpretability to D-structures. It provides a method for allowing pronouns to be understood as bound variables, by allowing movement to change the meaning of the phrase that contains a pronoun. And when this is wedded to the existence of traces, it provides a way of interpreting structures that are formed by movement. 
 
-This last effect brings us a step closer to understanding how to defease the problem posed by cases of antecedent contained anaphora. Our syntax now countenances a syntax for those examples in which the focus anaphor is not inside its focus antecedent, but is semantically interpretable. Those syntaxes arise by way of Complex NP Movement; (\ref{ex6:tracet1den3}) illustrates. The second step in accounting for antecedent contained anaphora requires understanding the syntax of relative clauses. As it happens, relative clauses independently illustrate the need for a syntax that allows movement to create interpretable structures. We turn now to that task.
+This last effect brings us a step closer to understanding how to defease the problem posed by cases of antecedent contained anaphora. Our syntax now countenances a syntax for those examples in which the focus anaphor is not inside its focus antecedent, but is semantically interpretable. Those syntaxes arise by way of Complex NP Movement in the way that (\ref{ex6:tracet1den3}) illustrates. The second step in accounting for antecedent contained anaphora requires understanding the syntax of relative clauses. As it happens, relative clauses independently illustrate the need for a syntax that allows movement to create interpretable structures. We turn now to that task.
 
 \subsubsection{Relative Clauses and Wh Movement}
 \label{sec:relclause}
@@ -1892,7 +1903,9 @@ The relative clause is the portion of this sentence that corresponds to the stri
 	\ex \label{ex6:relw}
 	She knows who you talked to.
 \end{exe}
-At present, our syntax cannot form these clauses. If we assume that the word \emph{who} is a kind of pronoun, our phrase structure rules can create a clause like that in~(\ref{ex6:rel2}).
+At present, our syntax cannot form either of these types of clauses. Because their form is so close, it makes sense to develop a syntax that takes into consideration both relative clauses and complement clauses of the form in~(\ref{ex6:relw}). 
+
+If we assume that the word \emph{who} is a kind of pronoun, our phrase structure rules can create a clause like that in~(\ref{ex6:rel2}).
 \begin{exe}
 \raggedright
 	\ex \label{ex6:rel2}
@@ -2113,7 +2126,7 @@ Because it is the existence of these words that correlates with the question-lik
 \end{exe}
 \end{fullwidth}
 \bigskip
-The \textsc{agree} relation will consequently hold between \obar{C} and either \obar{D} or \obar{Deg}. The movement relation, however, never involves movement of the heads, but instead always affects a phrase, in (\ref{ex6:pied1}) they are circled, that contains that head. 
+The \textsc{agree} relation holds between \obar{C} and either \obar{D} or \obar{Deg}. The movement relation, however, never involves movement of the heads, but instead always affects a phrase, in (\ref{ex6:pied1}) they are circled, that contains that head. 
 
 In the cases we've seen so far, the phrase that moves is always an \ibar{X} projection of the word that has the \emph{wh}-feature. But this isn't always the case. There are examples---(\ref{ex6:pied2}) illustrates some---in which the phrase that moves is not a projection of the word containing the \emph{wh}-feature.
 \pagebreak
@@ -2242,16 +2255,13 @@ This silent pro-form can be found in forming relative clauses that correspond to
 		\ex the reason wh^3 you left \emph{t_3}
 	\end{xlist}
 \end{exe}
-Strangely, in many Englishes it cannot be moved from the most local subject position, as in~(\ref{ex6:localsjb}).
+Strangely, in many Englishes it cannot be moved from the most local subject position, as in~(\ref{ex6:localsjb}).\marginnote{Sentences such as these are grammatical in Appalachian, African American, and Hiberno Englishes. See \citet{Sistrunk:2012} and \citet{Doherty:1993}.}
 \begin{exe}
 \raggedright
 	\ex[*]{\label{ex6:localsjb} the dog is barking}
 	\sn \emph{compare:}
 	\ex[]{the dog which is barking}
 \end{exe}
-%
-%//todo Give reference to Contact Relatives here.
-%
 
 In contexts where the silent \emph{wh} is involved in building a relative clause, the up-till-now mysterious identity of the clause's head is revealed. Alongside (\ref{ex6:silrel}) is~(\ref{ex6:silrelt}).
 \bigskip
@@ -2314,17 +2324,14 @@ And this option is enforced, it seems, when there is spoken material in the Spec
 		\ex[*]{the time when that you left}
 	\end{xlist}
 \end{exe}
-\Citet{Bresnan:1972} called this generalization the ``Doubly Filled Comp filter.''
-%
-%//todo check that Bresnan's dissertation is the source for the doubly filled comp filter.	
-%
+\Citet{Chomsky:1977a} called this generalization the ``Doubly Filled Comp filter.''
 \begin{exe}
 \raggedright
 	\ex \label{ex6:dfcff} Doubly-filled Comp Filter\\
 	The Specifier and head of a CP cannot both contain phonological material.
 \end{exe}
 
-Relative clauses can be seen as another case that illustrates the necessity of letting movement create meanings. To see this, consider the pieces of the DP in (\ref{ex6:restrr1}) whose denotations we have identified.
+Relative clauses can be seen as another case that illustrates the necessity of letting movement create meanings. To see this, consider the pieces of the DP in (\ref{ex6:restrr1}) whose denotations are identified.
 \begin{exe}
 \raggedright
 	\ex \label{ex6:restrr1} no dog that you brought
@@ -2395,7 +2402,7 @@ We have taken the denotation of common nouns to be functions from things to trut
 \medskip
 I've continued to ignore the contribution that tense makes, and I've made the assumption that the complementizer \emph{that} has no denotation either. 
 
-Note that because of the meaning that movement creates, movement of the silent \emph{wh} phrase causes \ibar{C} to be a function from things to a sentence meaning. It maps things to T just in case those things are brought by you. Suppose that this is also the denotation of the relative clause; that is, suppose that the silent \emph{wh} phrase also has no denotation. This would give (\ref{ex6:restrr1}) the pieces in~(\ref{ex6:restrr2}).
+Note that because of the meaning that movement creates, movement of the silent \emph{wh} phrase causes \ibar{C} to be a function from things to a sentence meaning. It maps things to Truth just in case those things are brought by you. Suppose that this is also the denotation of the relative clause; that is, suppose that the silent \emph{wh} phrase also has no denotation. This would give (\ref{ex6:restrr1}) the pieces in~(\ref{ex6:restrr2}).
 \medskip
 \begin{fullwidth}
 \begin{exe}
@@ -2441,15 +2448,15 @@ This produces~(\ref{ex6:restrr3}).
 \medskip
 This is the meaning we are after.
 
-If these steps are correct, what we see is that movement has created a meaning that allows CPs to combine with \ibar{N}s in the way required to derive the meaning of the constituent that they form. It's in this sense that relative clauses provide evidence that we want to let movement create new meanings. It is because movement is able to create a function from things to truth values that the CPs which are relative clauses have a denotation that allows them to combine with nominal projections. Movement creates from CPs functions of the right kind to compose by Predicate Modification.
+If these steps are correct, what we see is that movement has created a meaning that allows CPs to combine with \ibar{N}s in the way required to derive the meaning of the constituent that they form. It's in this sense that relative clauses provide evidence that we want to let movement create new meanings. It is because movement is able to create a function from things to truth values that the CPs which are relative clauses have a denotation that allows them to combine with nominal projections. Trace theory makes movement creates responsible for converting CPs into functions of the right kind to compose by Predicate Modification. Trace theory, then, explains why movement is found in relative clauses.
 
-At least, this is delivered by our new syntax of movement in simple relative clauses. It doesn't generalize to relative clauses in which a more complex \emph{wh}-phrase has moved, however. In cases like (\ref{ex6:piedpden}), for instance, the moved \emph{wh}-phrase does make a semantic contribution.
+At least, Trace Theory does this in simple relative clauses. It doesn't generalize to relative clauses in which a more complex \emph{wh}-phrase has moved, however. In cases like (\ref{ex6:piedpden}), for instance, the moved \emph{wh}-phrase makes a semantic contribution, , unlike what we see for the silent wh-phrase in (\ref{ex6:reloned}).
 \begin{exe}
 \raggedright
 	\ex \label{ex6:piedpden}
 	the dog whose owner^2 you met \emph{t}_2
 \end{exe}
-Movement does not automatically make a meaning of the right sort for the relative clause to compose with the \ibar{N} in (\ref{ex6:piedpden}). The conclusion that movement creates new meanings remains. It's likely the fact that \emph{whose owner} has moved in (\ref{ex6:piedpden}) that is responsible for allowing the CP to combine semantically with \emph{dog}. It's merely that our present syntax and semantics doesn't yet deliver the right outcome. Let's set aside these cases for the moment, and return to the job at hand: solving the problem of antecedent contained anaphora.%
+The meaning of the moved wh-phrase should make the relative clause describe properties that the dog has---namely, that it has an owner that you met---while also describing a property that the owner has---namely, being met. The Trace theory of Movement doesn't do that in (\ref{ex6:piedpden}). The conclusion that movement creates new meanings remains. The fact that \emph{whose owner} has moved in (\ref{ex6:piedpden}) that is responsible for allowing the CP to combine semantically with \emph{dog}. And it delivers the fact that the owner is understood to be met. But it doesn't capture how \denotes{dog} is modified by the relative clause. Our present syntax and semantics doesn't yet deliver the right outcome for (\ref{ex6:piedpden}). Let's set aside these cases for the moment, and return to the job at hand: solving the problem of antecedent contained anaphora.%
 %
 \marginnote[0pt]{A solution to the problem posed by (\ref{ex6:piedpden}) can be found in the Copy theory of movement, section~\ref{sec:piedpipecopies}.}%
 %
@@ -2463,7 +2470,7 @@ The puzzle we're in pursuit of solving is how the focus anaphor in (\ref{ex6:acd
 	\exr{ex6:acda}
 	\begin{xlist}
 		\ex Thuy will visit every student who [RODICA <will visit>].
-		\ex Thuy will visit every student who [RODICA <will>].
+		\ex Thuy will visit every student who [RODICA <will \sout{visit}>].
 	\end{xlist}
 \end{exe}
 The bracketed portion of these sentences is a focus anaphor, whose antecedent is found in the sentence that seemingly contains the focus antecedent. Focus anaphors, recall, are subject to the requirement in~(\ref{ex6:fanaphora}).
@@ -2474,7 +2481,7 @@ The bracketed portion of these sentences is a focus anaphor, whose antecedent is
 \end{exe}
 The puzzle, then, is giving (\ref{ex6:acda}) a syntax that allows (\ref{ex6:fanaphora}) to be satisfied. 
 
-The Trace theory of movement does that. The S-structure representation for (\ref{ex6:acda}) is~(\ref{ex6:acdres}).
+The Trace theory of movement does that. With Trace theory, the S-structure representation for (\ref{ex6:acda}) is~(\ref{ex6:acdres}).
 \medskip
 \begin{fullwidth}
 \begin{exe}
@@ -2533,7 +2540,382 @@ The Trace theory of movement does that. The S-structure representation for (\ref
 \end{fullwidth}
 % \medskip
 \vspace*{-18pt}
-The denotation for this sentence is correct, and it achieves that denotation with the aid of the Trace theory of movement in a way that satisfies (\ref{ex6:fanaphora}). The boxed \ibar{C} is the focus anaphor, and the boxed TP is a focus-alternative to the denotation this \ibar{C} has. In particular, replacing the focus-marked \emph{Rodica} with \emph{Thuy} produces something from the denotation of \fbox{\ibar{C}} that is equivalent to \fbox{TP}. Note that this is partly due to the fact that the traces \emph{t_5} and \emph{t_3} are sloppily bound. That is, they have the same semantics that we've seen sloppily-bound pronouns have in section~\ref{sec:slopana}. 
+The object DP of \textit{visit} has moved outside of the TP that provides the antecedent for the focus anaphor, and left a trace in its former position. This provides the right denotation, and also satisfies (\ref{ex6:fanaphora}), the conditions on focus anaphors. The boxed \ibar{C} is the focus anaphor, and the boxed TP is its focus antecedent. There is a focus-alternative to the denotation of \ibar{C} that is identical to the denotation that TP has. In particular, replacing the focus-marked \textit{Rodica} with \textit{Thuy} produces something from the denotation of \fbox{\ibar{C}} that is equivalent to \fbox{TP}. Note that this is partly due to the fact that the traces \textit{t_5} and \textit{t_3} are sloppily bound. That is, they have the same semantics that we've seen sloppily-bound pronouns have in section 6.1.2. 
+
+This solution to the puzzle of antecedent contained focus anaphora predicts that it will arise only in cases where movement can create a trace bound by the term that contains the focus anaphor. This in turn entails that the focus anaphor in such cases must contain a variable in a position that corresponds to that trace, and that this variable and the trace meet the conditions of sloppy binding. I don't know that this prediction has been thoroughly examined, but it appears to be correct. There is a contrast, for example, between (\ref{ex6:acda}) and~(\ref{ex6:slopfana}).
+\begin{exe}
+\raggedright
+	\ex[*]{\label{ex6:slopfana} Thuy will examine every claim that [RODICA <will examine it>].}
+\end{exe} 
+This is because in (\ref{ex6:slopfana}), the focus anaphor has a pronoun in the position that corresponds to where the trace of moving the \textit{every claim}-DP resides in the antecedent. This pronoun and the trace do not obey the conditions on sloppy binding, and as a consequence the condition in (\ref{ex6:fanaphora}) is not satisfied. To see this, compare (\ref{ex6:slopfanat}), the representation that corresponds to (\ref{ex6:slopfana}), with (\ref{ex6:acdres}), the representation that corresponds to the successful instance of antecedent contained anaphora.
+\begin{fullwidth}
+\begin{exe}
+\raggedright
+	\ex \label{ex6:slopfanat}
+	\small
+	\begin{forest}
+	[$\forall x\ {[}\textsc{student}(x) \wedge \exists \epsilon$ {[}\textsc{examine}($\epsilon$) $\wedge$ \textsc{patient}($x$)($\epsilon$) $\wedge$ \textsc{agent}(\denotes{Rodica})($\epsilon$){]]} $\rightarrow$ {[} $\exists \epsilon'$ \textsc{examine}($\epsilon'$) $\wedge$ \textsc{patient}($x$)($\epsilon'$) $\wedge$ \textsc{agent}(\denotes{Thuy})($\epsilon'$){]}\\TP
+		[$\lambda 5\ \exists \epsilon'$ \textsc{examine}($\epsilon'$) $\wedge$ \textsc{patient}(5)($\epsilon'$) $\wedge$ \textsc{agent}(\denotes{Thuy})($\epsilon'$)\\TP
+			[DP [Thuy, roof]]
+			[\ibar{T}
+				[\obar{T} [will]
+				[vP
+					[\textit{t_4} ]
+					[\ibar{v}
+						[\obar{v} [agent]
+						[VP [\ibar{V}
+							[\obar{V} [$\surd$examine]
+							[\textit{t_5} ]
+						] ]
+					 ]
+				 ]
+			 ]
+		 ]
+		[DP [\ibar{D}
+			[\obar{D} [every]
+			[NP [\ibar{N}
+				[\obar{N} [claim]]
+				[CP [$\exists \epsilon$ \textsc{examine}($\epsilon$) $\wedge$ \textsc{patient}(it)($\epsilon$)\\ \textsc{agent}(\denotes{Rodica})($\epsilon$)\\\ibar{C} 
+					[\obar{C} [that]
+					[TP
+						[DP_F [RODICA]
+						[\ibar{T}
+							[\obar{T} [will]
+							[vP
+								[\textit{t_2} ]
+								[\ibar{v}
+									[\obar{v} [agent]
+									[VP [\ibar{V} 
+										[\obar{V} [$\surd$examine]
+										[DP [it, roof]]
+									]]
+								 ]
+							 ]
+						 ]
+					 ]
+				]]
+			 ]
+		 ]
+	]
+	\end{forest}
+\end{exe}
+\end{fullwidth}
+\fbox{\ibar{C}} doesn't have a focus alternative that matches the denotation of \fbox{TP} in (\ref{ex6:slopfanat}), and therefore fails (\ref{ex6:fanaphora}). There is no phrase smaller than \fbox{TP} that could be an antecedent for \fbox{\ibar{C}, because \fbox{TP} is the smallest phrase that contains a binder for the trace left by moving the object DP. Our semantics doesn't allow phrases with unbound traces in them to have a denotation. No phrase larger than \fbox{TP} can be an antecedent because it will contain the focus anaphor. Consequently, the only focus anaphors that \fbox{TP} can be the antecedent for are those that are also functions from things to truth values. In general, a focus anaphor whose D-structure position puts it within it antecedent will have a contain a trace that corresponds to the trace left when that focus anaphor moves out of its antecedent.
+
+This solution also makes predictions about the position that the DP containing the focus anaphor will be semantically interpreted in. That DP will have to be interpreted in a position that puts it outside the antecedent for the focus anaphor. When the DP is headed by a quantifier, this can be tested by considering where that quantifier is interpreted. This prediction is examined in \citet{Williams:1977} and \citet{Sag:1976}, and has been confirmed. Let's look at one of the cases that Williams discusses. 
+
+First, consider (\ref{ex6:wantvpe}).
+\begin{exe}
+\raggedright
+	\ex \label{ex6:wantvpe}
+	\begin{xlist}
+		\ex {}[_a Cherlon wants [_b to beat every contestant that
+		\begin{xlist}
+			\ex 
+			\begin{xlist}
+			\ex MARIBEL <wants to beat>.
+			\ex MARIBEL <does \sout{want to beat}>.
+			\end{xlist}
+			\ex
+			\begin{xlist}
+				\ex MARIBEL <beat>.
+				\ex MARIBEL <did \sout{beat}>.
+			\end{xlist}
+		\end{xlist}
+	\end{xlist}
+\end{exe}
+What (\ref{ex6:wantvpe}) shows is that the sentence \textit{Cherlon wants to beat every contestant} makes available two antecedents for a focus anaphor. One of those antecedents is marked with an opening bracket labeled $a$, and the other is marked with a bracket labeled $b$. The focus anaphors in (\ref{ex6:wantvpe}a) make use of the $a$-antecedent, and the focus anaphors in (\ref{ex6:wantvpe}b) make use of the $b$-antecedent. 
+
+Next, consider the simpler (\ref{ex6:wantvpe1}).
+\begin{exe}
+\raggedright
+	\ex \label{ex6:wantvpe1}
+	Cherlon wants to beat every contestant.
+\end{exe}
+This sentence has two interpretations that depend on where \textit{every contestant} is found in the syntactic representation. If the syntax puts \textit{every contestant} in the position indicated in (\ref{ex6:wantvpe1t}), it will be interpreted within the infinitival complement clause. 
+\begin{exe}
+\raggedright
+	\ex \label{ex6:wantvpe1t}
+	\small
+	\begin{forest}
+	[TP
+		[DP^2 [Cherlon, roof]]
+		[\ibar{T}
+			[\obar{T} [pres]]
+			[vP
+				[\textit{t_2} ]
+				[\ibar{v}
+					[\obar{v} [experiencer]
+					[VP [\ibar{V} 
+						[\obar{V} [$\surd$want]]
+						[CP [\ibar{C} 
+							[\obar{C} [e]]
+							[TP
+								[TP 
+								[PRO^3]
+								[\ibar{T}
+									[\obar{T} [to]]
+									[vP
+										[\textit{t_3} ]
+										[\ibar{v}
+											[\obar{V} [agent]]
+											[VP [\ibar{V}
+												[\obar{V} [$\surd$beat]]
+												[\textit{t_4} ]
+											] ]
+										 ]
+									 ]
+								] ]
+								[DP^4 [every contestant, roof]]
+							 ]
+						] ]
+					]]
+				 ]
+			 ]
+		 ]
+	]
+	\end{forest}
+\end{exe}
+The meaning that (\ref{ex6:wantvpe1t}) has corresponds to (\ref{ex6:wantvpe1ti}).
+\begin{exe}
+\raggedright
+	\ex \label{ex6:wantvpe1ti}
+	It's to beat every contestant that Cherlon wants.
+\end{exe}
+Note that the desire that (\ref{ex6:wantvpe1ti}) ascribes to Cherlon is consistent with her not wanting to beat each particular contestant. If her beloved sister is among the contestants, she may not want to beat that sister, for instance. (\ref{ex6:wantvpeti}) merely says that what Cherlon desires is to be the overall winner. It could describe a scenario in which Cherlon has conflicting desires. Let's call this the ``narrow scope'' interpretation of \textit{every contestant}. 
+
+If, by contrast, the syntax puts \textit{every contestant} in the position indicated in (\ref{ex6:wantvpe1tt}), then it will be interpreted outside the complement clause.
+\begin{exe}
+\raggedright
+	\ex \label{ex6:wantvpe1tt}
+	\small
+	\begin{forest}
+	[TP
+		[TP
+			[DP^2 [Cherlon, roof]]
+			[\ibar{T}
+				[\obar{T} [pres]]
+				[vP
+					[\textit{t_2} ]
+					[\ibar{v}
+						[\obar{v} [experiencer]]
+						[VP [\ibar{V}
+							[\obar{V} [$\surd$want]]
+							[CP [\ibar{C}
+								[\obar{C} [e]]
+								[TP
+									[PRO^3 ]
+									[\ibar{T}
+										[\obar{T} [to]]
+										[vP
+											[\textit{t_3} ]
+											[\ibar{v}
+												[\obar{v} [agent]]
+												[VP [\ibar{V}
+													[\obar{V} ]$\surd$beat]
+													[\textit{t_4} ]
+												] ]
+											 ]
+										 ]
+									 ]
+								 ]
+							] ]
+						] ]
+					 ]
+				 ]
+			 ]
+		 ]
+		[DP^4 [every contestant, roof]]
+	]
+	\end{forest}
+\end{exe}
+The meaning delivered by (\ref{ex6:wantvpe1tt}) can be paraphrased by (\ref{ex:wantvpe1tti}).
+\begin{exe}
+\raggedright
+	\ex \label{ex6:wantvpe1tti} Every contestant is one that Cherlon wants to beat.
+\end{exe}
+On this meaning, Cherlon has a desire regarding each contestant, and that desire is to beat them. If the contestants include Cherlon's sister, then the meaning derived from (\ref{ex6:wantvpe1tt}) entails that Cherlon has the desire to beat her as well. Let's call this the ``wide scope'' interpretation of \textit{every contestant}. The account of antecedent contained anaphora provided by Trace theory predicts that (\ref{ex6:wantvpe}) cannot simultaneously have the narrow scope interpretation of \textit{every contestant} and resolve the focus anaphor so that it takes the larger $a$-antecedent. This interpretation would be mapped onto the syntax in (\ref{ex6:acdparse}).
+\begin{exe}
+\raggedright
+	\ex \label{ex6:acdparse}
+	\small
+	\begin{forest}
+	[TP
+		[DP^2 [Cherlon, roof]]
+		[\ibar{T}
+			[\obar{T} [pres]]
+			[vP
+				[\textit{t_2} ]
+				[\ibar{v}
+					[\obar{v} [experiencer]]
+					[VP [\ibar{V}
+						[\obar{V} [$\surd$want]]
+						[CP [\ibar{C}
+							[\obar{C} [e]]
+							[TP
+								[TP
+									[PRO^3 ]
+									[\ibar{T}
+										[\obar{T} [to]]
+										[vP
+											[\textit{t_3} ]
+											[\ibar{v}
+												[\obar{v} [agent]]
+												[VP [\ibar{V}
+													[\obar{V} [$\surd$beat]]
+													[\textit{t_4} ]
+												] ]
+											 ]
+										 ]
+									 ]
+								 ]
+								[DP^4 [every contestant\\ that MARIBEL <wants to beat>, roof]]
+							 ]
+						] ]
+					] ]
+				 ]
+			 ]
+		 ]
+	]
+	\end{forest}
+\end{exe}
+The problem with (\ref{ex6:acdparse}) is that the focus anaphor lies within its antecedent. When \textit{every contestant} takes narrow scope, the focus anaphor can only correspond to the lower clause. (\ref{ex6:acdparse2}) shows how. The denotations aren't provided in (\ref{ex6:acdparse2}), but the relationship between \fbox{\ibar{C}} and \fbox{TP} is parallel to the \fbox{\ibar{C}} and \fbox{TP} in (\ref{ex6:slopfanat}). Because a focus alternative to \textit{Maribel} is PRO, \denotes{TP} is the same as \denotes{\ibar{C}}^F. This makes \denotes{TP} in (\ref{ex6:acdparse2}) an antecedent for \denotes{\ibar{C}}.
+\begin{exe}
+\raggedright
+	\ex \label{ex6:acdparse2}
+	\small
+	\begin{forest}
+	[TP
+		[DP^2 [Cherlon, roof]]
+		[\ibar{T}
+			[\obar{T} [pres]]
+			[vP
+				[\textit{t_2} ]
+				[\ibar{v}
+					[\obar{v} [experiencer]]
+					[VP [\ibar{V}
+						[\obar{V} [$\surd$want]]
+						[CP [\ibar{C}
+							[\obar{C} [e]]
+							[TP
+								[TP
+									[PRO^3 ]
+									[\ibar{T}
+										[\obar{T} [to]]
+										[vP
+											[\textit{t_3} ]
+											[\ibar{v}
+												[\obar{v} [agent]]
+												[VP [\ibar{V}
+													[\obar{V} ]$\surd$beat]
+													[\textit{t_4} ]
+												] ]
+											 ]
+										 ]
+									 ]
+								 ]
+								[DP^4 [\ibar{D}
+									[\obar{D} [every]]
+									[NP [\ibar{N}
+										[\obar{N} [contestant]]
+										[CP
+											[wh^5 ]
+											[\ibar{C} [that MARIBEL <beat \textit{t_5>}]]
+										 ]
+									] ]
+								]]
+							 ]
+						] ]
+					] ]
+				 ]
+			 ]
+		 ]
+	]
+	\end{forest}
+\end{exe}
+
+These predicted outcomes seem to be correct. In a context that limits the interpretation to a narrow scope one for \textit{every contestant}, like that provided below, only the smaller b-antecedent is available for a focus anaphor.
+\begin{exe}
+\raggedright
+\sn \textit{Maribel and Cherlon are fierce rivals. Neither of them expects to win the tournament, but they each expect that they can outperform the other. So fierce is their rivalry, that Cherlon would even try to beat her sister, who is also a contestant in the tournament, if it would mean besting Maribel. This is surprising, because if Maribel weren't in the tournament, Cherlon would let her sister beat her. Cherlon hates beating her sister. I tell Cherlon's sister:}
+
+	\ex \label{ex6:acdrange} {}[_a Cherlon wants [_b to beat every contestant that\marginnote{``\#'' marks a sentence whose meaning is anomolous.}
+	\begin{xlist}
+		\ex[\#]{MARIBEL <wants to beat>} 
+		\sn[\#]{MARIBEL <wants to>}
+		\ex[]{MARIBEL <beats>}
+		\sn[]{MARIBEL does}
+	\end{xlist}
+\end{exe}
+It's only in a context which allows the wide scope interpretation for \textit{every contestant}  that the a-antecedent for the focus anaphor becomes available. The context below illustrates.
+\begin{exe}
+\raggedright
+	\sn \textit{Maribel and Cherlon are sisters. When they play a tournament together, they discuss who they hope to beat. It turns out that:}
+	\ex \label{ex6:acdrange2} {}[_a Cherlon wants [_b to beat every contestant that
+	\begin{xlist}
+		\ex MARIBEL <wants to beat>.
+		\ex MARIBEL <wants to>.
+	\end{xlist}
+\end{exe}
+The syntax for a wide-scope interpretation of \textit{every contestant} is~(\ref{ex6:widerange}).
+\begin{exe}
+\raggedright
+	\ex \label{ex6:widerange}
+	\small
+	\begin{forest}
+	[TP
+		[\fbox{TP}
+			[DP^2 [Cherlon, roof]]
+			[\ibar{T}
+				[\obar{T} [pres]]
+				[vP
+					[\textit{t_2} ]
+					[\ibar{v}
+						[\obar{v} [experiencer]]
+						[VP [\ibar{V}
+							[\obar{V} [$\surd$want]]
+							[CP [\ibar{C}
+								[\obar{C} [e]]
+								[TP
+									[PRO^3 ]
+									[\ibar{T}
+										[\obar{T} [to]]
+										[vP
+											[\textit{t_3} ]
+											[\ibar{v}
+												[\obar{v} [agent]]
+												[VP [\ibar{V}
+													[\obar{V} [$\surd$beat]]
+													[\textit{t_4} ]
+												] ]
+											 ]
+										 ]
+									 ]
+								 ]
+							] ]
+						] ]
+					 ]
+				 ]
+			 ]
+		 ]
+		[DP^4 [\ibar{D}
+			[\obar{D} [every]]
+			[NP [\ibar{N}
+				[\obar{N} [contestant]]
+				[CP
+					[wh^5 ]
+					[\ibar{C} [that MARIBEL <wants to beat \textit{t_5}>, roof]]
+				 ]
+			] ]
+		] ]
+	]
+	\end{forest}
+\end{exe}
+The a-antecedent is available here because \denotes{\fbox{TP}} is equivalent to a \denotes{\ibar{C}}^F, because \textit{Cherlon} is a focus alternative to \textit{Maribel}.
+
+The solution to antecedent contained anaphora that Trace theory provides gives a good account of the conditions necessary for antecedent contained anaphora to show up. Trace theory's requirements narrowly limit antecedent contained anaphora to environments where movement can put traces in positions where they qualify to be sloppily bound. Because Trace theory also gives a straightforward account of the semantics of relative clauses and the semantics of DPs with quantificational heads, it's widely regarded by syntacticians as a successful theory. It has known problems as well, as I'll show you in \ref{sec:copytheory}, but it has nonetheless become the standard model of movement.
+
+Adopting Trace theory, and the connected idea that parses which movement creates can be ones that provide the denotation for a sentence, complicates the relation between form and meaning that derivations are intended to model. In the simpler models that we've used up till now, we can impose all the requirements that the semantics imposes on a single parse in the derivation: the D-structure. In the new model, a derivation created by movement can meet those requirements and therefore become the parse relevant for a semantic interpretation. This will have consequences for the ordering of the operations which give rise to those parses. Because some sentences will require a non-D-structure parse to provide the denotation, it will also require that derivations be steered so that those parses are created. This means that some derivations will require a specific order of operations to bring about the right parse. We look at this effect in the next section.
 
 \subsection{The Syntax of Quantificational DPs}
 \label{sec:QDPs}
@@ -4019,7 +4401,7 @@ In the previous two sections we have seen cases in which a term ``reconstructs.'
 
 One case of this is illustrated by~(\ref{ex6:reconpron}).%
 %
-\marginnote[0pt]{The first to examine these cases is, perhaps, \citet{Engdahl:1982}}%
+\marginnote[0pt]{The first to examine these cases is, perhaps, \citet{Engdahl:1982}. A pretty thorough examination of cases like this is in \citet{Barss:1986b}.}%
 %
 \begin{exe}
 \raggedright
@@ -5102,7 +5484,7 @@ What's needed to shore up these problems is a way of thinking of traces as havin
 \subsection{Copies}
 \label{sec:copies}
 
-Instead of ``traces,'' this theory of movement creates ``copies,'' and it is named after this feature of the theory.
+Instead of ``traces,'' this theory of movement creates ``copies,'' and it is named after this feature of the theory.\marginnote{That movement involves putting copies of the moved term in different positions is adopted in \citet{Ross:1967}, and given perhaps its first defense in \citet{Ross:1969b}. But it is revived to handle these semantic problems in \citet{Chomskey:1993c}, and developed in \citet{Chomsky:1995}. It's Chomsky's version of this theory that will be discussed here.}
 
 There are various ways of formulating the Copy theory of movement, but I'll use what strikes me as the most common of those ways. In this formulation, movement is factored into three parts. The first is an operation that creates the ``copy.''
 \pagebreak
@@ -5516,7 +5898,7 @@ With this definition, (\ref{ex6:thed1}) becomes (\ref{ex6:thed2}).
 		\end{forest}
 \end{exe}
 
-Now we need to see how to build a definite description so that it includes a referential index. Let's adopt view suggested by Florian Schwarz in \citet{Schwarz:2009}: a referential index can be part of the meaning of \emph{the}. The ambiguity of definite descriptions, then, comes from the ambiguity of \emph{the}. In addition to (\ref{ex6:dentheweak}), we'll give \emph{$\surd$the} the denotation in(\ref{ex6:denthestrong}). Assume that any \obar{D} that contains \emph{$\surd$the} is exponed by the word~\emph{the}.
+Now we need to see how to build a definite description so that it includes a referential index. Let's adopt view suggested by Florian Schwarz\cite{Schwarz:2009}: a referential index can be part of the meaning of \emph{the}. The ambiguity of definite descriptions, then, comes from the ambiguity of \emph{the}. In addition to (\ref{ex6:dentheweak}), we'll give \emph{$\surd$the} the denotation in(\ref{ex6:denthestrong}). Assume that any \obar{D} that contains \emph{$\surd$the} is exponed by the word~\emph{the}.
 \begin{exe}
 \raggedright
 	\ex \label{ex6:denthestrong}
@@ -5621,7 +6003,7 @@ Now that we've taken this detour into how definite descriptions work, let's retu
 \end{exe}
 Danny Fox's proposal is to let the phrase in the lower position be interpreted in the same way that definite descriptions with a referential index are. %
 %
-\marginnote[0pt]{This proposal is in its essentials like a proposal in \citet{Engdahl:1980}, whose theory of movement is an early variant of Copy theory.}%
+\marginnote[0pt]{This proposal is in its essentials like a proposal in \citet{Engdahl:1980}, whose theory of movement is an early variant of Copy theory. (See also \citet{Engdahl:1986}, for a different implementation of the idea.)}%
 %
 %
 \marginnote[20pt]{See \citet{Fox:1999,Fox:2002, Fox:2003a}. (\ref{ex6:movecopydef1}) deviates from Fox in requiring $\alpha$ to contain a DP for it to undergo Trace Conversion. Fox required $\alpha$ to \underline{be} the DP that Trace Converts. My version extends to cases of Pied-Piping; see \ref{sec:piedpipecopies}. \citet{Sauerland:1998c, Sauerland:2004} also provides a method for interpreting copies as variables that shares features with Fox.}% 
@@ -5902,7 +6284,7 @@ That problem is illustrated by the relative clause in~(\ref{ex6:piedpden}), repe
 	\end{exe}
 In (\ref{ex6:piedpden}), Wh Movement has moved a constituent larger than the wh-phrase. These are cases of what is known as ``pied-piping'': Wh Movement moves more than just the \obar{X} that contains the wh-feature. It instead moves some phrase dominating that \obar{X}. In (\ref{ex6:piedpden}), it has moved the DP \emph{whose owner}, which contains the wh-feature in \emph{who}. 
 
-Cases of pied-piping like this present a problem for relative clauses because it doesn't deliver the right meaning from Trace theory. Relative clauses have a meaning that restricts the range of things that the \ibar{N} they combine with can refer to. In (\ref{ex6:piedpden}), we want the relative clause to restrict the range of things that \emph{dog} can refer to. But Trace theory causes relative clauses to describe the things that could fit semantically into the trace position. In (\ref{ex6:piedpden}), this means that the relative clause describes things that you met. Trace theory therefore causes (\ref{ex6:piedpden}) to have the same meaning that \emph{the dog who you met} has. Because the Copy theory of movement doesn't require the position from which a phrase moves to be a variable, it doesn't have the same consequences in this context. Let's see how.
+Cases of pied-piping like this present a problem for our analysis of relative clauses because it doesn't deliver the right meaning from Trace theory. Relative clauses have a meaning that restricts the range of things that the \ibar{N} they combine with can refer to. In (\ref{ex6:piedpden}), we want the relative clause to restrict the range of things that \emph{dog} can refer to. But Trace theory causes relative clauses to describe the things that could fit semantically into the trace position. In (\ref{ex6:piedpden}), this means that the relative clause describes things that you met. Trace theory therefore causes (\ref{ex6:piedpden}) to have the same meaning that \emph{the dog who you met} has. Because the Copy theory of movement doesn't require the position from which a phrase moves to be a variable, it doesn't have the same consequences in this context. Let's see how.
 
 	Recall that relative clauses are formed with Wh Movement, and that the semantics of movement causes them to become functions from individuals to truth values. In the simpler relative clause of (\ref{ex6:piedpden2}), for instance, a semantics like that in (\ref{ex6:piedpden2t}) is created on the Trace theory of movement. (I take a variety of simplifying shortcuts in~(\ref{ex6:piedpden2t}).)
 	\medskip
@@ -6054,7 +6436,11 @@ Consider now the representation that the Copy theory will give to the relative c
 \end{exe}
 \end{fullwidth}
 \medskip
-The object of \emph{meet} in (\ref{ex6:piedpdenct}) refers to owners, as desired. But the variable bound by the $\lambda$ expression that is the denotation of CP is buried within the object of \emph{meet}: it corresponds to \emph{whose}, which has been converted into a variable by the Trace Conversion part of the Copy Theory of movement. Simplifying out the irrelevant details of (\ref{ex6:piedpdenct}), the meaning delivered to the relative clause is~(\ref{ex6:simpledenct}).
+The object of \emph{meet} in (\ref{ex6:piedpdenct}) refers to owners, as desired. But the variable bound by the $\lambda$ expression that is the denotation of CP is buried within the object of \emph{meet}: it corresponds to \emph{whose}, which has been converted into a variable by the Trace Conversion part of the Copy Theory of movement.%
+%
+\marginnote{Pied-piping, on this account, requires a theory which determines which phrases dominating a feature can, or must, move. There is a large literature attempting to provide that theory, but at the time of writing, there is no consensus view that has emerged. A good introduction to the phenomena, and a development of one of the popular theories, is \citet{Heck:2008, Heck:2009}.}%
+%
+\ Simplifying out the irrelevant details of (\ref{ex6:piedpdenct}), the meaning delivered to the relative clause is~(\ref{ex6:simpledenct}).
 \begin{exe}
 \raggedright
 	\ex \label{ex6:simpledenct} $\lambda x$ you met $x$'s owner
@@ -6347,7 +6733,7 @@ In the complement position of the VP headed by \emph{$\surd$introduce} is spoken
 	$\lambda x$ she will introduce the_x one to me 
 \end{exe}
 
-The higher copy of the object DP has a meaning that includes the relative clause. The VP of that relative clause contains the lower copy of the moved relative pronoun \emph{who}. Because it is the lower copy of a movement relation, it too can be given an interpretation by Trace conversion. Its Trace converted interpretation is \emph{the_5 one}. This makes the TP of the relative clause have an interpretation like that sketched in~(\ref{ex6:elllate1}).
+The higher copy of the object DP has a meaning that derives from interpreting everything inside it, including the relative clause. The VP of that relative clause contains the lower copy of the moved relative pronoun \emph{who}. Because it is the lower copy of a movement relation, it too can be given an interpretation by Trace conversion. Its Trace converted interpretation is \emph{the_5 one}. This makes the TP of the relative clause have an interpretation like that sketched in~(\ref{ex6:elllate1}).
 \begin{exe}
 \raggedright
 	\ex \label{ex6:elllate1}
@@ -6586,7 +6972,7 @@ On this interpretation, (\ref{ex6:extrafn1}) expresses the requirement that ever
 \end{exe}
 \end{fullwidth}
 \medskip
-As in (\ref{ex6:extrafn1p}), I've dodged specifying exactly what's in the position left by movement of the \emph{every paper} DP by putting an $x$ in that position, and I've put the subject DPs in their semantically interpreted positions, rather than their S-structure positions. Unlike (\ref{ex6:extrafn1p}), there is only one instance of \emph{every paper that I assigned} in (\ref{ex6:extrafn1pp}). In the object position of the elided VP is a pronoun that is bound by the the \emph{every paper} DP, rather than another \emph{every paper} DP. The boxed vPs meet the antecedent conditions for a focus anaphor, and this allows ellipsis to affect one of them. 
+As in (\ref{ex6:extrafn1p}), I've dodged specifying exactly what's in the position left by movement of the \emph{every paper} DP by putting an $x$ in that position, and I've put the subject DPs in their semantically interpreted positions, rather than their S-structure positions. Unlike (\ref{ex6:extrafn1p}), there is only one instance of \emph{every paper that I assigned} in (\ref{ex6:extrafn1pp}). In the object position of the elided VP is a pronoun that is bound by the the \emph{every paper} DP, rather than another \emph{every paper} DP. The boxed vPs have the same meaning, except for what is focused-marked, and should therefore meet the conditions on ellipsis.\marginnote{In fact, the antecedence conditions on focus anaphors, and therefore ellipsis, are not met in this case. That is partly because the semantics I have given of bound variables does not give to them a denotation until the $\lambda$-operator that binds them is included. As a consequence, there isn't a denotation delivered to any phrase that contains a bound variable, but not the $\lambda$-operator that binds it. What is needed is a semantics that allows variables to have a denotation in phrases in which they are not bound, and then a modification of the antecedence conditions on focus anaphors that lets two variables bound by the same $\lambda$-operator have the same denotation. It would take us too far into the technicalia of variable binding to make these corrections, so I won't. See \citet{Heim:1993} for a direction.}
 
 What \citet{Fox:1999a} observe is that (\ref{ex6:extrafn1p}) can't be the source for an example that is identical to (\ref{ex6:extrafn1}), but with the relative clause in extraposed position. The example in (\ref{ex6:extrafn2}) has only the interpretation that goes with (\ref{ex6:extrafn1pp}), not~(\ref{ex6:extrafn1p}).
 \begin{exe}
@@ -6746,7 +7132,11 @@ Instead, (\ref{ex6:extrafn2gp}) produces the meaning that is associated with (\r
 		\ex You_F read it
 	\end{xlist}
 \end{exe}
-The lower copy of the movement relation in (\ref{ex6:extrafn2gp}) gets an interpretation as a definite description with a bound variable meaning, and I've tried to evoke that interpretation in (\ref{ex6:extrafn2para}a). Because the lower copy and the \emph{it} in the elided vP are both bound by the higher copy of \emph{every paper that I assigned}, they have the same meaning. As a consequence, the boxed vPs meet the condition on focus anaphora---their meanings are identical except for what is focus-marked---and the ellipsis indicated with strike-outs is permitted.
+The lower copy of the movement relation in (\ref{ex6:extrafn2gp}) gets an interpretation as a definite description with a bound variable meaning, and I've tried to evoke that interpretation in (\ref{ex6:extrafn2para}a).%
+%
+\marginnote{Again: this isn't technically true in the semantics provided for bound variables in this book. As noted in the previous sidebar, our semantics needs to be modified so that bound variables have an interpretation in phrases that don't include their $\lambda$-operator.}%
+%
+\ Because the lower copy and the \emph{it} in the elided vP are both bound by the higher copy of \emph{every paper that I assigned}, they have the same meaning. As a consequence, the boxed vPs meet the condition on focus anaphora---their meanings are identical except for what is focus-marked---and the ellipsis indicated with strike-outs is permitted.
 
 There is evidence, then, that extraposition of a relative clause involves the selective pronunciation of parts of two copies. And Antecedent Contained anaphora can be captured by the Copy theory of movement if it is possible to semantically interpret parts of two copies. Together, then, these cases support (\ref{ex6:map2}), repeated here.
 \begin{exe}
@@ -6837,7 +7227,7 @@ The Trace theory of movement is demonstrably inadequate. It has not been possibl
 
 The Copy theory of movement, on the other hand, does not straightforwardly account for antecedent contained anaphora. At the time of writing, the remedy for this has been to interpret movement as an operation that gives a term two positions from which parts of that term can be semantically and phonologically interpreted. On this view, the parses in a derivation created by movement don't uniquely determine one denotation and one string each, but instead proffer a range of possible denotations and strings. While this successfully captures the cases that are problematic for Trace theory, it allows too many possibilities. Without a model of which parts of the two copies can be semantically and phonologically interpreted, there are too many ways for even one instance of movement to provide a string-meaning correspondence. The Copy theory of movement relies on the success of a program that has yet to provide such a model.
 
-One piece of striking evidence that the Copy theory of movement is on the right track comes from examples in which a moved term can be pronounced in both of its positions. This arises in many languages in cases where a verb, or a verb phrase, are topicalized or clefted. Many languages have a rule that moves a constituent into a clause initial position when that constituent is intended to be contrasted, or otherwise highlighted. In some languages it appears that a verb can undergo this process, leaving its projection behind. In many languages that have this process the moved verb must be pronounced in both of its positions. Some examples are in~(\ref{ex:verbcopy1}).
+One piece of striking evidence that the Copy theory of movement is on the right track comes from examples in which a moved term can be pronounced in both of its positions. This arises in many languages in cases where a verb, or a verb phrase, are topicalized or clefted. Many languages have a rule that moves a constituent into a clause initial position when that constituent is intended to be contrasted, or otherwise highlighted. In some languages it appears that a verb can undergo this process, leaving its projection behind. In many languages that have this process the moved verb must be pronounced in both of its positions. Some examples are in~(\ref{ex:verbcopy1}).\marginnote{\citet{Nunes:1995,Nunes:2004} pioneers an approach to this phenomenon which involves combining the Copy Theory of Movement with a theory that expresses how syntactic representations are mapped onto strings. See \citet{Landau:2006}, \citet{Trinh:2011}, and \citet{Hein:2018} for more. }
 \begin{exe}
 \raggedright
 	\ex \label{ex:verbcopy1}
