@@ -1,4 +1,4 @@
-\begin{thebibliography}{55}
+\begin{thebibliography}{71}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{{\tt #1}}\fi
@@ -34,11 +34,6 @@ Bouton, L.~F. 1970.
 \newblock Antecedent contained pro-forms.
 \newblock In {\em Papers from the Sixth Regional Meeting of the Chicago Linguistics Society\/}, 154--167. Chicago: Chicago Linguistics Society.
 
-\bibitem[{Bresnan(1972)}]{Bresnan:1972}
-Bresnan, Joan. 1972.
-\newblock Theory of complementation in {E}nglish syntax.
-\newblock Doctoral Dissertation, Massachusetts Institute of Technology.
-
 \bibitem[{Chomsky(1977{\natexlab{a}})}]{Chomsky:1977}
 Chomsky, Noam. 1977{\natexlab{a}}.
 \newblock Conditions on transformations.
@@ -48,6 +43,21 @@ Chomsky, Noam. 1977{\natexlab{a}}.
 Chomsky, Noam. 1977{\natexlab{b}}.
 \newblock {\em Essays on form and interpretation\/}.
 \newblock Amsterdam, The Netherlands: North-Holland Publishing Company.
+
+\bibitem[{Chomsky(1993)}]{Chomsky:1993c}
+Chomsky, Noam. 1993.
+\newblock A minimalist program for linguistic theory.
+\newblock In {\em The view from {B}uilding 20\/}, ed. Ken Hale and Jay Keyser, 1--52. Cambridge, Massachusetts: MIT Press.
+
+\bibitem[{Chomsky(1995)}]{Chomsky:1995}
+Chomsky, Noam. 1995.
+\newblock {\em The minimalist program\/}.
+\newblock Cambridge, Massachusetts: MIT Press.
+
+\bibitem[{Chomsky and Lasnik(1977)}]{Chomsky:1977a}
+Chomsky, Noam, and Howard Lasnik. 1977.
+\newblock Filters and control.
+\newblock {\em Linguistic Inquiry\/} 8:425--504.
 
 \bibitem[{Chung and Ladusaw(2004)}]{Chung:2004a}
 Chung, Sandra, and William~A. Ladusaw. 2004.
@@ -64,6 +74,11 @@ Cresti, Diana. 1995.
 \newblock Extraction and reconstruction.
 \newblock {\em Natural Language Semantics\/} 3:79--122.
 
+\bibitem[{Doherty(1993)}]{Doherty:1993}
+Doherty, Cathal. 1993.
+\newblock Clauses with ``that'': the case for bare sentential complementation in {E}nglish.
+\newblock Doctoral Dissertation, University of California, Santa Cruz.
+
 \bibitem[{Elbourne(2005)}]{Elbourne:2005a}
 Elbourne, Paul~D. 2005.
 \newblock {\em Situations and individuals\/}.
@@ -78,6 +93,11 @@ Engdahl, Elisabet. 1980.
 Engdahl, Elisabet. 1982.
 \newblock A note on the use of lambda conversion in generalized phrase structure grammars.
 \newblock {\em Linguistics and Philosophy\/} 4:505--516.
+
+\bibitem[{Engdahl(1986)}]{Engdahl:1986}
+Engdahl, Elisabet. 1986.
+\newblock {\em Constituent questions\/}.
+\newblock Dordrecht, The Netherlands: D. Reidel Publishing Company.
 
 \bibitem[{Fox(1999)}]{Fox:1999}
 Fox, Danny. 1999.
@@ -119,6 +139,26 @@ Hankamer, Jorge, and Ivan Sag. 1976.
 \newblock Deep and surface anaphora.
 \newblock {\em Linguistic Inquiry\/} 7:391--428.
 
+\bibitem[{Hardt(1993)}]{Hardt:1993}
+Hardt, Daniel. 1993.
+\newblock Verb phrase ellipsis: Form, meaning and processing.
+\newblock Doctoral Dissertation, University of Pennsylvania.
+
+\bibitem[{Hardt(1999)}]{Hardt:1999}
+Hardt, Daniel. 1999.
+\newblock Dynamic interpretation of verb phrase ellipsis.
+\newblock {\em Linguistics and Philosophy\/} 22:185--219.
+
+\bibitem[{Heck(2008)}]{Heck:2008}
+Heck, Fabian. 2008.
+\newblock {\em A theory of pied-piping\/}.
+\newblock Mouton de Gruyter.
+
+\bibitem[{Heck(2009)}]{Heck:2009}
+Heck, Fabian. 2009.
+\newblock On certain properties of {P}ied-{P}iping.
+\newblock {\em Linguistic Inquiry\/} 40:75--111.
+
 \bibitem[{Heim(1993)}]{Heim:1993}
 Heim, Irene. 1993.
 \newblock Anaphora and semantic interpretation: A reinterpretation of {R}einhart's approach.
@@ -128,6 +168,11 @@ Heim, Irene. 1993.
 Heim, Irene, and Angelika Kratzer. 1998.
 \newblock {\em Semantics in generative grammar\/}.
 \newblock Malden, MA: Blackwell.
+
+\bibitem[{Hein(2018)}]{Hein:2018}
+Hein, Johannes. 2018.
+\newblock Verbal fronting: Typology and theory.
+\newblock Doctoral Dissertation, Universit{\"a}t Leipzig.
 
 \bibitem[{Higginbotham(1980)}]{Higginbotham:1980}
 Higginbotham, James. 1980.
@@ -174,6 +219,11 @@ Ladd, Robert. 1980.
 \newblock {\em The structure of intonational meaning\/}.
 \newblock Indiana University Press.
 
+\bibitem[{Landau(2006)}]{Landau:2006}
+Landau, Idan. 2006.
+\newblock Chain resolution in {H}ebrew {V(P)}-fronting.
+\newblock {\em Syntax\/} 9:32--66.
+
 \bibitem[{Lebeaux(1988)}]{Lebeaux:1988}
 Lebeaux, David. 1988.
 \newblock Language acquisition and the form of the grammar.
@@ -214,6 +264,16 @@ Neale, Stephen. 1990.
 \newblock {\em Descriptions\/}.
 \newblock Cambridge, Massachusetts: MIT Press.
 
+\bibitem[{Nunes(1995)}]{Nunes:1995}
+Nunes, Jairo. 1995.
+\newblock The copy theory of movement and linearization of chains in the {M}inimalist {P}rogram.
+\newblock Doctoral Dissertation, University of Maryland.
+
+\bibitem[{Nunes(2004)}]{Nunes:2004}
+Nunes, Jairo. 2004.
+\newblock {\em Linearization of chains and sideward movement\/}.
+\newblock Linguistic Inquiry Monographs. Cambridge, Massachusetts: MIT Press.
+
 \bibitem[{Overfelt(2015)}]{Overfelt:2015}
 Overfelt, Jason. 2015.
 \newblock Extraposition of {NPI}s from {NP}.
@@ -234,10 +294,20 @@ Ross, John~Robert. 1967.
 \newblock Constraints on variables in syntax.
 \newblock Doctoral Dissertation, Massachusetts Institute of Technology.
 
+\bibitem[{Ross(1969)}]{Ross:1969b}
+Ross, John~Robert. 1969.
+\newblock Guess who?
+\newblock In {\em Chicago Linguistics Society\/}, ed. Robert~I. Binnick, Alice Davison, Georgia~M. Green, and Jerry~L. Morgan, 252--286. Chicago, Illinois.
+
 \bibitem[{Russell(1905)}]{Russell:1905}
 Russell, Bertrand. 1905.
 \newblock On denoting.
 \newblock {\em Mind\/} 14:479--493.
+
+\bibitem[{Sag(1976)}]{Sag:1976}
+Sag, Ivan. 1976.
+\newblock Deletion and logical form.
+\newblock Doctoral Dissertation, Massachusetts Institute of Technology.
 
 \bibitem[{Sauerland(1998)}]{Sauerland:1998c}
 Sauerland, Uli. 1998.
@@ -259,6 +329,11 @@ Selkirk, Elisabeth~O. 1984.
 \newblock {\em Phonology and syntax : the relation between sound and structure\/}.
 \newblock Cambridge, Mass.: MIT Press.
 
+\bibitem[{Sistrunk(2012)}]{Sistrunk:2012}
+Sistrunk, Walter. 2012.
+\newblock The syntax of zero in {A}frican {A}merican relative clauses.
+\newblock Doctoral Dissertation, Michigan State University.
+
 \bibitem[{Sportiche(2019)}]{Sportiche:2019}
 Sportiche, Dominique. 2019.
 \newblock Somber prospects for late merger.
@@ -278,5 +353,10 @@ Trinh, Tue. 2011.
 Whitehead, Alfred~North, and Bertrand Russell. 1910.
 \newblock {\em Principia mathematica\/}.
 \newblock Cambridge University Press.
+
+\bibitem[{Williams(1977)}]{Williams:1977}
+Williams, Edwin. 1977.
+\newblock Discourse and logical form.
+\newblock {\em Linguistic Inquiry\/} 8:101--139.
 
 \end{thebibliography}
